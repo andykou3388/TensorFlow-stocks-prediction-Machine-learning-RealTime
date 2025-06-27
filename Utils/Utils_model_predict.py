@@ -105,7 +105,9 @@ def load_and_clean__buy_sell_atack( raw_df, columns_selection, op_buy_sell : _KE
     # raw_df[Y_TARGET] = raw_df[Y_TARGET].astype(int).replace(-100, 0)  # Solo para puntos de compra
     raw_df.replace([np.inf, -np.inf], 0, inplace=True) #Todo remove the row with inf
     df = Utils_buy_sell_points.select_work_buy_or_sell_point(raw_df.copy(), op_buy_sell)
-
+    Logger.logr.debug("DataFrame head:\n" + str(raw_df.head()))
+    Logger.logr.debug("DataFrame info:\n" + str(raw_df.info()))
+    Logger.logr.debug("DataFrame describe:\n" + str(raw_df.describe()))
     print("COMPRA VENTA PUNTO")
     # Logger.logr.debug(" groupby(Y_TARGET).count() " + str(df[['Date', Y_TARGET]].groupby(Y_TARGET).count()))
     df = cast_Y_label_binary(df, label_name=Y_TARGET)
@@ -135,8 +137,8 @@ def clean_redifine_df_dummy_ticker(raw_df):
     cleaned_df = raw_df.copy()
 
     # You don't want the `Time` column.
-    if 'Date' in cleaned_df.columns:
-        cleaned_df['Date'] = pd.to_datetime(cleaned_df['Date']).map(pd.Timestamp.timestamp)
+    #if 'Date' in cleaned_df.columns:
+    #    cleaned_df['Date'] = pd.to_datetime(cleaned_df['Date']).map(pd.Timestamp.timestamp)
     #cleaned_df = cleaned_df[COLUMNS_VALIDS]
     cleaned_df = cleaned_df.drop(columns= Utils_col_sele.DROPS_COLUMNS, errors='ignore')
     if 'ticker' in cleaned_df.columns:

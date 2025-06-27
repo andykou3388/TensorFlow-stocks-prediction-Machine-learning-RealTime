@@ -53,6 +53,7 @@ class Data_multidimension:
             raise ValueError('The input data must not have any scaling on the input to be correctly scaled. Path: ' + self.path_csv )
         df = Utils_model_predict.load_and_clean_DF_Train_from_csv(self.path_csv, self.op_buy_sell, self.columns_selection) # shape is (5086, 13)
         self.cols_df = df.columns
+        Logger.logr.debug(f"{bcolors.OKCYAN}DataFrame head:\n{df.head()}{bcolors.ENDC}")
         if 'ticker' in self.cols_df:
             Logger.logr.error(bcolors.HEADER + '\"ticker\" column detected, development required for multi-stock predictions. Path: ' + self.path_csv + bcolors.ENDC)
             raise ValueError('\"ticker\" column detected, development required for multi-stock predictions. Path: ' + self.path_csv )
@@ -70,8 +71,11 @@ class Data_multidimension:
         # df.shape: (1000, 10) to (1000, 90)
         arr_mul_labels, arr_mul_features = Utils_model_predict.df_to_df_multidimension_array_2D(df.reset_index(drop=True), BACHT_SIZE_LOOKBACK = self.BACHT_SIZE_LOOKBACK)
         shape_imput_3d = (-1,self.BACHT_SIZE_LOOKBACK, len(df.columns)-1) # (-1, 10, 12)
+        Logger.logr.debug(f"{bcolors.OKBLUE}shape_imput_3d: {shape_imput_3d}{bcolors.ENDC}")
         # 1.1 validate the structure of the data, this can be improved by
         arr_vali = arr_mul_features.reshape(shape_imput_3d) # 5077, 10, 12
+        Logger.logr.debug(f"{bcolors.OKBLUE}shape_imput_3d: {shape_imput_3d}{bcolors.ENDC}")
+        Logger.logr.debug(f"{bcolors.OKCYAN}arr_vali sample: {arr_vali[0]}{bcolors.ENDC}")
         for i in range(1, arr_vali.shape[0], self.BACHT_SIZE_LOOKBACK * 3):
             list_fails_dates = [x for x in arr_vali[i][:, 0] if not (2018 <= datetime.fromtimestamp(x).year <= 2024)]
             if list_fails_dates:

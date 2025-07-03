@@ -52,6 +52,10 @@ class Data_multidimension:
             Logger.logr.error(bcolors.HEADER + 'The input data must not have any scaling on the input to be correctly scaled. Path: ' + self.path_csv + bcolors.ENDC)
             raise ValueError('The input data must not have any scaling on the input to be correctly scaled. Path: ' + self.path_csv )
         df = Utils_model_predict.load_and_clean_DF_Train_from_csv(self.path_csv, self.op_buy_sell, self.columns_selection) # shape is (5086, 13)
+
+        if 'Date' in df.columns:
+            df['Date'] = pd.to_datetime(df['Date'], errors='coerce').astype('int64') / 10**9
+
         self.cols_df = df.columns
         Logger.logr.debug(f"{bcolors.OKCYAN}DataFrame head:\n{df.head()}{bcolors.ENDC}")
         if 'ticker' in self.cols_df:
@@ -74,10 +78,11 @@ class Data_multidimension:
         Logger.logr.debug(f"{bcolors.OKBLUE}shape_imput_3d: {shape_imput_3d}{bcolors.ENDC}")
         # 1.1 validate the structure of the data, this can be improved by
         arr_vali = arr_mul_features.reshape(shape_imput_3d) # 5077, 10, 12
+        
         Logger.logr.debug(f"{bcolors.OKBLUE}shape_imput_3d: {shape_imput_3d}{bcolors.ENDC}")
         Logger.logr.debug(f"{bcolors.OKCYAN}arr_vali sample: {arr_vali[0]}{bcolors.ENDC}")
         for i in range(1, arr_vali.shape[0], self.BACHT_SIZE_LOOKBACK * 3):
-            list_fails_dates = [x for x in arr_vali[i][:, 0] if not (2018 <= datetime.fromtimestamp(x).year <= 2024)]
+            list_fails_dates = [x for x in arr_vali[i][:, 0] if not (2018 <= datetime.fromtimestamp(x).year <= 2026)]
             if list_fails_dates:
                 Logger.logr.error("The dates of the new 2D array do not appear in the first column. ")
                 raise ValueError("The dates of the new 2D array do not appear in the first column. ")
@@ -87,7 +92,8 @@ class Data_multidimension:
         # Do I have to scale now or can I wait until after I split
         # You can scale between the following values _KEYS_DICT.MIN_SCALER, _KEYS_DICT.MAX_SCALER
         # " that you learn for your scaling so that doing scaling before or after may give you the same results (but this depends on the actual scaling function)."  https://datascience.stackexchange.com/questions/71515/should-i-scale-data-before-or-after-balancing-dataset
-        # TODO verify the correct order to "scaler split and SMOTE" order SMOTE.  sure: SMOTE only aplay on train_df
+        # TODO verify the correct order to "scaler split and SMOTE" order SMOTE.  sure: SMOTE only aplay on 
+        Logger.logr.debug('i want to chc folder: ' + _KEYS_DICT.PATH_SCALERS_FOLDER + self.name_models_stock)
         arr_mul_features =  Utils_model_predict.scaler_min_max_array(arr_mul_features,path_to_save= _KEYS_DICT.PATH_SCALERS_FOLDER+self.name_models_stock+".scal")
         arr_mul_labels = Utils_model_predict.scaler_min_max_array(arr_mul_labels.reshape(-1,1))
         # 2.1 Let's put real groound True Y_TARGET  in a copy of scaled dataset

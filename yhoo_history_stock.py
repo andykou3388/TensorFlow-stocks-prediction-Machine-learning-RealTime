@@ -95,7 +95,7 @@ def get_stock_history_Tech_download(stockId, opion, get_technical_data = False, 
         if get_technical_data:
             df_his = get_technical_data_and_NQ(costum_columns, df_his, interval, opion)
 
-        df_his['Date'] = df_his['Date'].astype(str)
+        df_his['Date'] = pd.to_datetime(df_his['Date'], errors='coerce')
         df_his.reset_index(drop=True, inplace=True)
         # if costum_columns is None:
         #     df_his.to_csv("d_price/" + stockId + "_stock_history_"+str(opion.name)+".csv", sep="\t", index=None)
@@ -245,7 +245,7 @@ def get_favs_SCALA_csv_stocks_history_Download_One(df_all_generate_history, l, o
 
     df_l, df_RAW = get_stock_history_Tech_download(l, opion, get_technical_data=True,
                                            prepost=True, interval="15m", add_stock_id_colum=False, costum_columns = costum_columns)
-
+    
     if costum_columns is None:
         df_RAW = df_RAW[Utils_col_sele.RAW_PURE_COLUMNS]
         df_RAW.insert(loc=1, column='ticker', value=l)

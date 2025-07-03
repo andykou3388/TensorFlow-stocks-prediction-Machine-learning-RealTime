@@ -1,0 +1,21 @@
+loss	accuracy	val_loss	val_accuracy
+0.644	0.616	0.653	0.662
+0.604	0.685	1.03	0.206
+0.585	0.685	0.776	0.507
+0.569	0.719	0.723	0.611
+0.555	0.727	0.387	0.861
+0.555	0.732	0.733	0.609
+0.551	0.738	0.505	0.755
+0.534	0.749	0.524	0.738
+0.529	0.766	1.154	0.319
+0.535	0.751	0.481	0.782
+0.528	0.77	0.689	0.62
+0.506	0.773	0.384	0.845
+0.514	0.765	0.447	0.794
+0.523	0.774	0.538	0.741
+0.512	0.777	1.004	0.426
+0.509	0.768	0.697	0.644
+0.505	0.772	0.565	0.731
+
+Columns TFm_UBER_pos_good9_mult_linear.h5:
+Date, buy_sell_point, vola_THERMO_20_2_05, tend_renko_ATR, vola_ATR, tend_renko_TR, vola_TRUERANGE_1, vola_NATR, vola_TRANGE, mtum_DMP_14, sti_CORREL, tend_hl, mtum_PLUS_DM, mtum_PSL_12, volu_Chaikin_ADOSC, NQ_Volume, tend_hh, vola_THERMOma_20_2_05, sti_VAR, olap_VMAP, has_preMarket, tend_lh, ichi_kijun_sen, tend_renko_brick, sti_KURT_30, vola_RVI_14, sti_STDDEV, ti_donchian_lower_20, ti_chaikin_10_3, mtum_FISHERT_9_1, NQ_per_Volume, olap_BBAND_LOWER, mtum_INERTIA_20_14, tend_PSARs_002_02, mtum_PVOh_12_26_9, ma_SMA_50, mtum_FISHERTs_9_1, olap_SINWMA_14, ti_kelt_20_lower, mcrh_KAMA_50_EMA_100, ma_EMA_50, ma_TRIMA_50

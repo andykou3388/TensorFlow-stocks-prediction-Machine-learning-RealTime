@@ -1,0 +1,19 @@
+loss	accuracy	val_loss	val_accuracy
+0.672	0.656	0.535	0.748
+0.612	0.702	0.603	0.642
+0.591	0.708	0.523	0.709
+0.57	0.728	0.537	0.692
+0.555	0.745	0.5	0.728
+0.547	0.746	0.687	0.553
+0.525	0.763	1.036	0.264
+0.52	0.765	0.466	0.743
+0.511	0.772	0.731	0.514
+0.486	0.786	0.296	0.873
+0.485	0.786	0.362	0.837
+0.457	0.809	0.692	0.591
+0.431	0.813	0.241	0.918
+0.435	0.824	0.576	0.7
+0.424	0.831	0.347	0.865
+
+Columns TFm_UBER_pos_low1__simp_cordo.h5:
+Date, buy_sell_point, vola_THERMO_20_2_05, tend_renko_ATR, vola_ATR, tend_renko_TR, vola_TRUERANGE_1, vola_NATR, vola_TRANGE, mtum_DMP_14, sti_CORREL, tend_hl, mtum_PLUS_DM, mtum_PSL_12, volu_Chaikin_ADOSC, NQ_Volume, tend_hh, vola_THERMOma_20_2_05, sti_VAR, olap_VMAP, has_preMarket, tend_lh, ichi_kijun_sen, tend_renko_brick, sti_KURT_30, vola_RVI_14, sti_STDDEV, ti_donchian_lower_20, ti_chaikin_10_3, mtum_FISHERT_9_1, NQ_per_Volume, olap_BBAND_LOWER, mtum_INERTIA_20_14, tend_PSARs_002_02, mtum_PVOh_12_26_9, ma_SMA_50, mtum_FISHERTs_9_1, olap_SINWMA_14, ti_kelt_20_lower, mcrh_KAMA_50_EMA_100, ma_EMA_50, ma_TRIMA_50, mtum_ADXR, ma_T3_10, olap_ALMA_10_60_085, mtum_td_seq_sig, ti_konk_gre, ma_TRIMA_10, ma_TRIMA_20, ma_WMA_20, ma_SMA_20, ti_donchian_center_20, trad_r3, mtum_ADX, ma_EMA_20, olap_BBAND_MIDDLE, ma_DEMA_10, volu_PVOL, sti_TOS_STDEVALL_U_1, Volume, cama_pp, sti_TOS_STDEVALL_L_3, sti_LINEARREG_INTERCEPT, olap_VWMA_10, olap_SWMA_10, olap_HT_TRENDLINE, vola_KCLe_20_2, vola_HWM, tend_ll, ma_DEMA_5, vola_HWL, mtum_STOCH_Fa_d, mtum_K_9_3, sti_TOS_STDEVALL_U_3, sti_TOS_STDEVALL_U_2, mtum_D_9_3, olap_HWMA_02_01_01, olap_JMA_7_0, olap_MCGD_10, mtum_STOCH_k, sti_TOS_STDEVALL_L_2, sti_TOS_STDEVALL_L_1, mtum_STOCH_RSI_d, sti_TOS_STDEVALL_LR, High, ti_donchian_upper_20, perf_CUMLOGRET_1, olap_MIDPOINT, mtum_STOCH_d, olap_MIDPRICE, olap_SAR, mtum_MFI, trad_r1, ma_EMA_5, fibo_r1, ma_KAMA_10, ti_hma_20, ma_EMA_10, ma_DEMA_20, ichi_senkou_b, ichi_senkou_a, vola_KCBe_20_2, fibo_s1, fibo_r2, fibo_pp, ma_KAMA_50, demark_s1, cycl_DCPERIOD, clas_s3, clas_s2, clas_s1, cama_s2, volu_NVI_1, volu_OBV, NQ_SMA_100, ma_KAMA_20, tend_PSARaf_002_02, ma_SMA_10, mcrh_DEMA_50_DEMA_100, ti_kelt_20_upper, ti_konk_rest, ti_supertrend_20, mcrh_SMA_50_SMA_100, ma_SMA_5, trad_pp, ti_vortex_neg_14, trad_s2, ma_T3_5, ma_WMA_10, trad_s3, ma_TEMA_20, ma_TEMA_10, vola_KCUe_20_2, ti_konk_bro, wood_s2, wood_r3, wood_pp, volu_PVI_1, ti_konk_bl, vola_THERMOs_20_2_05, volu_Chaikin_AD, trad_s1, ti_mass_index_9_25, ti_acc_dist, ti_vortex_pos_14, trad_r2, ti_force_index_13, Close, tend_PSARl_002_02, clas_r2, mcrh_DEMA_10_WMA_100, ma_TRIMA_5, ma_TEMA_5, ma_KAMA_5, ichi_tenkan_sen, ichi_isin_cloud, fibo_s3, fibo_s2, demark_r1, cycl_EBSW_40_10, clas_r3, clas_r1, mcrh_DEMA_50_T3_100, clas_pp, cdl_LONGLEGGEDDOJI, cdl_DOJI, cama_s1, cama_r3, cama_r1, Open, NQ_per_Close, NQ_SMA_20, NQ_Close, Low, mcrh_DEMA_20_WMA_100, mcrh_EMA_10_TEMA_50, sti_TSF, mtum_AROON_up, sti_LINEARREG, per_preMarket, olap_SSF_10_2, olap_PWMA_10, mtum_QQEs_14_5_4236, mtum_QQEl_14_5_4236, mtum_PGO_14, mtum_MACD_ext_signal, mtum_MACD_ext, mtum_J_9_3, mtum_CFO_9, mcrh_WMA_10_WMA_100, mcrh_EMA_20_T3_100, mcrh_TRIMA_20_T3_100, mcrh_T3_20_TEMA_100, mcrh_T3_10_TRIMA_50, mcrh_T3_10_SMA_50, mcrh_T3_10_KAMA_20, mcrh_T3_10_KAMA_100, mcrh_T3_10_DEMA_50, mcrh_SMA_5_TEMA_20, mcrh_SMA_20_T3_100, mcrh_SMA_20_SMA_50, mcrh_KAMA_50_T3_100, wood_s3

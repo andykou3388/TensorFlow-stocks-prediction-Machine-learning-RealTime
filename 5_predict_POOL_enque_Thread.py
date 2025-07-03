@@ -138,7 +138,10 @@ def consumer(int_thread):
         # if int_thread == 2:
         #     list_recorrer = list_pro.copy()[-1]
         for S in list_pro:
+            # print("[CON] start " + S)
             df_S = queue.pop(S)
+            Logger.logr.debug(f"Full df_S for stock {S}:\n{df_S.to_string()}")
+    
             if df_S is not None:
                 Logger.logr.info("  Stock: " + S + "  Volume unlast: " + str(df_S.iloc[-2]['Volume']) + " Volume last: " + str(df_S.iloc[-1]['Volume'])+ " Date: "+ datetime.today().strftime('%Y-%m-%d %H:%M:%S'))
                 try:

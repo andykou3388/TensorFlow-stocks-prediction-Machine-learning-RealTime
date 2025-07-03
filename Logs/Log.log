@@ -1,295 +1,921 @@
-matplotlib - [DEBUG]{MainThread} - wrapper() - matplotlib data path: /opt/conda/lib/python3.10/site-packages/matplotlib/mpl-data
-matplotlib - [DEBUG]{MainThread} - wrapper() - CONFIGDIR=/root/.config/matplotlib
-matplotlib - [DEBUG]{MainThread} - <module>() - interactive is False
-matplotlib - [DEBUG]{MainThread} - <module>() - platform is linux
-matplotlib - [DEBUG]{MainThread} - wrapper() - CACHEDIR=/root/.cache/matplotlib
-matplotlib.font_manager - [DEBUG]{MainThread} - __init__() - font search path [PosixPath('/opt/conda/lib/python3.10/site-packages/matplotlib/mpl-data/fonts/ttf'), PosixPath('/opt/conda/lib/python3.10/site-packages/matplotlib/mpl-data/fonts/afm'), PosixPath('/opt/conda/lib/python3.10/site-packages/matplotlib/mpl-data/fonts/pdfcorefonts')]
-matplotlib.font_manager - [INFO]{MainThread} - _load_fontmanager() - generated new fontManager
-root - [INFO]{MainThread} - load_and_clean_DF_Train_from_csv() - df loaded from .csv Shape: (1535, 1075) Path: d_price/UBER_PLAIN_stock_history_MONTH_3_AD.csv
-root - [DEBUG]{MainThread} - load_and_clean__buy_sell_atack() - columns_selection List HAS vulues, works trains with: Date, buy_sell_point, olap_BBAND_dif, vola_NATR, ma_TRIMA_50, ichi_senkou_a, mtum_DMP_14, ma_KAMA_50, olap_BBAND_LOWER
-root - [DEBUG]{MainThread} - load_and_clean__buy_sell_atack() - DataFrame head:
-                  Date  buy_sell_point  olap_BBAND_dif  vola_NATR  ma_TRIMA_50  ichi_senkou_a  mtum_DMP_14  ma_KAMA_50  olap_BBAND_LOWER
-0  2025-04-02 09:30:00               0             NaN        NaN          NaN            NaN          NaN         NaN               NaN
-1  2025-04-02 09:45:00             100             NaN        NaN          NaN            NaN          NaN         NaN               NaN
-2  2025-04-02 10:00:00             100             NaN        NaN          NaN            NaN          NaN         NaN               NaN
-3  2025-04-02 10:15:00               0             NaN        NaN          NaN            NaN          NaN         NaN               NaN
-4  2025-04-02 10:30:00               0             NaN        NaN          NaN            NaN          NaN         NaN               NaN
-root - [DEBUG]{MainThread} - load_and_clean__buy_sell_atack() - DataFrame info:
-None
-root - [DEBUG]{MainThread} - load_and_clean__buy_sell_atack() - DataFrame describe:
-       buy_sell_point  olap_BBAND_dif    vola_NATR  ma_TRIMA_50  ichi_senkou_a  mtum_DMP_14   ma_KAMA_50  olap_BBAND_LOWER
-count     1535.000000     1516.000000  1521.000000  1486.000000    1484.000000  1522.000000  1485.000000       1516.000000
-mean        -0.586319        2.646651     0.664380    82.049459      81.883405     1.727989    82.013360         80.745444
-std         33.770762        1.980777     0.341927     7.254657       7.244481     1.030765     7.580411          7.724120
-min       -100.000000        0.530443     0.282640    64.590700      63.482500     0.357494    64.637146         61.817351
-25%          0.000000        1.336332     0.457535    76.020454      75.636639     1.046701    77.146198         74.317852
-50%          0.000000        1.997369     0.566974    84.164836      83.730000     1.432623    84.339491         82.873405
-75%          0.000000        3.273947     0.722749    86.957755      86.892500     2.100494    86.587450         85.990527
-max        100.000000       12.856822     2.536613    92.597722      92.987526     7.137946    92.068559         92.455776
-root - [DEBUG]{MainThread} - cast_Y_label_binary() - Label classes: [0, 100]
 tensorflow - [DEBUG]{MainThread} - <module>() - Falling back to TensorFlow client; we recommended you install the Cloud TPU client directly with pip install cloud-tpu-client.
-h5py._conv - [DEBUG]{MainThread} - <module>() - Creating converter from 7 to 5
-h5py._conv - [DEBUG]{MainThread} - <module>() - Creating converter from 5 to 7
-h5py._conv - [DEBUG]{MainThread} - <module>() - Creating converter from 7 to 5
-h5py._conv - [DEBUG]{MainThread} - <module>() - Creating converter from 5 to 7
-matplotlib - [DEBUG]{MainThread} - wrapper() - matplotlib data path: /opt/conda/lib/python3.10/site-packages/matplotlib/mpl-data
-matplotlib - [DEBUG]{MainThread} - wrapper() - CONFIGDIR=/root/.config/matplotlib
-matplotlib - [DEBUG]{MainThread} - <module>() - interactive is False
-matplotlib - [DEBUG]{MainThread} - <module>() - platform is linux
-matplotlib - [DEBUG]{MainThread} - wrapper() - CACHEDIR=/root/.cache/matplotlib
-matplotlib.font_manager - [DEBUG]{MainThread} - _load_fontmanager() - Using fontManager instance from /root/.cache/matplotlib/fontlist-v390.json
-matplotlib - [DEBUG]{MainThread} - wrapper() - matplotlib data path: /opt/conda/lib/python3.10/site-packages/matplotlib/mpl-data
-matplotlib - [DEBUG]{MainThread} - wrapper() - CONFIGDIR=/root/.config/matplotlib
-matplotlib - [DEBUG]{MainThread} - <module>() - interactive is False
-matplotlib - [DEBUG]{MainThread} - <module>() - platform is linux
-matplotlib - [DEBUG]{MainThread} - wrapper() - CACHEDIR=/root/.cache/matplotlib
-matplotlib.font_manager - [DEBUG]{MainThread} - _load_fontmanager() - Using fontManager instance from /root/.cache/matplotlib/fontlist-v390.json
-matplotlib - [DEBUG]{MainThread} - wrapper() - matplotlib data path: /opt/conda/lib/python3.10/site-packages/matplotlib/mpl-data
-matplotlib - [DEBUG]{MainThread} - wrapper() - CONFIGDIR=/root/.config/matplotlib
-matplotlib - [DEBUG]{MainThread} - <module>() - interactive is False
-matplotlib - [DEBUG]{MainThread} - <module>() - platform is linux
-matplotlib - [DEBUG]{MainThread} - wrapper() - CACHEDIR=/root/.cache/matplotlib
-matplotlib.font_manager - [DEBUG]{MainThread} - _load_fontmanager() - Using fontManager instance from /root/.cache/matplotlib/fontlist-v390.json
-root - [INFO]{MainThread} - load_and_clean_DF_Train_from_csv() - df loaded from .csv Shape: (1535, 1075) Path: d_price/UBER_PLAIN_stock_history_MONTH_3_AD.csv
-root - [DEBUG]{MainThread} - load_and_clean__buy_sell_atack() - columns_selection List HAS vulues, works trains with: Date, buy_sell_point, olap_BBAND_dif, vola_NATR, ma_TRIMA_50, ichi_senkou_a, mtum_DMP_14, ma_KAMA_50, olap_BBAND_LOWER
-root - [DEBUG]{MainThread} - load_and_clean__buy_sell_atack() - DataFrame head:
-                  Date  buy_sell_point  olap_BBAND_dif  vola_NATR  ma_TRIMA_50  ichi_senkou_a  mtum_DMP_14  ma_KAMA_50  olap_BBAND_LOWER
-0  2025-04-02 09:30:00               0             NaN        NaN          NaN            NaN          NaN         NaN               NaN
-1  2025-04-02 09:45:00             100             NaN        NaN          NaN            NaN          NaN         NaN               NaN
-2  2025-04-02 10:00:00             100             NaN        NaN          NaN            NaN          NaN         NaN               NaN
-3  2025-04-02 10:15:00               0             NaN        NaN          NaN            NaN          NaN         NaN               NaN
-4  2025-04-02 10:30:00               0             NaN        NaN          NaN            NaN          NaN         NaN               NaN
-root - [DEBUG]{MainThread} - load_and_clean__buy_sell_atack() - DataFrame info:
-None
-root - [DEBUG]{MainThread} - load_and_clean__buy_sell_atack() - DataFrame describe:
-       buy_sell_point  olap_BBAND_dif    vola_NATR  ma_TRIMA_50  ichi_senkou_a  mtum_DMP_14   ma_KAMA_50  olap_BBAND_LOWER
-count     1535.000000     1516.000000  1521.000000  1486.000000    1484.000000  1522.000000  1485.000000       1516.000000
-mean        -0.586319        2.646651     0.664380    82.049459      81.883405     1.727989    82.013360         80.745444
-std         33.770762        1.980777     0.341927     7.254657       7.244481     1.030765     7.580411          7.724120
-min       -100.000000        0.530443     0.282640    64.590700      63.482500     0.357494    64.637146         61.817351
-25%          0.000000        1.336332     0.457535    76.020454      75.636639     1.046701    77.146198         74.317852
-50%          0.000000        1.997369     0.566974    84.164836      83.730000     1.432623    84.339491         82.873405
-75%          0.000000        3.273947     0.722749    86.957755      86.892500     2.100494    86.587450         85.990527
-max        100.000000       12.856822     2.536613    92.597722      92.987526     7.137946    92.068559         92.455776
-root - [DEBUG]{MainThread} - cast_Y_label_binary() - Label classes: [0, 100]
-root - [ERROR]{MainThread} - load_split_data_multidimension() - The dates of the new 2D array do not appear in the first column. 
+WDM - [INFO]{MainThread} - log() - ====== WebDriver manager ======
+WDM - [INFO]{MainThread} - log() - Get LATEST chromedriver version for google-chrome
+urllib3.connectionpool - [DEBUG]{MainThread} - _new_conn() - Starting new HTTPS connection (1): googlechromelabs.github.io:443
+urllib3.connectionpool - [DEBUG]{MainThread} - _make_request() - https://googlechromelabs.github.io:443 "GET /chrome-for-testing/latest-patch-versions-per-build.json HTTP/1.1" 200 11903
+WDM - [INFO]{MainThread} - log() - Get LATEST chromedriver version for google-chrome
+urllib3.connectionpool - [DEBUG]{MainThread} - _new_conn() - Starting new HTTPS connection (1): googlechromelabs.github.io:443
+urllib3.connectionpool - [DEBUG]{MainThread} - _make_request() - https://googlechromelabs.github.io:443 "GET /chrome-for-testing/latest-patch-versions-per-build.json HTTP/1.1" 200 11903
+WDM - [INFO]{MainThread} - log() - Driver [/root/.wdm/drivers/chromedriver/linux64/138.0.7204.92/chromedriver-linux64/chromedriver] found in cache
+selenium.webdriver.common.driver_finder - [DEBUG]{MainThread} - _binary_paths() - Skipping Selenium Manager; path to chrome driver specified in Service class: /root/.wdm/drivers/chromedriver/linux64/138.0.7204.92/chromedriver-linux64/chromedriver
+selenium.webdriver.common.service - [DEBUG]{MainThread} - _start_process() - Started executable: `/root/.wdm/drivers/chromedriver/linux64/138.0.7204.92/chromedriver-linux64/chromedriver` in a child process with pid: 81909 using 0 to output -3
+selenium.webdriver.remote.remote_connection - [DEBUG]{MainThread} - execute() - POST http://localhost:38327/session {'capabilities': {'firstMatch': [{}], 'alwaysMatch': {'browserName': 'chrome', 'pageLoadStrategy': <PageLoadStrategy.normal: 'normal'>, 'goog:chromeOptions': {'extensions': [], 'args': ['--headless', '--no-sandbox', '--disable-dev-shm-usage', '--user-data-dir=/tmp/tmp0m160prd']}}}}
+urllib3.connectionpool - [DEBUG]{MainThread} - _new_conn() - Starting new HTTP connection (1): localhost:38327
+urllib3.connectionpool - [DEBUG]{MainThread} - _make_request() - http://localhost:38327 "POST /session HTTP/1.1" 200 0
+selenium.webdriver.remote.remote_connection - [DEBUG]{MainThread} - _request() - Remote response: status=200 | data={"value":{"capabilities":{"acceptInsecureCerts":false,"browserName":"chrome","browserVersion":"138.0.7204.92","chrome":{"chromedriverVersion":"138.0.7204.92 (f079b9bc781e3c2adb1496ea1d72812deb0ddb3d-refs/branch-heads/7204_50@{#8})","userDataDir":"/tmp/tmp0m160prd"},"fedcm:accounts":true,"goog:chromeOptions":{"debuggerAddress":"localhost:38965"},"networkConnectionEnabled":false,"pageLoadStrategy":"normal","platformName":"linux","proxy":{},"setWindowRect":true,"strictFileInteractability":false,"timeouts":{"implicit":0,"pageLoad":300000,"script":30000},"unhandledPromptBehavior":"dismiss and notify","webauthn:extension:credBlob":true,"webauthn:extension:largeBlob":true,"webauthn:extension:minPinLength":true,"webauthn:extension:prf":true,"webauthn:virtualAuthenticators":true},"sessionId":"323b62c0dee520207374aed50ddd4e09"}} | headers=HTTPHeaderDict({'Content-Length': '830', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+selenium.webdriver.remote.remote_connection - [DEBUG]{MainThread} - _request() - Finished Request
+root - [INFO]{MainThread} - send_mesage_all_people() - Send alert everybody
+root - [DEBUG]{MainThread} - send_mesage_all_people() - Will send messege for LIST_PEOPLE_IDS_CHAT url: https://api.telegram.org/bot7543747510:AAGsgP2nQqu6dh-Ue95E_xTmc3Zi3JuZtGQ/sendMessage?chat_id=207000000&text=<pre> START: 2025-07-03 06:04:42 </pre>
+Stocks to be monitored: 
+UBER PYPL &parse_mode=HTML
+root - [INFO]{PROD} - producer() -  Producer: Running Start 2025-07-03 06:04:45
+root - [DEBUG]{PROD} - producer() -  Producer: Running Start 2025-07-03 06:04:45
+root - [INFO]{PROD} - get_df_webull_realTime() - UBER ================== 2025-07-03 06:04:46   https://quotes-gw.webullfintech.com/api/quote/charts/queryMinutes?period=d5&tickerIds=950121423
+yfinance - [DEBUG]{PROD} - wrapper() - Entering download()
+yfinance - [DEBUG]{PROD} - download() - Disabling multithreading because DEBUG logging enabled
+yfinance - [DEBUG]{PROD} - wrapper() -  Entering history()
+yfinance - [DEBUG]{PROD} - wrapper() -   Entering history()
+yfinance - [DEBUG]{PROD} - history() - UBER: Yahoo GET parameters: {'range': '6d', 'interval': '15m', 'includePrePost': False, 'events': 'div,splits,capitalGains'}
+yfinance - [DEBUG]{PROD} - wrapper() -    Entering get()
+yfinance - [DEBUG]{PROD} - wrapper() -     Entering _make_request()
+yfinance - [DEBUG]{PROD} - _make_request() - url=https://query2.finance.yahoo.com/v8/finance/chart/UBER
+yfinance - [DEBUG]{PROD} - _make_request() - params={'range': '6d', 'interval': '15m', 'includePrePost': False, 'events': 'div,splits,capitalGains'}
+yfinance - [DEBUG]{PROD} - wrapper() -      Entering _get_cookie_and_crumb()
+yfinance - [DEBUG]{PROD} - _get_cookie_and_crumb() - cookie_mode = 'basic'
+yfinance - [DEBUG]{PROD} - wrapper() -       Entering _get_cookie_and_crumb_basic()
+yfinance - [DEBUG]{PROD} - wrapper() -        Entering _get_cookie_basic()
+yfinance - [DEBUG]{PROD} - wrapper() -         Entering _load_cookie_curlCffi()
+yfinance - [DEBUG]{PROD} - wrapper() -         Exiting _load_cookie_curlCffi()
+yfinance - [DEBUG]{PROD} - _get_cookie_basic() - reusing persistent cookie
+yfinance - [DEBUG]{PROD} - wrapper() -        Exiting _get_cookie_basic()
+yfinance - [DEBUG]{PROD} - wrapper() -        Entering _get_crumb_basic()
+yfinance - [DEBUG]{PROD} - wrapper() -         Entering _get_cookie_basic()
+yfinance - [DEBUG]{PROD} - _get_cookie_basic() - reusing cookie
+yfinance - [DEBUG]{PROD} - wrapper() -         Exiting _get_cookie_basic()
+yfinance - [DEBUG]{PROD} - _get_crumb_basic() - crumb = 'dK3IG/1ev6r'
+yfinance - [DEBUG]{PROD} - wrapper() -        Exiting _get_crumb_basic()
+yfinance - [DEBUG]{PROD} - wrapper() -       Exiting _get_cookie_and_crumb_basic()
+yfinance - [DEBUG]{PROD} - wrapper() -      Exiting _get_cookie_and_crumb()
+yfinance - [DEBUG]{PROD} - _make_request() - response code=200
+yfinance - [DEBUG]{PROD} - wrapper() -     Exiting _make_request()
+yfinance - [DEBUG]{PROD} - wrapper() -    Exiting get()
+yfinance - [DEBUG]{PROD} - history() - UBER: yfinance received OHLC data: 2025-06-25 13:30:00 -> 2025-07-02 20:00:00
+yfinance - [DEBUG]{PROD} - history() - UBER: OHLC after cleaning: 2025-06-25 09:30:00-04:00 -> 2025-07-02 15:45:00-04:00
+yfinance - [DEBUG]{PROD} - history() - UBER: OHLC after combining events: 2025-06-25 09:30:00-04:00 -> 2025-07-02 15:45:00-04:00
+yfinance - [DEBUG]{PROD} - history() - UBER: yfinance returning OHLC: 2025-06-25 09:30:00-04:00 -> 2025-07-02 15:45:00-04:00
+yfinance - [DEBUG]{PROD} - wrapper() -   Exiting history()
+yfinance - [DEBUG]{PROD} - wrapper() -  Exiting history()
+yfinance - [DEBUG]{PROD} - wrapper() - Exiting download()
+root - [DEBUG]{PROD} - df_yhoo_() - Price                          Close       High        Low       Open   Volume
+Ticker                          UBER       UBER       UBER       UBER     UBER
+Datetime                                                                      
+2025-06-25 13:30:00+00:00  91.555000  92.889999  91.330002  91.565002  2988690
+2025-06-25 13:45:00+00:00  91.669998  91.839996  91.169998  91.550003  1033658
+2025-06-25 14:00:00+00:00  91.584999  91.904999  91.449997  91.680000   678209
+2025-06-25 14:15:00+00:00  91.910004  92.099998  91.455002  91.589996   816139
+2025-06-25 14:30:00+00:00  91.625000  92.040001  91.565002  91.919998   602746
+...                              ...        ...        ...        ...      ...
+2025-07-02 18:45:00+00:00  92.224998  92.245003  92.125000  92.135002   187460
+2025-07-02 19:00:00+00:00  92.324997  92.449997  92.165001  92.221497   345563
+2025-07-02 19:15:00+00:00  92.239998  92.415001  92.239998  92.324997   312172
+2025-07-02 19:30:00+00:00  92.160004  92.279999  92.080200  92.235001   401985
+2025-07-02 19:45:00+00:00  92.050003  92.180000  91.940002  92.160004   837412
+
+[156 rows x 5 columns]
+root - [INFO]{PROD} - producer() -  DF encolado Stock: UBER Shape_DF: (72, 12) RealTime: nan Volume: 692615.0
+root - [DEBUG]{CONS_1} - consumer() -   Consumer: Running
+yfinance - [DEBUG]{CONS_1} - wrapper() - Entering history()
+yfinance - [DEBUG]{CONS_1} - wrapper() -  Entering history()
+yfinance - [DEBUG]{CONS_1} - history() - NQ=F: Yahoo GET parameters: {'range': '6d', 'interval': '15m', 'includePrePost': False, 'events': 'div,splits,capitalGains'}
+yfinance - [DEBUG]{CONS_1} - wrapper() -   Entering get()
+yfinance - [DEBUG]{CONS_1} - wrapper() -    Entering _make_request()
+yfinance - [DEBUG]{CONS_1} - _make_request() - url=https://query2.finance.yahoo.com/v8/finance/chart/NQ=F
+yfinance - [DEBUG]{CONS_1} - _make_request() - params={'range': '6d', 'interval': '15m', 'includePrePost': False, 'events': 'div,splits,capitalGains'}
+yfinance - [DEBUG]{CONS_1} - wrapper() -     Entering _get_cookie_and_crumb()
+yfinance - [DEBUG]{CONS_1} - _get_cookie_and_crumb() - cookie_mode = 'basic'
+yfinance - [DEBUG]{CONS_1} - wrapper() -      Entering _get_cookie_and_crumb_basic()
+yfinance - [DEBUG]{CONS_1} - wrapper() -       Entering _get_cookie_basic()
+yfinance - [DEBUG]{CONS_1} - _get_cookie_basic() - reusing cookie
+yfinance - [DEBUG]{CONS_1} - wrapper() -       Exiting _get_cookie_basic()
+yfinance - [DEBUG]{CONS_1} - wrapper() -       Entering _get_crumb_basic()
+yfinance - [DEBUG]{CONS_1} - _get_crumb_basic() - reusing crumb
+yfinance - [DEBUG]{CONS_1} - wrapper() -       Exiting _get_crumb_basic()
+yfinance - [DEBUG]{CONS_1} - wrapper() -      Exiting _get_cookie_and_crumb_basic()
+yfinance - [DEBUG]{CONS_1} - wrapper() -     Exiting _get_cookie_and_crumb()
+yfinance - [DEBUG]{CONS_1} - _make_request() - response code=200
+yfinance - [DEBUG]{CONS_1} - wrapper() -    Exiting _make_request()
+yfinance - [DEBUG]{CONS_1} - wrapper() -   Exiting get()
+yfinance - [DEBUG]{CONS_1} - history() - NQ=F: yfinance received OHLC data: 2025-06-26 04:00:00 -> 2025-07-03 03:45:00
+yfinance - [DEBUG]{CONS_1} - history() - NQ=F: OHLC after cleaning: 2025-06-26 00:00:00-04:00 -> 2025-07-02 23:45:00-04:00
+yfinance - [DEBUG]{CONS_1} - history() - NQ=F: OHLC after combining events: 2025-06-26 00:00:00-04:00 -> 2025-07-02 23:45:00-04:00
+yfinance - [DEBUG]{CONS_1} - history() - NQ=F: yfinance returning OHLC: 2025-06-26 00:00:00-04:00 -> 2025-07-02 23:45:00-04:00
+yfinance - [DEBUG]{CONS_1} - wrapper() -  Exiting history()
+yfinance - [DEBUG]{CONS_1} - wrapper() - Exiting history()
+root - [DEBUG]{CONS_1} - consumer() -   cycle started   Date: 2025-07-03 06:04:47
+root - [INFO]{CONS_1} - consumer() -   Stock: UBER  Volume unlast: 274783.0 Volume last: nan Date: 2025-07-03 06:04:47
+root - [INFO]{CONS_1} - get_buy_sell_points_Roll() - Parameters of acquisition "buy_sell_points" for this stock is set to POSITIVE (units) 	92%: 2.2802 	98%: 2.4486 NEGATIVE (units) 	93%: 2.4102 	98%: 2.5024
+root - [WARNING]{CONS_1} - consumer() -  Exception:  Stock: UBERTraceback (most recent call last):
+  File "/usr/src/appv1/TensorFlow-stocks-prediction-Machine-learning-RealTime/5_predict_POOL_enque_Thread.py", line 146, in consumer
+    scaler_and_send_predit(S, df_S, df_nasq, is_multidimension = True)
+  File "/usr/src/appv1/TensorFlow-stocks-prediction-Machine-learning-RealTime/5_predict_POOL_enque_Thread.py", line 57, in scaler_and_send_predit
+    df_S = get_tech_data_nasq(S, df_S, df_nasq)
+  File "/usr/src/appv1/TensorFlow-stocks-prediction-Machine-learning-RealTime/useless/p_P_hand/predict_POOL_handle.py", line 52, in get_tech_data_nasq
+    df_his = TechData(df_S, custom_columns_POS_NEG).get_ALL_tech_data()
+  File "/usr/src/appv1/TensorFlow-stocks-prediction-Machine-learning-RealTime/technical_indicators/talib_technical_class_object.py", line 23, in get_ALL_tech_data
+    return get_ALL_tech_data_local(self.df_his, self.costum_columns)
+  File "/usr/src/appv1/TensorFlow-stocks-prediction-Machine-learning-RealTime/technical_indicators/talib_technical_class_object.py", line 44, in get_ALL_tech_data_local
+    df_his = talib_technical_PY_TI.get_py_TI_indicator(df_his, costum_columns)
+  File "/usr/src/appv1/TensorFlow-stocks-prediction-Machine-learning-RealTime/technical_indicators/talib_technical_PY_TI.py", line 115, in get_py_TI_indicator
+    val_blue, val_brown, val_green, val_avg = get_konkorde_params(df_stocks)
+  File "/usr/src/appv1/TensorFlow-stocks-prediction-Machine-learning-RealTime/technical_indicators/talib_technical_PY_TI.py", line 151, in get_konkorde_params
+    pvi = df_stocks.ta.nvi(cumulative=True, append=False)  # calc_pvi(df)
+  File "/opt/conda/lib/python3.10/site-packages/pandas_ta/core.py", line 1715, in nvi
+    close = self._get_column(kwargs.pop("close", "close"))
+  File "/opt/conda/lib/python3.10/site-packages/pandas_ta/core.py", line 454, in _get_column
+    cols = ", ".join(list(df.columns))
+TypeError: sequence item 7: expected str instance, tuple found
+
+root - [INFO]{CONS_1} - consumer() -  completed cycle    Date: 2025-07-03 06:04:49 stoks: UBER PYPL
+root - [INFO]{PROD} - get_df_webull_realTime() - PYPL ================== 2025-07-03 06:04:50   https://quotes-gw.webullfintech.com/api/quote/charts/queryMinutes?period=d5&tickerIds=913256043
+yfinance - [DEBUG]{PROD} - wrapper() - Entering download()
+yfinance - [DEBUG]{PROD} - download() - Disabling multithreading because DEBUG logging enabled
+yfinance - [DEBUG]{PROD} - wrapper() -  Entering history()
+yfinance - [DEBUG]{PROD} - wrapper() -   Entering history()
+yfinance - [DEBUG]{PROD} - history() - PYPL: Yahoo GET parameters: {'range': '6d', 'interval': '15m', 'includePrePost': False, 'events': 'div,splits,capitalGains'}
+yfinance - [DEBUG]{PROD} - wrapper() -    Entering get()
+yfinance - [DEBUG]{PROD} - wrapper() -     Entering _make_request()
+yfinance - [DEBUG]{PROD} - _make_request() - url=https://query2.finance.yahoo.com/v8/finance/chart/PYPL
+yfinance - [DEBUG]{PROD} - _make_request() - params={'range': '6d', 'interval': '15m', 'includePrePost': False, 'events': 'div,splits,capitalGains'}
+yfinance - [DEBUG]{PROD} - wrapper() -      Entering _get_cookie_and_crumb()
+yfinance - [DEBUG]{PROD} - _get_cookie_and_crumb() - cookie_mode = 'basic'
+yfinance - [DEBUG]{PROD} - wrapper() -       Entering _get_cookie_and_crumb_basic()
+yfinance - [DEBUG]{PROD} - wrapper() -        Entering _get_cookie_basic()
+yfinance - [DEBUG]{PROD} - _get_cookie_basic() - reusing cookie
+yfinance - [DEBUG]{PROD} - wrapper() -        Exiting _get_cookie_basic()
+yfinance - [DEBUG]{PROD} - wrapper() -        Entering _get_crumb_basic()
+yfinance - [DEBUG]{PROD} - _get_crumb_basic() - reusing crumb
+yfinance - [DEBUG]{PROD} - wrapper() -        Exiting _get_crumb_basic()
+yfinance - [DEBUG]{PROD} - wrapper() -       Exiting _get_cookie_and_crumb_basic()
+yfinance - [DEBUG]{PROD} - wrapper() -      Exiting _get_cookie_and_crumb()
+yfinance - [DEBUG]{PROD} - _make_request() - response code=200
+yfinance - [DEBUG]{PROD} - wrapper() -     Exiting _make_request()
+yfinance - [DEBUG]{PROD} - wrapper() -    Exiting get()
+yfinance - [DEBUG]{PROD} - history() - PYPL: yfinance received OHLC data: 2025-06-25 13:30:00 -> 2025-07-02 20:00:00
+yfinance - [DEBUG]{PROD} - history() - PYPL: OHLC after cleaning: 2025-06-25 09:30:00-04:00 -> 2025-07-02 15:45:00-04:00
+yfinance - [DEBUG]{PROD} - history() - PYPL: OHLC after combining events: 2025-06-25 09:30:00-04:00 -> 2025-07-02 15:45:00-04:00
+yfinance - [DEBUG]{PROD} - history() - PYPL: yfinance returning OHLC: 2025-06-25 09:30:00-04:00 -> 2025-07-02 15:45:00-04:00
+yfinance - [DEBUG]{PROD} - wrapper() -   Exiting history()
+yfinance - [DEBUG]{PROD} - wrapper() -  Exiting history()
+yfinance - [DEBUG]{PROD} - wrapper() - Exiting download()
+root - [DEBUG]{PROD} - df_yhoo_() - Price                          Close       High        Low       Open  Volume
+Ticker                          PYPL       PYPL       PYPL       PYPL    PYPL
+Datetime                                                                     
+2025-06-25 13:30:00+00:00  73.660004  73.925003  73.249001  73.915001  615528
+2025-06-25 13:45:00+00:00  73.625000  73.834999  73.510002  73.669998  382641
+2025-06-25 14:00:00+00:00  73.489998  73.790001  73.459999  73.639999  291317
+2025-06-25 14:15:00+00:00  73.309998  73.514999  73.220001  73.500000  210288
+2025-06-25 14:30:00+00:00  73.315002  73.369904  73.239998  73.330002  155524
+...                              ...        ...        ...        ...     ...
+2025-07-02 18:45:00+00:00  76.154999  76.195000  76.089996  76.135002  112566
+2025-07-02 19:00:00+00:00  76.320000  76.339996  76.160004  76.160004  170276
+2025-07-02 19:15:00+00:00  76.330002  76.400002  76.309998  76.324997  182742
+2025-07-02 19:30:00+00:00  76.230003  76.341003  76.226601  76.300003  180860
+2025-07-02 19:45:00+00:00  76.309998  76.375000  76.160004  76.232498  749280
+
+[156 rows x 5 columns]
+root - [INFO]{PROD} - producer() -  DF encolado Stock: PYPL Shape_DF: (72, 12) RealTime: nan Volume: 663667.0
+root - [INFO]{PROD} - producer() -  sleep(60 * 2) List all stock download empty
 tensorflow - [DEBUG]{MainThread} - <module>() - Falling back to TensorFlow client; we recommended you install the Cloud TPU client directly with pip install cloud-tpu-client.
-h5py._conv - [DEBUG]{MainThread} - <module>() - Creating converter from 7 to 5
-h5py._conv - [DEBUG]{MainThread} - <module>() - Creating converter from 5 to 7
-h5py._conv - [DEBUG]{MainThread} - <module>() - Creating converter from 7 to 5
-h5py._conv - [DEBUG]{MainThread} - <module>() - Creating converter from 5 to 7
-matplotlib - [DEBUG]{MainThread} - wrapper() - matplotlib data path: /opt/conda/lib/python3.10/site-packages/matplotlib/mpl-data
-matplotlib - [DEBUG]{MainThread} - wrapper() - CONFIGDIR=/root/.config/matplotlib
-matplotlib - [DEBUG]{MainThread} - <module>() - interactive is False
-matplotlib - [DEBUG]{MainThread} - <module>() - platform is linux
-matplotlib - [DEBUG]{MainThread} - wrapper() - CACHEDIR=/root/.cache/matplotlib
-matplotlib.font_manager - [DEBUG]{MainThread} - _load_fontmanager() - Using fontManager instance from /root/.cache/matplotlib/fontlist-v390.json
-matplotlib - [DEBUG]{MainThread} - wrapper() - matplotlib data path: /opt/conda/lib/python3.10/site-packages/matplotlib/mpl-data
-matplotlib - [DEBUG]{MainThread} - wrapper() - CONFIGDIR=/root/.config/matplotlib
-matplotlib - [DEBUG]{MainThread} - <module>() - interactive is False
-matplotlib - [DEBUG]{MainThread} - <module>() - platform is linux
-matplotlib - [DEBUG]{MainThread} - wrapper() - CACHEDIR=/root/.cache/matplotlib
-matplotlib.font_manager - [DEBUG]{MainThread} - _load_fontmanager() - Using fontManager instance from /root/.cache/matplotlib/fontlist-v390.json
-root - [INFO]{MainThread} - load_and_clean_DF_Train_from_csv() - df loaded from .csv Shape: (1535, 1075) Path: d_price/UBER_PLAIN_stock_history_MONTH_3_AD.csv
-root - [DEBUG]{MainThread} - load_and_clean__buy_sell_atack() - columns_selection List HAS vulues, works trains with: Date, buy_sell_point, olap_BBAND_dif, vola_NATR, ma_TRIMA_50, ichi_senkou_a, mtum_DMP_14, ma_KAMA_50, olap_BBAND_LOWER
-root - [DEBUG]{MainThread} - load_and_clean__buy_sell_atack() - DataFrame head:
-                  Date  buy_sell_point  olap_BBAND_dif  vola_NATR  ma_TRIMA_50  ichi_senkou_a  mtum_DMP_14  ma_KAMA_50  olap_BBAND_LOWER
-0  2025-04-02 09:30:00               0             NaN        NaN          NaN            NaN          NaN         NaN               NaN
-1  2025-04-02 09:45:00             100             NaN        NaN          NaN            NaN          NaN         NaN               NaN
-2  2025-04-02 10:00:00             100             NaN        NaN          NaN            NaN          NaN         NaN               NaN
-3  2025-04-02 10:15:00               0             NaN        NaN          NaN            NaN          NaN         NaN               NaN
-4  2025-04-02 10:30:00               0             NaN        NaN          NaN            NaN          NaN         NaN               NaN
-root - [DEBUG]{MainThread} - load_and_clean__buy_sell_atack() - DataFrame info:
-None
-root - [DEBUG]{MainThread} - load_and_clean__buy_sell_atack() - DataFrame describe:
-       buy_sell_point  olap_BBAND_dif    vola_NATR  ma_TRIMA_50  ichi_senkou_a  mtum_DMP_14   ma_KAMA_50  olap_BBAND_LOWER
-count     1535.000000     1516.000000  1521.000000  1486.000000    1484.000000  1522.000000  1485.000000       1516.000000
-mean        -0.586319        2.646651     0.664380    82.049459      81.883405     1.727989    82.013360         80.745444
-std         33.770762        1.980777     0.341927     7.254657       7.244481     1.030765     7.580411          7.724120
-min       -100.000000        0.530443     0.282640    64.590700      63.482500     0.357494    64.637146         61.817351
-25%          0.000000        1.336332     0.457535    76.020454      75.636639     1.046701    77.146198         74.317852
-50%          0.000000        1.997369     0.566974    84.164836      83.730000     1.432623    84.339491         82.873405
-75%          0.000000        3.273947     0.722749    86.957755      86.892500     2.100494    86.587450         85.990527
-max        100.000000       12.856822     2.536613    92.597722      92.987526     7.137946    92.068559         92.455776
-root - [DEBUG]{MainThread} - cast_Y_label_binary() - Label classes: [0, 100]
-root - [ERROR]{MainThread} - load_split_data_multidimension() - The dates of the new 2D array do not appear in the first column. 
-matplotlib - [DEBUG]{MainThread} - wrapper() - matplotlib data path: /opt/conda/lib/python3.10/site-packages/matplotlib/mpl-data
-matplotlib - [DEBUG]{MainThread} - wrapper() - CONFIGDIR=/root/.config/matplotlib
-matplotlib - [DEBUG]{MainThread} - <module>() - interactive is False
-matplotlib - [DEBUG]{MainThread} - <module>() - platform is linux
-matplotlib - [DEBUG]{MainThread} - wrapper() - CACHEDIR=/root/.cache/matplotlib
-matplotlib.font_manager - [DEBUG]{MainThread} - _load_fontmanager() - Using fontManager instance from /root/.cache/matplotlib/fontlist-v390.json
-root - [INFO]{MainThread} - load_and_clean_DF_Train_from_csv() - df loaded from .csv Shape: (1535, 1075) Path: d_price/UBER_PLAIN_stock_history_MONTH_3_AD.csv
-root - [DEBUG]{MainThread} - load_and_clean__buy_sell_atack() - columns_selection List HAS vulues, works trains with: Date, buy_sell_point, olap_BBAND_dif, vola_NATR, ma_TRIMA_50, ichi_senkou_a, mtum_DMP_14, ma_KAMA_50, olap_BBAND_LOWER
-root - [DEBUG]{MainThread} - load_and_clean__buy_sell_atack() - DataFrame head:
-                  Date  buy_sell_point  olap_BBAND_dif  vola_NATR  ma_TRIMA_50  ichi_senkou_a  mtum_DMP_14  ma_KAMA_50  olap_BBAND_LOWER
-0  2025-04-02 09:30:00               0             NaN        NaN          NaN            NaN          NaN         NaN               NaN
-1  2025-04-02 09:45:00             100             NaN        NaN          NaN            NaN          NaN         NaN               NaN
-2  2025-04-02 10:00:00             100             NaN        NaN          NaN            NaN          NaN         NaN               NaN
-3  2025-04-02 10:15:00               0             NaN        NaN          NaN            NaN          NaN         NaN               NaN
-4  2025-04-02 10:30:00               0             NaN        NaN          NaN            NaN          NaN         NaN               NaN
-root - [DEBUG]{MainThread} - load_and_clean__buy_sell_atack() - DataFrame info:
-None
-root - [DEBUG]{MainThread} - load_and_clean__buy_sell_atack() - DataFrame describe:
-       buy_sell_point  olap_BBAND_dif    vola_NATR  ma_TRIMA_50  ichi_senkou_a  mtum_DMP_14   ma_KAMA_50  olap_BBAND_LOWER
-count     1535.000000     1516.000000  1521.000000  1486.000000    1484.000000  1522.000000  1485.000000       1516.000000
-mean        -0.586319        2.646651     0.664380    82.049459      81.883405     1.727989    82.013360         80.745444
-std         33.770762        1.980777     0.341927     7.254657       7.244481     1.030765     7.580411          7.724120
-min       -100.000000        0.530443     0.282640    64.590700      63.482500     0.357494    64.637146         61.817351
-25%          0.000000        1.336332     0.457535    76.020454      75.636639     1.046701    77.146198         74.317852
-50%          0.000000        1.997369     0.566974    84.164836      83.730000     1.432623    84.339491         82.873405
-75%          0.000000        3.273947     0.722749    86.957755      86.892500     2.100494    86.587450         85.990527
-max        100.000000       12.856822     2.536613    92.597722      92.987526     7.137946    92.068559         92.455776
-root - [DEBUG]{MainThread} - cast_Y_label_binary() - Label classes: [0, 100]
-root - [ERROR]{MainThread} - load_split_data_multidimension() - The dates of the new 2D array do not appear in the first column. 
+WDM - [INFO]{MainThread} - log() - ====== WebDriver manager ======
+WDM - [INFO]{MainThread} - log() - Get LATEST chromedriver version for google-chrome
+urllib3.connectionpool - [DEBUG]{MainThread} - _new_conn() - Starting new HTTPS connection (1): googlechromelabs.github.io:443
+urllib3.connectionpool - [DEBUG]{MainThread} - _make_request() - https://googlechromelabs.github.io:443 "GET /chrome-for-testing/latest-patch-versions-per-build.json HTTP/1.1" 200 11903
+WDM - [INFO]{MainThread} - log() - Get LATEST chromedriver version for google-chrome
+urllib3.connectionpool - [DEBUG]{MainThread} - _new_conn() - Starting new HTTPS connection (1): googlechromelabs.github.io:443
+urllib3.connectionpool - [DEBUG]{MainThread} - _make_request() - https://googlechromelabs.github.io:443 "GET /chrome-for-testing/latest-patch-versions-per-build.json HTTP/1.1" 200 11903
+WDM - [INFO]{MainThread} - log() - Driver [/root/.wdm/drivers/chromedriver/linux64/138.0.7204.92/chromedriver-linux64/chromedriver] found in cache
+selenium.webdriver.common.driver_finder - [DEBUG]{MainThread} - _binary_paths() - Skipping Selenium Manager; path to chrome driver specified in Service class: /root/.wdm/drivers/chromedriver/linux64/138.0.7204.92/chromedriver-linux64/chromedriver
+selenium.webdriver.common.service - [DEBUG]{MainThread} - _start_process() - Started executable: `/root/.wdm/drivers/chromedriver/linux64/138.0.7204.92/chromedriver-linux64/chromedriver` in a child process with pid: 83600 using 0 to output -3
+selenium.webdriver.remote.remote_connection - [DEBUG]{MainThread} - execute() - POST http://localhost:42839/session {'capabilities': {'firstMatch': [{}], 'alwaysMatch': {'browserName': 'chrome', 'pageLoadStrategy': <PageLoadStrategy.normal: 'normal'>, 'goog:chromeOptions': {'extensions': [], 'args': ['--headless', '--no-sandbox', '--disable-dev-shm-usage', '--user-data-dir=/tmp/tmp0cycbv2g']}}}}
+urllib3.connectionpool - [DEBUG]{MainThread} - _new_conn() - Starting new HTTP connection (1): localhost:42839
+urllib3.connectionpool - [DEBUG]{MainThread} - _make_request() - http://localhost:42839 "POST /session HTTP/1.1" 200 0
+selenium.webdriver.remote.remote_connection - [DEBUG]{MainThread} - _request() - Remote response: status=200 | data={"value":{"capabilities":{"acceptInsecureCerts":false,"browserName":"chrome","browserVersion":"138.0.7204.92","chrome":{"chromedriverVersion":"138.0.7204.92 (f079b9bc781e3c2adb1496ea1d72812deb0ddb3d-refs/branch-heads/7204_50@{#8})","userDataDir":"/tmp/tmp0cycbv2g"},"fedcm:accounts":true,"goog:chromeOptions":{"debuggerAddress":"localhost:45761"},"networkConnectionEnabled":false,"pageLoadStrategy":"normal","platformName":"linux","proxy":{},"setWindowRect":true,"strictFileInteractability":false,"timeouts":{"implicit":0,"pageLoad":300000,"script":30000},"unhandledPromptBehavior":"dismiss and notify","webauthn:extension:credBlob":true,"webauthn:extension:largeBlob":true,"webauthn:extension:minPinLength":true,"webauthn:extension:prf":true,"webauthn:virtualAuthenticators":true},"sessionId":"2414f3d16e94ce1e02800355ada2f64a"}} | headers=HTTPHeaderDict({'Content-Length': '830', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+selenium.webdriver.remote.remote_connection - [DEBUG]{MainThread} - _request() - Finished Request
+root - [INFO]{MainThread} - send_mesage_all_people() - Send alert everybody
+root - [DEBUG]{MainThread} - send_mesage_all_people() - Will send messege for LIST_PEOPLE_IDS_CHAT url: https://api.telegram.org/bot7543747510:AAGsgP2nQqu6dh-Ue95E_xTmc3Zi3JuZtGQ/sendMessage?chat_id=207000000&text=<pre> START: 2025-07-03 06:07:07 </pre>
+Stocks to be monitored: 
+PYPL UBER &parse_mode=HTML
+root - [INFO]{PROD} - producer() -  Producer: Running Start 2025-07-03 06:07:10
+root - [DEBUG]{PROD} - producer() -  Producer: Running Start 2025-07-03 06:07:10
+root - [DEBUG]{CONS_1} - consumer() -   Consumer: Running
+yfinance - [DEBUG]{CONS_1} - wrapper() - Entering history()
+yfinance - [DEBUG]{CONS_1} - wrapper() -  Entering history()
+yfinance - [DEBUG]{CONS_1} - history() - NQ=F: Yahoo GET parameters: {'range': '6d', 'interval': '15m', 'includePrePost': False, 'events': 'div,splits,capitalGains'}
+yfinance - [DEBUG]{CONS_1} - wrapper() -   Entering get()
+yfinance - [DEBUG]{CONS_1} - wrapper() -    Entering _make_request()
+yfinance - [DEBUG]{CONS_1} - _make_request() - url=https://query2.finance.yahoo.com/v8/finance/chart/NQ=F
+yfinance - [DEBUG]{CONS_1} - _make_request() - params={'range': '6d', 'interval': '15m', 'includePrePost': False, 'events': 'div,splits,capitalGains'}
+yfinance - [DEBUG]{CONS_1} - wrapper() -     Entering _get_cookie_and_crumb()
+yfinance - [DEBUG]{CONS_1} - _get_cookie_and_crumb() - cookie_mode = 'basic'
+yfinance - [DEBUG]{CONS_1} - wrapper() -      Entering _get_cookie_and_crumb_basic()
+yfinance - [DEBUG]{CONS_1} - wrapper() -       Entering _get_cookie_basic()
+yfinance - [DEBUG]{CONS_1} - wrapper() -        Entering _load_cookie_curlCffi()
+yfinance - [DEBUG]{CONS_1} - wrapper() -        Exiting _load_cookie_curlCffi()
+yfinance - [DEBUG]{CONS_1} - _get_cookie_basic() - reusing persistent cookie
+yfinance - [DEBUG]{CONS_1} - wrapper() -       Exiting _get_cookie_basic()
+yfinance - [DEBUG]{CONS_1} - wrapper() -       Entering _get_crumb_basic()
+yfinance - [DEBUG]{CONS_1} - wrapper() -        Entering _get_cookie_basic()
+yfinance - [DEBUG]{CONS_1} - _get_cookie_basic() - reusing cookie
+yfinance - [DEBUG]{CONS_1} - wrapper() -        Exiting _get_cookie_basic()
+yfinance - [DEBUG]{CONS_1} - _get_crumb_basic() - crumb = 'dK3IG/1ev6r'
+yfinance - [DEBUG]{CONS_1} - wrapper() -       Exiting _get_crumb_basic()
+yfinance - [DEBUG]{CONS_1} - wrapper() -      Exiting _get_cookie_and_crumb_basic()
+yfinance - [DEBUG]{CONS_1} - wrapper() -     Exiting _get_cookie_and_crumb()
+yfinance - [DEBUG]{CONS_1} - _make_request() - response code=200
+yfinance - [DEBUG]{CONS_1} - wrapper() -    Exiting _make_request()
+yfinance - [DEBUG]{CONS_1} - wrapper() -   Exiting get()
+yfinance - [DEBUG]{CONS_1} - history() - NQ=F: yfinance received OHLC data: 2025-06-26 04:00:00 -> 2025-07-03 03:45:00
+yfinance - [DEBUG]{CONS_1} - history() - NQ=F: OHLC after cleaning: 2025-06-26 00:00:00-04:00 -> 2025-07-02 23:45:00-04:00
+yfinance - [DEBUG]{CONS_1} - history() - NQ=F: OHLC after combining events: 2025-06-26 00:00:00-04:00 -> 2025-07-02 23:45:00-04:00
+yfinance - [DEBUG]{CONS_1} - history() - NQ=F: yfinance returning OHLC: 2025-06-26 00:00:00-04:00 -> 2025-07-02 23:45:00-04:00
+yfinance - [DEBUG]{CONS_1} - wrapper() -  Exiting history()
+yfinance - [DEBUG]{CONS_1} - wrapper() - Exiting history()
+root - [DEBUG]{CONS_1} - consumer() -   cycle started   Date: 2025-07-03 06:07:12
+root - [DEBUG]{CONS_1} - consumer() -   Stock: PYPL  Thread: 1 Date: 2025-07-03 06:07:12
+root - [DEBUG]{CONS_1} - consumer() -   Stock: UBER  Thread: 1 Date: 2025-07-03 06:07:12
+root - [INFO]{CONS_1} - consumer() -  completed cycle    Date: 2025-07-03 06:07:12 stoks: PYPL UBER
+root - [INFO]{PROD} - get_df_webull_realTime() - PYPL ================== 2025-07-03 06:07:13   https://quotes-gw.webullfintech.com/api/quote/charts/queryMinutes?period=d5&tickerIds=913256043
+yfinance - [DEBUG]{PROD} - wrapper() - Entering download()
+yfinance - [DEBUG]{PROD} - download() - Disabling multithreading because DEBUG logging enabled
+yfinance - [DEBUG]{PROD} - wrapper() -  Entering history()
+yfinance - [DEBUG]{PROD} - wrapper() -   Entering history()
+yfinance - [DEBUG]{PROD} - history() - PYPL: Yahoo GET parameters: {'range': '6d', 'interval': '15m', 'includePrePost': False, 'events': 'div,splits,capitalGains'}
+yfinance - [DEBUG]{PROD} - wrapper() -    Entering get()
+yfinance - [DEBUG]{PROD} - wrapper() -     Entering _make_request()
+yfinance - [DEBUG]{PROD} - _make_request() - url=https://query2.finance.yahoo.com/v8/finance/chart/PYPL
+yfinance - [DEBUG]{PROD} - _make_request() - params={'range': '6d', 'interval': '15m', 'includePrePost': False, 'events': 'div,splits,capitalGains'}
+yfinance - [DEBUG]{PROD} - wrapper() -      Entering _get_cookie_and_crumb()
+yfinance - [DEBUG]{PROD} - _get_cookie_and_crumb() - cookie_mode = 'basic'
+yfinance - [DEBUG]{PROD} - wrapper() -       Entering _get_cookie_and_crumb_basic()
+yfinance - [DEBUG]{PROD} - wrapper() -        Entering _get_cookie_basic()
+yfinance - [DEBUG]{PROD} - _get_cookie_basic() - reusing cookie
+yfinance - [DEBUG]{PROD} - wrapper() -        Exiting _get_cookie_basic()
+yfinance - [DEBUG]{PROD} - wrapper() -        Entering _get_crumb_basic()
+yfinance - [DEBUG]{PROD} - _get_crumb_basic() - reusing crumb
+yfinance - [DEBUG]{PROD} - wrapper() -        Exiting _get_crumb_basic()
+yfinance - [DEBUG]{PROD} - wrapper() -       Exiting _get_cookie_and_crumb_basic()
+yfinance - [DEBUG]{PROD} - wrapper() -      Exiting _get_cookie_and_crumb()
+yfinance - [DEBUG]{PROD} - _make_request() - response code=200
+yfinance - [DEBUG]{PROD} - wrapper() -     Exiting _make_request()
+yfinance - [DEBUG]{PROD} - wrapper() -    Exiting get()
+yfinance - [DEBUG]{PROD} - history() - PYPL: yfinance received OHLC data: 2025-06-25 13:30:00 -> 2025-07-02 20:00:00
+yfinance - [DEBUG]{PROD} - history() - PYPL: OHLC after cleaning: 2025-06-25 09:30:00-04:00 -> 2025-07-02 15:45:00-04:00
+yfinance - [DEBUG]{PROD} - history() - PYPL: OHLC after combining events: 2025-06-25 09:30:00-04:00 -> 2025-07-02 15:45:00-04:00
+yfinance - [DEBUG]{PROD} - history() - PYPL: yfinance returning OHLC: 2025-06-25 09:30:00-04:00 -> 2025-07-02 15:45:00-04:00
+yfinance - [DEBUG]{PROD} - wrapper() -   Exiting history()
+yfinance - [DEBUG]{PROD} - wrapper() -  Exiting history()
+yfinance - [DEBUG]{PROD} - wrapper() - Exiting download()
+root - [DEBUG]{PROD} - df_yhoo_() - Price                          Close       High        Low       Open  Volume
+Ticker                          PYPL       PYPL       PYPL       PYPL    PYPL
+Datetime                                                                     
+2025-06-25 13:30:00+00:00  73.660004  73.925003  73.249001  73.915001  615528
+2025-06-25 13:45:00+00:00  73.625000  73.834999  73.510002  73.669998  382641
+2025-06-25 14:00:00+00:00  73.489998  73.790001  73.459999  73.639999  291317
+2025-06-25 14:15:00+00:00  73.309998  73.514999  73.220001  73.500000  210288
+2025-06-25 14:30:00+00:00  73.315002  73.369904  73.239998  73.330002  155524
+...                              ...        ...        ...        ...     ...
+2025-07-02 18:45:00+00:00  76.154999  76.195000  76.089996  76.135002  112566
+2025-07-02 19:00:00+00:00  76.320000  76.339996  76.160004  76.160004  170276
+2025-07-02 19:15:00+00:00  76.330002  76.400002  76.309998  76.324997  182742
+2025-07-02 19:30:00+00:00  76.230003  76.341003  76.226601  76.300003  180860
+2025-07-02 19:45:00+00:00  76.309998  76.375000  76.160004  76.232498  749280
+
+[156 rows x 5 columns]
+root - [INFO]{PROD} - producer() -  DF encolado Stock: PYPL Shape_DF: (72, 12) RealTime: nan Volume: 663667.0
+root - [INFO]{PROD} - get_df_webull_realTime() - UBER ================== 2025-07-03 06:07:19   https://quotes-gw.webullfintech.com/api/quote/charts/queryMinutes?period=d5&tickerIds=950121423
+yfinance - [DEBUG]{PROD} - wrapper() - Entering download()
+yfinance - [DEBUG]{PROD} - download() - Disabling multithreading because DEBUG logging enabled
+yfinance - [DEBUG]{PROD} - wrapper() -  Entering history()
+yfinance - [DEBUG]{PROD} - wrapper() -   Entering history()
+yfinance - [DEBUG]{PROD} - history() - UBER: Yahoo GET parameters: {'range': '6d', 'interval': '15m', 'includePrePost': False, 'events': 'div,splits,capitalGains'}
+yfinance - [DEBUG]{PROD} - wrapper() -    Entering get()
+yfinance - [DEBUG]{PROD} - wrapper() -     Entering _make_request()
+yfinance - [DEBUG]{PROD} - _make_request() - url=https://query2.finance.yahoo.com/v8/finance/chart/UBER
+yfinance - [DEBUG]{PROD} - _make_request() - params={'range': '6d', 'interval': '15m', 'includePrePost': False, 'events': 'div,splits,capitalGains'}
+yfinance - [DEBUG]{PROD} - wrapper() -      Entering _get_cookie_and_crumb()
+yfinance - [DEBUG]{PROD} - _get_cookie_and_crumb() - cookie_mode = 'basic'
+yfinance - [DEBUG]{PROD} - wrapper() -       Entering _get_cookie_and_crumb_basic()
+yfinance - [DEBUG]{PROD} - wrapper() -        Entering _get_cookie_basic()
+yfinance - [DEBUG]{PROD} - _get_cookie_basic() - reusing cookie
+yfinance - [DEBUG]{PROD} - wrapper() -        Exiting _get_cookie_basic()
+yfinance - [DEBUG]{PROD} - wrapper() -        Entering _get_crumb_basic()
+yfinance - [DEBUG]{PROD} - _get_crumb_basic() - reusing crumb
+yfinance - [DEBUG]{PROD} - wrapper() -        Exiting _get_crumb_basic()
+yfinance - [DEBUG]{PROD} - wrapper() -       Exiting _get_cookie_and_crumb_basic()
+yfinance - [DEBUG]{PROD} - wrapper() -      Exiting _get_cookie_and_crumb()
+yfinance - [DEBUG]{PROD} - _make_request() - response code=200
+yfinance - [DEBUG]{PROD} - wrapper() -     Exiting _make_request()
+yfinance - [DEBUG]{PROD} - wrapper() -    Exiting get()
+yfinance - [DEBUG]{PROD} - history() - UBER: yfinance received OHLC data: 2025-06-25 13:30:00 -> 2025-07-02 20:00:00
+yfinance - [DEBUG]{PROD} - history() - UBER: OHLC after cleaning: 2025-06-25 09:30:00-04:00 -> 2025-07-02 15:45:00-04:00
+yfinance - [DEBUG]{PROD} - history() - UBER: OHLC after combining events: 2025-06-25 09:30:00-04:00 -> 2025-07-02 15:45:00-04:00
+yfinance - [DEBUG]{PROD} - history() - UBER: yfinance returning OHLC: 2025-06-25 09:30:00-04:00 -> 2025-07-02 15:45:00-04:00
+yfinance - [DEBUG]{PROD} - wrapper() -   Exiting history()
+yfinance - [DEBUG]{PROD} - wrapper() -  Exiting history()
+yfinance - [DEBUG]{PROD} - wrapper() - Exiting download()
+root - [DEBUG]{PROD} - df_yhoo_() - Price                          Close       High        Low       Open   Volume
+Ticker                          UBER       UBER       UBER       UBER     UBER
+Datetime                                                                      
+2025-06-25 13:30:00+00:00  91.555000  92.889999  91.330002  91.565002  2988690
+2025-06-25 13:45:00+00:00  91.669998  91.839996  91.169998  91.550003  1033658
+2025-06-25 14:00:00+00:00  91.584999  91.904999  91.449997  91.680000   678209
+2025-06-25 14:15:00+00:00  91.910004  92.099998  91.455002  91.589996   816139
+2025-06-25 14:30:00+00:00  91.625000  92.040001  91.565002  91.919998   602746
+...                              ...        ...        ...        ...      ...
+2025-07-02 18:45:00+00:00  92.224998  92.245003  92.125000  92.135002   187460
+2025-07-02 19:00:00+00:00  92.324997  92.449997  92.165001  92.221497   345563
+2025-07-02 19:15:00+00:00  92.239998  92.415001  92.239998  92.324997   312172
+2025-07-02 19:30:00+00:00  92.160004  92.279999  92.080200  92.235001   401985
+2025-07-02 19:45:00+00:00  92.050003  92.180000  91.940002  92.160004   837412
+
+[156 rows x 5 columns]
+root - [INFO]{PROD} - producer() -  DF encolado Stock: UBER Shape_DF: (72, 12) RealTime: nan Volume: 692615.0
+root - [INFO]{PROD} - producer() -  sleep(60 * 2) List all stock download empty
+yfinance - [DEBUG]{CONS_1} - wrapper() - Entering history()
+yfinance - [DEBUG]{CONS_1} - wrapper() -  Entering history()
+yfinance - [DEBUG]{CONS_1} - history() - NQ=F: Yahoo GET parameters: {'range': '6d', 'interval': '15m', 'includePrePost': False, 'events': 'div,splits,capitalGains'}
+yfinance - [DEBUG]{CONS_1} - wrapper() -   Entering get()
+yfinance - [DEBUG]{CONS_1} - wrapper() -    Entering _make_request()
+yfinance - [DEBUG]{CONS_1} - _make_request() - url=https://query2.finance.yahoo.com/v8/finance/chart/NQ=F
+yfinance - [DEBUG]{CONS_1} - _make_request() - params={'range': '6d', 'interval': '15m', 'includePrePost': False, 'events': 'div,splits,capitalGains'}
+yfinance - [DEBUG]{CONS_1} - wrapper() -     Entering _get_cookie_and_crumb()
+yfinance - [DEBUG]{CONS_1} - _get_cookie_and_crumb() - cookie_mode = 'basic'
+yfinance - [DEBUG]{CONS_1} - wrapper() -      Entering _get_cookie_and_crumb_basic()
+yfinance - [DEBUG]{CONS_1} - wrapper() -       Entering _get_cookie_basic()
+yfinance - [DEBUG]{CONS_1} - _get_cookie_basic() - reusing cookie
+yfinance - [DEBUG]{CONS_1} - wrapper() -       Exiting _get_cookie_basic()
+yfinance - [DEBUG]{CONS_1} - wrapper() -       Entering _get_crumb_basic()
+yfinance - [DEBUG]{CONS_1} - _get_crumb_basic() - reusing crumb
+yfinance - [DEBUG]{CONS_1} - wrapper() -       Exiting _get_crumb_basic()
+yfinance - [DEBUG]{CONS_1} - wrapper() -      Exiting _get_cookie_and_crumb_basic()
+yfinance - [DEBUG]{CONS_1} - wrapper() -     Exiting _get_cookie_and_crumb()
+yfinance - [DEBUG]{CONS_1} - _make_request() - response code=200
+yfinance - [DEBUG]{CONS_1} - wrapper() -    Exiting _make_request()
+yfinance - [DEBUG]{CONS_1} - wrapper() -   Exiting get()
+yfinance - [DEBUG]{CONS_1} - history() - NQ=F: yfinance received OHLC data: 2025-06-26 04:00:00 -> 2025-07-03 03:45:00
+yfinance - [DEBUG]{CONS_1} - history() - NQ=F: OHLC after cleaning: 2025-06-26 00:00:00-04:00 -> 2025-07-02 23:45:00-04:00
+yfinance - [DEBUG]{CONS_1} - history() - NQ=F: OHLC after combining events: 2025-06-26 00:00:00-04:00 -> 2025-07-02 23:45:00-04:00
+yfinance - [DEBUG]{CONS_1} - history() - NQ=F: yfinance returning OHLC: 2025-06-26 00:00:00-04:00 -> 2025-07-02 23:45:00-04:00
+yfinance - [DEBUG]{CONS_1} - wrapper() -  Exiting history()
+yfinance - [DEBUG]{CONS_1} - wrapper() - Exiting history()
+root - [DEBUG]{CONS_1} - consumer() -   cycle started   Date: 2025-07-03 06:07:28
+root - [DEBUG]{CONS_1} - consumer() -   Stock: PYPL  Thread: 1 Date: 2025-07-03 06:07:28
+root - [INFO]{CONS_1} - consumer() -   Stock: PYPL  Volume unlast: 151854.0 Volume last: nan Date: 2025-07-03 06:07:28
+root - [INFO]{CONS_1} - get_buy_sell_points_Roll() - Parameters of acquisition "buy_sell_points" for this stock is set to POSITIVE (units) 	92%: 0.1872 	98%: 0.2548 NEGATIVE (units) 	93%: 1.1 	98%: 1.3458
+root - [WARNING]{CONS_1} - consumer() -  Exception:  Stock: PYPLTraceback (most recent call last):
+  File "/usr/src/appv1/TensorFlow-stocks-prediction-Machine-learning-RealTime/5_predict_POOL_enque_Thread.py", line 147, in consumer
+    scaler_and_send_predit(S, df_S, df_nasq, is_multidimension = True)
+  File "/usr/src/appv1/TensorFlow-stocks-prediction-Machine-learning-RealTime/5_predict_POOL_enque_Thread.py", line 57, in scaler_and_send_predit
+    df_S = get_tech_data_nasq(S, df_S, df_nasq)
+  File "/usr/src/appv1/TensorFlow-stocks-prediction-Machine-learning-RealTime/useless/p_P_hand/predict_POOL_handle.py", line 52, in get_tech_data_nasq
+    df_his = TechData(df_S, custom_columns_POS_NEG).get_ALL_tech_data()
+  File "/usr/src/appv1/TensorFlow-stocks-prediction-Machine-learning-RealTime/technical_indicators/talib_technical_class_object.py", line 23, in get_ALL_tech_data
+    return get_ALL_tech_data_local(self.df_his, self.costum_columns)
+  File "/usr/src/appv1/TensorFlow-stocks-prediction-Machine-learning-RealTime/technical_indicators/talib_technical_class_object.py", line 44, in get_ALL_tech_data_local
+    df_his = talib_technical_PY_TI.get_py_TI_indicator(df_his, costum_columns)
+  File "/usr/src/appv1/TensorFlow-stocks-prediction-Machine-learning-RealTime/technical_indicators/talib_technical_PY_TI.py", line 115, in get_py_TI_indicator
+    val_blue, val_brown, val_green, val_avg = get_konkorde_params(df_stocks)
+  File "/usr/src/appv1/TensorFlow-stocks-prediction-Machine-learning-RealTime/technical_indicators/talib_technical_PY_TI.py", line 151, in get_konkorde_params
+    pvi = df_stocks.ta.nvi(cumulative=True, append=False)  # calc_pvi(df)
+  File "/opt/conda/lib/python3.10/site-packages/pandas_ta/core.py", line 1715, in nvi
+    close = self._get_column(kwargs.pop("close", "close"))
+  File "/opt/conda/lib/python3.10/site-packages/pandas_ta/core.py", line 454, in _get_column
+    cols = ", ".join(list(df.columns))
+TypeError: sequence item 7: expected str instance, tuple found
+
+root - [DEBUG]{CONS_1} - consumer() -   Stock: UBER  Thread: 1 Date: 2025-07-03 06:07:28
+root - [INFO]{CONS_1} - consumer() -   Stock: UBER  Volume unlast: 274783.0 Volume last: nan Date: 2025-07-03 06:07:28
+root - [INFO]{CONS_1} - get_buy_sell_points_Roll() - Parameters of acquisition "buy_sell_points" for this stock is set to POSITIVE (units) 	92%: 2.2802 	98%: 2.4486 NEGATIVE (units) 	93%: 2.4102 	98%: 2.5024
+root - [WARNING]{CONS_1} - consumer() -  Exception:  Stock: UBERTraceback (most recent call last):
+  File "/usr/src/appv1/TensorFlow-stocks-prediction-Machine-learning-RealTime/5_predict_POOL_enque_Thread.py", line 147, in consumer
+    scaler_and_send_predit(S, df_S, df_nasq, is_multidimension = True)
+  File "/usr/src/appv1/TensorFlow-stocks-prediction-Machine-learning-RealTime/5_predict_POOL_enque_Thread.py", line 57, in scaler_and_send_predit
+    df_S = get_tech_data_nasq(S, df_S, df_nasq)
+  File "/usr/src/appv1/TensorFlow-stocks-prediction-Machine-learning-RealTime/useless/p_P_hand/predict_POOL_handle.py", line 52, in get_tech_data_nasq
+    df_his = TechData(df_S, custom_columns_POS_NEG).get_ALL_tech_data()
+  File "/usr/src/appv1/TensorFlow-stocks-prediction-Machine-learning-RealTime/technical_indicators/talib_technical_class_object.py", line 23, in get_ALL_tech_data
+    return get_ALL_tech_data_local(self.df_his, self.costum_columns)
+  File "/usr/src/appv1/TensorFlow-stocks-prediction-Machine-learning-RealTime/technical_indicators/talib_technical_class_object.py", line 44, in get_ALL_tech_data_local
+    df_his = talib_technical_PY_TI.get_py_TI_indicator(df_his, costum_columns)
+  File "/usr/src/appv1/TensorFlow-stocks-prediction-Machine-learning-RealTime/technical_indicators/talib_technical_PY_TI.py", line 115, in get_py_TI_indicator
+    val_blue, val_brown, val_green, val_avg = get_konkorde_params(df_stocks)
+  File "/usr/src/appv1/TensorFlow-stocks-prediction-Machine-learning-RealTime/technical_indicators/talib_technical_PY_TI.py", line 151, in get_konkorde_params
+    pvi = df_stocks.ta.nvi(cumulative=True, append=False)  # calc_pvi(df)
+  File "/opt/conda/lib/python3.10/site-packages/pandas_ta/core.py", line 1715, in nvi
+    close = self._get_column(kwargs.pop("close", "close"))
+  File "/opt/conda/lib/python3.10/site-packages/pandas_ta/core.py", line 454, in _get_column
+    cols = ", ".join(list(df.columns))
+TypeError: sequence item 7: expected str instance, tuple found
+
+root - [INFO]{CONS_1} - consumer() -  completed cycle    Date: 2025-07-03 06:07:29 stoks: PYPL UBER
 tensorflow - [DEBUG]{MainThread} - <module>() - Falling back to TensorFlow client; we recommended you install the Cloud TPU client directly with pip install cloud-tpu-client.
-h5py._conv - [DEBUG]{MainThread} - <module>() - Creating converter from 7 to 5
-h5py._conv - [DEBUG]{MainThread} - <module>() - Creating converter from 5 to 7
-h5py._conv - [DEBUG]{MainThread} - <module>() - Creating converter from 7 to 5
-h5py._conv - [DEBUG]{MainThread} - <module>() - Creating converter from 5 to 7
-matplotlib - [DEBUG]{MainThread} - wrapper() - matplotlib data path: /opt/conda/lib/python3.10/site-packages/matplotlib/mpl-data
-matplotlib - [DEBUG]{MainThread} - wrapper() - CONFIGDIR=/root/.config/matplotlib
-matplotlib - [DEBUG]{MainThread} - <module>() - interactive is False
-matplotlib - [DEBUG]{MainThread} - <module>() - platform is linux
-matplotlib - [DEBUG]{MainThread} - wrapper() - CACHEDIR=/root/.cache/matplotlib
-matplotlib.font_manager - [DEBUG]{MainThread} - _load_fontmanager() - Using fontManager instance from /root/.cache/matplotlib/fontlist-v390.json
-matplotlib - [DEBUG]{MainThread} - wrapper() - matplotlib data path: /opt/conda/lib/python3.10/site-packages/matplotlib/mpl-data
-matplotlib - [DEBUG]{MainThread} - wrapper() - CONFIGDIR=/root/.config/matplotlib
-matplotlib - [DEBUG]{MainThread} - <module>() - interactive is False
-matplotlib - [DEBUG]{MainThread} - <module>() - platform is linux
-matplotlib - [DEBUG]{MainThread} - wrapper() - CACHEDIR=/root/.cache/matplotlib
-matplotlib.font_manager - [DEBUG]{MainThread} - _load_fontmanager() - Using fontManager instance from /root/.cache/matplotlib/fontlist-v390.json
-root - [INFO]{MainThread} - load_and_clean_DF_Train_from_csv() - df loaded from .csv Shape: (1535, 1075) Path: d_price/UBER_PLAIN_stock_history_MONTH_3_AD.csv
-root - [DEBUG]{MainThread} - load_and_clean__buy_sell_atack() - columns_selection List HAS vulues, works trains with: Date, buy_sell_point, olap_BBAND_dif, vola_NATR, ma_TRIMA_50, ichi_senkou_a, mtum_DMP_14, ma_KAMA_50, olap_BBAND_LOWER
-root - [DEBUG]{MainThread} - load_and_clean__buy_sell_atack() - DataFrame head:
-                  Date  buy_sell_point  olap_BBAND_dif  vola_NATR  ma_TRIMA_50  ichi_senkou_a  mtum_DMP_14  ma_KAMA_50  olap_BBAND_LOWER
-0  2025-04-02 09:30:00               0             NaN        NaN          NaN            NaN          NaN         NaN               NaN
-1  2025-04-02 09:45:00             100             NaN        NaN          NaN            NaN          NaN         NaN               NaN
-2  2025-04-02 10:00:00             100             NaN        NaN          NaN            NaN          NaN         NaN               NaN
-3  2025-04-02 10:15:00               0             NaN        NaN          NaN            NaN          NaN         NaN               NaN
-4  2025-04-02 10:30:00               0             NaN        NaN          NaN            NaN          NaN         NaN               NaN
-root - [DEBUG]{MainThread} - load_and_clean__buy_sell_atack() - DataFrame info:
-None
-root - [DEBUG]{MainThread} - load_and_clean__buy_sell_atack() - DataFrame describe:
-       buy_sell_point  olap_BBAND_dif    vola_NATR  ma_TRIMA_50  ichi_senkou_a  mtum_DMP_14   ma_KAMA_50  olap_BBAND_LOWER
-count     1535.000000     1516.000000  1521.000000  1486.000000    1484.000000  1522.000000  1485.000000       1516.000000
-mean        -0.586319        2.646651     0.664380    82.049459      81.883405     1.727989    82.013360         80.745444
-std         33.770762        1.980777     0.341927     7.254657       7.244481     1.030765     7.580411          7.724120
-min       -100.000000        0.530443     0.282640    64.590700      63.482500     0.357494    64.637146         61.817351
-25%          0.000000        1.336332     0.457535    76.020454      75.636639     1.046701    77.146198         74.317852
-50%          0.000000        1.997369     0.566974    84.164836      83.730000     1.432623    84.339491         82.873405
-75%          0.000000        3.273947     0.722749    86.957755      86.892500     2.100494    86.587450         85.990527
-max        100.000000       12.856822     2.536613    92.597722      92.987526     7.137946    92.068559         92.455776
-root - [DEBUG]{MainThread} - cast_Y_label_binary() - Label classes: [0, 100]
-matplotlib - [DEBUG]{MainThread} - wrapper() - matplotlib data path: /opt/conda/lib/python3.10/site-packages/matplotlib/mpl-data
-matplotlib - [DEBUG]{MainThread} - wrapper() - CONFIGDIR=/root/.config/matplotlib
-matplotlib - [DEBUG]{MainThread} - <module>() - interactive is False
-matplotlib - [DEBUG]{MainThread} - <module>() - platform is linux
-matplotlib - [DEBUG]{MainThread} - wrapper() - CACHEDIR=/root/.cache/matplotlib
-matplotlib.font_manager - [DEBUG]{MainThread} - _load_fontmanager() - Using fontManager instance from /root/.cache/matplotlib/fontlist-v390.json
-root - [INFO]{MainThread} - load_and_clean_DF_Train_from_csv() - df loaded from .csv Shape: (1535, 1075) Path: d_price/UBER_PLAIN_stock_history_MONTH_3_AD.csv
-root - [DEBUG]{MainThread} - load_and_clean__buy_sell_atack() - columns_selection List HAS vulues, works trains with: Date, buy_sell_point, olap_BBAND_dif, vola_NATR, ma_TRIMA_50, ichi_senkou_a, mtum_DMP_14, ma_KAMA_50, olap_BBAND_LOWER
-root - [DEBUG]{MainThread} - load_and_clean__buy_sell_atack() - DataFrame head:
-                  Date  buy_sell_point  olap_BBAND_dif  vola_NATR  ma_TRIMA_50  ichi_senkou_a  mtum_DMP_14  ma_KAMA_50  olap_BBAND_LOWER
-0  2025-04-02 09:30:00               0             NaN        NaN          NaN            NaN          NaN         NaN               NaN
-1  2025-04-02 09:45:00             100             NaN        NaN          NaN            NaN          NaN         NaN               NaN
-2  2025-04-02 10:00:00             100             NaN        NaN          NaN            NaN          NaN         NaN               NaN
-3  2025-04-02 10:15:00               0             NaN        NaN          NaN            NaN          NaN         NaN               NaN
-4  2025-04-02 10:30:00               0             NaN        NaN          NaN            NaN          NaN         NaN               NaN
-root - [DEBUG]{MainThread} - load_and_clean__buy_sell_atack() - DataFrame info:
-None
-root - [DEBUG]{MainThread} - load_and_clean__buy_sell_atack() - DataFrame describe:
-       buy_sell_point  olap_BBAND_dif    vola_NATR  ma_TRIMA_50  ichi_senkou_a  mtum_DMP_14   ma_KAMA_50  olap_BBAND_LOWER
-count     1535.000000     1516.000000  1521.000000  1486.000000    1484.000000  1522.000000  1485.000000       1516.000000
-mean        -0.586319        2.646651     0.664380    82.049459      81.883405     1.727989    82.013360         80.745444
-std         33.770762        1.980777     0.341927     7.254657       7.244481     1.030765     7.580411          7.724120
-min       -100.000000        0.530443     0.282640    64.590700      63.482500     0.357494    64.637146         61.817351
-25%          0.000000        1.336332     0.457535    76.020454      75.636639     1.046701    77.146198         74.317852
-50%          0.000000        1.997369     0.566974    84.164836      83.730000     1.432623    84.339491         82.873405
-75%          0.000000        3.273947     0.722749    86.957755      86.892500     2.100494    86.587450         85.990527
-max        100.000000       12.856822     2.536613    92.597722      92.987526     7.137946    92.068559         92.455776
-root - [DEBUG]{MainThread} - cast_Y_label_binary() - Label classes: [0, 100]
-matplotlib - [DEBUG]{MainThread} - wrapper() - matplotlib data path: /opt/conda/lib/python3.10/site-packages/matplotlib/mpl-data
-matplotlib - [DEBUG]{MainThread} - wrapper() - CONFIGDIR=/root/.config/matplotlib
-matplotlib - [DEBUG]{MainThread} - <module>() - interactive is False
-matplotlib - [DEBUG]{MainThread} - <module>() - platform is linux
-matplotlib - [DEBUG]{MainThread} - wrapper() - CACHEDIR=/root/.cache/matplotlib
-matplotlib.font_manager - [DEBUG]{MainThread} - _load_fontmanager() - Using fontManager instance from /root/.cache/matplotlib/fontlist-v390.json
-root - [INFO]{MainThread} - load_and_clean_DF_Train_from_csv() - df loaded from .csv Shape: (1535, 1075) Path: d_price/UBER_PLAIN_stock_history_MONTH_3_AD.csv
-root - [DEBUG]{MainThread} - load_and_clean__buy_sell_atack() - columns_selection List HAS vulues, works trains with: Date, buy_sell_point, olap_BBAND_dif, vola_NATR, ma_TRIMA_50, ichi_senkou_a, mtum_DMP_14, ma_KAMA_50, olap_BBAND_LOWER
-root - [DEBUG]{MainThread} - load_and_clean__buy_sell_atack() - DataFrame head:
-                  Date  buy_sell_point  olap_BBAND_dif  vola_NATR  ma_TRIMA_50  ichi_senkou_a  mtum_DMP_14  ma_KAMA_50  olap_BBAND_LOWER
-0  2025-04-02 09:30:00               0             NaN        NaN          NaN            NaN          NaN         NaN               NaN
-1  2025-04-02 09:45:00             100             NaN        NaN          NaN            NaN          NaN         NaN               NaN
-2  2025-04-02 10:00:00             100             NaN        NaN          NaN            NaN          NaN         NaN               NaN
-3  2025-04-02 10:15:00               0             NaN        NaN          NaN            NaN          NaN         NaN               NaN
-4  2025-04-02 10:30:00               0             NaN        NaN          NaN            NaN          NaN         NaN               NaN
-root - [DEBUG]{MainThread} - load_and_clean__buy_sell_atack() - DataFrame info:
-None
-root - [DEBUG]{MainThread} - load_and_clean__buy_sell_atack() - DataFrame describe:
-       buy_sell_point  olap_BBAND_dif    vola_NATR  ma_TRIMA_50  ichi_senkou_a  mtum_DMP_14   ma_KAMA_50  olap_BBAND_LOWER
-count     1535.000000     1516.000000  1521.000000  1486.000000    1484.000000  1522.000000  1485.000000       1516.000000
-mean        -0.586319        2.646651     0.664380    82.049459      81.883405     1.727989    82.013360         80.745444
-std         33.770762        1.980777     0.341927     7.254657       7.244481     1.030765     7.580411          7.724120
-min       -100.000000        0.530443     0.282640    64.590700      63.482500     0.357494    64.637146         61.817351
-25%          0.000000        1.336332     0.457535    76.020454      75.636639     1.046701    77.146198         74.317852
-50%          0.000000        1.997369     0.566974    84.164836      83.730000     1.432623    84.339491         82.873405
-75%          0.000000        3.273947     0.722749    86.957755      86.892500     2.100494    86.587450         85.990527
-max        100.000000       12.856822     2.536613    92.597722      92.987526     7.137946    92.068559         92.455776
-root - [DEBUG]{MainThread} - cast_Y_label_binary() - Label classes: [0, 100]
-matplotlib - [DEBUG]{MainThread} - wrapper() - matplotlib data path: /opt/conda/lib/python3.10/site-packages/matplotlib/mpl-data
-matplotlib - [DEBUG]{MainThread} - wrapper() - CONFIGDIR=/root/.config/matplotlib
-matplotlib - [DEBUG]{MainThread} - <module>() - interactive is False
-matplotlib - [DEBUG]{MainThread} - <module>() - platform is linux
-matplotlib - [DEBUG]{MainThread} - wrapper() - CACHEDIR=/root/.cache/matplotlib
-matplotlib.font_manager - [DEBUG]{MainThread} - _load_fontmanager() - Using fontManager instance from /root/.cache/matplotlib/fontlist-v390.json
-root - [INFO]{MainThread} - load_and_clean_DF_Train_from_csv() - df loaded from .csv Shape: (1535, 1075) Path: d_price/UBER_PLAIN_stock_history_MONTH_3_AD.csv
-root - [DEBUG]{MainThread} - load_and_clean__buy_sell_atack() - columns_selection List HAS vulues, works trains with: Date, buy_sell_point, olap_BBAND_dif, vola_NATR, ma_TRIMA_50, ichi_senkou_a, mtum_DMP_14, ma_KAMA_50, olap_BBAND_LOWER
-root - [DEBUG]{MainThread} - load_and_clean__buy_sell_atack() - DataFrame head:
-                  Date  buy_sell_point  olap_BBAND_dif  vola_NATR  ma_TRIMA_50  ichi_senkou_a  mtum_DMP_14  ma_KAMA_50  olap_BBAND_LOWER
-0  2025-04-02 09:30:00               0             NaN        NaN          NaN            NaN          NaN         NaN               NaN
-1  2025-04-02 09:45:00             100             NaN        NaN          NaN            NaN          NaN         NaN               NaN
-2  2025-04-02 10:00:00             100             NaN        NaN          NaN            NaN          NaN         NaN               NaN
-3  2025-04-02 10:15:00               0             NaN        NaN          NaN            NaN          NaN         NaN               NaN
-4  2025-04-02 10:30:00               0             NaN        NaN          NaN            NaN          NaN         NaN               NaN
-root - [DEBUG]{MainThread} - load_and_clean__buy_sell_atack() - DataFrame info:
-None
-root - [DEBUG]{MainThread} - load_and_clean__buy_sell_atack() - DataFrame describe:
-       buy_sell_point  olap_BBAND_dif    vola_NATR  ma_TRIMA_50  ichi_senkou_a  mtum_DMP_14   ma_KAMA_50  olap_BBAND_LOWER
-count     1535.000000     1516.000000  1521.000000  1486.000000    1484.000000  1522.000000  1485.000000       1516.000000
-mean        -0.586319        2.646651     0.664380    82.049459      81.883405     1.727989    82.013360         80.745444
-std         33.770762        1.980777     0.341927     7.254657       7.244481     1.030765     7.580411          7.724120
-min       -100.000000        0.530443     0.282640    64.590700      63.482500     0.357494    64.637146         61.817351
-25%          0.000000        1.336332     0.457535    76.020454      75.636639     1.046701    77.146198         74.317852
-50%          0.000000        1.997369     0.566974    84.164836      83.730000     1.432623    84.339491         82.873405
-75%          0.000000        3.273947     0.722749    86.957755      86.892500     2.100494    86.587450         85.990527
-max        100.000000       12.856822     2.536613    92.597722      92.987526     7.137946    92.068559         92.455776
-root - [DEBUG]{MainThread} - cast_Y_label_binary() - Label classes: [0, 100]
-matplotlib - [DEBUG]{MainThread} - wrapper() - matplotlib data path: /opt/conda/lib/python3.10/site-packages/matplotlib/mpl-data
-matplotlib - [DEBUG]{MainThread} - wrapper() - CONFIGDIR=/root/.config/matplotlib
-matplotlib - [DEBUG]{MainThread} - <module>() - interactive is False
-matplotlib - [DEBUG]{MainThread} - <module>() - platform is linux
-matplotlib - [DEBUG]{MainThread} - wrapper() - CACHEDIR=/root/.cache/matplotlib
-matplotlib.font_manager - [DEBUG]{MainThread} - _load_fontmanager() - Using fontManager instance from /root/.cache/matplotlib/fontlist-v390.json
-root - [INFO]{MainThread} - load_and_clean_DF_Train_from_csv() - df loaded from .csv Shape: (1535, 1075) Path: d_price/UBER_PLAIN_stock_history_MONTH_3_AD.csv
-root - [DEBUG]{MainThread} - load_and_clean__buy_sell_atack() - columns_selection List HAS vulues, works trains with: Date, buy_sell_point, olap_BBAND_dif, vola_NATR, ma_TRIMA_50, ichi_senkou_a, mtum_DMP_14, ma_KAMA_50, olap_BBAND_LOWER
-root - [DEBUG]{MainThread} - load_and_clean__buy_sell_atack() - DataFrame head:
-                  Date  buy_sell_point  olap_BBAND_dif  vola_NATR  ma_TRIMA_50  ichi_senkou_a  mtum_DMP_14  ma_KAMA_50  olap_BBAND_LOWER
-0  2025-04-02 09:30:00               0             NaN        NaN          NaN            NaN          NaN         NaN               NaN
-1  2025-04-02 09:45:00             100             NaN        NaN          NaN            NaN          NaN         NaN               NaN
-2  2025-04-02 10:00:00             100             NaN        NaN          NaN            NaN          NaN         NaN               NaN
-3  2025-04-02 10:15:00               0             NaN        NaN          NaN            NaN          NaN         NaN               NaN
-4  2025-04-02 10:30:00               0             NaN        NaN          NaN            NaN          NaN         NaN               NaN
-root - [DEBUG]{MainThread} - load_and_clean__buy_sell_atack() - DataFrame info:
-None
-root - [DEBUG]{MainThread} - load_and_clean__buy_sell_atack() - DataFrame describe:
-       buy_sell_point  olap_BBAND_dif    vola_NATR  ma_TRIMA_50  ichi_senkou_a  mtum_DMP_14   ma_KAMA_50  olap_BBAND_LOWER
-count     1535.000000     1516.000000  1521.000000  1486.000000    1484.000000  1522.000000  1485.000000       1516.000000
-mean        -0.586319        2.646651     0.664380    82.049459      81.883405     1.727989    82.013360         80.745444
-std         33.770762        1.980777     0.341927     7.254657       7.244481     1.030765     7.580411          7.724120
-min       -100.000000        0.530443     0.282640    64.590700      63.482500     0.357494    64.637146         61.817351
-25%          0.000000        1.336332     0.457535    76.020454      75.636639     1.046701    77.146198         74.317852
-50%          0.000000        1.997369     0.566974    84.164836      83.730000     1.432623    84.339491         82.873405
-75%          0.000000        3.273947     0.722749    86.957755      86.892500     2.100494    86.587450         85.990527
-max        100.000000       12.856822     2.536613    92.597722      92.987526     7.137946    92.068559         92.455776
-root - [DEBUG]{MainThread} - cast_Y_label_binary() - Label classes: [0, 100]
+WDM - [INFO]{MainThread} - log() - ====== WebDriver manager ======
+WDM - [INFO]{MainThread} - log() - Get LATEST chromedriver version for google-chrome
+urllib3.connectionpool - [DEBUG]{MainThread} - _new_conn() - Starting new HTTPS connection (1): googlechromelabs.github.io:443
+urllib3.connectionpool - [DEBUG]{MainThread} - _make_request() - https://googlechromelabs.github.io:443 "GET /chrome-for-testing/latest-patch-versions-per-build.json HTTP/1.1" 200 11903
+WDM - [INFO]{MainThread} - log() - Get LATEST chromedriver version for google-chrome
+urllib3.connectionpool - [DEBUG]{MainThread} - _new_conn() - Starting new HTTPS connection (1): googlechromelabs.github.io:443
+urllib3.connectionpool - [DEBUG]{MainThread} - _make_request() - https://googlechromelabs.github.io:443 "GET /chrome-for-testing/latest-patch-versions-per-build.json HTTP/1.1" 200 11903
+WDM - [INFO]{MainThread} - log() - Driver [/root/.wdm/drivers/chromedriver/linux64/138.0.7204.92/chromedriver-linux64/chromedriver] found in cache
+selenium.webdriver.common.driver_finder - [DEBUG]{MainThread} - _binary_paths() - Skipping Selenium Manager; path to chrome driver specified in Service class: /root/.wdm/drivers/chromedriver/linux64/138.0.7204.92/chromedriver-linux64/chromedriver
+selenium.webdriver.common.service - [DEBUG]{MainThread} - _start_process() - Started executable: `/root/.wdm/drivers/chromedriver/linux64/138.0.7204.92/chromedriver-linux64/chromedriver` in a child process with pid: 85136 using 0 to output -3
+selenium.webdriver.remote.remote_connection - [DEBUG]{MainThread} - execute() - POST http://localhost:41189/session {'capabilities': {'firstMatch': [{}], 'alwaysMatch': {'browserName': 'chrome', 'pageLoadStrategy': <PageLoadStrategy.normal: 'normal'>, 'goog:chromeOptions': {'extensions': [], 'args': ['--headless', '--no-sandbox', '--disable-dev-shm-usage', '--user-data-dir=/tmp/tmp96334l08']}}}}
+urllib3.connectionpool - [DEBUG]{MainThread} - _new_conn() - Starting new HTTP connection (1): localhost:41189
+urllib3.connectionpool - [DEBUG]{MainThread} - _make_request() - http://localhost:41189 "POST /session HTTP/1.1" 200 0
+selenium.webdriver.remote.remote_connection - [DEBUG]{MainThread} - _request() - Remote response: status=200 | data={"value":{"capabilities":{"acceptInsecureCerts":false,"browserName":"chrome","browserVersion":"138.0.7204.92","chrome":{"chromedriverVersion":"138.0.7204.92 (f079b9bc781e3c2adb1496ea1d72812deb0ddb3d-refs/branch-heads/7204_50@{#8})","userDataDir":"/tmp/tmp96334l08"},"fedcm:accounts":true,"goog:chromeOptions":{"debuggerAddress":"localhost:43953"},"networkConnectionEnabled":false,"pageLoadStrategy":"normal","platformName":"linux","proxy":{},"setWindowRect":true,"strictFileInteractability":false,"timeouts":{"implicit":0,"pageLoad":300000,"script":30000},"unhandledPromptBehavior":"dismiss and notify","webauthn:extension:credBlob":true,"webauthn:extension:largeBlob":true,"webauthn:extension:minPinLength":true,"webauthn:extension:prf":true,"webauthn:virtualAuthenticators":true},"sessionId":"460cbc5e0663e585920b182a37761ada"}} | headers=HTTPHeaderDict({'Content-Length': '830', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+selenium.webdriver.remote.remote_connection - [DEBUG]{MainThread} - _request() - Finished Request
+root - [INFO]{MainThread} - send_mesage_all_people() - Send alert everybody
+root - [DEBUG]{MainThread} - send_mesage_all_people() - Will send messege for LIST_PEOPLE_IDS_CHAT url: https://api.telegram.org/bot7543747510:AAGsgP2nQqu6dh-Ue95E_xTmc3Zi3JuZtGQ/sendMessage?chat_id=207000000&text=<pre> START: 2025-07-03 06:08:53 </pre>
+Stocks to be monitored: 
+UBER PYPL &parse_mode=HTML
+root - [INFO]{PROD} - producer() -  Producer: Running Start 2025-07-03 06:08:56
+root - [DEBUG]{PROD} - producer() -  Producer: Running Start 2025-07-03 06:08:56
+root - [DEBUG]{CONS_1} - consumer() -   Consumer: Running
+yfinance - [DEBUG]{CONS_1} - wrapper() - Entering history()
+yfinance - [DEBUG]{CONS_1} - wrapper() -  Entering history()
+yfinance - [DEBUG]{CONS_1} - history() - NQ=F: Yahoo GET parameters: {'range': '6d', 'interval': '15m', 'includePrePost': False, 'events': 'div,splits,capitalGains'}
+yfinance - [DEBUG]{CONS_1} - wrapper() -   Entering get()
+yfinance - [DEBUG]{CONS_1} - wrapper() -    Entering _make_request()
+yfinance - [DEBUG]{CONS_1} - _make_request() - url=https://query2.finance.yahoo.com/v8/finance/chart/NQ=F
+yfinance - [DEBUG]{CONS_1} - _make_request() - params={'range': '6d', 'interval': '15m', 'includePrePost': False, 'events': 'div,splits,capitalGains'}
+yfinance - [DEBUG]{CONS_1} - wrapper() -     Entering _get_cookie_and_crumb()
+yfinance - [DEBUG]{CONS_1} - _get_cookie_and_crumb() - cookie_mode = 'basic'
+yfinance - [DEBUG]{CONS_1} - wrapper() -      Entering _get_cookie_and_crumb_basic()
+yfinance - [DEBUG]{CONS_1} - wrapper() -       Entering _get_cookie_basic()
+yfinance - [DEBUG]{CONS_1} - wrapper() -        Entering _load_cookie_curlCffi()
+yfinance - [DEBUG]{CONS_1} - wrapper() -        Exiting _load_cookie_curlCffi()
+yfinance - [DEBUG]{CONS_1} - _get_cookie_basic() - reusing persistent cookie
+yfinance - [DEBUG]{CONS_1} - wrapper() -       Exiting _get_cookie_basic()
+yfinance - [DEBUG]{CONS_1} - wrapper() -       Entering _get_crumb_basic()
+yfinance - [DEBUG]{CONS_1} - wrapper() -        Entering _get_cookie_basic()
+yfinance - [DEBUG]{CONS_1} - _get_cookie_basic() - reusing cookie
+yfinance - [DEBUG]{CONS_1} - wrapper() -        Exiting _get_cookie_basic()
+yfinance - [DEBUG]{CONS_1} - _get_crumb_basic() - crumb = 'dK3IG/1ev6r'
+yfinance - [DEBUG]{CONS_1} - wrapper() -       Exiting _get_crumb_basic()
+yfinance - [DEBUG]{CONS_1} - wrapper() -      Exiting _get_cookie_and_crumb_basic()
+yfinance - [DEBUG]{CONS_1} - wrapper() -     Exiting _get_cookie_and_crumb()
+yfinance - [DEBUG]{CONS_1} - _make_request() - response code=200
+yfinance - [DEBUG]{CONS_1} - wrapper() -    Exiting _make_request()
+yfinance - [DEBUG]{CONS_1} - wrapper() -   Exiting get()
+yfinance - [DEBUG]{CONS_1} - history() - NQ=F: yfinance received OHLC data: 2025-06-26 04:00:00 -> 2025-07-03 03:45:00
+yfinance - [DEBUG]{CONS_1} - history() - NQ=F: OHLC after cleaning: 2025-06-26 00:00:00-04:00 -> 2025-07-02 23:45:00-04:00
+yfinance - [DEBUG]{CONS_1} - history() - NQ=F: OHLC after combining events: 2025-06-26 00:00:00-04:00 -> 2025-07-02 23:45:00-04:00
+yfinance - [DEBUG]{CONS_1} - history() - NQ=F: yfinance returning OHLC: 2025-06-26 00:00:00-04:00 -> 2025-07-02 23:45:00-04:00
+yfinance - [DEBUG]{CONS_1} - wrapper() -  Exiting history()
+yfinance - [DEBUG]{CONS_1} - wrapper() - Exiting history()
+root - [DEBUG]{CONS_1} - consumer() -   cycle started   Date: 2025-07-03 06:08:58
+root - [DEBUG]{CONS_1} - consumer() -  Andy Stock: UBER  Thread: 1 Date: 2025-07-03 06:08:58
+root - [DEBUG]{CONS_1} - consumer() -  Andy Stock: PYPL  Thread: 1 Date: 2025-07-03 06:08:58
+root - [INFO]{CONS_1} - consumer() -  completed cycle    Date: 2025-07-03 06:08:58 stoks: UBER PYPL
+root - [INFO]{PROD} - get_df_webull_realTime() - UBER ================== 2025-07-03 06:09:03   https://quotes-gw.webullfintech.com/api/quote/charts/queryMinutes?period=d5&tickerIds=950121423
+yfinance - [DEBUG]{PROD} - wrapper() - Entering download()
+tensorflow - [DEBUG]{MainThread} - <module>() - Falling back to TensorFlow client; we recommended you install the Cloud TPU client directly with pip install cloud-tpu-client.
+WDM - [INFO]{MainThread} - log() - ====== WebDriver manager ======
+WDM - [INFO]{MainThread} - log() - Get LATEST chromedriver version for google-chrome
+urllib3.connectionpool - [DEBUG]{MainThread} - _new_conn() - Starting new HTTPS connection (1): googlechromelabs.github.io:443
+urllib3.connectionpool - [DEBUG]{MainThread} - _make_request() - https://googlechromelabs.github.io:443 "GET /chrome-for-testing/latest-patch-versions-per-build.json HTTP/1.1" 200 11903
+WDM - [INFO]{MainThread} - log() - Get LATEST chromedriver version for google-chrome
+urllib3.connectionpool - [DEBUG]{MainThread} - _new_conn() - Starting new HTTPS connection (1): googlechromelabs.github.io:443
+urllib3.connectionpool - [DEBUG]{MainThread} - _make_request() - https://googlechromelabs.github.io:443 "GET /chrome-for-testing/latest-patch-versions-per-build.json HTTP/1.1" 200 11903
+WDM - [INFO]{MainThread} - log() - Driver [/root/.wdm/drivers/chromedriver/linux64/138.0.7204.92/chromedriver-linux64/chromedriver] found in cache
+selenium.webdriver.common.driver_finder - [DEBUG]{MainThread} - _binary_paths() - Skipping Selenium Manager; path to chrome driver specified in Service class: /root/.wdm/drivers/chromedriver/linux64/138.0.7204.92/chromedriver-linux64/chromedriver
+selenium.webdriver.common.service - [DEBUG]{MainThread} - _start_process() - Started executable: `/root/.wdm/drivers/chromedriver/linux64/138.0.7204.92/chromedriver-linux64/chromedriver` in a child process with pid: 88430 using 0 to output -3
+selenium.webdriver.remote.remote_connection - [DEBUG]{MainThread} - execute() - POST http://localhost:59101/session {'capabilities': {'firstMatch': [{}], 'alwaysMatch': {'browserName': 'chrome', 'pageLoadStrategy': <PageLoadStrategy.normal: 'normal'>, 'goog:chromeOptions': {'extensions': [], 'args': ['--headless', '--no-sandbox', '--disable-dev-shm-usage', '--user-data-dir=/tmp/tmp6gq3efy0']}}}}
+urllib3.connectionpool - [DEBUG]{MainThread} - _new_conn() - Starting new HTTP connection (1): localhost:59101
+urllib3.connectionpool - [DEBUG]{MainThread} - _make_request() - http://localhost:59101 "POST /session HTTP/1.1" 200 0
+selenium.webdriver.remote.remote_connection - [DEBUG]{MainThread} - _request() - Remote response: status=200 | data={"value":{"capabilities":{"acceptInsecureCerts":false,"browserName":"chrome","browserVersion":"138.0.7204.92","chrome":{"chromedriverVersion":"138.0.7204.92 (f079b9bc781e3c2adb1496ea1d72812deb0ddb3d-refs/branch-heads/7204_50@{#8})","userDataDir":"/tmp/tmp6gq3efy0"},"fedcm:accounts":true,"goog:chromeOptions":{"debuggerAddress":"localhost:39827"},"networkConnectionEnabled":false,"pageLoadStrategy":"normal","platformName":"linux","proxy":{},"setWindowRect":true,"strictFileInteractability":false,"timeouts":{"implicit":0,"pageLoad":300000,"script":30000},"unhandledPromptBehavior":"dismiss and notify","webauthn:extension:credBlob":true,"webauthn:extension:largeBlob":true,"webauthn:extension:minPinLength":true,"webauthn:extension:prf":true,"webauthn:virtualAuthenticators":true},"sessionId":"15d835aabbef0b565b8dab2461d28095"}} | headers=HTTPHeaderDict({'Content-Length': '830', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+selenium.webdriver.remote.remote_connection - [DEBUG]{MainThread} - _request() - Finished Request
+root - [INFO]{MainThread} - send_mesage_all_people() - Send alert everybody
+root - [DEBUG]{MainThread} - send_mesage_all_people() - Will send messege for LIST_PEOPLE_IDS_CHAT url: https://api.telegram.org/bot7543747510:AAGsgP2nQqu6dh-Ue95E_xTmc3Zi3JuZtGQ/sendMessage?chat_id=207000000&text=<pre> START: 2025-07-03 06:13:59 </pre>
+Stocks to be monitored: 
+PYPL UBER &parse_mode=HTML
+root - [INFO]{PROD} - producer() -  Producer: Running Start 2025-07-03 06:14:02
+root - [DEBUG]{PROD} - producer() -  Producer: Running Start 2025-07-03 06:14:02
+root - [INFO]{PROD} - get_df_webull_realTime() - PYPL ================== 2025-07-03 06:14:04   https://quotes-gw.webullfintech.com/api/quote/charts/queryMinutes?period=d5&tickerIds=913256043
+root - [DEBUG]{CONS_1} - consumer() -   Consumer: Running
+yfinance - [DEBUG]{CONS_1} - wrapper() - Entering history()
+yfinance - [DEBUG]{CONS_1} - wrapper() -  Entering history()
+yfinance - [DEBUG]{CONS_1} - history() - NQ=F: Yahoo GET parameters: {'range': '6d', 'interval': '15m', 'includePrePost': False, 'events': 'div,splits,capitalGains'}
+yfinance - [DEBUG]{CONS_1} - wrapper() -   Entering get()
+yfinance - [DEBUG]{CONS_1} - wrapper() -    Entering _make_request()
+yfinance - [DEBUG]{CONS_1} - _make_request() - url=https://query2.finance.yahoo.com/v8/finance/chart/NQ=F
+yfinance - [DEBUG]{CONS_1} - _make_request() - params={'range': '6d', 'interval': '15m', 'includePrePost': False, 'events': 'div,splits,capitalGains'}
+yfinance - [DEBUG]{CONS_1} - wrapper() -     Entering _get_cookie_and_crumb()
+yfinance - [DEBUG]{CONS_1} - _get_cookie_and_crumb() - cookie_mode = 'basic'
+yfinance - [DEBUG]{CONS_1} - wrapper() -      Entering _get_cookie_and_crumb_basic()
+yfinance - [DEBUG]{CONS_1} - wrapper() -       Entering _get_cookie_basic()
+yfinance - [DEBUG]{CONS_1} - wrapper() -        Entering _load_cookie_curlCffi()
+yfinance - [DEBUG]{CONS_1} - wrapper() -        Exiting _load_cookie_curlCffi()
+yfinance - [DEBUG]{CONS_1} - _get_cookie_basic() - reusing persistent cookie
+yfinance - [DEBUG]{CONS_1} - wrapper() -       Exiting _get_cookie_basic()
+yfinance - [DEBUG]{CONS_1} - wrapper() -       Entering _get_crumb_basic()
+yfinance - [DEBUG]{CONS_1} - wrapper() -        Entering _get_cookie_basic()
+yfinance - [DEBUG]{CONS_1} - _get_cookie_basic() - reusing cookie
+yfinance - [DEBUG]{CONS_1} - wrapper() -        Exiting _get_cookie_basic()
+yfinance - [DEBUG]{PROD} - wrapper() - Entering download()
+yfinance - [DEBUG]{CONS_1} - _get_crumb_basic() - crumb = 'dK3IG/1ev6r'
+yfinance - [DEBUG]{CONS_1} - wrapper() -       Exiting _get_crumb_basic()
+yfinance - [DEBUG]{CONS_1} - wrapper() -      Exiting _get_cookie_and_crumb_basic()
+yfinance - [DEBUG]{CONS_1} - wrapper() -     Exiting _get_cookie_and_crumb()
+yfinance - [DEBUG]{PROD} - download() - Disabling multithreading because DEBUG logging enabled
+yfinance - [DEBUG]{PROD} - wrapper() -  Entering history()
+yfinance - [DEBUG]{PROD} - wrapper() -   Entering history()
+yfinance - [DEBUG]{PROD} - history() - PYPL: Yahoo GET parameters: {'range': '6d', 'interval': '15m', 'includePrePost': False, 'events': 'div,splits,capitalGains'}
+yfinance - [DEBUG]{PROD} - wrapper() -    Entering get()
+yfinance - [DEBUG]{PROD} - wrapper() -     Entering _make_request()
+yfinance - [DEBUG]{PROD} - _make_request() - url=https://query2.finance.yahoo.com/v8/finance/chart/PYPL
+yfinance - [DEBUG]{PROD} - _make_request() - params={'range': '6d', 'interval': '15m', 'includePrePost': False, 'events': 'div,splits,capitalGains'}
+yfinance - [DEBUG]{PROD} - wrapper() -      Entering _get_cookie_and_crumb()
+yfinance - [DEBUG]{PROD} - _get_cookie_and_crumb() - cookie_mode = 'basic'
+yfinance - [DEBUG]{PROD} - wrapper() -       Entering _get_cookie_and_crumb_basic()
+yfinance - [DEBUG]{PROD} - wrapper() -        Entering _get_cookie_basic()
+yfinance - [DEBUG]{PROD} - _get_cookie_basic() - reusing cookie
+yfinance - [DEBUG]{PROD} - wrapper() -        Exiting _get_cookie_basic()
+yfinance - [DEBUG]{PROD} - wrapper() -        Entering _get_crumb_basic()
+yfinance - [DEBUG]{PROD} - _get_crumb_basic() - reusing crumb
+yfinance - [DEBUG]{PROD} - wrapper() -        Exiting _get_crumb_basic()
+yfinance - [DEBUG]{PROD} - wrapper() -       Exiting _get_cookie_and_crumb_basic()
+yfinance - [DEBUG]{PROD} - wrapper() -      Exiting _get_cookie_and_crumb()
+yfinance - [DEBUG]{CONS_1} - _make_request() - response code=200
+yfinance - [DEBUG]{CONS_1} - wrapper() -    Exiting _make_request()
+yfinance - [DEBUG]{CONS_1} - wrapper() -   Exiting get()
+yfinance - [DEBUG]{CONS_1} - history() - NQ=F: yfinance received OHLC data: 2025-06-26 04:00:00 -> 2025-07-03 03:45:00
+yfinance - [DEBUG]{CONS_1} - history() - NQ=F: OHLC after cleaning: 2025-06-26 00:00:00-04:00 -> 2025-07-02 23:45:00-04:00
+yfinance - [DEBUG]{CONS_1} - history() - NQ=F: OHLC after combining events: 2025-06-26 00:00:00-04:00 -> 2025-07-02 23:45:00-04:00
+yfinance - [DEBUG]{CONS_1} - history() - NQ=F: yfinance returning OHLC: 2025-06-26 00:00:00-04:00 -> 2025-07-02 23:45:00-04:00
+yfinance - [DEBUG]{CONS_1} - wrapper() -  Exiting history()
+yfinance - [DEBUG]{CONS_1} - wrapper() - Exiting history()
+yfinance - [DEBUG]{PROD} - _make_request() - response code=200
+yfinance - [DEBUG]{PROD} - wrapper() -     Exiting _make_request()
+root - [DEBUG]{CONS_1} - consumer() -   cycle started   Date: 2025-07-03 06:14:05
+yfinance - [DEBUG]{PROD} - wrapper() -    Exiting get()
+yfinance - [DEBUG]{PROD} - history() - PYPL: yfinance received OHLC data: 2025-06-25 13:30:00 -> 2025-07-02 20:00:00
+yfinance - [DEBUG]{PROD} - history() - PYPL: OHLC after cleaning: 2025-06-25 09:30:00-04:00 -> 2025-07-02 15:45:00-04:00
+yfinance - [DEBUG]{PROD} - history() - PYPL: OHLC after combining events: 2025-06-25 09:30:00-04:00 -> 2025-07-02 15:45:00-04:00
+yfinance - [DEBUG]{PROD} - history() - PYPL: yfinance returning OHLC: 2025-06-25 09:30:00-04:00 -> 2025-07-02 15:45:00-04:00
+yfinance - [DEBUG]{PROD} - wrapper() -   Exiting history()
+yfinance - [DEBUG]{PROD} - wrapper() -  Exiting history()
+yfinance - [DEBUG]{PROD} - wrapper() - Exiting download()
+root - [DEBUG]{PROD} - df_yhoo_() - Price                          Close       High        Low       Open  Volume
+Ticker                          PYPL       PYPL       PYPL       PYPL    PYPL
+Datetime                                                                     
+2025-06-25 13:30:00+00:00  73.660004  73.925003  73.249001  73.915001  615528
+2025-06-25 13:45:00+00:00  73.625000  73.834999  73.510002  73.669998  382641
+2025-06-25 14:00:00+00:00  73.489998  73.790001  73.459999  73.639999  291317
+2025-06-25 14:15:00+00:00  73.309998  73.514999  73.220001  73.500000  210288
+2025-06-25 14:30:00+00:00  73.315002  73.369904  73.239998  73.330002  155524
+...                              ...        ...        ...        ...     ...
+2025-07-02 18:45:00+00:00  76.154999  76.195000  76.089996  76.135002  112566
+2025-07-02 19:00:00+00:00  76.320000  76.339996  76.160004  76.160004  170276
+2025-07-02 19:15:00+00:00  76.330002  76.400002  76.309998  76.324997  182742
+2025-07-02 19:30:00+00:00  76.230003  76.341003  76.226601  76.300003  180860
+2025-07-02 19:45:00+00:00  76.309998  76.375000  76.160004  76.232498  749280
+
+[156 rows x 5 columns]
+root - [INFO]{PROD} - producer() -  DF encolado Stock: PYPL Shape_DF: (72, 12) RealTime: nan Volume: 663667.0
+root - [INFO]{PROD} - get_df_webull_realTime() - UBER ================== 2025-07-03 06:14:09   https://quotes-gw.webullfintech.com/api/quote/charts/queryMinutes?period=d5&tickerIds=950121423
+yfinance - [DEBUG]{PROD} - wrapper() - Entering download()
+yfinance - [DEBUG]{PROD} - download() - Disabling multithreading because DEBUG logging enabled
+yfinance - [DEBUG]{PROD} - wrapper() -  Entering history()
+yfinance - [DEBUG]{PROD} - wrapper() -   Entering history()
+yfinance - [DEBUG]{PROD} - history() - UBER: Yahoo GET parameters: {'range': '6d', 'interval': '15m', 'includePrePost': False, 'events': 'div,splits,capitalGains'}
+yfinance - [DEBUG]{PROD} - wrapper() -    Entering get()
+yfinance - [DEBUG]{PROD} - wrapper() -     Entering _make_request()
+yfinance - [DEBUG]{PROD} - _make_request() - url=https://query2.finance.yahoo.com/v8/finance/chart/UBER
+yfinance - [DEBUG]{PROD} - _make_request() - params={'range': '6d', 'interval': '15m', 'includePrePost': False, 'events': 'div,splits,capitalGains'}
+yfinance - [DEBUG]{PROD} - wrapper() -      Entering _get_cookie_and_crumb()
+yfinance - [DEBUG]{PROD} - _get_cookie_and_crumb() - cookie_mode = 'basic'
+yfinance - [DEBUG]{PROD} - wrapper() -       Entering _get_cookie_and_crumb_basic()
+yfinance - [DEBUG]{PROD} - wrapper() -        Entering _get_cookie_basic()
+yfinance - [DEBUG]{PROD} - _get_cookie_basic() - reusing cookie
+yfinance - [DEBUG]{PROD} - wrapper() -        Exiting _get_cookie_basic()
+yfinance - [DEBUG]{PROD} - wrapper() -        Entering _get_crumb_basic()
+yfinance - [DEBUG]{PROD} - _get_crumb_basic() - reusing crumb
+yfinance - [DEBUG]{PROD} - wrapper() -        Exiting _get_crumb_basic()
+yfinance - [DEBUG]{PROD} - wrapper() -       Exiting _get_cookie_and_crumb_basic()
+yfinance - [DEBUG]{PROD} - wrapper() -      Exiting _get_cookie_and_crumb()
+yfinance - [DEBUG]{PROD} - _make_request() - response code=200
+yfinance - [DEBUG]{PROD} - wrapper() -     Exiting _make_request()
+yfinance - [DEBUG]{PROD} - wrapper() -    Exiting get()
+yfinance - [DEBUG]{PROD} - history() - UBER: yfinance received OHLC data: 2025-06-25 13:30:00 -> 2025-07-02 20:00:00
+yfinance - [DEBUG]{PROD} - history() - UBER: OHLC after cleaning: 2025-06-25 09:30:00-04:00 -> 2025-07-02 15:45:00-04:00
+yfinance - [DEBUG]{PROD} - history() - UBER: OHLC after combining events: 2025-06-25 09:30:00-04:00 -> 2025-07-02 15:45:00-04:00
+yfinance - [DEBUG]{PROD} - history() - UBER: yfinance returning OHLC: 2025-06-25 09:30:00-04:00 -> 2025-07-02 15:45:00-04:00
+yfinance - [DEBUG]{PROD} - wrapper() -   Exiting history()
+yfinance - [DEBUG]{PROD} - wrapper() -  Exiting history()
+yfinance - [DEBUG]{PROD} - wrapper() - Exiting download()
+root - [DEBUG]{PROD} - df_yhoo_() - Price                          Close       High        Low       Open   Volume
+Ticker                          UBER       UBER       UBER       UBER     UBER
+Datetime                                                                      
+2025-06-25 13:30:00+00:00  91.555000  92.889999  91.330002  91.565002  2988690
+2025-06-25 13:45:00+00:00  91.669998  91.839996  91.169998  91.550003  1033658
+2025-06-25 14:00:00+00:00  91.584999  91.904999  91.449997  91.680000   678209
+2025-06-25 14:15:00+00:00  91.910004  92.099998  91.455002  91.589996   816139
+2025-06-25 14:30:00+00:00  91.625000  92.040001  91.565002  91.919998   602746
+...                              ...        ...        ...        ...      ...
+2025-07-02 18:45:00+00:00  92.224998  92.245003  92.125000  92.135002   187460
+2025-07-02 19:00:00+00:00  92.324997  92.449997  92.165001  92.221497   345563
+2025-07-02 19:15:00+00:00  92.239998  92.415001  92.239998  92.324997   312172
+2025-07-02 19:30:00+00:00  92.160004  92.279999  92.080200  92.235001   401985
+2025-07-02 19:45:00+00:00  92.050003  92.180000  91.940002  92.160004   837412
+
+[156 rows x 5 columns]
+root - [INFO]{PROD} - producer() -  DF encolado Stock: UBER Shape_DF: (72, 12) RealTime: nan Volume: 692615.0
+root - [INFO]{PROD} - producer() -  sleep(60 * 2) List all stock download empty
+root - [INFO]{PROD} - producer() -  Producer: Running End 2025-07-03 06:16:10
+root - [DEBUG]{PROD} - producer() -  Producer: Running Start 2025-07-03 06:16:10
+root - [INFO]{PROD} - get_df_webull_realTime() - PYPL ================== 2025-07-03 06:16:14   https://quotes-gw.webullfintech.com/api/quote/charts/queryMinutes?period=d5&tickerIds=913256043
+yfinance - [DEBUG]{PROD} - wrapper() - Entering download()
+yfinance - [DEBUG]{PROD} - download() - Disabling multithreading because DEBUG logging enabled
+yfinance - [DEBUG]{PROD} - wrapper() -  Entering history()
+yfinance - [DEBUG]{PROD} - wrapper() -   Entering history()
+yfinance - [DEBUG]{PROD} - history() - PYPL: Yahoo GET parameters: {'range': '6d', 'interval': '15m', 'includePrePost': False, 'events': 'div,splits,capitalGains'}
+yfinance - [DEBUG]{PROD} - wrapper() -    Entering get()
+yfinance - [DEBUG]{PROD} - wrapper() -     Entering _make_request()
+yfinance - [DEBUG]{PROD} - _make_request() - url=https://query2.finance.yahoo.com/v8/finance/chart/PYPL
+yfinance - [DEBUG]{PROD} - _make_request() - params={'range': '6d', 'interval': '15m', 'includePrePost': False, 'events': 'div,splits,capitalGains'}
+yfinance - [DEBUG]{PROD} - wrapper() -      Entering _get_cookie_and_crumb()
+yfinance - [DEBUG]{PROD} - _get_cookie_and_crumb() - cookie_mode = 'basic'
+yfinance - [DEBUG]{PROD} - wrapper() -       Entering _get_cookie_and_crumb_basic()
+yfinance - [DEBUG]{PROD} - wrapper() -        Entering _get_cookie_basic()
+yfinance - [DEBUG]{PROD} - _get_cookie_basic() - reusing cookie
+yfinance - [DEBUG]{PROD} - wrapper() -        Exiting _get_cookie_basic()
+yfinance - [DEBUG]{PROD} - wrapper() -        Entering _get_crumb_basic()
+yfinance - [DEBUG]{PROD} - _get_crumb_basic() - reusing crumb
+yfinance - [DEBUG]{PROD} - wrapper() -        Exiting _get_crumb_basic()
+yfinance - [DEBUG]{PROD} - wrapper() -       Exiting _get_cookie_and_crumb_basic()
+yfinance - [DEBUG]{PROD} - wrapper() -      Exiting _get_cookie_and_crumb()
+yfinance - [DEBUG]{PROD} - _make_request() - response code=200
+yfinance - [DEBUG]{PROD} - wrapper() -     Exiting _make_request()
+yfinance - [DEBUG]{PROD} - wrapper() -    Exiting get()
+yfinance - [DEBUG]{PROD} - history() - PYPL: yfinance received OHLC data: 2025-06-25 13:30:00 -> 2025-07-02 20:00:00
+yfinance - [DEBUG]{PROD} - history() - PYPL: OHLC after cleaning: 2025-06-25 09:30:00-04:00 -> 2025-07-02 15:45:00-04:00
+yfinance - [DEBUG]{PROD} - history() - PYPL: OHLC after combining events: 2025-06-25 09:30:00-04:00 -> 2025-07-02 15:45:00-04:00
+yfinance - [DEBUG]{PROD} - history() - PYPL: yfinance returning OHLC: 2025-06-25 09:30:00-04:00 -> 2025-07-02 15:45:00-04:00
+yfinance - [DEBUG]{PROD} - wrapper() -   Exiting history()
+yfinance - [DEBUG]{PROD} - wrapper() -  Exiting history()
+yfinance - [DEBUG]{PROD} - wrapper() - Exiting download()
+root - [DEBUG]{PROD} - df_yhoo_() - Price                          Close       High        Low       Open  Volume
+Ticker                          PYPL       PYPL       PYPL       PYPL    PYPL
+Datetime                                                                     
+2025-06-25 13:30:00+00:00  73.660004  73.925003  73.249001  73.915001  615528
+2025-06-25 13:45:00+00:00  73.625000  73.834999  73.510002  73.669998  382641
+2025-06-25 14:00:00+00:00  73.489998  73.790001  73.459999  73.639999  291317
+2025-06-25 14:15:00+00:00  73.309998  73.514999  73.220001  73.500000  210288
+2025-06-25 14:30:00+00:00  73.315002  73.369904  73.239998  73.330002  155524
+...                              ...        ...        ...        ...     ...
+2025-07-02 18:45:00+00:00  76.154999  76.195000  76.089996  76.135002  112566
+2025-07-02 19:00:00+00:00  76.320000  76.339996  76.160004  76.160004  170276
+2025-07-02 19:15:00+00:00  76.330002  76.400002  76.309998  76.324997  182742
+2025-07-02 19:30:00+00:00  76.230003  76.341003  76.226601  76.300003  180860
+2025-07-02 19:45:00+00:00  76.309998  76.375000  76.160004  76.232498  749280
+
+[156 rows x 5 columns]
+root - [INFO]{PROD} - producer() -  DF encolado Stock: PYPL Shape_DF: (72, 12) RealTime: nan Volume: 663667.0
+root - [INFO]{PROD} - get_df_webull_realTime() - UBER ================== 2025-07-03 06:16:22   https://quotes-gw.webullfintech.com/api/quote/charts/queryMinutes?period=d5&tickerIds=950121423
+yfinance - [DEBUG]{PROD} - wrapper() - Entering download()
+yfinance - [DEBUG]{PROD} - download() - Disabling multithreading because DEBUG logging enabled
+yfinance - [DEBUG]{PROD} - wrapper() -  Entering history()
+yfinance - [DEBUG]{PROD} - wrapper() -   Entering history()
+yfinance - [DEBUG]{PROD} - history() - UBER: Yahoo GET parameters: {'range': '6d', 'interval': '15m', 'includePrePost': False, 'events': 'div,splits,capitalGains'}
+yfinance - [DEBUG]{PROD} - wrapper() -    Entering get()
+yfinance - [DEBUG]{PROD} - wrapper() -     Entering _make_request()
+yfinance - [DEBUG]{PROD} - _make_request() - url=https://query2.finance.yahoo.com/v8/finance/chart/UBER
+yfinance - [DEBUG]{PROD} - _make_request() - params={'range': '6d', 'interval': '15m', 'includePrePost': False, 'events': 'div,splits,capitalGains'}
+yfinance - [DEBUG]{PROD} - wrapper() -      Entering _get_cookie_and_crumb()
+yfinance - [DEBUG]{PROD} - _get_cookie_and_crumb() - cookie_mode = 'basic'
+yfinance - [DEBUG]{PROD} - wrapper() -       Entering _get_cookie_and_crumb_basic()
+yfinance - [DEBUG]{PROD} - wrapper() -        Entering _get_cookie_basic()
+yfinance - [DEBUG]{PROD} - _get_cookie_basic() - reusing cookie
+yfinance - [DEBUG]{PROD} - wrapper() -        Exiting _get_cookie_basic()
+yfinance - [DEBUG]{PROD} - wrapper() -        Entering _get_crumb_basic()
+yfinance - [DEBUG]{PROD} - _get_crumb_basic() - reusing crumb
+yfinance - [DEBUG]{PROD} - wrapper() -        Exiting _get_crumb_basic()
+yfinance - [DEBUG]{PROD} - wrapper() -       Exiting _get_cookie_and_crumb_basic()
+yfinance - [DEBUG]{PROD} - wrapper() -      Exiting _get_cookie_and_crumb()
+yfinance - [DEBUG]{PROD} - _make_request() - response code=200
+yfinance - [DEBUG]{PROD} - wrapper() -     Exiting _make_request()
+yfinance - [DEBUG]{PROD} - wrapper() -    Exiting get()
+yfinance - [DEBUG]{PROD} - history() - UBER: yfinance received OHLC data: 2025-06-25 13:30:00 -> 2025-07-02 20:00:00
+yfinance - [DEBUG]{PROD} - history() - UBER: OHLC after cleaning: 2025-06-25 09:30:00-04:00 -> 2025-07-02 15:45:00-04:00
+yfinance - [DEBUG]{PROD} - history() - UBER: OHLC after combining events: 2025-06-25 09:30:00-04:00 -> 2025-07-02 15:45:00-04:00
+yfinance - [DEBUG]{PROD} - history() - UBER: yfinance returning OHLC: 2025-06-25 09:30:00-04:00 -> 2025-07-02 15:45:00-04:00
+yfinance - [DEBUG]{PROD} - wrapper() -   Exiting history()
+yfinance - [DEBUG]{PROD} - wrapper() -  Exiting history()
+yfinance - [DEBUG]{PROD} - wrapper() - Exiting download()
+root - [DEBUG]{PROD} - df_yhoo_() - Price                          Close       High        Low       Open   Volume
+Ticker                          UBER       UBER       UBER       UBER     UBER
+Datetime                                                                      
+2025-06-25 13:30:00+00:00  91.555000  92.889999  91.330002  91.565002  2988690
+2025-06-25 13:45:00+00:00  91.669998  91.839996  91.169998  91.550003  1033658
+2025-06-25 14:00:00+00:00  91.584999  91.904999  91.449997  91.680000   678209
+2025-06-25 14:15:00+00:00  91.910004  92.099998  91.455002  91.589996   816139
+2025-06-25 14:30:00+00:00  91.625000  92.040001  91.565002  91.919998   602746
+...                              ...        ...        ...        ...      ...
+2025-07-02 18:45:00+00:00  92.224998  92.245003  92.125000  92.135002   187460
+2025-07-02 19:00:00+00:00  92.324997  92.449997  92.165001  92.221497   345563
+2025-07-02 19:15:00+00:00  92.239998  92.415001  92.239998  92.324997   312172
+2025-07-02 19:30:00+00:00  92.160004  92.279999  92.080200  92.235001   401985
+2025-07-02 19:45:00+00:00  92.050003  92.180000  91.940002  92.160004   837412
+
+[156 rows x 5 columns]
+root - [INFO]{PROD} - producer() -  DF encolado Stock: UBER Shape_DF: (72, 12) RealTime: nan Volume: 692615.0
+root - [INFO]{PROD} - producer() -  sleep(60 * 2) List all stock download empty
+root - [INFO]{PROD} - producer() -  Producer: Running End 2025-07-03 06:18:22
+root - [DEBUG]{PROD} - producer() -  Producer: Running Start 2025-07-03 06:18:22
+root - [INFO]{PROD} - get_df_webull_realTime() - PYPL ================== 2025-07-03 06:18:29   https://quotes-gw.webullfintech.com/api/quote/charts/queryMinutes?period=d5&tickerIds=913256043
+yfinance - [DEBUG]{PROD} - wrapper() - Entering download()
+yfinance - [DEBUG]{PROD} - download() - Disabling multithreading because DEBUG logging enabled
+yfinance - [DEBUG]{PROD} - wrapper() -  Entering history()
+yfinance - [DEBUG]{PROD} - wrapper() -   Entering history()
+yfinance - [DEBUG]{PROD} - history() - PYPL: Yahoo GET parameters: {'range': '6d', 'interval': '15m', 'includePrePost': False, 'events': 'div,splits,capitalGains'}
+yfinance - [DEBUG]{PROD} - wrapper() -    Entering get()
+yfinance - [DEBUG]{PROD} - wrapper() -     Entering _make_request()
+yfinance - [DEBUG]{PROD} - _make_request() - url=https://query2.finance.yahoo.com/v8/finance/chart/PYPL
+yfinance - [DEBUG]{PROD} - _make_request() - params={'range': '6d', 'interval': '15m', 'includePrePost': False, 'events': 'div,splits,capitalGains'}
+yfinance - [DEBUG]{PROD} - wrapper() -      Entering _get_cookie_and_crumb()
+yfinance - [DEBUG]{PROD} - _get_cookie_and_crumb() - cookie_mode = 'basic'
+yfinance - [DEBUG]{PROD} - wrapper() -       Entering _get_cookie_and_crumb_basic()
+yfinance - [DEBUG]{PROD} - wrapper() -        Entering _get_cookie_basic()
+yfinance - [DEBUG]{PROD} - _get_cookie_basic() - reusing cookie
+yfinance - [DEBUG]{PROD} - wrapper() -        Exiting _get_cookie_basic()
+yfinance - [DEBUG]{PROD} - wrapper() -        Entering _get_crumb_basic()
+yfinance - [DEBUG]{PROD} - _get_crumb_basic() - reusing crumb
+yfinance - [DEBUG]{PROD} - wrapper() -        Exiting _get_crumb_basic()
+yfinance - [DEBUG]{PROD} - wrapper() -       Exiting _get_cookie_and_crumb_basic()
+yfinance - [DEBUG]{PROD} - wrapper() -      Exiting _get_cookie_and_crumb()
+yfinance - [DEBUG]{PROD} - _make_request() - response code=200
+yfinance - [DEBUG]{PROD} - wrapper() -     Exiting _make_request()
+yfinance - [DEBUG]{PROD} - wrapper() -    Exiting get()
+yfinance - [DEBUG]{PROD} - history() - PYPL: yfinance received OHLC data: 2025-06-25 13:30:00 -> 2025-07-02 20:00:00
+yfinance - [DEBUG]{PROD} - history() - PYPL: OHLC after cleaning: 2025-06-25 09:30:00-04:00 -> 2025-07-02 15:45:00-04:00
+yfinance - [DEBUG]{PROD} - history() - PYPL: OHLC after combining events: 2025-06-25 09:30:00-04:00 -> 2025-07-02 15:45:00-04:00
+yfinance - [DEBUG]{PROD} - history() - PYPL: yfinance returning OHLC: 2025-06-25 09:30:00-04:00 -> 2025-07-02 15:45:00-04:00
+yfinance - [DEBUG]{PROD} - wrapper() -   Exiting history()
+yfinance - [DEBUG]{PROD} - wrapper() -  Exiting history()
+yfinance - [DEBUG]{PROD} - wrapper() - Exiting download()
+root - [DEBUG]{PROD} - df_yhoo_() - Price                          Close       High        Low       Open  Volume
+Ticker                          PYPL       PYPL       PYPL       PYPL    PYPL
+Datetime                                                                     
+2025-06-25 13:30:00+00:00  73.660004  73.925003  73.249001  73.915001  615528
+2025-06-25 13:45:00+00:00  73.625000  73.834999  73.510002  73.669998  382641
+2025-06-25 14:00:00+00:00  73.489998  73.790001  73.459999  73.639999  291317
+2025-06-25 14:15:00+00:00  73.309998  73.514999  73.220001  73.500000  210288
+2025-06-25 14:30:00+00:00  73.315002  73.369904  73.239998  73.330002  155524
+...                              ...        ...        ...        ...     ...
+2025-07-02 18:45:00+00:00  76.154999  76.195000  76.089996  76.135002  112566
+2025-07-02 19:00:00+00:00  76.320000  76.339996  76.160004  76.160004  170276
+2025-07-02 19:15:00+00:00  76.330002  76.400002  76.309998  76.324997  182742
+2025-07-02 19:30:00+00:00  76.230003  76.341003  76.226601  76.300003  180860
+2025-07-02 19:45:00+00:00  76.309998  76.375000  76.160004  76.232498  749280
+
+[156 rows x 5 columns]
+root - [INFO]{PROD} - producer() -  DF encolado Stock: PYPL Shape_DF: (72, 12) RealTime: nan Volume: 663667.0
+root - [INFO]{PROD} - get_df_webull_realTime() - UBER ================== 2025-07-03 06:18:34   https://quotes-gw.webullfintech.com/api/quote/charts/queryMinutes?period=d5&tickerIds=950121423
+yfinance - [DEBUG]{PROD} - wrapper() - Entering download()
+yfinance - [DEBUG]{PROD} - download() - Disabling multithreading because DEBUG logging enabled
+yfinance - [DEBUG]{PROD} - wrapper() -  Entering history()
+yfinance - [DEBUG]{PROD} - wrapper() -   Entering history()
+yfinance - [DEBUG]{PROD} - history() - UBER: Yahoo GET parameters: {'range': '6d', 'interval': '15m', 'includePrePost': False, 'events': 'div,splits,capitalGains'}
+yfinance - [DEBUG]{PROD} - wrapper() -    Entering get()
+yfinance - [DEBUG]{PROD} - wrapper() -     Entering _make_request()
+yfinance - [DEBUG]{PROD} - _make_request() - url=https://query2.finance.yahoo.com/v8/finance/chart/UBER
+yfinance - [DEBUG]{PROD} - _make_request() - params={'range': '6d', 'interval': '15m', 'includePrePost': False, 'events': 'div,splits,capitalGains'}
+yfinance - [DEBUG]{PROD} - wrapper() -      Entering _get_cookie_and_crumb()
+yfinance - [DEBUG]{PROD} - _get_cookie_and_crumb() - cookie_mode = 'basic'
+yfinance - [DEBUG]{PROD} - wrapper() -       Entering _get_cookie_and_crumb_basic()
+yfinance - [DEBUG]{PROD} - wrapper() -        Entering _get_cookie_basic()
+yfinance - [DEBUG]{PROD} - _get_cookie_basic() - reusing cookie
+yfinance - [DEBUG]{PROD} - wrapper() -        Exiting _get_cookie_basic()
+yfinance - [DEBUG]{PROD} - wrapper() -        Entering _get_crumb_basic()
+yfinance - [DEBUG]{PROD} - _get_crumb_basic() - reusing crumb
+yfinance - [DEBUG]{PROD} - wrapper() -        Exiting _get_crumb_basic()
+yfinance - [DEBUG]{PROD} - wrapper() -       Exiting _get_cookie_and_crumb_basic()
+yfinance - [DEBUG]{PROD} - wrapper() -      Exiting _get_cookie_and_crumb()
+yfinance - [DEBUG]{PROD} - _make_request() - response code=200
+yfinance - [DEBUG]{PROD} - wrapper() -     Exiting _make_request()
+yfinance - [DEBUG]{PROD} - wrapper() -    Exiting get()
+yfinance - [DEBUG]{PROD} - history() - UBER: yfinance received OHLC data: 2025-06-25 13:30:00 -> 2025-07-02 20:00:00
+yfinance - [DEBUG]{PROD} - history() - UBER: OHLC after cleaning: 2025-06-25 09:30:00-04:00 -> 2025-07-02 15:45:00-04:00
+yfinance - [DEBUG]{PROD} - history() - UBER: OHLC after combining events: 2025-06-25 09:30:00-04:00 -> 2025-07-02 15:45:00-04:00
+yfinance - [DEBUG]{PROD} - history() - UBER: yfinance returning OHLC: 2025-06-25 09:30:00-04:00 -> 2025-07-02 15:45:00-04:00
+yfinance - [DEBUG]{PROD} - wrapper() -   Exiting history()
+yfinance - [DEBUG]{PROD} - wrapper() -  Exiting history()
+yfinance - [DEBUG]{PROD} - wrapper() - Exiting download()
+root - [DEBUG]{PROD} - df_yhoo_() - Price                          Close       High        Low       Open   Volume
+Ticker                          UBER       UBER       UBER       UBER     UBER
+Datetime                                                                      
+2025-06-25 13:30:00+00:00  91.555000  92.889999  91.330002  91.565002  2988690
+2025-06-25 13:45:00+00:00  91.669998  91.839996  91.169998  91.550003  1033658
+2025-06-25 14:00:00+00:00  91.584999  91.904999  91.449997  91.680000   678209
+2025-06-25 14:15:00+00:00  91.910004  92.099998  91.455002  91.589996   816139
+2025-06-25 14:30:00+00:00  91.625000  92.040001  91.565002  91.919998   602746
+...                              ...        ...        ...        ...      ...
+2025-07-02 18:45:00+00:00  92.224998  92.245003  92.125000  92.135002   187460
+2025-07-02 19:00:00+00:00  92.324997  92.449997  92.165001  92.221497   345563
+2025-07-02 19:15:00+00:00  92.239998  92.415001  92.239998  92.324997   312172
+2025-07-02 19:30:00+00:00  92.160004  92.279999  92.080200  92.235001   401985
+2025-07-02 19:45:00+00:00  92.050003  92.180000  91.940002  92.160004   837412
+
+[156 rows x 5 columns]
+root - [INFO]{PROD} - producer() -  DF encolado Stock: UBER Shape_DF: (72, 12) RealTime: nan Volume: 692615.0
+root - [INFO]{PROD} - producer() -  sleep(60 * 2) List all stock download empty
+root - [INFO]{PROD} - producer() -  Producer: Running End 2025-07-03 06:20:35
+root - [DEBUG]{PROD} - producer() -  Producer: Running Start 2025-07-03 06:20:35
+root - [INFO]{PROD} - get_df_webull_realTime() - PYPL ================== 2025-07-03 06:20:41   https://quotes-gw.webullfintech.com/api/quote/charts/queryMinutes?period=d5&tickerIds=913256043
+yfinance - [DEBUG]{PROD} - wrapper() - Entering download()
+yfinance - [DEBUG]{PROD} - download() - Disabling multithreading because DEBUG logging enabled
+yfinance - [DEBUG]{PROD} - wrapper() -  Entering history()
+yfinance - [DEBUG]{PROD} - wrapper() -   Entering history()
+yfinance - [DEBUG]{PROD} - history() - PYPL: Yahoo GET parameters: {'range': '6d', 'interval': '15m', 'includePrePost': False, 'events': 'div,splits,capitalGains'}
+yfinance - [DEBUG]{PROD} - wrapper() -    Entering get()
+yfinance - [DEBUG]{PROD} - wrapper() -     Entering _make_request()
+yfinance - [DEBUG]{PROD} - _make_request() - url=https://query2.finance.yahoo.com/v8/finance/chart/PYPL
+yfinance - [DEBUG]{PROD} - _make_request() - params={'range': '6d', 'interval': '15m', 'includePrePost': False, 'events': 'div,splits,capitalGains'}
+yfinance - [DEBUG]{PROD} - wrapper() -      Entering _get_cookie_and_crumb()
+yfinance - [DEBUG]{PROD} - _get_cookie_and_crumb() - cookie_mode = 'basic'
+yfinance - [DEBUG]{PROD} - wrapper() -       Entering _get_cookie_and_crumb_basic()
+yfinance - [DEBUG]{PROD} - wrapper() -        Entering _get_cookie_basic()
+yfinance - [DEBUG]{PROD} - _get_cookie_basic() - reusing cookie
+yfinance - [DEBUG]{PROD} - wrapper() -        Exiting _get_cookie_basic()
+yfinance - [DEBUG]{PROD} - wrapper() -        Entering _get_crumb_basic()
+yfinance - [DEBUG]{PROD} - _get_crumb_basic() - reusing crumb
+yfinance - [DEBUG]{PROD} - wrapper() -        Exiting _get_crumb_basic()
+yfinance - [DEBUG]{PROD} - wrapper() -       Exiting _get_cookie_and_crumb_basic()
+yfinance - [DEBUG]{PROD} - wrapper() -      Exiting _get_cookie_and_crumb()
+yfinance - [DEBUG]{PROD} - _make_request() - response code=200
+yfinance - [DEBUG]{PROD} - wrapper() -     Exiting _make_request()
+yfinance - [DEBUG]{PROD} - wrapper() -    Exiting get()
+yfinance - [DEBUG]{PROD} - history() - PYPL: yfinance received OHLC data: 2025-06-25 13:30:00 -> 2025-07-02 20:00:00
+yfinance - [DEBUG]{PROD} - history() - PYPL: OHLC after cleaning: 2025-06-25 09:30:00-04:00 -> 2025-07-02 15:45:00-04:00
+yfinance - [DEBUG]{PROD} - history() - PYPL: OHLC after combining events: 2025-06-25 09:30:00-04:00 -> 2025-07-02 15:45:00-04:00
+yfinance - [DEBUG]{PROD} - history() - PYPL: yfinance returning OHLC: 2025-06-25 09:30:00-04:00 -> 2025-07-02 15:45:00-04:00
+yfinance - [DEBUG]{PROD} - wrapper() -   Exiting history()
+yfinance - [DEBUG]{PROD} - wrapper() -  Exiting history()
+yfinance - [DEBUG]{PROD} - wrapper() - Exiting download()
+root - [DEBUG]{PROD} - df_yhoo_() - Price                          Close       High        Low       Open  Volume
+Ticker                          PYPL       PYPL       PYPL       PYPL    PYPL
+Datetime                                                                     
+2025-06-25 13:30:00+00:00  73.660004  73.925003  73.249001  73.915001  615528
+2025-06-25 13:45:00+00:00  73.625000  73.834999  73.510002  73.669998  382641
+2025-06-25 14:00:00+00:00  73.489998  73.790001  73.459999  73.639999  291317
+2025-06-25 14:15:00+00:00  73.309998  73.514999  73.220001  73.500000  210288
+2025-06-25 14:30:00+00:00  73.315002  73.369904  73.239998  73.330002  155524
+...                              ...        ...        ...        ...     ...
+2025-07-02 18:45:00+00:00  76.154999  76.195000  76.089996  76.135002  112566
+2025-07-02 19:00:00+00:00  76.320000  76.339996  76.160004  76.160004  170276
+2025-07-02 19:15:00+00:00  76.330002  76.400002  76.309998  76.324997  182742
+2025-07-02 19:30:00+00:00  76.230003  76.341003  76.226601  76.300003  180860
+2025-07-02 19:45:00+00:00  76.309998  76.375000  76.160004  76.232498  749280
+
+[156 rows x 5 columns]
+root - [INFO]{PROD} - producer() -  DF encolado Stock: PYPL Shape_DF: (72, 12) RealTime: nan Volume: 663667.0
+root - [INFO]{PROD} - get_df_webull_realTime() - UBER ================== 2025-07-03 06:20:44   https://quotes-gw.webullfintech.com/api/quote/charts/queryMinutes?period=d5&tickerIds=950121423
+yfinance - [DEBUG]{PROD} - wrapper() - Entering download()
+yfinance - [DEBUG]{PROD} - download() - Disabling multithreading because DEBUG logging enabled
+yfinance - [DEBUG]{PROD} - wrapper() -  Entering history()
+yfinance - [DEBUG]{PROD} - wrapper() -   Entering history()
+yfinance - [DEBUG]{PROD} - history() - UBER: Yahoo GET parameters: {'range': '6d', 'interval': '15m', 'includePrePost': False, 'events': 'div,splits,capitalGains'}
+yfinance - [DEBUG]{PROD} - wrapper() -    Entering get()
+yfinance - [DEBUG]{PROD} - wrapper() -     Entering _make_request()
+yfinance - [DEBUG]{PROD} - _make_request() - url=https://query2.finance.yahoo.com/v8/finance/chart/UBER
+yfinance - [DEBUG]{PROD} - _make_request() - params={'range': '6d', 'interval': '15m', 'includePrePost': False, 'events': 'div,splits,capitalGains'}
+yfinance - [DEBUG]{PROD} - wrapper() -      Entering _get_cookie_and_crumb()
+yfinance - [DEBUG]{PROD} - _get_cookie_and_crumb() - cookie_mode = 'basic'
+yfinance - [DEBUG]{PROD} - wrapper() -       Entering _get_cookie_and_crumb_basic()
+yfinance - [DEBUG]{PROD} - wrapper() -        Entering _get_cookie_basic()
+yfinance - [DEBUG]{PROD} - _get_cookie_basic() - reusing cookie
+yfinance - [DEBUG]{PROD} - wrapper() -        Exiting _get_cookie_basic()
+yfinance - [DEBUG]{PROD} - wrapper() -        Entering _get_crumb_basic()
+yfinance - [DEBUG]{PROD} - _get_crumb_basic() - reusing crumb
+yfinance - [DEBUG]{PROD} - wrapper() -        Exiting _get_crumb_basic()
+yfinance - [DEBUG]{PROD} - wrapper() -       Exiting _get_cookie_and_crumb_basic()
+yfinance - [DEBUG]{PROD} - wrapper() -      Exiting _get_cookie_and_crumb()
+yfinance - [DEBUG]{PROD} - _make_request() - response code=200
+yfinance - [DEBUG]{PROD} - wrapper() -     Exiting _make_request()
+yfinance - [DEBUG]{PROD} - wrapper() -    Exiting get()
+yfinance - [DEBUG]{PROD} - history() - UBER: yfinance received OHLC data: 2025-06-25 13:30:00 -> 2025-07-02 20:00:00
+yfinance - [DEBUG]{PROD} - history() - UBER: OHLC after cleaning: 2025-06-25 09:30:00-04:00 -> 2025-07-02 15:45:00-04:00
+yfinance - [DEBUG]{PROD} - history() - UBER: OHLC after combining events: 2025-06-25 09:30:00-04:00 -> 2025-07-02 15:45:00-04:00
+yfinance - [DEBUG]{PROD} - history() - UBER: yfinance returning OHLC: 2025-06-25 09:30:00-04:00 -> 2025-07-02 15:45:00-04:00
+yfinance - [DEBUG]{PROD} - wrapper() -   Exiting history()
+yfinance - [DEBUG]{PROD} - wrapper() -  Exiting history()
+yfinance - [DEBUG]{PROD} - wrapper() - Exiting download()
+root - [DEBUG]{PROD} - df_yhoo_() - Price                          Close       High        Low       Open   Volume
+Ticker                          UBER       UBER       UBER       UBER     UBER
+Datetime                                                                      
+2025-06-25 13:30:00+00:00  91.555000  92.889999  91.330002  91.565002  2988690
+2025-06-25 13:45:00+00:00  91.669998  91.839996  91.169998  91.550003  1033658
+2025-06-25 14:00:00+00:00  91.584999  91.904999  91.449997  91.680000   678209
+2025-06-25 14:15:00+00:00  91.910004  92.099998  91.455002  91.589996   816139
+2025-06-25 14:30:00+00:00  91.625000  92.040001  91.565002  91.919998   602746
+...                              ...        ...        ...        ...      ...
+2025-07-02 18:45:00+00:00  92.224998  92.245003  92.125000  92.135002   187460
+2025-07-02 19:00:00+00:00  92.324997  92.449997  92.165001  92.221497   345563
+2025-07-02 19:15:00+00:00  92.239998  92.415001  92.239998  92.324997   312172
+2025-07-02 19:30:00+00:00  92.160004  92.279999  92.080200  92.235001   401985
+2025-07-02 19:45:00+00:00  92.050003  92.180000  91.940002  92.160004   837412
+
+[156 rows x 5 columns]
+root - [INFO]{PROD} - producer() -  DF encolado Stock: UBER Shape_DF: (72, 12) RealTime: nan Volume: 692615.0
+root - [INFO]{PROD} - producer() -  sleep(60 * 2) List all stock download empty

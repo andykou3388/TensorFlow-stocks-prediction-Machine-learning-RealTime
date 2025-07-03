@@ -1,0 +1,13 @@
+loss	accuracy	val_loss	val_accuracy
+0.625	0.714	0.753	0.59
+0.532	0.731	0.27	0.913
+0.473	0.779	0.511	0.759
+0.43	0.789	0.695	0.601
+0.358	0.83	0.459	0.741
+0.308	0.853	0.242	0.906
+0.255	0.885	0.249	0.899
+0.256	0.884	0.383	0.809
+0.215	0.914	0.25	0.884
+
+Columns TFm_PYPL_neg_good9_mult_lstm.h5:
+Date, buy_sell_point, mtum_DMP_14, mtum_PLUS_DM, vola_NATR, sti_STDDEV, vola_ATR, mtum_APO, mtum_MACD_ext, olap_BBAND_dif, sti_VAR, vola_THERMOma_20_2_05, mtum_MACD_ext_signal, mtum_PPO, mcrh_WMA_50_TEMA_100, NQ_per_Volume, tend_renko_brick, mtum_MACD_signal, tend_renko_TR, tend_renko_ATR, vola_TRUERANGE_1, mtum_STCmacd_10_12_26_05, mtum_MACD_fix, vola_THERMO_20_2_05, NQ_Volume, mtum_MACD_fix_signal, vola_TRANGE, mtum_AO_5_34, ti_chaikin_10_3, mtum_BIAS_SMA_26, mtum_MACD, ma_TRIMA_50, ti_mass_index_9_25, ma_KAMA_50, ti_coppock_14_11_10, volu_NVI_1, volu_Chaikin_ADOSC, has_preMarket, ichi_senkou_b, volu_Chaikin_AD, volu_PVI_1, ichi_senkou_a, mcrh_TEMA_10_KAMA_50, ti_donchian_lower_20, cdl_INVERTEDHAMMER, ti_acc_dist, ma_SMA_50

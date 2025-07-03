@@ -1,0 +1,14 @@
+loss	accuracy	val_loss	val_accuracy
+0.722	0.557	0.665	0.918
+0.675	0.566	0.72	0.452
+0.623	0.661	0.679	0.514
+0.598	0.684	0.674	0.534
+0.576	0.711	0.531	0.767
+0.564	0.736	0.661	0.56
+0.545	0.746	0.477	0.776
+0.524	0.758	0.638	0.642
+0.503	0.777	0.562	0.683
+0.482	0.788	0.518	0.743
+
+Columns TFm_UBER_neg_good9__simp_cordo.h5:
+Date, buy_sell_point, olap_BBAND_dif, NQ_per_Volume, sti_CORREL, tend_PSARl_002_02, mcrh_KAMA_50_EMA_100, ti_chaikin_10_3, NQ_SMA_20, NQ_Close, tend_PSARs_002_02, has_preMarket, vola_RVI_14, mcrh_T3_20_TEMA_100, mtum_STOCH_RSI_d, vola_UI_14, NQ_SMA_100, volu_Chaikin_ADOSC, tend_renko_ATR, cycl_DCPERIOD, NQ_per_Close, vola_NATR, mcrh_KAMA_20_DEMA_50, olap_VMAP, sti_TOS_STDEVALL_L_2, mtum_MACD_ext_signal, mtum_INERTIA_20_14, mtum_PVOs_12_26_9, sti_TOS_STDEVALL_L_1, sti_KURT_30, mcrh_WMA_50_SMA_100, mtum_PLUS_DM, mtum_APO, mtum_PSL_12, mtum_FISHERT_9_1, sti_TOS_STDEVALL_L_3, NQ_Volume, cdl_HAMMER, olap_BBAND_LOWER, mcrh_KAMA_50_TEMA_100, mtum_FISHERTs_9_1, mtum_MACD_signal, mtum_PPO, volu_Chaikin_AD, mcrh_WMA_50_WMA_100, mcrh_WMA_50_TRIMA_100, mcrh_TEMA_50_KAMA_100, vola_THERMO_20_2_05, mtum_STOCH_k, vola_KCBe_20_2, sti_TOS_STDEVALL_LR, mtum_MACD_ext, sti_TOS_STDEVALL_U_3, ti_konk_bl, ma_KAMA_50, mcrh_DEMA_50_WMA_100

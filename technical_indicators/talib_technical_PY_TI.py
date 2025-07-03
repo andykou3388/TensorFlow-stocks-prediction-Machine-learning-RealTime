@@ -143,6 +143,7 @@ import talib
 def get_konkorde_params(df_stocks):
     # df['calc_nvi'] =  df.ta.nvi( cumulative=True, append=False) #calc_nvi(df)
     # tprice=ohlc4
+    print(df_stocks.columns)
     tprice = (df_stocks['Open'] + df_stocks['High'] + df_stocks['Low'] + df_stocks['Close']) / 4
     # lengthEMA = input(255, minval=1)
     # pvi = calc_pvi()

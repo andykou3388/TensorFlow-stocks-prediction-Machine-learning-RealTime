@@ -22,7 +22,7 @@ from telegram.constants import ParseMode
 
 from _KEYS_DICT import PATH_REGISTER_RESULT_REAL_TIME
 
-TOKEN = "00000000xxxxxxx"
+TOKEN = "7543747510:AAGsgP2nQqu6dh-Ue95E_xTmc3Zi3JuZtGQ"
 URL_TELE = f"https://api.telegram.org/bot{TOKEN}/getUpdates"
 #**DOCU**
 # 5.2 Configure chatID and tokes in Telegram
@@ -40,7 +40,7 @@ URL_TELE = f"https://api.telegram.org/bot{TOKEN}/getUpdates"
 # Pick up CHAT ID: 500000760
 # With the chatId of the desired users, add them to the list LIST_PEOPLE_IDS_CHAT
 #
-chat_idADMIN = "5050000000"
+chat_idADMIN = "7164061667"
 chat_idUser1 = "563000000"
 chat_idUser2 = "207000000"
 chat_idUser3= "495000000"

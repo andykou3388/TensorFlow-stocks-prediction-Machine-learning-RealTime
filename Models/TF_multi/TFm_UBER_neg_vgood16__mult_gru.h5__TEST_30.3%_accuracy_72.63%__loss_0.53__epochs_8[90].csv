@@ -1,0 +1,13 @@
+loss	accuracy	val_loss	val_accuracy
+0.668	0.625	1.164	0.101
+0.607	0.678	0.488	0.773
+0.598	0.676	0.926	0.38
+0.587	0.689	0.382	0.826
+0.574	0.681	0.487	0.78
+0.562	0.702	0.486	0.764
+0.558	0.703	0.749	0.497
+0.554	0.705	0.732	0.503
+0.534	0.726	0.748	0.508
+
+Columns TFm_UBER_neg_vgood16__mult_gru.h5:
+Date, buy_sell_point, olap_BBAND_dif, NQ_per_Volume, sti_CORREL, tend_PSARl_002_02, mcrh_KAMA_50_EMA_100

@@ -1,0 +1,20 @@
+loss	accuracy	val_loss	val_accuracy
+0.733	0.59	0.748	0.424
+0.666	0.575	0.583	0.823
+0.66	0.591	0.68	0.732
+0.657	0.59	0.598	0.819
+0.651	0.601	0.693	0.734
+0.656	0.603	0.576	0.846
+0.644	0.604	0.641	0.807
+0.642	0.616	0.768	0.622
+0.632	0.632	0.602	0.844
+0.632	0.63	0.716	0.679
+0.623	0.647	0.692	0.729
+0.613	0.653	0.642	0.775
+0.612	0.66	0.645	0.75
+0.604	0.677	0.608	0.789
+0.6	0.676	0.75	0.642
+0.599	0.677	0.697	0.695
+
+Columns TFm_PYPL_neg_vgood16__simp_cordo.h5:
+Date, buy_sell_point, mtum_DMP_14, mtum_PLUS_DM, vola_NATR, sti_STDDEV, vola_ATR, mtum_APO, mtum_MACD_ext, olap_BBAND_dif, sti_VAR, vola_THERMOma_20_2_05, mtum_MACD_ext_signal, mtum_PPO, mcrh_WMA_50_TEMA_100, NQ_per_Volume

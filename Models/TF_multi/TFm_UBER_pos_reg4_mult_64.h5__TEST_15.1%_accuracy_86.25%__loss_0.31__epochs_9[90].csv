@@ -1,0 +1,14 @@
+loss	accuracy	val_loss	val_accuracy
+0.678	0.671	0.43	0.856
+0.577	0.709	1.102	0.151
+0.511	0.751	0.417	0.832
+0.467	0.776	0.649	0.69
+0.444	0.801	0.359	0.856
+0.416	0.804	0.276	0.885
+0.39	0.832	0.417	0.834
+0.338	0.847	0.312	0.873
+0.323	0.866	0.305	0.865
+0.312	0.862	0.375	0.849
+
+Columns TFm_UBER_pos_reg4_mult_64.h5:
+Date, buy_sell_point, vola_THERMO_20_2_05, tend_renko_ATR, vola_ATR, tend_renko_TR, vola_TRUERANGE_1, vola_NATR, vola_TRANGE, mtum_DMP_14, sti_CORREL, tend_hl, mtum_PLUS_DM, mtum_PSL_12, volu_Chaikin_ADOSC, NQ_Volume, tend_hh, vola_THERMOma_20_2_05, sti_VAR, olap_VMAP, has_preMarket, tend_lh, ichi_kijun_sen, tend_renko_brick, sti_KURT_30, vola_RVI_14, sti_STDDEV, ti_donchian_lower_20, ti_chaikin_10_3, mtum_FISHERT_9_1, NQ_per_Volume, olap_BBAND_LOWER, mtum_INERTIA_20_14, tend_PSARs_002_02, mtum_PVOh_12_26_9, ma_SMA_50, mtum_FISHERTs_9_1, olap_SINWMA_14, ti_kelt_20_lower, mcrh_KAMA_50_EMA_100, ma_EMA_50, ma_TRIMA_50, mtum_ADXR, ma_T3_10, olap_ALMA_10_60_085, mtum_td_seq_sig, ti_konk_gre, ma_TRIMA_10, ma_TRIMA_20, ma_WMA_20, ma_SMA_20, ti_donchian_center_20, trad_r3, mtum_ADX, ma_EMA_20, olap_BBAND_MIDDLE, ma_DEMA_10, volu_PVOL, sti_TOS_STDEVALL_U_1, Volume, cama_pp, sti_TOS_STDEVALL_L_3, sti_LINEARREG_INTERCEPT, olap_VWMA_10, olap_SWMA_10, olap_HT_TRENDLINE, vola_KCLe_20_2, vola_HWM, tend_ll, ma_DEMA_5, vola_HWL, mtum_STOCH_Fa_d, mtum_K_9_3, sti_TOS_STDEVALL_U_3, sti_TOS_STDEVALL_U_2, mtum_D_9_3, olap_HWMA_02_01_01, olap_JMA_7_0, olap_MCGD_10, mtum_STOCH_k, sti_TOS_STDEVALL_L_2, sti_TOS_STDEVALL_L_1, mtum_STOCH_RSI_d, sti_TOS_STDEVALL_LR, High, ti_donchian_upper_20, perf_CUMLOGRET_1, olap_MIDPOINT, mtum_STOCH_d, olap_MIDPRICE, olap_SAR, mtum_MFI, trad_r1, ma_EMA_5, fibo_r1, ma_KAMA_10, ti_hma_20, ma_EMA_10, ma_DEMA_20, ichi_senkou_b, ichi_senkou_a, vola_KCBe_20_2, fibo_s1, fibo_r2, fibo_pp, ma_KAMA_50, demark_s1, cycl_DCPERIOD, clas_s3, clas_s2, clas_s1, cama_s2, volu_NVI_1, volu_OBV, NQ_SMA_100, ma_KAMA_20, tend_PSARaf_002_02, ma_SMA_10, mcrh_DEMA_50_DEMA_100, ti_kelt_20_upper, ti_konk_rest, ti_supertrend_20, mcrh_SMA_50_SMA_100, ma_SMA_5, trad_pp, ti_vortex_neg_14, trad_s2, ma_T3_5, ma_WMA_10, trad_s3, ma_TEMA_20, ma_TEMA_10

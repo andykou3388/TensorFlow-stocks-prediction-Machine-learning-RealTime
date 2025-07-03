@@ -1,0 +1,16 @@
+loss	accuracy	val_loss	val_accuracy
+0.597	0.723	0.403	0.89
+0.569	0.709	0.748	0.685
+0.556	0.717	0.558	0.728
+0.531	0.731	0.795	0.555
+0.498	0.743	0.625	0.655
+0.477	0.766	0.464	0.795
+0.461	0.76	0.481	0.712
+0.452	0.772	0.411	0.742
+0.436	0.785	0.381	0.84
+0.425	0.802	0.461	0.721
+0.41	0.806	0.642	0.571
+0.409	0.802	0.549	0.671
+
+Columns TFm_PYPL_pos_vgood16_mult_lstm.h5:
+Date, buy_sell_point, tend_renko_brick, vola_NATR, tend_renko_ATR, vola_ATR, tend_ll, vola_THERMOma_20_2_05, vola_TRANGE, vola_TRUERANGE_1, tend_renko_TR, mtum_DMP_14

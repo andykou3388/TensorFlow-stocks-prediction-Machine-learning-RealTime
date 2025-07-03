@@ -62,7 +62,8 @@ def get_tech_data_nasq(S, df_S, df_nasq):
 
 #YAHOO API
 def df_yhoo_(S, inter, path = None ):
-    date_15min = yf.download(tickers=S, period='6d', interval=inter, prepos=False)
+    date_15min = yf.download(tickers=S, period='6d', interval=inter)
+    Logger.logr.debug(date_15min)
     date_15min.index = date_15min.index.tz_convert(None)#location zone adapt to current zone
     date_15min.reset_index(inplace=True)
     date_15min = date_15min.rename(columns={'Datetime': 'Date'})

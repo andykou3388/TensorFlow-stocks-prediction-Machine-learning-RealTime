@@ -1,0 +1,16 @@
+loss	accuracy	val_loss	val_accuracy
+0.627	0.718	0.559	0.872
+0.592	0.674	0.603	0.831
+0.565	0.701	0.519	0.86
+0.545	0.724	0.764	0.545
+0.527	0.76	0.597	0.755
+0.51	0.78	0.438	0.86
+0.498	0.773	0.425	0.847
+0.481	0.801	0.575	0.767
+0.47	0.799	0.655	0.707
+0.46	0.81	0.612	0.735
+0.444	0.811	0.411	0.863
+0.432	0.82	0.678	0.664
+
+Columns TFm_UBER_pos_vgood16_mult_conv.h5:
+Date, buy_sell_point, vola_THERMO_20_2_05, tend_renko_ATR, vola_ATR, tend_renko_TR, vola_TRUERANGE_1, vola_NATR, vola_TRANGE, mtum_DMP_14, sti_CORREL

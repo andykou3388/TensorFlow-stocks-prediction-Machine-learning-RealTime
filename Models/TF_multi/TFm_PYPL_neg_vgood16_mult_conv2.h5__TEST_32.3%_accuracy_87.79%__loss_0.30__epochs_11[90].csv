@@ -1,0 +1,16 @@
+loss	accuracy	val_loss	val_accuracy
+0.687	0.574	0.462	0.865
+0.61	0.657	0.648	0.768
+0.533	0.73	0.273	0.899
+0.499	0.758	0.819	0.452
+0.449	0.79	0.55	0.736
+0.41	0.81	0.356	0.862
+0.385	0.828	0.289	0.901
+0.359	0.843	0.614	0.697
+0.357	0.832	0.264	0.913
+0.315	0.87	0.781	0.635
+0.309	0.877	0.294	0.906
+0.3	0.878	0.316	0.888
+
+Columns TFm_PYPL_neg_vgood16_mult_conv2.h5:
+Date, buy_sell_point, mtum_DMP_14, mtum_PLUS_DM, vola_NATR, sti_STDDEV, vola_ATR, mtum_APO, mtum_MACD_ext, olap_BBAND_dif, sti_VAR, vola_THERMOma_20_2_05, mtum_MACD_ext_signal, mtum_PPO, mcrh_WMA_50_TEMA_100, NQ_per_Volume

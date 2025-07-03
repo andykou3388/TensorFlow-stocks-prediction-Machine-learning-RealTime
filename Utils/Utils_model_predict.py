@@ -109,7 +109,7 @@ def load_and_clean__buy_sell_atack( raw_df, columns_selection, op_buy_sell : _KE
     Logger.logr.debug("DataFrame info:\n" + str(raw_df.info()))
     Logger.logr.debug("DataFrame describe:\n" + str(raw_df.describe()))
     print("COMPRA VENTA PUNTO")
-    # Logger.logr.debug(" groupby(Y_TARGET).count() " + str(df[['Date', Y_TARGET]].groupby(Y_TARGET).count()))
+    Logger.logr.debug(" groupby(Y_TARGET).count() " + str(df[['Date', Y_TARGET]].groupby(Y_TARGET).count()))
     df = cast_Y_label_binary(df, label_name=Y_TARGET)
     df = clean_redifine_df_dummy_ticker(df)
     return df
@@ -246,6 +246,7 @@ def prepare_to_split_SMOTETomek_01(df_feature,df_label ):
 import joblib
 def scaler_min_max_array(array_raw, path_to_save = None, path_to_load = None):
     sc = None
+    # Logger.logr.debug("Scaler will be Loaded Path: " + path_to_load)
     if path_to_load is not None:
         # https://stackoverflow.com/questions/41993565/save-minmaxscaler-model-in-sklearn
         Logger.logr.debug("Scaler will be Loaded Path: " + path_to_load)

@@ -1,0 +1,68 @@
+matplotlib - [DEBUG]{MainThread} - wrapper() - matplotlib data path: /opt/conda/lib/python3.10/site-packages/matplotlib/mpl-data
+matplotlib - [DEBUG]{MainThread} - wrapper() - CONFIGDIR=/root/.config/matplotlib
+matplotlib - [DEBUG]{MainThread} - <module>() - interactive is False
+matplotlib - [DEBUG]{MainThread} - <module>() - platform is linux
+matplotlib - [DEBUG]{MainThread} - wrapper() - CACHEDIR=/root/.cache/matplotlib
+matplotlib.font_manager - [DEBUG]{MainThread} - _load_fontmanager() - Using fontManager instance from /root/.cache/matplotlib/fontlist-v390.json
+root - [INFO]{MainThread} - load_and_clean_DF_Train_from_csv() - df loaded from .csv Shape: (1561, 1075) Path: d_price/UBER_PLAIN_stock_history_MONTH_3_AD.csv
+root - [DEBUG]{MainThread} - load_and_clean__buy_sell_atack() - columns_selection List HAS vulues, works trains with: Date, buy_sell_point, olap_BBAND_dif, ma_TRIMA_50, vola_NATR, mtum_PLUS_DM, ichi_senkou_a, vola_ATR, mtum_DMP_14, NQ_per_Volume
+root - [DEBUG]{MainThread} - load_and_clean__buy_sell_atack() - DataFrame head:
+                  Date  buy_sell_point  olap_BBAND_dif  ma_TRIMA_50  vola_NATR  mtum_PLUS_DM  ichi_senkou_a  vola_ATR  mtum_DMP_14  NQ_per_Volume
+0  2025-04-02 09:30:00               0             NaN          NaN        NaN           NaN            NaN       NaN          NaN     477.179627
+1  2025-04-02 09:45:00             100             NaN          NaN        NaN           NaN            NaN       NaN          NaN     477.179627
+2  2025-04-02 10:00:00             100             NaN          NaN        NaN           NaN            NaN       NaN          NaN     477.179627
+3  2025-04-02 10:15:00               0             NaN          NaN        NaN           NaN            NaN       NaN          NaN     477.179627
+4  2025-04-02 10:30:00               0             NaN          NaN        NaN           NaN            NaN       NaN          NaN     477.179627
+root - [DEBUG]{MainThread} - load_and_clean__buy_sell_atack() - DataFrame info:
+None
+root - [DEBUG]{MainThread} - load_and_clean__buy_sell_atack() - DataFrame describe:
+       buy_sell_point  olap_BBAND_dif  ma_TRIMA_50    vola_NATR  mtum_PLUS_DM  ichi_senkou_a     vola_ATR  mtum_DMP_14  NQ_per_Volume
+count     1561.000000     1542.000000  1512.000000  1547.000000   1548.000000    1510.000000  1547.000000  1548.000000    1561.000000
+mean        -0.512492        2.656749    82.224722     0.663065      1.720222      82.063959     0.527630     1.720222     122.257997
+std         33.393439        1.973503     7.313157     0.340513      1.025082       7.309909     0.213126     1.025082     205.385753
+min       -100.000000        0.530443    64.579723     0.277935      0.358561      63.482500     0.235772     0.358561     -74.464402
+25%          0.000000        1.344908    76.868652     0.457631      1.052638      75.800000     0.394399     1.052638     -15.465827
+50%          0.000000        2.007707    84.176325     0.565828      1.430629      83.830625     0.471907     1.430629      11.261856
+75%          0.000000        3.308072    87.157016     0.719375      2.056302      86.989998     0.579107     2.056302     227.112644
+max        100.000000       12.856822    92.597722     2.541488      7.152036      93.084999     1.607618     7.152036     757.830994
+root - [DEBUG]{MainThread} - load_and_clean__buy_sell_atack() -  groupby(Y_TARGET).count()                 Date
+buy_sell_point      
+0               1470
+100               91
+root - [DEBUG]{MainThread} - cast_Y_label_binary() - Label classes: [0, 100]
+matplotlib - [DEBUG]{MainThread} - wrapper() - matplotlib data path: /opt/conda/lib/python3.10/site-packages/matplotlib/mpl-data
+matplotlib - [DEBUG]{MainThread} - wrapper() - CONFIGDIR=/root/.config/matplotlib
+matplotlib - [DEBUG]{MainThread} - <module>() - interactive is False
+matplotlib - [DEBUG]{MainThread} - <module>() - platform is linux
+matplotlib - [DEBUG]{MainThread} - wrapper() - CACHEDIR=/root/.cache/matplotlib
+matplotlib.font_manager - [DEBUG]{MainThread} - _load_fontmanager() - Using fontManager instance from /root/.cache/matplotlib/fontlist-v390.json
+root - [INFO]{MainThread} - load_and_clean_DF_Train_from_csv() - df loaded from .csv Shape: (1561, 1075) Path: d_price/UBER_PLAIN_stock_history_MONTH_3_AD.csv
+root - [DEBUG]{MainThread} - load_and_clean__buy_sell_atack() - columns_selection List HAS vulues, works trains with: Date, buy_sell_point, olap_BBAND_dif, ma_TRIMA_50, vola_NATR, mtum_PLUS_DM, ichi_senkou_a, vola_ATR, mtum_DMP_14, NQ_per_Volume
+root - [DEBUG]{MainThread} - load_and_clean__buy_sell_atack() - DataFrame head:
+                  Date  buy_sell_point  olap_BBAND_dif  ma_TRIMA_50  ...  ichi_senkou_a  vola_ATR  mtum_DMP_14  NQ_per_Volume
+0  2025-04-02 09:30:00               0             NaN          NaN  ...            NaN       NaN          NaN     477.179627
+1  2025-04-02 09:45:00             100             NaN          NaN  ...            NaN       NaN          NaN     477.179627
+2  2025-04-02 10:00:00             100             NaN          NaN  ...            NaN       NaN          NaN     477.179627
+3  2025-04-02 10:15:00               0             NaN          NaN  ...            NaN       NaN          NaN     477.179627
+4  2025-04-02 10:30:00               0             NaN          NaN  ...            NaN       NaN          NaN     477.179627
+
+[5 rows x 10 columns]
+root - [DEBUG]{MainThread} - load_and_clean__buy_sell_atack() - DataFrame info:
+None
+root - [DEBUG]{MainThread} - load_and_clean__buy_sell_atack() - DataFrame describe:
+       buy_sell_point  olap_BBAND_dif  ma_TRIMA_50    vola_NATR  ...  ichi_senkou_a     vola_ATR  mtum_DMP_14  NQ_per_Volume
+count     1561.000000     1542.000000  1512.000000  1547.000000  ...    1510.000000  1547.000000  1548.000000    1561.000000
+mean        -0.512492        2.656749    82.224722     0.663065  ...      82.063959     0.527630     1.720222     122.257997
+std         33.393439        1.973503     7.313157     0.340513  ...       7.309909     0.213126     1.025082     205.385753
+min       -100.000000        0.530443    64.579723     0.277935  ...      63.482500     0.235772     0.358561     -74.464402
+25%          0.000000        1.344908    76.868652     0.457631  ...      75.800000     0.394399     1.052638     -15.465827
+50%          0.000000        2.007707    84.176325     0.565828  ...      83.830625     0.471907     1.430629      11.261856
+75%          0.000000        3.308072    87.157016     0.719375  ...      86.989998     0.579107     2.056302     227.112644
+max        100.000000       12.856822    92.597722     2.541488  ...      93.084999     1.607618     7.152036     757.830994
+
+[8 rows x 9 columns]
+root - [DEBUG]{MainThread} - load_and_clean__buy_sell_atack() -  groupby(Y_TARGET).count()                 Date
+buy_sell_point      
+0               1470
+100               91
+root - [DEBUG]{MainThread} - cast_Y_label_binary() - Label classes: [0, 100]

@@ -177,8 +177,8 @@ def send_image_full_alersts(S, df_mul, op_buy_sell : _KEYS_DICT.Op_buy_sell ,  l
 
     Logger.logr.info("It will send alert  Stock: " + S+ "_"+op_buy_sell.value)
     url_trader_view = Utils_send_message.get_traderview_url(S)
-    path_imgs_tech, path_imgs_finan = get_traderview_screem_shot(url_trader_view,_KEYS_DICT.PATH_PNG_TRADER_VIEW + "" + S, will_stadistic_png = False)
-
+    # path_imgs_tech, path_imgs_finan = get_traderview_screem_shot(url_trader_view,_KEYS_DICT.PATH_PNG_TRADER_VIEW + "" + S, will_stadistic_png = False)
+    path_imgs_tech = ""
     message_aler, alert_message_without_tags = Utils_send_message.get_MULTI_string_alert_message(S, df_mul[1:].to_dict(
         'list'), op_buy_sell, list_models_to_predict, list_png=[path_imgs_tech],url_trader_view=url_trader_view )
 

@@ -1,0 +1,14 @@
+loss	accuracy	val_loss	val_accuracy
+0.669	0.634	0.794	0.486
+0.6	0.703	0.758	0.464
+0.565	0.711	0.558	0.566
+0.544	0.715	0.564	0.508
+0.527	0.715	0.484	0.593
+0.528	0.719	0.589	0.484
+0.507	0.731	0.554	0.486
+0.488	0.736	0.493	0.653
+0.467	0.76	0.676	0.541
+0.464	0.766	0.582	0.601
+
+Columns TFm_1088.HK_neg_low1__simp_cordo.h5:
+Date, buy_sell_point, volu_PVT, sti_LINEARREG_INTERCEPT, ma_KAMA_50, ti_kelt_20_upper, tend_lh, tend_renko_ATR, olap_BBAND_UPPER, ma_TRIMA_20, ma_T3_10, olap_HT_TRENDLINE, ma_SMA_20, ma_EMA_50, olap_BBAND_MIDDLE, olap_SINWMA_14, olap_ALMA_10_60_085, ma_WMA_20, vola_KCUe_20_2, ti_donchian_upper_20, ma_SMA_50, ma_SMA_10, tend_hh, ma_TRIMA_50, has_preMarket, vola_KCBe_20_2, olap_MIDPOINT, ma_EMA_20, tend_ll, vola_THERMOma_20_2_05, vola_ATR, ma_TRIMA_10, ti_kelt_20_lower, cdl_TRISTAR, cycl_DCPERIOD, cdl_INVERTEDHAMMER, olap_MCGD_10, ma_KAMA_20, olap_PWMA_10, olap_SWMA_10, volu_OBV, per_Volume, ma_DEMA_20, sti_VAR, ti_acc_dist, NQ_SMA_20, sti_TOS_STDEVALL_L_1, sti_TOS_STDEVALL_U_2, vola_HWU, NQ_SMA_100, vola_KCLe_20_2, wood_r3, ma_T3_5, volu_Chaikin_AD, ma_TEMA_20, ma_EMA_10, olap_HWMA_02_01_01, sti_TOS_STDEVALL_L_3, olap_MIDPRICE, ma_KAMA_10, olap_VWMA_10, cama_pp, ma_SMA_5, ma_EMA_5, ichi_tenkan_sen, trad_r1, sti_TOS_STDEVALL_L_2, sti_TOS_STDEVALL_U_1, vola_HWM, fibo_r1, fibo_r2, ma_WMA_10, mcrh_SMA_20_DEMA_50, ma_TRIMA_5, clas_r3, ichi_senkou_a, sti_TOS_STDEVALL_U_3, ma_KAMA_5, ti_chaikin_10_3, wood_r2, fibo_r3, sti_CORREL, olap_VMAP, sti_TOS_STDEVALL_LR, volu_NVI_1, clas_r2, demark_r1, mtum_FISHERT_9_1, vola_NATR, mcrh_DEMA_20_KAMA_100, wood_r1, mcrh_TRIMA_20_EMA_100, ti_hma_20, clas_r1, vola_HWL, fibo_pp, trad_r3, trad_r2, tend_lh_crash, ti_donchian_lower_20, trad_pp, ti_donchian_center_20, ti_konk_avg, volu_Chaikin_ADOSC, ti_ease_of_movement_14, wood_pp, volu_PVI_1, ti_konk_bro, High, tend_hl, tend_PSARs_002_02, mcrh_TRIMA_20_SMA_100, mcrh_T3_20_TEMA_100, mcrh_KAMA_5_SMA_10, mcrh_EMA_20_KAMA_100, mcrh_DEMA_5_EMA_100, ma_WMA_5, ma_TEMA_10, ma_DEMA_10, ichi_senkou_b, demark_pp, cycl_SINE_sine, cycl_SINE_lead, cycl_PHASOR_inph, clas_pp, NQ_per_Volume, mcrh_WMA_5_EMA_100, mtum_ADXR, mtum_AROONOSC, NQ_Close, sti_LINEARREG_ANGLE, perf_CUMPCTRET_1, olap_SSF_10_2, olap_SAREXT, olap_BBAND_LOWER, mtum_td_seq_sig, mtum_SMI_5_20_5, mtum_AR_26, mtum_ROCR100, mtum_ROCR, mtum_ROC, mtum_MACD_fix_signal, mtum_INERTIA_20_14, mtum_BIAS_SMA_26, mtum_STOCH_Fa_d

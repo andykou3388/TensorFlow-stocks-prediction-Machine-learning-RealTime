@@ -133,6 +133,11 @@ def select_work_buy_or_sell_point(cleaned_df, opcion : _KEYS_DICT.Op_buy_sell, Y
 # rolling_get_sell_price_POS() and rolling_get_sell_price_NEG()
 # Old method repleced by rolling_get_sell_price_XXX_next_value
 def get_buy_sell_points_Roll(df_stock, delete_aux_rows = True):
+    df_stock = df_stock.copy()
+    df_stock.columns = [
+        col[0] if isinstance(col, tuple) else col
+        for col in df_stock.columns
+    ]
     df_stock['sell_value_POS'] = df_stock.Close.shift(-12).rolling( min_periods = 1, window=12).apply(rolling_get_sell_price_POS_next_value)
     #df_stock['PROFIT_POS'] = (df_stock['sell_value_POS'] + 100) - (df_stock['Close'] + 100)
     #df_stock['per_PROFIT_POS'] = ((df_stock['sell_value_POS'] * 100) / df_stock['Close'] - 100).astype(float)
@@ -140,6 +145,11 @@ def get_buy_sell_points_Roll(df_stock, delete_aux_rows = True):
     df_stock['sell_value_NEG'] = df_stock.Close.shift(-12).rolling(min_periods=1, window=12).apply(rolling_get_sell_price_NEG_next_value)
     #df_stock['PROFIT_NEG'] = (df_stock['sell_value_NEG'] + 100) - (df_stock['Close'] + 100)
     #df_stock['per_PROFIT_NEG'] = ((df_stock['sell_value_NEG'] * 100) / df_stock['Close'] - 100).astype(float)
+    Logger.logr.info(
+        "get_buy_sell_points_Roll df.shape: " + str(df_stock.shape) +
+        " delete_aux_rows: " + str(delete_aux_rows) +
+        "\n" + df_stock.head(10).to_string()
+    )
 
     df_stock['profit_POS_units'] = df_stock['sell_value_POS']  -  df_stock['Close']
     df_stock['profit_NEG_units'] = (df_stock['Close']+ 100) - (df_stock['sell_value_NEG']+ 100)

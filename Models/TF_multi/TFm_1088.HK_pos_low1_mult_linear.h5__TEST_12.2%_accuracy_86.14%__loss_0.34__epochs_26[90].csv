@@ -1,0 +1,31 @@
+loss	accuracy	val_loss	val_accuracy
+1.369	0.644	0.541	0.763
+0.665	0.624	0.525	0.786
+0.604	0.695	0.349	0.9
+0.571	0.72	0.284	0.933
+0.539	0.754	0.761	0.526
+0.514	0.757	0.384	0.852
+0.5	0.78	0.646	0.643
+0.438	0.798	0.648	0.666
+0.441	0.802	0.32	0.889
+0.456	0.802	0.493	0.755
+0.421	0.804	0.314	0.922
+0.43	0.82	0.322	0.883
+0.388	0.83	1.519	0.348
+0.381	0.83	0.404	0.822
+0.383	0.824	0.442	0.788
+0.389	0.84	0.284	0.905
+0.358	0.849	0.302	0.911
+0.37	0.837	0.612	0.719
+0.337	0.854	1.642	0.357
+0.374	0.861	0.717	0.696
+0.333	0.861	0.517	0.749
+0.323	0.857	0.299	0.919
+0.376	0.853	0.332	0.889
+0.272	0.892	0.545	0.777
+0.345	0.86	0.361	0.875
+0.288	0.881	0.749	0.708
+0.341	0.861	0.414	0.813
+
+Columns TFm_1088.HK_pos_low1_mult_linear.h5:
+Date, buy_sell_point, vola_ATR, vola_THERMOma_20_2_05, mtum_DX, vola_NATR, cdl_ONNECK, mcrh_EMA_10_ti_h20, mtum_PVOh_12_26_9, ti_choppiness_14, mtum_ADX, mcrh_T3_5_WMA_100, mtum_td_seq, mcrh_EMA_20_EMA_50, mcrh_T3_5_EMA_50, tend_renko_ATR, olap_BBAND_dif, tend_hh, mcrh_KAMA_10_ti_h20, mcrh_EMA_10_WMA_100, mtum_STC_10_12_26_05, mcrh_EMA_20_DEMA_50, olap_BBAND_UPPER, mcrh_T3_50_T3_100, ma_T3_10, tend_PSARaf_002_02, cycl_EBSW_40_10, mtum_AROON_up, cdl_MATCHINGLOW, cdl_RICKSHAWMAN, sti_LINEARREG_INTERCEPT, mtum_PLUS_DM, mtum_MACD_ext_signal, cycl_HT_TRENDMODE, mtum_DMP_14, mcrh_EMA_50_DEMA_100, tend_lh, mcrh_WMA_10_WMA_100, vola_UI_14, ti_donchian_upper_20, mcrh_T3_5_WMA_10, ti_kelt_20_upper, mcrh_SMA_5_WMA_100, mcrh_TRIMA_5_DEMA_10, mcrh_KAMA_5_SMA_100, mcrh_SMA_5_DEMA_10, ma_KAMA_50, mtum_STCstoch_10_12_26_05, mcrh_WMA_10_ti_h20, mcrh_EMA_10_SMA_100, mcrh_T3_50_TRIMA_100, Volume, NQ_SMA_20, mcrh_SMA_5_WMA_20, mtum_MACD_ext_list, mcrh_WMA_10_SMA_100, ma_EMA_50, mcrh_TEMA_10_T3_20, olap_HT_TRENDLINE, mtum_QQEs_14_5_4236, vola_KCUe_20_2, ma_TRIMA_20, mcrh_TRIMA_50_WMA_100, mcrh_WMA_20_KAMA_100, olap_MIDPOINT, olap_SINWMA_14, mcrh_SMA_20_KAMA_100, mcrh_TRIMA_5_TEMA_10, mcrh_SMA_5_SMA_100, mcrh_TRIMA_5_SMA_100, olap_VMAP, mcrh_TRIMA_50_KAMA_100, mtum_ER_10, sti_TOS_STDEVALL_L_1, mcrh_TRIMA_10_T3_20, mcrh_T3_5_KAMA_20, NQ_Close, mcrh_T3_5_SMA_100, olap_BBAND_MIDDLE, mtum_QQEl_14_5_4236, mcrh_TEMA_20_SMA_100, mcrh_WMA_10_T3_20, mcrh_WMA_50_DEMA_100, wood_r3, mtum_MACD_ext, ma_TEMA_20, cycl_SINE_lead, mcrh_DEMA_10_SMA_100, ma_WMA_20, ti_konk_avg, ma_TRIMA_50, ti_konk_rest, has_preMarket, vola_KCBe_20_2, clas_r3, ma_DEMA_20, ma_SMA_50, vola_HWU, ma_SMA_20, ma_EMA_20, ma_SMA_10, ma_KAMA_10, ti_acc_dist, mcrh_DEMA_20_SMA_100, mcrh_EMA_10_EMA_20, mcrh_KAMA_5_EMA_10, mcrh_SMA_100_ti_h20, tend_ll, NQ_SMA_100, mcrh_EMA_5_WMA_100, mcrh_EMA_5_WMA_20, volu_PVOL, mcrh_KAMA_10_WMA_100, mcrh_EMA_10_T3_20, mcrh_KAMA_20_KAMA_50, vola_HWM, wood_r2, wood_r1, volu_PVT, vola_KCLe_20_2, mtum_MACD_fix_signal, mtum_MINUS_DM, volu_Chaikin_AD, mtum_PPO, vola_THERMOs_20_2_05, mtum_PVO_12_26_9, vola_HWL, mtum_STCmacd_10_12_26_05, sti_TOS_STDEVALL_L_2, mtum_STOCH_Fa_k, olap_MIDPRICE, per_Volume, sti_TOS_STDEVALL_U_2, sti_ZS_30, olap_VWMA_10, tend_PSARl_002_02, olap_SWMA_10, tend_PSARr_002_02, tend_hl, olap_PWMA_10, olap_MCGD_10, mtum_STOCH_Fa_kd, olap_HWMA_02_01_01, ti_kelt_20_lower, olap_ALMA_10_60_085, trad_r1, sti_KURT_30, trad_r3, mtum_STOCH_d, mtum_STOCH_crash, mtum_STOCH_RSI_d, trad_r2, High, mtum_FISHERT_9_1, ma_TEMA_10, ma_TRIMA_5, ma_WMA_10, mcrh_DEMA_10_TRIMA_100, mcrh_DEMA_10_WMA_20, mcrh_DEMA_20_KAMA_100, mcrh_DEMA_5_EMA_20, mcrh_DEMA_5_TRIMA_100, mcrh_DEMA_5_TRIMA_20, mcrh_EMA_50_ti_h20, mcrh_EMA_5_SMA_100, mcrh_EMA_5_WMA_50, mcrh_KAMA_10_EMA_50, mcrh_KAMA_10_TRIMA_100, mcrh_KAMA_50_TEMA_100, mcrh_KAMA_5_KAMA_10, ma_TRIMA_10, ma_T3_5, mtum_DMN_14, ma_SMA_5, NQ_Volume, NQ_per_Volume, cdl_INVERTEDHAMMER, clas_r1, clas_r2, cycl_DCPERIOD, cycl_SINE_sine, fibo_r1, fibo_r2, fibo_r3, ichi_senkou_a, ichi_tenkan_sen, ma_EMA_10, ma_EMA_5, ma_KAMA_20, mcrh_KAMA_5_TEMA_10, mcrh_KAMA_5_TRIMA_100, mcrh_SMA_10_KAMA_20, mcrh_SMA_10_SMA_100, mcrh_TRIMA_5_EMA_10, mcrh_TRIMA_5_SMA_20, mcrh_TRIMA_5_TEMA_20, mcrh_TRIMA_5_TRIMA_100, mcrh_TRIMA_5_WMA_100, mcrh_TRIMA_5_WMA_20, mcrh_TRIMA_5_WMA_50, mcrh_WMA_20_SMA_100, mcrh_WMA_5_SMA_100, mcrh_WMA_5_TRIMA_100, mcrh_WMA_5_WMA_100, mcrh_WMA_5_WMA_20, mtum_ADXR, mtum_AROONOSC, mtum_CMO, mcrh_TRIMA_20_TEMA_100, mcrh_TRIMA_10_SMA_100, mcrh_TRIMA_10_DEMA_100, mcrh_T3_10_TEMA_50, mcrh_SMA_10_SMA_20, mcrh_SMA_10_ti_h20, mcrh_SMA_50_TEMA_100, mcrh_SMA_5_TEMA_10, mcrh_SMA_5_TRIMA_100, mcrh_T3_10_SMA_50, mcrh_T3_5_EMA_10, mcrh_TEMA_5_TEMA_100, mcrh_T3_5_WMA_20, mcrh_TEMA_10_SMA_100, mcrh_TEMA_10_TEMA_50, mcrh_TEMA_10_TRIMA_100, mcrh_TEMA_10_WMA_100, mcrh_TEMA_20_TRIMA_100, mcrh_TRIMA_10_EMA_50

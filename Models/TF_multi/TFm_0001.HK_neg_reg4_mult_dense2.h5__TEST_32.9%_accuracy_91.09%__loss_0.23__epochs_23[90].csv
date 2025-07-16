@@ -1,0 +1,28 @@
+loss	accuracy	val_loss	val_accuracy
+0.845	0.589	0.49	0.941
+0.666	0.613	0.649	0.631
+0.617	0.65	0.63	0.615
+0.628	0.72	0.881	0.487
+0.562	0.733	0.933	0.433
+0.517	0.73	0.81	0.535
+0.474	0.78	1.155	0.439
+0.477	0.77	0.339	0.893
+0.445	0.798	0.621	0.695
+0.45	0.801	0.37	0.837
+0.404	0.82	1.164	0.401
+0.399	0.835	0.467	0.762
+0.405	0.823	0.444	0.81
+0.368	0.827	0.305	0.896
+0.366	0.836	0.4	0.816
+0.34	0.856	1.374	0.457
+0.343	0.858	0.33	0.874
+0.292	0.881	0.644	0.759
+0.352	0.848	0.37	0.872
+0.282	0.884	0.509	0.789
+0.317	0.879	0.459	0.783
+0.256	0.902	0.59	0.789
+0.276	0.898	0.437	0.85
+0.226	0.911	0.428	0.872
+
+Columns TFm_0001.HK_neg_reg4_mult_dense2.h5:
+Date, buy_sell_point, sti_VAR, sti_STDDEV, mtum_DX, volu_Chaikin_ADOSC, mtum_PSL_12, ti_chaikin_10_3, volu_PVOL, mtum_ADX, mtum_td_seq, mtum_STCmacd_10_12_26_05, Volume, mtum_MACD_signal, mtum_MACD_fix, mtum_MACD, mtum_INERTIA_20_14, mtum_td_seq_sig, mtum_ADXR, cycl_SINE_lead, ma_TEMA_5, mtum_MACD_fix_signal, sti_TSF, ma_T3_5, mtum_PLUS_DM, mtum_QQEl_14_5_4236, ma_TEMA_10, mtum_STCstoch_10_12_26_05, ma_DEMA_20, ichi_kijun_sen, has_preMarket, ti_hma_20, ti_donchian_center_20, ti_donchian_upper_20, cycl_HT_TRENDMODE, mtum_DMP_14, mtum_PVOs_12_26_9, ma_DEMA_10, mtum_STC_10_12_26_05, ichi_tenkan_sen, mtum_AO_5_34, mtum_ULTOSC, vola_KCUe_20_2, ma_DEMA_5, mtum_ER_10, mtum_MACD_ext_signal, sti_LINEARREG, mtum_QQE_14_5_4236_RSIMA, cdl_GRAVESTONEDOJI, ti_konk_avg, vola_HWL, mtum_murrey_math, mtum_SMIs_5_20_5, mtum_WILLIAMS_R, mtum_MACD_ext, cycl_PHASOR_inph, vola_THERMO_20_2_05, vola_TRUERANGE_1, cycl_DCPHASE, olap_HWMA_02_01_01, olap_JMA_7_0, vola_TRANGE, olap_SWMA_10, olap_MIDPRICE, ma_KAMA_10, ti_mass_index_9_25, ma_TRIMA_10, ma_WMA_10, mcrh_KAMA_5_TEMA_50, mtum_APO, tend_renko_TR, tend_lh, mcrh_KAMA_20_DEMA_100, vola_HWM, ma_KAMA_5, volu_EFI_13, ti_donchian_lower_20, vola_KCBe_20_2, ti_force_index_13, ti_ease_of_movement_14, ti_kelt_20_lower, olap_MIDPOINT, ti_kelt_20_upper, olap_BBAND_UPPER, olap_PWMA_10, ti_coppock_14_11_10, sti_ENTP_10, ti_acc_dist, olap_VWMA_10, perf_CUMLOGRET_1, vola_RVI_14, tend_hh, tend_LDECAY_5, sti_LINEARREG_SLOPE, vola_KCLe_20_2, perf_CUMPCTRET_1, sti_CORREL, sti_LINEARREG_ANGLE, Close, wood_r3, ma_EMA_10, clas_r3, ma_WMA_20, ma_TEMA_20, mtum_AROON_up, ma_KAMA_20, ma_EMA_5, ma_EMA_20, mtum_CTI_12, mtum_D_9_3, mtum_FISHERTs_9_1, mtum_PPO, ma_WMA_5, mtum_RSI, mtum_PVO_12_26_9, cdl_MATCHINGLOW, mtum_ROCP, mtum_ROC

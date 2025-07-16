@@ -1,0 +1,14 @@
+loss	accuracy	val_loss	val_accuracy
+0.632	0.611	0.682	0.496
+0.565	0.699	0.769	0.447
+0.545	0.687	0.619	0.534
+0.52	0.735	0.476	0.637
+0.509	0.743	0.597	0.539
+0.506	0.746	0.256	0.924
+0.492	0.74	0.595	0.534
+0.487	0.743	0.702	0.518
+0.494	0.738	0.728	0.466
+0.499	0.748	0.252	0.913
+
+Columns TFm_1088.HK_neg_vgood16__mult_gru.h5:
+Date, buy_sell_point, volu_PVT, sti_LINEARREG_INTERCEPT, ma_KAMA_50, ti_kelt_20_upper, tend_lh, tend_renko_ATR, olap_BBAND_UPPER, ma_TRIMA_20, ma_T3_10, olap_HT_TRENDLINE, ma_SMA_20, ma_EMA_50, olap_BBAND_MIDDLE

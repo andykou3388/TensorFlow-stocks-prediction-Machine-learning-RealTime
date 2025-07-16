@@ -44,7 +44,8 @@ chat_idADMIN = "7164061667"
 chat_idUser1 = "563000000"
 chat_idUser2 = "207000000"
 chat_idUser3= "495000000"
-LIST_PEOPLE_IDS_CHAT = [chat_idUser1, chat_idUser2, chat_idUser2]
+# LIST_PEOPLE_IDS_CHAT = [chat_idUser1, chat_idUser2, chat_idUser2]
+LIST_PEOPLE_IDS_CHAT = [chat_idADMIN]
 
 
 
@@ -81,7 +82,7 @@ def send_mesage_all_people(message_aler, parse_type = ParseMode.HTML, list_png =
 
         for people_id in LIST_PEOPLE_IDS_CHAT:
             url = botsUrl + "/sendMessage?chat_id={}&text={}&parse_mode={parse_mode}".format(people_id, message_aler,parse_mode=parse_type)
-            requests.get(url).json()
+            # requests.get(url).json()
         Logger.logr.debug("Will send messege for LIST_PEOPLE_IDS_CHAT url: " + url)
 
 

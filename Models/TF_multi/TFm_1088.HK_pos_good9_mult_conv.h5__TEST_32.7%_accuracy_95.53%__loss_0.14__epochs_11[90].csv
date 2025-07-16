@@ -1,0 +1,16 @@
+loss	accuracy	val_loss	val_accuracy
+0.651	0.698	0.526	0.783
+0.511	0.779	0.781	0.472
+0.404	0.853	0.242	0.905
+0.347	0.875	1.044	0.423
+0.303	0.891	0.171	0.94
+0.253	0.915	0.185	0.949
+0.236	0.914	0.729	0.672
+0.208	0.932	0.471	0.808
+0.175	0.947	0.346	0.862
+0.156	0.952	0.43	0.837
+0.129	0.969	0.237	0.894
+0.138	0.955	0.344	0.854
+
+Columns TFm_1088.HK_pos_good9_mult_conv.h5:
+Date, buy_sell_point, vola_ATR, vola_THERMOma_20_2_05, mtum_DX, vola_NATR, cdl_ONNECK, mcrh_EMA_10_ti_h20, mtum_PVOh_12_26_9, ti_choppiness_14, mtum_ADX, mcrh_T3_5_WMA_100, mtum_td_seq, mcrh_EMA_20_EMA_50, mcrh_T3_5_EMA_50, tend_renko_ATR, olap_BBAND_dif, tend_hh, mcrh_KAMA_10_ti_h20, mcrh_EMA_10_WMA_100, mtum_STC_10_12_26_05, mcrh_EMA_20_DEMA_50, olap_BBAND_UPPER, mcrh_T3_50_T3_100, ma_T3_10, tend_PSARaf_002_02, cycl_EBSW_40_10, mtum_AROON_up, cdl_MATCHINGLOW, cdl_RICKSHAWMAN, sti_LINEARREG_INTERCEPT, mtum_PLUS_DM, mtum_MACD_ext_signal, cycl_HT_TRENDMODE, mtum_DMP_14, mcrh_EMA_50_DEMA_100, tend_lh, mcrh_WMA_10_WMA_100, vola_UI_14, ti_donchian_upper_20, mcrh_T3_5_WMA_10, ti_kelt_20_upper, mcrh_SMA_5_WMA_100, mcrh_TRIMA_5_DEMA_10, mcrh_KAMA_5_SMA_100, mcrh_SMA_5_DEMA_10, ma_KAMA_50, mtum_STCstoch_10_12_26_05, mcrh_WMA_10_ti_h20

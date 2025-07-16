@@ -1,0 +1,13 @@
+loss	accuracy	val_loss	val_accuracy
+0.601	0.732	0.861	0.434
+0.545	0.727	0.829	0.519
+0.524	0.734	0.482	0.77
+0.514	0.737	0.67	0.601
+0.49	0.75	0.339	0.854
+0.476	0.736	0.382	0.802
+0.442	0.756	0.435	0.767
+0.426	0.763	0.655	0.65
+0.387	0.795	0.71	0.656
+
+Columns TFm_2318.HK_neg_vgood16_mult_128.h5:
+Date, buy_sell_point, tend_lh, ti_chaikin_10_3, volu_Chaikin_ADOSC, volu_PVOL

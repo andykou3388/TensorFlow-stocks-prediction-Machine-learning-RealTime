@@ -1,0 +1,14 @@
+loss	accuracy	val_loss	val_accuracy
+0.606	0.721	0.375	0.885
+0.486	0.751	1.086	0.333
+0.417	0.81	0.32	0.877
+0.361	0.832	0.29	0.885
+0.324	0.855	0.285	0.877
+0.303	0.866	0.198	0.937
+0.283	0.877	0.232	0.891
+0.241	0.902	0.157	0.948
+0.248	0.897	0.133	0.964
+0.209	0.911	0.343	0.855
+
+Columns TFm_1299.HK_pos_good9_mult_128.h5:
+Date, buy_sell_point, tend_lh, mtum_PVOs_12_26_9, tend_ll, tend_hh, tend_renko_brick, mtum_AROONOSC, ichi_senkou_b, ma_KAMA_50, wood_r3, mtum_PVO_12_26_9, mtum_INERTIA_20_14, wood_r2, wood_r1, vola_KCUe_20_2, olap_VMAP, ma_SMA_50, mtum_AROON_up, NQ_SMA_100, per_preMarket, mtum_BULLP_13, sti_TSF, ma_KAMA_20, ti_choppiness_14, ma_EMA_50, ti_vortex_neg_14, trad_r3, mtum_STCstoch_10_12_26_05, vola_ATR, mcrh_SMA_50_TEMA_100, cdl_MORNINGSTAR, fibo_r3, Open, cdl_MORNINGDOJISTAR, cycl_HT_TRENDMODE, clas_r3, clas_r2, Low, olap_BBAND_UPPER, volu_NVI_1, ma_TRIMA_10, olap_JMA_7_0, sti_LINEARREG, ti_konk_gre, olap_SWMA_10, ma_KAMA_10, High, trad_r1, trad_r2, per_Close, fibo_r2

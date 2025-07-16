@@ -1,0 +1,13 @@
+loss	accuracy	val_loss	val_accuracy
+0.772	0.58	0.611	0.636
+0.612	0.671	0.476	0.743
+0.553	0.701	0.433	0.773
+0.511	0.738	0.427	0.697
+0.473	0.778	0.261	0.933
+0.4	0.831	0.182	0.962
+0.357	0.862	0.356	0.799
+0.348	0.857	0.32	0.843
+0.291	0.888	0.325	0.834
+
+Columns TFm_2318.HK_neg_reg4_mult_conv.h5:
+Date, buy_sell_point, tend_lh, ti_chaikin_10_3, volu_Chaikin_ADOSC, volu_PVOL, sti_LINEARREG, ma_TEMA_10, tend_LDECAY_5, Volume, ma_KAMA_20, ma_KAMA_50, mtum_PVO_12_26_9, ichi_kijun_sen, sti_TSF, High, ti_donchian_upper_20, mtum_STCstoch_10_12_26_05, ti_hma_20, cdl_3WHITESOLDIERS, ti_coppock_14_11_10, mcrh_WMA_50_TEMA_100, cama_r1, mcrh_KAMA_10_TRIMA_20, ma_DEMA_10, olap_BBAND_UPPER, ti_ease_of_movement_14, olap_JMA_7_0, ma_DEMA_5, ma_EMA_5, ma_EMA_20, trad_r3, ma_KAMA_10, ma_T3_5, olap_SSF_10_2, ma_TEMA_20, ma_TRIMA_5, mcrh_DEMA_50_EMA_100, sti_TOS_STDEVALL_U_2, ti_force_index_13, sti_TOS_STDEVALL_L_3, mtum_PLUS_DM, olap_BBAND_dif, cama_pp, cama_r2, cama_r3, cama_s1, cama_s2, perf_ha, sti_TOS_STDEVALL_L_2, mtum_PVOh_12_26_9, volu_EFI_13, mtum_MACD_ext_signal, vola_KCUe_20_2, vola_KCBe_20_2, mtum_BR_26, mtum_MFI, tend_hh, mtum_MACD_fix_signal, sti_BETA, perf_CUMPCTRET_1, sti_TOS_STDEVALL_LR, ti_donchian_center_20, mtum_INERTIA_20_14, mtum_td_seq_sig, mtum_DMP_14, olap_MCGD_10, fibo_pp, clas_r2, clas_s1, clas_r1, volu_NVI_1, volu_Chaikin_AD, clas_pp, demark_r1, trad_pp, fibo_r1, cdl_RICKSHAWMAN, wood_pp, fibo_s1, vola_HWU, cama_s3, Open, wood_r1, trad_s1, ma_KAMA_5, ma_SMA_5, trad_r1, ma_WMA_10, ma_WMA_20, ma_WMA_5, wood_r2, wood_s1, wood_s2, sti_ENTP_10, ti_mass_index_9_25, volu_PVT, sti_LINEARREG_ANGLE, sti_LINEARREG_SLOPE, sti_TOS_STDEVALL_L_1, vola_KCLe_20_2, vola_HWL, vola_ATR, trad_s3, sti_TOS_STDEVALL_U_3, trad_s2, trad_r2, Close, mtum_MACD_ext, wood_s3, cycl_PHASOR_inph, ma_EMA_50, ma_EMA_10, ma_DEMA_20, mcrh_EMA_50_KAMA_100, mcrh_KAMA_10_KAMA_20, mcrh_KAMA_5_DEMA_20, fibo_s3, fibo_s2, fibo_r3, fibo_r2, demark_s1, mcrh_TEMA_5_TEMA_20, demark_pp, ma_TEMA_5, mcrh_WMA_20_TEMA_50, mtum_PPO, NQ_SMA_20, NQ_Close, clas_s2, mtum_MACD_ext_list, mtum_MACD_signal, clas_s3, mtum_PSL_12

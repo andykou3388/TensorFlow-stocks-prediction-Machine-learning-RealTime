@@ -1,0 +1,15 @@
+loss	accuracy	val_loss	val_accuracy
+0.703	0.662	1.216	0.397
+0.578	0.699	0.797	0.517
+0.528	0.74	1.277	0.378
+0.484	0.762	0.394	0.806
+0.426	0.803	0.741	0.622
+0.379	0.833	0.335	0.883
+0.372	0.834	0.406	0.79
+0.348	0.848	0.501	0.756
+0.316	0.879	0.381	0.838
+0.297	0.888	0.384	0.841
+0.305	0.879	0.668	0.711
+
+Columns TFm_0020.HK_neg_good9_mult_dense2.h5:
+Date, buy_sell_point, tend_ll, volu_PVOL, Volume, mtum_BIAS_SMA_26, mtum_BULLP_13, volu_PVI_1, mtum_STOCH_RSI_k, mtum_CMO, mtum_PGO_14, mtum_RSI, cdl_GRAVESTONEDOJI, sti_VAR, tend_LDECAY_5, olap_SAREXT, mtum_MOM, vola_RVI_14, volu_EFI_13, mtum_AROON_up, ti_force_index_13, mtum_ROCR100, mtum_PSL_12, mtum_MACD_ext, mtum_ROC, mtum_ROCP, mtum_ROCR, tend_PSARl_002_02, sti_ZS_30, mcrh_KAMA_10_KAMA_100, perf_CUMLOGRET_1, ma_TEMA_5, tend_PSARr_002_02, mcrh_SMA_20_TEMA_100, mtum_APO, High, mtum_MACD_fix_list, Close, mtum_PPO, mtum_PVOh_12_26_9, perf_CUMPCTRET_1, perf_ha, perf_z_30_1, tend_PSARs_002_02, ti_choppiness_14, ti_coppock_14_11_10, per_Volume, mtum_MACD_fix, cdl_TAKURI

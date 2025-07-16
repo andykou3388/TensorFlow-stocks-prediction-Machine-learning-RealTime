@@ -1,0 +1,15 @@
+loss	accuracy	val_loss	val_accuracy
+0.711	0.536	0.439	0.912
+0.657	0.599	0.573	0.895
+0.621	0.624	0.801	0.255
+0.597	0.636	0.799	0.303
+0.572	0.667	0.525	0.893
+0.557	0.677	0.347	0.93
+0.54	0.71	0.475	0.92
+0.528	0.708	0.684	0.426
+0.514	0.737	0.45	0.895
+0.5	0.746	0.677	0.472
+0.492	0.739	0.573	0.563
+
+Columns TFm_1299.HK_pos_vgood16_mult_conv.h5:
+Date, buy_sell_point, tend_lh, mtum_PVOs_12_26_9, tend_ll, tend_hh, tend_renko_brick, mtum_AROONOSC, ichi_senkou_b, ma_KAMA_50

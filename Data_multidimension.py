@@ -162,4 +162,3 @@ class Data_multidimension:
         return self.dict_Model_Definition[model_type]
     # ModelDefinition(shape_inputs_m=imput_shape, num_features_m=len(columns_df)).get_dicts_models_multi_dimension()
 
-

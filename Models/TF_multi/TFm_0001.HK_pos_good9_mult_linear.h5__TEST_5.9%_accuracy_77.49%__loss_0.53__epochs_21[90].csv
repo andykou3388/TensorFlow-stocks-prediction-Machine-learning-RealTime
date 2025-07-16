@@ -1,0 +1,26 @@
+loss	accuracy	val_loss	val_accuracy
+0.69	0.663	0.45	0.793
+0.656	0.645	0.535	0.726
+0.626	0.675	0.649	0.624
+0.617	0.692	0.405	0.828
+0.594	0.728	0.469	0.774
+0.59	0.737	0.53	0.72
+0.559	0.751	0.399	0.82
+0.581	0.749	0.36	0.839
+0.557	0.755	0.765	0.602
+0.573	0.744	0.592	0.688
+0.545	0.76	0.327	0.86
+0.553	0.766	0.406	0.82
+0.555	0.76	0.448	0.785
+0.54	0.76	0.957	0.465
+0.536	0.775	0.653	0.672
+0.523	0.781	0.775	0.581
+0.539	0.769	0.345	0.847
+0.537	0.776	0.513	0.728
+0.537	0.75	0.381	0.844
+0.543	0.766	0.956	0.473
+0.53	0.78	0.545	0.734
+0.533	0.775	0.395	0.833
+
+Columns TFm_0001.HK_pos_good9_mult_linear.h5:
+Date, buy_sell_point, mtum_PVOs_12_26_9, tend_PSARaf_002_02, tend_LDECAY_5, cycl_HT_TRENDMODE, ti_donchian_lower_20, perf_CUMPCTRET_1, perf_ha, ichi_kijun_sen, High, perf_CUMLOGRET_1, tend_hl, Close, olap_BBAND_LOWER, Low, olap_SAREXT, volu_Chaikin_ADOSC, ma_KAMA_5, Open, ma_DEMA_5, ichi_tenkan_sen, wood_pp, per_Volume, ti_donchian_center_20, vola_HWL, ma_TEMA_5, ma_EMA_5, tend_PSARs_002_02, ti_kelt_20_lower, tend_renko_ATR, mcrh_WMA_20_TEMA_50, olap_MIDPRICE, olap_HT_TRENDLINE, olap_HWMA_02_01_01, olap_JMA_7_0, ti_chaikin_10_3, vola_HWU, vola_HWM, ti_mass_index_9_25, tend_PSARl_002_02, ma_SMA_5, mtum_STOCH_RSI_k, clas_r2, wood_r1, cama_pp, volu_PVI_1, ma_WMA_10, vola_KCUe_20_2, olap_MCGD_10, demark_r1, tend_ll, wood_r3, tend_lh, olap_SSF_10_2, mtum_td_seq_sig, ma_SMA_20

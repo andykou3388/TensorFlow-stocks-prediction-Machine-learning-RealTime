@@ -1,0 +1,183 @@
+{
+   "index": {
+      "18": [
+         "volu_PVI_1"
+      ],
+      "16": [
+         "tend_renko_ATR"
+      ],
+      "15": [
+         "vola_ATR",
+         "mtum_ADXR",
+         "volu_PVT"
+      ],
+      "14": [
+         "vola_HWU"
+      ],
+      "11": [
+         "volu_NVI_1"
+      ],
+      "10": [
+         "mcrh_T3_50_WMA_100",
+         "olap_HWMA_02_01_01",
+         "vola_HWM",
+         "ma_TEMA_20",
+         "mtum_MINUS_DM",
+         "ichi_isin_cloud"
+      ],
+      "9": [
+         "mtum_DMN_14"
+      ],
+      "8": [
+         "volu_OBV",
+         "tend_hl"
+      ],
+      "7": [
+         "ma_T3_10"
+      ],
+      "6": [
+         "ma_DEMA_20",
+         "vola_HWL"
+      ],
+      "5": [
+         "ma_EMA_10",
+         "mtum_DMP_14",
+         "mtum_PLUS_DM",
+         "ma_DEMA_10",
+         "wood_r2",
+         "ti_kelt_20_upper",
+         "olap_PWMA_10",
+         "ma_T3_5",
+         "ma_SMA_5",
+         "mtum_STCstoch_10_12_26_05"
+      ],
+      "4": [
+         "olap_BBAND_UPPER",
+         "trad_pp",
+         "ma_SMA_20",
+         "ti_hma_20",
+         "ma_TRIMA_5",
+         "trad_r3",
+         "ma_WMA_10",
+         "sti_LINEARREG_INTERCEPT",
+         "olap_SSF_10_2",
+         "trad_r2",
+         "olap_HT_TRENDLINE",
+         "clas_r1",
+         "wood_r3",
+         "cama_s1",
+         "wood_r1",
+         "wood_s1",
+         "clas_r3",
+         "ma_EMA_5"
+      ],
+      "3": [
+         "olap_SINWMA_14",
+         "Open",
+         "clas_pp",
+         "cama_r2",
+         "olap_SWMA_10",
+         "mtum_BR_26",
+         "olap_JMA_7_0",
+         "wood_pp",
+         "mtum_ADX",
+         "mtum_INERTIA_20_14",
+         "trad_s1",
+         "ma_TRIMA_10",
+         "fibo_pp",
+         "vola_KCUe_20_2",
+         "fibo_s1",
+         "fibo_r3",
+         "vola_NATR",
+         "ma_TEMA_10",
+         "fibo_r1",
+         "cama_r1",
+         "cama_pp",
+         "demark_r1",
+         "demark_pp",
+         "ti_donchian_upper_20",
+         "clas_s1",
+         "ti_coppock_14_11_10"
+      ],
+      "2": [
+         "olap_MIDPOINT",
+         "wood_s2",
+         "tend_PSARl_002_02",
+         "olap_VWMA_10",
+         "perf_CUMPCTRET_1",
+         "perf_ha",
+         "sti_LINEARREG",
+         "sti_TSF",
+         "trad_r1",
+         "tend_hh",
+         "mtum_MACD_signal",
+         "wood_s3",
+         "ma_KAMA_50",
+         "mcrh_T3_20_DEMA_100",
+         "mtum_AO_5_34",
+         "ma_WMA_5",
+         "ma_DEMA_5",
+         "ma_WMA_20",
+         "olap_BBAND_MIDDLE",
+         "fibo_r2",
+         "ma_TRIMA_20",
+         "ma_SMA_10",
+         "clas_r2",
+         "cama_s3",
+         "cama_s2",
+         "cama_r3",
+         "mtum_MACD",
+         "mtum_MACD_ext_list",
+         "mtum_MACD_fix",
+         "mtum_MACD_fix_signal",
+         "High",
+         "mtum_STCmacd_10_12_26_05",
+         "mtum_td_seq",
+         "ma_KAMA_5",
+         "Low",
+         "olap_BBAND_LOWER",
+         "ichi_tenkan_sen"
+      ],
+      "1": [
+         "ma_KAMA_10",
+         "trad_s2",
+         "ma_KAMA_20",
+         "olap_BBAND_dif",
+         "ichi_senkou_b",
+         "fibo_s3",
+         "vola_KCLe_20_2",
+         "fibo_s2",
+         "volu_EFI_13",
+         "clas_s2",
+         "NQ_SMA_20",
+         "NQ_SMA_100",
+         "NQ_Close",
+         "demark_s1",
+         "ma_TRIMA_50",
+         "ti_supertrend_20",
+         "ti_mass_index_9_25",
+         "mtum_td_seq_sig",
+         "olap_MCGD_10",
+         "mtum_SMI_5_20_5",
+         "sti_ENTP_10",
+         "mtum_K_9_3",
+         "sti_LINEARREG_ANGLE",
+         "mtum_CMO",
+         "sti_LINEARREG_SLOPE",
+         "sti_TOS_STDEVALL_LR",
+         "sti_TOS_STDEVALL_L_1",
+         "sti_TOS_STDEVALL_L_2",
+         "sti_TOS_STDEVALL_U_1",
+         "sti_TOS_STDEVALL_U_2",
+         "mtum_APO",
+         "tend_LDECAY_5",
+         "tend_PSARaf_002_02",
+         "mcrh_T3_20_EMA_50",
+         "ti_acc_dist",
+         "ti_kelt_20_lower",
+         "ma_TEMA_5",
+         "ti_konk_avg",
+         "Close"
+      ]
+   }
+}

@@ -1,0 +1,19 @@
+loss	accuracy	val_loss	val_accuracy
+0.601	0.736	0.512	0.823
+0.537	0.743	0.527	0.826
+0.504	0.754	0.609	0.755
+0.467	0.773	0.259	0.869
+0.441	0.787	0.401	0.793
+0.406	0.798	0.329	0.828
+0.381	0.817	0.684	0.665
+0.366	0.83	0.363	0.842
+0.338	0.844	0.678	0.722
+0.306	0.853	0.404	0.749
+0.306	0.868	0.44	0.768
+0.25	0.888	0.271	0.918
+0.255	0.889	0.27	0.896
+0.231	0.899	0.374	0.817
+0.204	0.914	0.278	0.894
+
+Columns TFm_1519.HK_pos_good9_mult_lstm.h5:
+Date, buy_sell_point, volu_PVI_1, tend_renko_ATR, volu_PVT, vola_HWU, vola_ATR, vola_HWM, olap_HWMA_02_01_01, volu_NVI_1, ma_TEMA_20, volu_OBV, vola_HWL, sti_TSF, ma_DEMA_10, sti_LINEARREG, ma_DEMA_20, ti_hma_20, ti_kelt_20_upper, ma_T3_10, mtum_ADXR, ma_T3_5, ma_TEMA_10, tend_hl, wood_pp, wood_s1, ma_SMA_5, ma_WMA_5, ma_TRIMA_5, ma_EMA_5, mcrh_T3_50_WMA_100, mtum_DMN_14, mtum_STCstoch_10_12_26_05, olap_SSF_10_2, mtum_MINUS_DM, wood_s3, cama_s2, ma_DEMA_5, Open, ichi_isin_cloud, fibo_pp, cama_r2, perf_CUMLOGRET_1, clas_s1, trad_pp, olap_JMA_7_0, olap_HT_TRENDLINE, demark_r1, mtum_STC_10_12_26_05, demark_s1, vola_KCUe_20_2, cama_r3, tend_LDECAY_5, wood_r1, cama_pp, ma_KAMA_5, wood_r3, fibo_s2, wood_s2

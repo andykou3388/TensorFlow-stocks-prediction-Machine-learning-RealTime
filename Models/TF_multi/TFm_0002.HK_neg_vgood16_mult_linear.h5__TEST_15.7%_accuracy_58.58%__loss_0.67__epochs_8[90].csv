@@ -1,0 +1,13 @@
+loss	accuracy	val_loss	val_accuracy
+0.716	0.553	1.113	0.066
+0.71	0.471	0.666	0.786
+0.698	0.481	0.48	0.934
+0.696	0.524	0.657	0.725
+0.688	0.542	0.48	0.934
+0.68	0.57	0.459	0.934
+0.678	0.556	0.615	0.751
+0.673	0.563	1.08	0.14
+0.67	0.586	0.713	0.513
+
+Columns TFm_0002.HK_neg_vgood16_mult_linear.h5:
+Date, buy_sell_point, vola_HWU, olap_HWMA_02_01_01, tend_LDECAY_5, Close, vola_HWM, ma_TEMA_10, High, ma_TEMA_20, perf_CUMPCTRET_1, volu_PVT, perf_CUMLOGRET_1, ma_DEMA_20

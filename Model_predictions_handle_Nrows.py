@@ -28,6 +28,7 @@ NUM_MIN_MODLES_TF = 1
 
 
 def get_columns_to_download(stock_id):
+    print("get_columns_to_download", stock_id, Op_buy_sell.POS, Op_buy_sell.NEG)
     columns_json_POS = Feature_selection_json_columns.JsonColumns(stock_id, Op_buy_sell.POS)
     columns_json_NEG = Feature_selection_json_columns.JsonColumns(stock_id, Op_buy_sell.NEG)
     custom_col_POS_NEG = set(columns_json_POS.get_ALL_Good_and_Low() + columns_json_NEG.get_ALL_Good_and_Low())

@@ -129,7 +129,7 @@ def get_MULTI_string_alert_message(S, dictR, type_b_s:_KEYS_DICT.Op_buy_sell, li
 # ~~tachado~~ escribe el texto tachado
     #https://github.com/python-telegram-bot/python-telegram-bot/wiki/Code-snippets#message-formatting-bold-italic-code-
     #Message Formatting (bold, italic, code, ...)
-    # list_model_per_result = [(x.replace("Acert_TFm_", '')+": " +str(dictR[x])) +"% " for x in list_model ]
+    list_model_per_result = [(x.replace("Acert_TFm_", '')+": " +str(dictR[x])) +"% " for x in list_model ]
     percentage_visible_POS = (dictR['POS_score'][0] * 90) / DICT_SCORE_RATE[dictR['POS_num'][0].replace(']', '')]
     percentage_visible_NEG = (dictR['NEG_score'][0] * 90) / DICT_SCORE_RATE[dictR['NEG_num'][0].replace(']', '')]
 

@@ -1,0 +1,20 @@
+loss	accuracy	val_loss	val_accuracy
+0.886	0.658	0.608	0.65
+0.695	0.627	0.747	0.542
+0.571	0.687	0.499	0.673
+0.564	0.704	0.52	0.647
+0.474	0.761	0.779	0.466
+0.467	0.771	0.656	0.662
+0.461	0.78	0.271	0.927
+0.405	0.791	1.504	0.3
+0.409	0.792	0.502	0.691
+0.397	0.81	0.387	0.828
+0.394	0.815	1.165	0.362
+0.362	0.839	0.31	0.872
+0.352	0.836	0.469	0.77
+0.355	0.841	0.383	0.825
+0.318	0.865	0.441	0.787
+0.339	0.863	0.284	0.88
+
+Columns TFm_2318.HK_neg_low1_mult_dense2.h5:
+Date, buy_sell_point, tend_lh, ti_chaikin_10_3, volu_Chaikin_ADOSC, volu_PVOL, sti_LINEARREG, ma_TEMA_10, tend_LDECAY_5, Volume, ma_KAMA_20, ma_KAMA_50, mtum_PVO_12_26_9, ichi_kijun_sen, sti_TSF, High, ti_donchian_upper_20, mtum_STCstoch_10_12_26_05, ti_hma_20, cdl_3WHITESOLDIERS, ti_coppock_14_11_10, mcrh_WMA_50_TEMA_100, cama_r1, mcrh_KAMA_10_TRIMA_20, ma_DEMA_10, olap_BBAND_UPPER, ti_ease_of_movement_14, olap_JMA_7_0, ma_DEMA_5, ma_EMA_5, ma_EMA_20, trad_r3, ma_KAMA_10, ma_T3_5, olap_SSF_10_2, ma_TEMA_20, ma_TRIMA_5, mcrh_DEMA_50_EMA_100, sti_TOS_STDEVALL_U_2, ti_force_index_13, sti_TOS_STDEVALL_L_3, mtum_PLUS_DM, olap_BBAND_dif, cama_pp, cama_r2, cama_r3, cama_s1, cama_s2, perf_ha, sti_TOS_STDEVALL_L_2, mtum_PVOh_12_26_9, volu_EFI_13, mtum_MACD_ext_signal, vola_KCUe_20_2, vola_KCBe_20_2, mtum_BR_26, mtum_MFI, tend_hh, mtum_MACD_fix_signal, sti_BETA, perf_CUMPCTRET_1, sti_TOS_STDEVALL_LR, ti_donchian_center_20, mtum_INERTIA_20_14, mtum_td_seq_sig, mtum_DMP_14, olap_MCGD_10, fibo_pp, clas_r2, clas_s1, clas_r1, volu_NVI_1, volu_Chaikin_AD, clas_pp, demark_r1, trad_pp, fibo_r1, cdl_RICKSHAWMAN, wood_pp, fibo_s1, vola_HWU, cama_s3, Open, wood_r1, trad_s1, ma_KAMA_5, ma_SMA_5, trad_r1, ma_WMA_10, ma_WMA_20, ma_WMA_5, wood_r2, wood_s1, wood_s2, sti_ENTP_10, ti_mass_index_9_25, volu_PVT, sti_LINEARREG_ANGLE, sti_LINEARREG_SLOPE, sti_TOS_STDEVALL_L_1, vola_KCLe_20_2, vola_HWL, vola_ATR, trad_s3, sti_TOS_STDEVALL_U_3, trad_s2, trad_r2, Close, mtum_MACD_ext, wood_s3, cycl_PHASOR_inph, ma_EMA_50, ma_EMA_10, ma_DEMA_20, mcrh_EMA_50_KAMA_100, mcrh_KAMA_10_KAMA_20, mcrh_KAMA_5_DEMA_20, fibo_s3, fibo_s2, fibo_r3, fibo_r2, demark_s1, mcrh_TEMA_5_TEMA_20, demark_pp, ma_TEMA_5, mcrh_WMA_20_TEMA_50, mtum_PPO, NQ_SMA_20, NQ_Close, clas_s2, mtum_MACD_ext_list, mtum_MACD_signal, clas_s3, mtum_PSL_12, Low, wood_r3, ichi_tenkan_sen, NQ_SMA_100, cycl_DCPHASE, cdl_3OUTSIDE, clas_r3, vola_NATR, vola_THERMOma_20_2_05, vola_UI_14, volu_PVI_1, ma_SMA_50, olap_SAR, ma_TRIMA_20, mcrh_DEMA_5_DEMA_10, olap_VMAP, olap_VWMA_10, perf_CUMLOGRET_1, mtum_STCmacd_10_12_26_05, mtum_SMIs_5_20_5, mtum_PVOs_12_26_9, mtum_MACD, mtum_DX, mtum_AROON_down, mtum_APO, sti_TOS_STDEVALL_U_1, mtum_AO_5_34, mcrh_WMA_10_SMA_20, mcrh_TRIMA_20_TEMA_100, tend_VHF_28, mcrh_T3_50_SMA_100, tend_ll, ti_acc_dist, mcrh_T3_50_KAMA_100, mcrh_T3_20_TEMA_100, mcrh_SMA_5_SMA_20, mcrh_EMA_10_T3_100, olap_MIDPRICE, mcrh_EMA_10_SMA_20, ti_vortex_neg_14, ti_konk_bl

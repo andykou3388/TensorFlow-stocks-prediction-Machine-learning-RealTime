@@ -1,0 +1,22 @@
+loss	accuracy	val_loss	val_accuracy
+0.669	0.619	0.808	0.458
+0.572	0.685	0.747	0.472
+0.546	0.717	0.589	0.566
+0.531	0.724	0.346	0.791
+0.508	0.736	0.616	0.575
+0.498	0.729	0.225	0.921
+0.502	0.735	0.825	0.499
+0.479	0.759	0.257	0.873
+0.452	0.774	0.674	0.55
+0.433	0.795	0.934	0.482
+0.408	0.796	0.328	0.805
+0.407	0.793	0.304	0.818
+0.412	0.801	0.231	0.902
+0.411	0.788	0.478	0.659
+0.379	0.815	0.348	0.791
+0.373	0.813	0.462	0.675
+0.364	0.844	0.509	0.68
+0.323	0.866	0.216	0.965
+
+Columns TFm_1088.HK_neg_good9_mult_lstm.h5:
+Date, buy_sell_point, volu_PVT, sti_LINEARREG_INTERCEPT, ma_KAMA_50, ti_kelt_20_upper, tend_lh, tend_renko_ATR, olap_BBAND_UPPER, ma_TRIMA_20, ma_T3_10, olap_HT_TRENDLINE, ma_SMA_20, ma_EMA_50, olap_BBAND_MIDDLE, olap_SINWMA_14, olap_ALMA_10_60_085, ma_WMA_20, vola_KCUe_20_2, ti_donchian_upper_20, ma_SMA_50, ma_SMA_10, tend_hh, ma_TRIMA_50, has_preMarket, vola_KCBe_20_2, olap_MIDPOINT, ma_EMA_20, tend_ll, vola_THERMOma_20_2_05, vola_ATR, ma_TRIMA_10, ti_kelt_20_lower, cdl_TRISTAR, cycl_DCPERIOD, cdl_INVERTEDHAMMER, olap_MCGD_10, ma_KAMA_20, olap_PWMA_10, olap_SWMA_10, volu_OBV, per_Volume, ma_DEMA_20, sti_VAR, ti_acc_dist, NQ_SMA_20, sti_TOS_STDEVALL_L_1, sti_TOS_STDEVALL_U_2, vola_HWU, NQ_SMA_100, vola_KCLe_20_2, wood_r3, ma_T3_5, volu_Chaikin_AD, ma_TEMA_20, ma_EMA_10

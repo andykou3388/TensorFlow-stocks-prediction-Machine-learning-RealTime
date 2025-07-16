@@ -1,0 +1,15 @@
+loss	accuracy	val_loss	val_accuracy
+0.686	0.675	0.689	0.59
+0.545	0.714	0.226	0.934
+0.449	0.783	0.967	0.475
+0.373	0.836	0.33	0.828
+0.344	0.854	0.186	0.937
+0.305	0.876	0.182	0.937
+0.281	0.883	0.148	0.962
+0.25	0.899	0.186	0.94
+0.248	0.905	0.228	0.893
+0.204	0.926	0.197	0.923
+0.192	0.93	0.199	0.918
+
+Columns TFm_1299.HK_pos_reg4_mult_128.h5:
+Date, buy_sell_point, tend_lh, mtum_PVOs_12_26_9, tend_ll, tend_hh, tend_renko_brick, mtum_AROONOSC, ichi_senkou_b, ma_KAMA_50, wood_r3, mtum_PVO_12_26_9, mtum_INERTIA_20_14, wood_r2, wood_r1, vola_KCUe_20_2, olap_VMAP, ma_SMA_50, mtum_AROON_up, NQ_SMA_100, per_preMarket, mtum_BULLP_13, sti_TSF, ma_KAMA_20, ti_choppiness_14, ma_EMA_50, ti_vortex_neg_14, trad_r3, mtum_STCstoch_10_12_26_05, vola_ATR, mcrh_SMA_50_TEMA_100, cdl_MORNINGSTAR, fibo_r3, Open, cdl_MORNINGDOJISTAR, cycl_HT_TRENDMODE, clas_r3, clas_r2, Low, olap_BBAND_UPPER, volu_NVI_1, ma_TRIMA_10, olap_JMA_7_0, sti_LINEARREG, ti_konk_gre, olap_SWMA_10, ma_KAMA_10, High, trad_r1, trad_r2, per_Close, fibo_r2, mtum_PGO_14, perf_ha, olap_PWMA_10, mtum_BIAS_SMA_26, olap_SSF_10_2, sti_TOS_STDEVALL_U_3, olap_HT_TRENDLINE, tend_LDECAY_5, olap_MCGD_10, ma_TEMA_5, clas_r1, fibo_r1, demark_r1, ma_SMA_5, ma_T3_5, ma_TEMA_10, ma_DEMA_10, vola_RVI_14, ichi_isin_cloud, ma_SMA_10, ma_KAMA_5, cama_r3, wood_pp, ma_TRIMA_5, ma_DEMA_5, ma_TRIMA_50, ma_WMA_10, vola_KCBe_20_2, tend_renko_ATR, olap_MIDPOINT, vola_THERMOl_20_2_05, volu_Chaikin_AD, mtum_STOCH_RSI_d, vola_HWU, perf_CUMLOGRET_1, olap_VWMA_10, ti_coppock_14_11_10, perf_CUMPCTRET_1, ti_supertrend_20, perf_z_30_1, ti_kelt_20_upper, sti_STDDEV, mtum_RSX_14, sti_TOS_STDEVALL_LR, sti_TOS_STDEVALL_L_1, sti_TOS_STDEVALL_U_2, ti_hma_20, sti_ZS_30, Close, mtum_PSL_12, wood_s1, ma_SMA_20, ma_EMA_20, mtum_MACD_ext_list, mtum_DX, mtum_CMO, mtum_CCI, ma_EMA_5, mtum_AROON_down, ma_EMA_10, ma_TEMA_20, mtum_ADX, mtum_RSI, ma_WMA_20, mcrh_TRIMA_50_TEMA_100, ma_WMA_5, mtum_MACD_fix_signal, mtum_ER_10, ma_DEMA_20, cycl_DCPERIOD, cama_r2, ichi_tenkan_sen, mtum_QQEl_14_5_4236, mcrh_SMA_20_EMA_50

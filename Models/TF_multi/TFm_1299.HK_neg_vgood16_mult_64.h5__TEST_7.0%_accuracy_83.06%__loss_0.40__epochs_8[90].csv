@@ -1,0 +1,13 @@
+loss	accuracy	val_loss	val_accuracy
+0.631	0.67	0.725	0.529
+0.572	0.694	0.385	0.898
+0.533	0.724	0.482	0.751
+0.512	0.743	0.516	0.746
+0.48	0.763	0.604	0.657
+0.46	0.789	0.474	0.759
+0.428	0.798	0.375	0.814
+0.41	0.819	0.592	0.696
+0.396	0.831	0.453	0.764
+
+Columns TFm_1299.HK_neg_vgood16_mult_64.h5:
+Date, buy_sell_point, mtum_AROON_up, mtum_BULLP_13, mtum_AROONOSC, per_Close, mtum_CMO, ichi_isin_cloud, ti_vortex_neg_14, perf_z_30_1, mtum_BR_26, mtum_RSI, sti_ZS_30, mtum_MINUS_DI, mtum_INERTIA_20_14

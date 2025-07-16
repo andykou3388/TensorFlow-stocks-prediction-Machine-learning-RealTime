@@ -1,0 +1,37 @@
+loss	accuracy	val_loss	val_accuracy
+0.798	0.656	0.463	0.61
+0.586	0.674	0.443	0.653
+0.611	0.692	0.637	0.466
+0.584	0.687	0.664	0.507
+0.56	0.69	0.399	0.637
+0.561	0.683	0.402	0.851
+0.562	0.687	0.459	0.583
+0.553	0.717	0.669	0.515
+0.535	0.703	0.435	0.604
+0.542	0.716	0.597	0.534
+0.513	0.739	0.417	0.789
+0.498	0.748	0.302	0.905
+0.478	0.738	0.696	0.531
+0.496	0.742	0.258	0.875
+0.499	0.724	0.364	0.734
+0.49	0.749	0.684	0.523
+0.481	0.745	0.387	0.642
+0.476	0.768	0.238	0.9
+0.479	0.749	0.732	0.553
+0.473	0.755	0.403	0.691
+0.445	0.772	0.72	0.575
+0.478	0.765	0.322	0.821
+0.432	0.796	0.333	0.78
+0.468	0.774	0.227	0.873
+0.434	0.785	0.978	0.526
+0.452	0.763	0.778	0.545
+0.435	0.776	0.558	0.626
+0.452	0.777	0.452	0.71
+0.406	0.798	0.296	0.816
+0.438	0.763	0.485	0.691
+0.421	0.777	0.347	0.818
+0.41	0.792	0.207	0.908
+0.434	0.785	0.296	0.791
+
+Columns TFm_1088.HK_neg_reg4_mult_dense2.h5:
+Date, buy_sell_point, volu_PVT, sti_LINEARREG_INTERCEPT, ma_KAMA_50, ti_kelt_20_upper, tend_lh, tend_renko_ATR, olap_BBAND_UPPER, ma_TRIMA_20, ma_T3_10, olap_HT_TRENDLINE, ma_SMA_20, ma_EMA_50, olap_BBAND_MIDDLE, olap_SINWMA_14, olap_ALMA_10_60_085, ma_WMA_20, vola_KCUe_20_2, ti_donchian_upper_20, ma_SMA_50, ma_SMA_10, tend_hh, ma_TRIMA_50, has_preMarket, vola_KCBe_20_2, olap_MIDPOINT, ma_EMA_20, tend_ll, vola_THERMOma_20_2_05, vola_ATR, ma_TRIMA_10, ti_kelt_20_lower, cdl_TRISTAR, cycl_DCPERIOD, cdl_INVERTEDHAMMER, olap_MCGD_10, ma_KAMA_20, olap_PWMA_10, olap_SWMA_10, volu_OBV, per_Volume, ma_DEMA_20, sti_VAR, ti_acc_dist, NQ_SMA_20, sti_TOS_STDEVALL_L_1, sti_TOS_STDEVALL_U_2, vola_HWU, NQ_SMA_100, vola_KCLe_20_2, wood_r3, ma_T3_5, volu_Chaikin_AD, ma_TEMA_20, ma_EMA_10, olap_HWMA_02_01_01, sti_TOS_STDEVALL_L_3, olap_MIDPRICE, ma_KAMA_10, olap_VWMA_10, cama_pp, ma_SMA_5, ma_EMA_5, ichi_tenkan_sen, trad_r1, sti_TOS_STDEVALL_L_2, sti_TOS_STDEVALL_U_1, vola_HWM, fibo_r1, fibo_r2, ma_WMA_10, mcrh_SMA_20_DEMA_50, ma_TRIMA_5, clas_r3, ichi_senkou_a, sti_TOS_STDEVALL_U_3, ma_KAMA_5, ti_chaikin_10_3, wood_r2, fibo_r3, sti_CORREL, olap_VMAP, sti_TOS_STDEVALL_LR, volu_NVI_1, clas_r2, demark_r1, mtum_FISHERT_9_1, vola_NATR, mcrh_DEMA_20_KAMA_100, wood_r1, mcrh_TRIMA_20_EMA_100, ti_hma_20, clas_r1, vola_HWL, fibo_pp, trad_r3, trad_r2

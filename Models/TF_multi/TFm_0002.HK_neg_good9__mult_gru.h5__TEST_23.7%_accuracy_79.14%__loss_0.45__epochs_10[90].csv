@@ -1,0 +1,15 @@
+loss	accuracy	val_loss	val_accuracy
+0.708	0.617	0.715	0.548
+0.626	0.661	0.457	0.825
+0.612	0.684	1.014	0.399
+0.591	0.686	0.367	0.857
+0.587	0.696	0.58	0.693
+0.549	0.72	0.377	0.868
+0.527	0.75	0.49	0.751
+0.519	0.733	0.315	0.862
+0.48	0.774	0.332	0.852
+0.483	0.777	0.358	0.812
+0.446	0.791	0.378	0.815
+
+Columns TFm_0002.HK_neg_good9__mult_gru.h5:
+Date, buy_sell_point, vola_HWU, olap_HWMA_02_01_01, tend_LDECAY_5, Close, vola_HWM, ma_TEMA_10, High, ma_TEMA_20, perf_CUMPCTRET_1, volu_PVT, perf_CUMLOGRET_1, ma_DEMA_20, olap_JMA_7_0, ma_DEMA_5, perf_ha, vola_HWL, ma_T3_5, ti_hma_20, volu_PVI_1, ma_TEMA_5, olap_SSF_10_2, ma_DEMA_10, Low, mcrh_SMA_50_TRIMA_100, mtum_STC_10_12_26_05, wood_r1, tend_ll, has_preMarket, ichi_kijun_sen, ma_WMA_5, clas_r2, cdl_MORNINGSTAR, cdl_MORNINGDOJISTAR, cdl_LONGLEGGEDDOJI, mtum_BR_26, cdl_DOJI, mcrh_T3_20_TRIMA_100, wood_pp, wood_r2, mtum_STCstoch_10_12_26_05, ma_EMA_5, ma_TRIMA_5, mcrh_T3_20_WMA_50, sti_TSF, cdl_DRAGONFLYDOJI, trad_r1, fibo_r1, cdl_TAKURI, Open, demark_r1, clas_r1, tend_PSARr_002_02, ti_donchian_upper_20

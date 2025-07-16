@@ -1,0 +1,13 @@
+loss	accuracy	val_loss	val_accuracy
+0.799	0.619	0.678	0.531
+0.639	0.654	0.627	0.772
+0.614	0.704	0.546	0.835
+0.594	0.711	0.556	0.829
+0.592	0.712	0.575	0.827
+0.567	0.722	0.662	0.748
+0.564	0.728	0.544	0.818
+0.56	0.723	0.616	0.767
+0.545	0.749	0.626	0.756
+
+Columns TFm_1519.HK_pos_vgood16__simp_cordo.h5:
+Date, buy_sell_point, volu_PVI_1, tend_renko_ATR, volu_PVT, vola_HWU, vola_ATR, vola_HWM, olap_HWMA_02_01_01, volu_NVI_1, ma_TEMA_20, volu_OBV, vola_HWL

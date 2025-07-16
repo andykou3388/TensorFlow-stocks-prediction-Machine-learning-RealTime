@@ -36,7 +36,9 @@ df_result = pd.read_csv("Models/TF_multi/_RESULTS_profit_multi_all.csv", index_c
 list_pos = [x for x in df_result.columns if  "_" + Op_buy_sell.POS.value + "_" in x and  not x.endswith("_per") ]
 list_neg = [x for x in df_result.columns if  "_" + Op_buy_sell.NEG.value + "_" in x and  not x.endswith("_per") ]
 list_stocks_models = set(list_pos +list_neg)
-regex_S = "TFm_([A-Z]{1,5}|[A-Z]{1,5}-USD)_(pos|neg)_"
+print("Models loaded: "+ ", ".join(list_stocks_models))
+# regex_S = "TFm_([A-Z]{1,5}|[A-Z]{1,5}-USD)_(pos|neg)_"
+regex_S = r"TFm_([A-Z0-9.\-]+)_(pos|neg)_"
 list_stocks = [re.search(regex_S, x, re.IGNORECASE).group(1) for x in list_stocks_models]
 list_stocks = set(list_stocks)
 print("Stoscks loaded: "+ ", ".join(list_stocks))
@@ -54,14 +56,16 @@ print("Stoscks loaded: "+ ", ".join(list_stocks))
 
 #CONSUMER MANAGE
 def scaler_and_send_predit(S, df_S, df_nasq, is_multidimension = False ):
-    df_S = get_tech_data_nasq(S, df_S, df_nasq)
+    Logger.logr.info("ANDY - 1")
+    df_S = get_tech_data_nasq(S, df_S, df_nasq)    
+    Logger.logr.info("ANDY - 2")
     df_tech = df_S[-NUM_LAST_REGISTERS_PER_STOCK:]
-
     if is_multidimension:
         df_eval_multi = Model_predictions_handle_Multi_Nrows.get_df_Multi_comprar_vender_predictions(df_tech, S, path_result_eval=None)
         if df_eval_multi is not None:
             ztelegram_send_message.send_MULTI_alert_and_register(S, df_eval_multi)
     else:
+        Logger.logr.info(" Scaler and send predict for stock: " + S+ " Shape: " + str(df_tech.shape)    )
         df_tech = Model_predictions_handle_Nrows.add_min_max_(df_S, S)
         df_compar, df_vender = Model_predictions_handle_Nrows.get_df_comprar_vender_predictions(df_tech, S)
         if df_compar is not None:
@@ -91,10 +95,15 @@ def producer():
             for S in list_stocks:
                 try:
                     time.sleep(randint(1, 7))#esperar en 1 y 10s , por miedo a baneo
-                    df_S_raw, df_primeros = get_df_webull_realTime(INTERVAL, S,None)# path= "d_price/weBull/weBull_"+S+"_"+INTERVAL+".csv")
+                    #df_S_raw, df_primeros = get_df_webull_realTime(INTERVAL, S,None)# path= "d_price/weBull/weBull_"+S+"_"+INTERVAL+".csv")
+                    #Logger.logr.info(" DF Stock: " + S + " Shape_DF: " + str(df_S_raw.shape) + " RealTime: " + str(df_S_raw.iloc[-1]['Date']) + " Volume: "+ str(df_S_raw.iloc[1]['Volume']) )
                     #retiramos las primeras 40 para que no se solapen
                     df_yhoo = df_yhoo_(S, "15m")[1:]#, path= "d_price/weBull/yhoo_"+S+"_15m.csv")[40:] #
-                    df = merge_dataframes_bull_yhoo(S, df_S_raw, df_primeros, df_yhoo)
+                    Logger.logr.info(" DF yhoo Stock: " + S + " Shape_DF: " + str(df_yhoo.shape) + " RealTime: " + str(df_yhoo.iloc[-1]['Date']) + " Volume: "+ str(df_yhoo.iloc[1]['Volume']) )
+                    #df = merge_dataframes_bull_yhoo(S, df_S_raw, df_primeros, df_yhoo)
+
+                    df =df_yhoo
+                    Logger.logr.info(df.head(2))
                     Logger.logr.info(" DF encolado Stock: " + S + " Shape_DF: " + str(df.shape) + " RealTime: " + str(df.iloc[-1]['Date']) + " Volume: "+ str(df.iloc[1]['Volume']) )
                     list_pro.remove(S)#para yhoo API
                     queue.pop(S)
@@ -126,6 +135,7 @@ COUNT_THREAD = 4
 # consume work
 def consumer(int_thread):
     global queue
+    Logger.logr.info(" Consumer: Running Start " + datetime.today().strftime('%Y-%m-%d %H:%M:%S') + " Thread: " + str(int_thread))
     Logger.logr.debug("  Consumer: Running")
     list_pro = list_stocks.copy()
     # consume work
@@ -140,10 +150,8 @@ def consumer(int_thread):
         for S in list_pro:
             # print("[CON] start " + S)
             df_S = queue.pop(S)
-            Logger.logr.debug(f"Full df_S for stock {S}:\n{df_S.to_string()}")
-    
             if df_S is not None:
-                Logger.logr.info("  Stock: " + S + "  Volume unlast: " + str(df_S.iloc[-2]['Volume']) + " Volume last: " + str(df_S.iloc[-1]['Volume'])+ " Date: "+ datetime.today().strftime('%Y-%m-%d %H:%M:%S'))
+                Logger.logr.info("Stock: " + S + "  Volume unlast: " + str(df_S.iloc[-2]['Volume']) + " Volume last: " + str(df_S.iloc[-1]['Volume'])+ " Date: "+ datetime.today().strftime('%Y-%m-%d %H:%M:%S'))
                 try:
                     scaler_and_send_predit(S, df_S, df_nasq, is_multidimension = True)
                 except Exception as ex:

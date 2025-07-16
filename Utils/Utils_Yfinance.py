@@ -212,6 +212,8 @@ def add_pre_market_percentage(df_his):
                                                                                     errors='coerce').day:
             # df_his.at[i, 'pre_market'] = df_his.iloc[i]['Open'] - df_his.iloc[i - 1]['Close']
             df_his.at[i, 'has_preMarket'] = True
+            if 'per_preMarket' in df_his.columns:
+                df_his['per_preMarket'] = df_his['per_preMarket'].astype(float)
             df_his.at[i, 'per_preMarket'] = (df_his.iloc[i]['Open'] - df_his.iloc[i - 1]['Close']) * 100 / \
                                             df_his.iloc[i - 1]['Close']
     return df_his

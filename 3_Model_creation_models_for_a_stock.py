@@ -24,6 +24,7 @@ from Data_multidimension import Data_multidimension
 from _KEYS_DICT import DICT_COMPANYS
 
 from Utils.UtilsL import bcolors
+import logging
 
 
 Y_TARGET = 'buy_sell_point'
@@ -66,7 +67,6 @@ def train_MULTI_model_with_custom_columns(name_model, columns_list, csv_file_SCA
 
     #LOAD
     multi_data = Data_multidimension(columns_selection, op_buy_sell, path_csv_a= csv_file_SCALA, name_models_stock=name_model)
-
     df_result = pd.DataFrame()
     list_multi = _KEYS_DICT.MODEL_TF_DENSE_TYPE_MULTI_DIMENSI.list()
     # list_multi = [_KEYS_DICT.MODEL_TF_DENSE_TYPE_MULTI_DIMENSI.MULT_DENSE2 , _KEYS_DICT.MODEL_TF_DENSE_TYPE_MULTI_DIMENSI.SIMP_DENSE128]
@@ -116,10 +116,12 @@ opion = _KEYS_DICT.Option_Historical.MONTH_3_AD
 # opion = _KEYS_DICT.Option_Historical.MONTH_3_AD
 for S in list_stocks:
     path_csv_file_SCALA = "d_price/" + S + "_PLAIN_stock_history_" + str(opion.name) + ".csv"
+    logging.info(f"Processing stock: {S}, CSV path: {path_csv_file_SCALA}")
 
     for type_buy_sell in [ _KEYS_DICT.Op_buy_sell.NEG , _KEYS_DICT.Op_buy_sell.POS  ]:
         print(" START STOCK: ", S,  " type: ", type_buy_sell, " \t path: ", path_csv_file_SCALA)
         columns_json = Feature_selection_json_columns.JsonColumns(S, type_buy_sell)
+        logging.info(f"Processing stock: {S}, Buy/Sell type: {type_buy_sell.value}, Columns JSON: {columns_json}")
 
 
         for type_cols, list_cols in columns_json.get_Dict_JsonColumns().items():

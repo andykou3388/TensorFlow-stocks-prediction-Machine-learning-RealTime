@@ -1,0 +1,15 @@
+loss	accuracy	val_loss	val_accuracy
+0.672	0.597	0.572	0.706
+0.594	0.709	0.512	0.886
+0.542	0.739	0.892	0.463
+0.507	0.763	0.55	0.728
+0.482	0.782	0.569	0.696
+0.442	0.81	0.306	0.913
+0.441	0.808	0.394	0.817
+0.435	0.806	0.448	0.794
+0.4	0.829	0.564	0.725
+0.389	0.838	0.295	0.913
+0.375	0.839	0.369	0.862
+
+Columns TFm_0001.HK_neg_vgood16_mult_lstm.h5:
+Date, buy_sell_point, sti_VAR, sti_STDDEV, mtum_DX, mtum_ADX, mtum_PSL_12, volu_Chaikin_ADOSC, mtum_ADXR

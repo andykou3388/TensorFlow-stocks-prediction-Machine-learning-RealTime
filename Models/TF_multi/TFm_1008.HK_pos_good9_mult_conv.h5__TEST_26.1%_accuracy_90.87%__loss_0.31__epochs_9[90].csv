@@ -1,0 +1,14 @@
+loss	accuracy	val_loss	val_accuracy
+0.683	0.699	0.596	0.672
+0.555	0.75	0.601	0.574
+0.496	0.798	0.347	0.902
+0.462	0.798	0.429	0.885
+0.465	0.788	0.299	0.902
+0.416	0.837	0.436	0.902
+0.431	0.841	0.343	0.902
+0.393	0.822	0.259	0.902
+0.348	0.832	0.503	0.885
+0.315	0.909	0.32	0.902
+
+Columns TFm_1008.HK_pos_good9_mult_conv.h5:
+Date, buy_sell_point, mcrh_WMA_10_KAMA_20, mcrh_WMA_10_EMA_50, mcrh_T3_5_WMA_100, mcrh_WMA_10_WMA_100, mcrh_WMA_5_KAMA_50, mcrh_TEMA_20_WMA_100, mcrh_TEMA_10_TRIMA_100, mcrh_DEMA_20_TRIMA_50, mcrh_TEMA_50_DEMA_100, mcrh_T3_10_DEMA_100, mcrh_SMA_5_WMA_100, mcrh_EMA_50_ti_h20, mcrh_EMA_20_TRIMA_50, mcrh_TEMA_20_EMA_50, mcrh_T3_5_EMA_50, mcrh_WMA_100_ti_h20, mcrh_DEMA_10_WMA_100, mcrh_SMA_10_TRIMA_50, mcrh_TEMA_5_TRIMA_100, mcrh_SMA_5_KAMA_20, mcrh_TRIMA_10_WMA_50, mcrh_EMA_5_WMA_100, mcrh_DEMA_5_TRIMA_100, mcrh_SMA_50_ti_h20, mcrh_TRIMA_5_KAMA_20, mcrh_TRIMA_10_TRIMA_50, mcrh_T3_5_KAMA_20, ti_acc_dist, tend_hh, mcrh_SMA_10_WMA_50, mtum_PVOs_12_26_9, ti_kelt_20_lower, volu_PVI_1, ma_EMA_50, mtum_QQEs_14_5_4236, vola_KCLe_20_2, mcrh_DEMA_5_KAMA_50, olap_SAR, mcrh_EMA_10_SMA_50, mcrh_EMA_10_KAMA_20, mtum_PVO_12_26_9, mcrh_WMA_5_WMA_100, ma_KAMA_50, mcrh_SMA_10_EMA_20, ti_donchian_lower_20

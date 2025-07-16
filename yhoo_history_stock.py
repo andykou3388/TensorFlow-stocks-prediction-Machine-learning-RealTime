@@ -131,6 +131,18 @@ def get_external_factor(df_his, exter_id_NQ, interval, opion, remove_str_in_colu
     df_his[cols_NQ] = df_his[cols_NQ].fillna(method='bfill')
     return df_his
 
+def get_HKEX_data(exter_id_NQ, interval, opion, remove_str_in_colum):
+    df_ext = __select_dowload_time_config(interval, opion, prepost=False, stockId=exter_id_NQ)
+    print("get_HKEX_data df_ext", df_ext.shape, df_ext.columns)
+    df_ext = Utils_Yfinance.add_variation_percentage(df_ext, prefix=exter_id_NQ + "_")
+    df_ext.ta.sma(length=20, prefix=exter_id_NQ, cumulative=True, append=True)
+    df_ext.ta.sma(length=100, prefix=exter_id_NQ, cumulative=True, append=True)
+    df_ext = df_ext.rename(columns={'Volume': exter_id_NQ + "_"'Volume', 'Close': exter_id_NQ + "_"'Close'})
+    names_col = [col for col in df_ext.columns if col.startswith(exter_id_NQ + "_")]
+    df_ext = df_ext[['Date'] + names_col]
+    for ncol in names_col:
+        df_ext = df_ext.rename(columns={ncol: ncol.replace(remove_str_in_colum, "")})
+    return df_ext
 
 def get_NASDAQ_data(exter_id_NQ, interval, opion, remove_str_in_colum):
     df_ext = __select_dowload_time_config(interval, opion, prepost=False, stockId=exter_id_NQ)

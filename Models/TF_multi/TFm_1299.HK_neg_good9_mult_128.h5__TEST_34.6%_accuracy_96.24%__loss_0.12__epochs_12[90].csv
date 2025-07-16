@@ -1,0 +1,17 @@
+loss	accuracy	val_loss	val_accuracy
+0.627	0.697	0.432	0.822
+0.458	0.802	0.352	0.844
+0.396	0.828	0.356	0.825
+0.334	0.858	0.301	0.88
+0.288	0.894	0.769	0.661
+0.27	0.885	0.455	0.795
+0.229	0.907	0.278	0.923
+0.22	0.922	0.292	0.893
+0.177	0.937	0.309	0.883
+0.165	0.944	0.327	0.885
+0.154	0.945	0.349	0.932
+0.148	0.942	0.342	0.934
+0.122	0.962	0.363	0.869
+
+Columns TFm_1299.HK_neg_good9_mult_128.h5:
+Date, buy_sell_point, mtum_AROON_up, mtum_BULLP_13, mtum_AROONOSC, per_Close, mtum_CMO, ichi_isin_cloud, ti_vortex_neg_14, perf_z_30_1, mtum_BR_26, mtum_RSI, sti_ZS_30, mtum_MINUS_DI, mtum_INERTIA_20_14, per_preMarket, mtum_SMI_5_20_5, tend_renko_TR, mtum_PGO_14, mtum_PVOh_12_26_9, vola_TRUERANGE_1, mtum_QQEl_14_5_4236, mtum_PVO_12_26_9, has_preMarket, vola_TRANGE, ti_konk_gre, mtum_CCI, vola_RVI_14, vola_THERMOl_20_2_05, mtum_QQE_14_5_4236_RSIMA, vola_THERMOs_20_2_05, tend_lh, cycl_EBSW_40_10, mtum_PVOs_12_26_9, tend_PSARr_002_02, vola_THERMO_20_2_05, mtum_SMIs_5_20_5, ti_konk_rest, cdl_DOJI, mtum_PSL_12, mtum_BIAS_SMA_26, ti_konk_bro, mtum_STOCH_RSI_k, NQ_Volume, mtum_DMN_14, mtum_ER_10, mtum_MINUS_DM

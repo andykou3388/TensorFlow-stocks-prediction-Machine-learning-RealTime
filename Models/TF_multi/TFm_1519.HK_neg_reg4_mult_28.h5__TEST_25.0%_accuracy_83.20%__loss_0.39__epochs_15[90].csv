@@ -1,0 +1,20 @@
+loss	accuracy	val_loss	val_accuracy
+0.688	0.626	0.667	0.722
+0.635	0.646	0.539	0.826
+0.602	0.673	0.778	0.425
+0.595	0.688	0.636	0.684
+0.554	0.727	0.437	0.864
+0.53	0.759	0.661	0.643
+0.518	0.757	0.411	0.866
+0.498	0.778	0.804	0.531
+0.487	0.778	0.582	0.695
+0.467	0.8	0.341	0.886
+0.448	0.795	0.505	0.749
+0.435	0.811	0.447	0.787
+0.429	0.814	0.522	0.747
+0.422	0.825	0.59	0.703
+0.406	0.829	0.716	0.629
+0.393	0.832	0.498	0.749
+
+Columns TFm_1519.HK_neg_reg4_mult_28.h5:
+Date, buy_sell_point, ichi_isin_cloud, olap_BBAND_dif, vola_ATR, mtum_DMP_14, mtum_INERTIA_20_14, mtum_PLUS_DM, tend_renko_ATR, volu_PVI_1, sti_LINEARREG_ANGLE, sti_LINEARREG_SLOPE, volu_OBV, mtum_MACD_fix, vola_HWU, sti_ENTP_10, ti_coppock_14_11_10, mtum_ROCR, mtum_ROCP, mtum_STCmacd_10_12_26_05, mtum_td_seq, volu_PVT, mtum_MACD, vola_HWM, mtum_ADXR, cdl_3WHITESOLDIERS, olap_HWMA_02_01_01, ti_force_index_13, mcrh_T3_50_WMA_100, ma_TEMA_20, sti_TSF, mtum_AO_5_34, has_preMarket, sti_LINEARREG, mtum_BIAS_SMA_26, mtum_ROCR100, volu_EFI_13, volu_NVI_1, mtum_ROC, vola_HWL, tend_hl, mtum_MINUS_DM, NQ_SMA_100, mtum_MOM, mtum_MACD_signal, Close, vola_NATR, mtum_DMN_14, perf_ha, mtum_DX, mtum_td_seq_sig, olap_JMA_7_0, olap_SSF_10_2, mcrh_T3_20_EMA_50, perf_CUMPCTRET_1, mtum_BR_26, mcrh_TRIMA_20_TEMA_100, mtum_BULLP_13, ma_TEMA_10, ma_DEMA_5, ma_KAMA_10, trad_s2, trad_s1, tend_LDECAY_5, ti_hma_20, ma_DEMA_10, clas_s1, ti_acc_dist, demark_r1, tend_lh, ma_TEMA_5, wood_s1, wood_pp, wood_r2, wood_r3, volu_Chaikin_AD, vola_TRUERANGE_1, vola_TRANGE, vola_THERMOma_20_2_05, wood_s2, sti_VAR, trad_pp, trad_r3, trad_r2, ti_kelt_20_upper, mtum_ULTOSC, tend_renko_TR, olap_HT_TRENDLINE, tend_hh, tend_PSARl_002_02, olap_SWMA_10, mtum_MFI, mtum_MACD_ext, ma_T3_5, mcrh_KAMA_20_DEMA_50, mcrh_KAMA_10_DEMA_20, ma_WMA_5, ma_WMA_10, ma_TRIMA_5, mtum_MACD_fix_signal, ma_T3_10, ma_DEMA_20, fibo_s3, fibo_s2, fibo_s1, fibo_r3, fibo_pp, demark_s1, demark_pp, clas_s2, clas_r3, clas_pp, cama_s3, cama_s2, cama_s1, cama_r1, cama_pp, Open, NQ_SMA_20, Low, mcrh_KAMA_10_T3_20, wood_s3, mcrh_T3_20_DEMA_100, High, mcrh_WMA_50_DEMA_100, mcrh_T3_20_KAMA_50, mtum_ADX, mtum_MACD_ext_list

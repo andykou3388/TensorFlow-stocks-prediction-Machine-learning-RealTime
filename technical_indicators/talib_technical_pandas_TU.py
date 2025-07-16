@@ -15,6 +15,7 @@ import pandas as pd
 from stocktrends import indicators
 
 from Utils import UtilsL, Utils_Yfinance
+from LogRoot.Logging import Logger
 
 stockId = "MSFT"
 stockId = "MELI"
@@ -221,31 +222,41 @@ def get_Renko_2(df_r, days_back = 26):
 def get_all_pandas_TU_tecnical(df_TU, cos_cols = None):
     df_renko = None
     df_Ichi = None
-
+    Logger.logr.info("Andy - 5.1")
     if cos_cols is None or "mtum_murrey_math" in cos_cols:
         df_TU['mtum_murrey_math'] = murrey_Math_Oscillator(df_TU)
+    Logger.logr.info("Andy - 5.2")
     if cos_cols is None or "mtum_td_seq" in cos_cols:
         df_TU['mtum_td_seq'] = td_sequential_pure(df_TU['Close'])
+    Logger.logr.info("Andy - 5.3")
     if cos_cols is None or "mtum_td_seq_sig" in cos_cols:
         df_TU['mtum_td_seq_sig'] = td_sequential_signo(df_TU[['Date', 'Close']])
-
+    Logger.logr.info("Andy - 5.4")
     if cos_cols is None or "tend_hh" in cos_cols or "tend_hl" in cos_cols or "tend_ll" in cos_cols or "tend_lh" in cos_cols  or "tend_hh_crash" in cos_cols or "tend_hl_crash" in cos_cols or "tend_ll_crash" in cos_cols or "tend_lh_crash" in cos_cols:
         df_TU = get_LowerHighs_LowerHighs(df_TU)
+    Logger.logr.info("Andy - 5.5")
 
     if cos_cols is None or "ichi_tenkan_sen" in cos_cols or "ichi_kijun_sen" in cos_cols or "ichi_senkou_a" in cos_cols or "ichi_senkou_b" in cos_cols or "ichi_isin_cloud" in cos_cols or "ichi_crash" in cos_cols or "ichi_chikou_span" in cos_cols:
         df_Ichi = get_clould_Ichimoku(df_TU)
 
+    Logger.logr.info("Andy - 5.6")
     if cos_cols is None or "tend_renko_TR" in cos_cols or "tend_renko_ATR" in cos_cols or "tend_renko_brick" in cos_cols or "tend_renko_change" in cos_cols:
         df_renko = get_Renko_2(df_TU)
 
+    Logger.logr.info("Andy - 5.7")
     if (df_renko is not None) and (df_Ichi is not None):
         df_TU = pd.merge(df_Ichi, df_renko)  # df_Ichi.append(df_renko)
+        Logger.logr.info("Andy - 5.7.1")
     elif df_Ichi is not None:
         df_TU = df_Ichi
+        Logger.logr.info("Andy - 5.7.2")
     elif df_renko is not None:
         df_TU = df_renko
+        Logger.logr.info("Andy - 5.7.3")
 
+    Logger.logr.info("Andy - 5.8")
     df_TU = UtilsL.replace_bat_chars_in_columns_name(df_TU, "")
+    Logger.logr.info("Andy - 5.9")
 
     return df_TU
 
@@ -313,36 +324,56 @@ https://raposa.trade/blog/higher-highs-lower-lows-and-calculating-price-trends-i
 '''
 def get_LowerHighs_LowerHighs(df, order=5, k=2, get_crash_point = True):
     hh = getHigherHighs(df['Close'].values, order, K=k) #- close_values
+    Logger.logr.info("Andy - 5.4.1")
     if not hh:
         hh = getHigherHighs(df['Close'].values, order-1, K=k)
+    Logger.logr.info("Andy - 5.4.2")
     hl = getHigherLows(df['Close'].values, order, K=k) #- close_values
     if not hl:
         hl = getHigherLows(df['Close'].values, order-1, K=k)
+    Logger.logr.info("Andy - 5.4.3")
     ll = getLowerLows(df['Close'].values, order, K=k) #- close_values
+    Logger.logr.info(f"getLowerLows parameters - order: {order}, k: {k}")
+    Logger.logr.info(f"getLowerLows result: {ll}")
     if not ll:
         ll = getLowerLows(df['Close'].values, order-1, K=k)
+    Logger.logr.info("Andy - 5.4.4")
     lh = getLowerHighs(df['Close'].values, order, K=k) #- close_values
+    Logger.logr.info(f"getLowerLows result: {lh}")
     if not lh:
         lh = getLowerHighs(df['Close'].values, order-1, K=k)
+    Logger.logr.info("Andy - 5.4.5")
 
     clean_LowerHighs_LowerHighs(df, hh, prefix_name="hh")
+    Logger.logr.info("Andy - 5.4.5.1")
     clean_LowerHighs_LowerHighs(df, hl, prefix_name="hl")
+    Logger.logr.info("Andy - 5.4.5.2")
+    Logger.logr.info(df.columns + " - " + str(df.shape)+ " - " + str(df.tail(2))+ str(ll))
     clean_LowerHighs_LowerHighs(df, ll, prefix_name="ll")
+    
+    Logger.logr.info("Andy - 5.4.5.3")
     clean_LowerHighs_LowerHighs(df, lh, prefix_name="lh")
+    Logger.logr.info("Andy - 5.4.5.4")
 
+    Logger.logr.info("Andy - 5.4.6")
     if get_crash_point:
         df = Utils_Yfinance.get_crash_points(df, 'tend_hh', 'Close', col_result="tend_hh_crash", highlight_result_in_next_cell=1)
         df = Utils_Yfinance.get_crash_points(df, 'tend_hl', 'Close', col_result="tend_hl_crash", highlight_result_in_next_cell=1)
         df = Utils_Yfinance.get_crash_points(df, 'tend_ll', 'Close', col_result="tend_ll_crash", highlight_result_in_next_cell=1)
         df = Utils_Yfinance.get_crash_points(df, 'tend_lh', 'Close', col_result="tend_lh_crash", highlight_result_in_next_cell=1)
 
+    Logger.logr.info("Andy - 5.4.7")
     return df
 
 
 def clean_LowerHighs_LowerHighs(df, hh, prefix_name):
-    df_aux = pd.concat([df['Close'][i] for i in hh])  # .fillna(method='ffill')
-    df['tend_' + prefix_name] = df_aux[~df_aux.index.duplicated(keep='first')]
-    df['tend_' + prefix_name] = df['tend_' + prefix_name].fillna(method='ffill')
+    try:    
+        df_aux = pd.concat([df['Close'][i] for i in hh])  # .fillna(method='ffill')
+        df['tend_' + prefix_name] = df_aux[~df_aux.index.duplicated(keep='first')]
+        df['tend_' + prefix_name] = df['tend_' + prefix_name].fillna(method='ffill')
+    except Exception as e:
+        Logger.logr.error(f"Error in clean_LowerHighs_LowerHighs for {prefix_name}: {e}")
+        df['tend_' + prefix_name] = np.nan
 
 
 '''https://raposa.trade/blog/higher-highs-lower-lows-and-calculating-price-trends-in-python/ '''

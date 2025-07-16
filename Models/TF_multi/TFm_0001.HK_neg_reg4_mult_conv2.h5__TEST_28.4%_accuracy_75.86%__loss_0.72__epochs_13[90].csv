@@ -1,0 +1,18 @@
+loss	accuracy	val_loss	val_accuracy
+1.422	0.606	0.824	0.147
+1.119	0.497	0.489	0.949
+1.085	0.551	1.04	0.064
+1.147	0.538	0.232	0.949
+0.853	0.577	0.534	0.949
+1.15	0.558	2.032	0.053
+1.113	0.578	0.209	0.949
+1.125	0.591	1.0	0.326
+0.757	0.663	0.346	0.869
+0.862	0.639	1.063	0.401
+0.85	0.67	1.032	0.436
+0.716	0.716	0.698	0.658
+0.698	0.718	0.392	0.807
+0.717	0.759	0.421	0.81
+
+Columns TFm_0001.HK_neg_reg4_mult_conv2.h5:
+Date, buy_sell_point, sti_VAR, sti_STDDEV, mtum_DX, volu_Chaikin_ADOSC, mtum_PSL_12, ti_chaikin_10_3, volu_PVOL, mtum_ADX, mtum_td_seq, mtum_STCmacd_10_12_26_05, Volume, mtum_MACD_signal, mtum_MACD_fix, mtum_MACD, mtum_INERTIA_20_14, mtum_td_seq_sig, mtum_ADXR, cycl_SINE_lead, ma_TEMA_5, mtum_MACD_fix_signal, sti_TSF, ma_T3_5, mtum_PLUS_DM, mtum_QQEl_14_5_4236, ma_TEMA_10, mtum_STCstoch_10_12_26_05, ma_DEMA_20, ichi_kijun_sen, has_preMarket, ti_hma_20, ti_donchian_center_20, ti_donchian_upper_20, cycl_HT_TRENDMODE, mtum_DMP_14, mtum_PVOs_12_26_9, ma_DEMA_10, mtum_STC_10_12_26_05, ichi_tenkan_sen, mtum_AO_5_34, mtum_ULTOSC, vola_KCUe_20_2, ma_DEMA_5, mtum_ER_10, mtum_MACD_ext_signal, sti_LINEARREG, mtum_QQE_14_5_4236_RSIMA, cdl_GRAVESTONEDOJI, ti_konk_avg, vola_HWL, mtum_murrey_math, mtum_SMIs_5_20_5, mtum_WILLIAMS_R, mtum_MACD_ext, cycl_PHASOR_inph, vola_THERMO_20_2_05, vola_TRUERANGE_1, cycl_DCPHASE, olap_HWMA_02_01_01, olap_JMA_7_0, vola_TRANGE, olap_SWMA_10, olap_MIDPRICE, ma_KAMA_10, ti_mass_index_9_25, ma_TRIMA_10, ma_WMA_10, mcrh_KAMA_5_TEMA_50, mtum_APO, tend_renko_TR, tend_lh, mcrh_KAMA_20_DEMA_100, vola_HWM, ma_KAMA_5, volu_EFI_13, ti_donchian_lower_20, vola_KCBe_20_2, ti_force_index_13, ti_ease_of_movement_14, ti_kelt_20_lower, olap_MIDPOINT, ti_kelt_20_upper, olap_BBAND_UPPER, olap_PWMA_10, ti_coppock_14_11_10, sti_ENTP_10, ti_acc_dist, olap_VWMA_10, perf_CUMLOGRET_1, vola_RVI_14, tend_hh, tend_LDECAY_5, sti_LINEARREG_SLOPE, vola_KCLe_20_2, perf_CUMPCTRET_1, sti_CORREL, sti_LINEARREG_ANGLE, Close, wood_r3, ma_EMA_10, clas_r3, ma_WMA_20, ma_TEMA_20, mtum_AROON_up, ma_KAMA_20, ma_EMA_5, ma_EMA_20, mtum_CTI_12, mtum_D_9_3, mtum_FISHERTs_9_1, mtum_PPO, ma_WMA_5, mtum_RSI, mtum_PVO_12_26_9, cdl_MATCHINGLOW, mtum_ROCP, mtum_ROC

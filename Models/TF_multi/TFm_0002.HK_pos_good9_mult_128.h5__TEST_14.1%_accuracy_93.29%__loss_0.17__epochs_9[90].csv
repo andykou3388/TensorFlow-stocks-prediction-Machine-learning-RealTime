@@ -1,0 +1,14 @@
+loss	accuracy	val_loss	val_accuracy
+0.66	0.693	0.525	0.731
+0.52	0.753	1.219	0.31
+0.448	0.8	0.562	0.679
+0.386	0.836	0.324	0.859
+0.312	0.864	0.372	0.814
+0.265	0.891	0.186	0.947
+0.218	0.923	0.311	0.867
+0.193	0.929	0.275	0.898
+0.189	0.927	0.41	0.842
+0.17	0.933	0.265	0.914
+
+Columns TFm_0002.HK_pos_good9_mult_128.h5:
+Date, buy_sell_point, vola_HWL, olap_VMAP, volu_NVI_1, tend_LDECAY_5, NQ_SMA_100, Close, vola_HWM, perf_CUMLOGRET_1, perf_CUMPCTRET_1, olap_HWMA_02_01_01, sti_TOS_STDEVALL_L_3, NQ_SMA_20, ichi_kijun_sen, sti_TOS_STDEVALL_U_3, ma_TEMA_10, sti_TOS_STDEVALL_LR, ma_DEMA_5, ti_donchian_center_20, sti_TOS_STDEVALL_U_2, sti_TOS_STDEVALL_U_1, ti_donchian_lower_20, ma_T3_5, ti_hma_20, sti_TOS_STDEVALL_L_2, sti_TOS_STDEVALL_L_1, ma_DEMA_20, ma_WMA_5, perf_ha, olap_JMA_7_0, mtum_STOCH_RSI_k, tend_VHF_28, ti_chaikin_10_3, mtum_MACD_ext_list, ma_TEMA_20, High, cdl_TAKURI, volu_Chaikin_ADOSC, cdl_DRAGONFLYDOJI, cdl_HIKKAKEMOD, cdl_STICKSANDWICH, NQ_Close, tend_lh, ma_TEMA_5, wood_s1, mcrh_SMA_5_KAMA_50, ma_KAMA_20, olap_SSF_10_2, mcrh_DEMA_10_KAMA_50, Open, vola_HWU, mtum_PVO_12_26_9, mtum_ADXR, Low, mtum_INERTIA_20_14

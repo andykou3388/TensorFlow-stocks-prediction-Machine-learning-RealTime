@@ -1,0 +1,16 @@
+loss	accuracy	val_loss	val_accuracy
+0.869	0.589	0.78	0.21
+0.75	0.531	0.85	0.198
+0.656	0.614	0.478	0.869
+0.593	0.707	0.881	0.431
+0.517	0.739	0.306	0.889
+0.403	0.825	0.186	0.945
+0.335	0.863	0.242	0.892
+0.253	0.899	0.164	0.945
+0.243	0.899	0.153	0.942
+0.168	0.94	0.269	0.883
+0.168	0.931	0.132	0.959
+0.1	0.97	0.345	0.854
+
+Columns TFm_2318.HK_pos_good9_mult_conv2.h5:
+Date, buy_sell_point, ti_ease_of_movement_14, mtum_AR_26, sti_BETA, mcrh_KAMA_10_TRIMA_20, ti_konk_bl, mtum_STOCH_RSI_k, mtum_WILLIAMS_R, mtum_murrey_math, volu_Chaikin_AD, tend_lh, mtum_ADXR, mtum_td_seq, mtum_STOCH_Fa_k, mcrh_EMA_50_KAMA_100, mtum_STOCH_RSI_d, mtum_BR_26, ti_acc_dist, mcrh_SMA_5_SMA_10, mtum_STCstoch_10_12_26_05, mcrh_TEMA_5_TEMA_20, sti_TOS_STDEVALL_LR, mcrh_SMA_20_KAMA_50, mtum_BOP, volu_PVOL, Volume, ti_chaikin_10_3, volu_Chaikin_ADOSC, cdl_GRAVESTONEDOJI, cdl_INVERTEDHAMMER, mtum_PLUS_DM, sti_TOS_STDEVALL_U_3, mcrh_KAMA_10_KAMA_20, volu_OBV, volu_EFI_13, mcrh_T3_20_SMA_100, mcrh_DEMA_5_ti_h20, mtum_AROON_down, mcrh_KAMA_5_TRIMA_10, mcrh_TRIMA_20_TEMA_100, mcrh_WMA_50_DEMA_100, ti_force_index_13, sti_TOS_STDEVALL_L_1, mtum_PVO_12_26_9, sti_TOS_STDEVALL_U_1, ma_KAMA_50, sti_TOS_STDEVALL_U_2

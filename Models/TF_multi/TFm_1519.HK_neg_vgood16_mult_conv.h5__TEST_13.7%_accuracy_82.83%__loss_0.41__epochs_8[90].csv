@@ -1,0 +1,13 @@
+loss	accuracy	val_loss	val_accuracy
+0.656	0.68	0.75	0.543
+0.62	0.71	0.559	0.879
+0.586	0.749	0.535	0.863
+0.547	0.783	0.537	0.798
+0.51	0.802	0.61	0.753
+0.483	0.803	0.564	0.726
+0.456	0.809	0.581	0.753
+0.441	0.816	0.479	0.793
+0.414	0.828	0.408	0.836
+
+Columns TFm_1519.HK_neg_vgood16_mult_conv.h5:
+Date, buy_sell_point, ichi_isin_cloud, olap_BBAND_dif, vola_ATR, mtum_DMP_14, mtum_INERTIA_20_14, mtum_PLUS_DM, tend_renko_ATR, volu_PVI_1, sti_LINEARREG_ANGLE

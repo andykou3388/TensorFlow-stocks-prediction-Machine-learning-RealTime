@@ -1,0 +1,20 @@
+loss	accuracy	val_loss	val_accuracy
+0.622	0.703	0.651	0.477
+0.576	0.674	0.669	0.528
+0.548	0.708	0.773	0.518
+0.529	0.706	0.542	0.607
+0.524	0.718	0.456	0.675
+0.523	0.728	0.576	0.545
+0.519	0.702	0.448	0.667
+0.507	0.718	0.814	0.393
+0.494	0.733	0.574	0.577
+0.489	0.759	0.432	0.732
+0.481	0.764	0.568	0.599
+0.466	0.761	0.293	0.864
+0.46	0.757	0.534	0.64
+0.447	0.777	0.421	0.718
+0.464	0.746	0.423	0.745
+0.428	0.785	0.346	0.87
+
+Columns TFm_1088.HK_neg_reg4__mult_gru.h5:
+Date, buy_sell_point, volu_PVT, sti_LINEARREG_INTERCEPT, ma_KAMA_50, ti_kelt_20_upper, tend_lh, tend_renko_ATR, olap_BBAND_UPPER, ma_TRIMA_20, ma_T3_10, olap_HT_TRENDLINE, ma_SMA_20, ma_EMA_50, olap_BBAND_MIDDLE, olap_SINWMA_14, olap_ALMA_10_60_085, ma_WMA_20, vola_KCUe_20_2, ti_donchian_upper_20, ma_SMA_50, ma_SMA_10, tend_hh, ma_TRIMA_50, has_preMarket, vola_KCBe_20_2, olap_MIDPOINT, ma_EMA_20, tend_ll, vola_THERMOma_20_2_05, vola_ATR, ma_TRIMA_10, ti_kelt_20_lower, cdl_TRISTAR, cycl_DCPERIOD, cdl_INVERTEDHAMMER, olap_MCGD_10, ma_KAMA_20, olap_PWMA_10, olap_SWMA_10, volu_OBV, per_Volume, ma_DEMA_20, sti_VAR, ti_acc_dist, NQ_SMA_20, sti_TOS_STDEVALL_L_1, sti_TOS_STDEVALL_U_2, vola_HWU, NQ_SMA_100, vola_KCLe_20_2, wood_r3, ma_T3_5, volu_Chaikin_AD, ma_TEMA_20, ma_EMA_10, olap_HWMA_02_01_01, sti_TOS_STDEVALL_L_3, olap_MIDPRICE, ma_KAMA_10, olap_VWMA_10, cama_pp, ma_SMA_5, ma_EMA_5, ichi_tenkan_sen, trad_r1, sti_TOS_STDEVALL_L_2, sti_TOS_STDEVALL_U_1, vola_HWM, fibo_r1, fibo_r2, ma_WMA_10, mcrh_SMA_20_DEMA_50, ma_TRIMA_5, clas_r3, ichi_senkou_a, sti_TOS_STDEVALL_U_3, ma_KAMA_5, ti_chaikin_10_3, wood_r2, fibo_r3, sti_CORREL, olap_VMAP, sti_TOS_STDEVALL_LR, volu_NVI_1, clas_r2, demark_r1, mtum_FISHERT_9_1, vola_NATR, mcrh_DEMA_20_KAMA_100, wood_r1, mcrh_TRIMA_20_EMA_100, ti_hma_20, clas_r1, vola_HWL, fibo_pp, trad_r3, trad_r2

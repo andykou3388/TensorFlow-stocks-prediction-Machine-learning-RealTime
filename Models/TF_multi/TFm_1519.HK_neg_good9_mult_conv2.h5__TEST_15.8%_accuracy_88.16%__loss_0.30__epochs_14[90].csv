@@ -1,0 +1,19 @@
+loss	accuracy	val_loss	val_accuracy
+0.854	0.603	0.977	0.179
+0.828	0.555	0.673	0.593
+0.627	0.665	0.841	0.377
+0.624	0.679	0.253	0.935
+0.577	0.718	0.207	0.94
+0.509	0.752	0.591	0.732
+0.479	0.769	1.247	0.377
+0.466	0.786	0.7	0.648
+0.464	0.787	0.568	0.734
+0.432	0.808	0.754	0.645
+0.366	0.834	0.366	0.848
+0.356	0.849	0.215	0.927
+0.332	0.864	0.341	0.837
+0.31	0.869	0.387	0.837
+0.296	0.882	0.232	0.919
+
+Columns TFm_1519.HK_neg_good9_mult_conv2.h5:
+Date, buy_sell_point, ichi_isin_cloud, olap_BBAND_dif, vola_ATR, mtum_DMP_14, mtum_INERTIA_20_14, mtum_PLUS_DM, tend_renko_ATR, volu_PVI_1, sti_LINEARREG_ANGLE, sti_LINEARREG_SLOPE, volu_OBV, mtum_MACD_fix, vola_HWU, sti_ENTP_10, ti_coppock_14_11_10, mtum_ROCR, mtum_ROCP, mtum_STCmacd_10_12_26_05, mtum_td_seq, volu_PVT, mtum_MACD, vola_HWM, mtum_ADXR, cdl_3WHITESOLDIERS, olap_HWMA_02_01_01, ti_force_index_13, mcrh_T3_50_WMA_100, ma_TEMA_20, sti_TSF, mtum_AO_5_34, has_preMarket, sti_LINEARREG, mtum_BIAS_SMA_26, mtum_ROCR100, volu_EFI_13, volu_NVI_1, mtum_ROC, vola_HWL, tend_hl, mtum_MINUS_DM, NQ_SMA_100, mtum_MOM, mtum_MACD_signal, Close, vola_NATR, mtum_DMN_14

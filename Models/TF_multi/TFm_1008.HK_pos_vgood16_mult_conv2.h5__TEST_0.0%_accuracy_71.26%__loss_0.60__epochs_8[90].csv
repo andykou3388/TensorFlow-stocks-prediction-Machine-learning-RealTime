@@ -1,0 +1,13 @@
+loss	accuracy	val_loss	val_accuracy
+0.881	0.562	1.136	0.093
+0.738	0.461	0.716	0.413
+0.671	0.634	0.934	0.093
+0.701	0.559	0.515	0.867
+0.659	0.602	0.576	0.827
+0.639	0.709	0.377	0.907
+0.624	0.657	0.856	0.44
+0.623	0.732	0.533	0.747
+0.605	0.713	0.663	0.613
+
+Columns TFm_1008.HK_pos_vgood16_mult_conv2.h5:
+Date, buy_sell_point, mcrh_WMA_10_KAMA_20, mcrh_WMA_10_EMA_50, mcrh_T3_5_WMA_100, mcrh_WMA_10_WMA_100, mcrh_WMA_5_KAMA_50, mcrh_TEMA_20_WMA_100, mcrh_TEMA_10_TRIMA_100, mcrh_DEMA_20_TRIMA_50, mcrh_TEMA_50_DEMA_100, mcrh_T3_10_DEMA_100

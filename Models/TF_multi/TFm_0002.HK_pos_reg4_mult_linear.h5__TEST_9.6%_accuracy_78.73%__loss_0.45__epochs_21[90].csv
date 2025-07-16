@@ -1,0 +1,26 @@
+loss	accuracy	val_loss	val_accuracy
+0.851	0.683	0.568	0.751
+0.601	0.692	0.398	0.853
+0.595	0.696	0.364	0.884
+0.542	0.723	0.612	0.701
+0.545	0.722	0.531	0.762
+0.537	0.723	0.593	0.706
+0.541	0.735	0.402	0.842
+0.518	0.728	0.58	0.698
+0.499	0.745	0.598	0.693
+0.511	0.738	0.544	0.726
+0.501	0.747	0.344	0.861
+0.487	0.75	0.708	0.62
+0.491	0.754	0.267	0.903
+0.486	0.748	0.792	0.557
+0.465	0.769	0.318	0.878
+0.477	0.765	0.425	0.812
+0.485	0.755	0.425	0.803
+0.472	0.765	0.617	0.67
+0.449	0.788	0.591	0.72
+0.479	0.768	0.672	0.651
+0.462	0.78	0.753	0.598
+0.448	0.787	0.775	0.607
+
+Columns TFm_0002.HK_pos_reg4_mult_linear.h5:
+Date, buy_sell_point, vola_HWL, olap_VMAP, volu_NVI_1, tend_LDECAY_5, NQ_SMA_100, Close, vola_HWM, perf_CUMLOGRET_1, perf_CUMPCTRET_1, olap_HWMA_02_01_01, sti_TOS_STDEVALL_L_3, NQ_SMA_20, ichi_kijun_sen, sti_TOS_STDEVALL_U_3, ma_TEMA_10, sti_TOS_STDEVALL_LR, ma_DEMA_5, ti_donchian_center_20, sti_TOS_STDEVALL_U_2, sti_TOS_STDEVALL_U_1, ti_donchian_lower_20, ma_T3_5, ti_hma_20, sti_TOS_STDEVALL_L_2, sti_TOS_STDEVALL_L_1, ma_DEMA_20, ma_WMA_5, perf_ha, olap_JMA_7_0, mtum_STOCH_RSI_k, tend_VHF_28, ti_chaikin_10_3, mtum_MACD_ext_list, ma_TEMA_20, High, cdl_TAKURI, volu_Chaikin_ADOSC, cdl_DRAGONFLYDOJI, cdl_HIKKAKEMOD, cdl_STICKSANDWICH, NQ_Close, tend_lh, ma_TEMA_5, wood_s1, mcrh_SMA_5_KAMA_50, ma_KAMA_20, olap_SSF_10_2, mcrh_DEMA_10_KAMA_50, Open, vola_HWU, mtum_PVO_12_26_9, mtum_ADXR, Low, mtum_INERTIA_20_14, wood_r1, mtum_STOCH_RSI_d, mtum_ADX, cama_pp, mtum_MINUS_DI, mtum_MACD_ext_signal, Volume, ti_kelt_20_lower, ti_supertrend_20, ma_EMA_5, fibo_r1, ti_acc_dist, vola_ATR, clas_s1, ma_DEMA_10, wood_pp, volu_Chaikin_AD, vola_KCUe_20_2, tend_ll, trad_pp, trad_s1, trad_s2, wood_r3, mtum_MINUS_DM, volu_PVR, mtum_DMN_14, olap_MIDPRICE, mtum_PVOs_12_26_9, wood_s2, wood_r2, vola_UI_14, vola_KCBe_20_2, mtum_td_seq, mtum_FISHERTs_9_1, wood_s3, cdl_LONGLEGGEDDOJI, clas_s2, mcrh_SMA_10_TEMA_50, mcrh_SMA_10_SMA_20, mcrh_DEMA_10_EMA_50, cycl_EBSW_40_10, cycl_SINE_lead, ma_T3_10, ma_KAMA_5, demark_pp, fibo_s3, mtum_BOP, demark_r1, fibo_s2, demark_s1, fibo_s1, clas_pp, fibo_pp, cdl_HAMMER, cama_r1, cama_r2, mcrh_TRIMA_20_TRIMA_50, cama_r3, cama_s1, cama_s2, mcrh_WMA_10_KAMA_50, cdl_DOJI, cama_s3, cdl_COUNTERATTACK, mtum_AROONOSC

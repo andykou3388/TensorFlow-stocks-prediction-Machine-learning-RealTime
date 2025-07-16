@@ -55,15 +55,26 @@ df_SCORing = None # pd.read_csv("Models/TF_multi/_SCORE_ALL_T_multi_all.csv", in
 
 
 
-REGEX_COLUMNS_MODEL = r"Columns TFm_[\w\-]*.h5:\n((\w*[,]?[ ]?)*)"
+# REGEX_COLUMNS_MODEL = r"Columns"
 def check_columns_selections_Raise(cols_model, model):
     h5_name = glob.glob("Models/TF_multi/" + model + "*.csv")[0]
-    f = open(h5_name, "r")
-    string_columns = re.search(REGEX_COLUMNS_MODEL, f.read()).group(1)
+    # with open(h5_name, "r") as f:
+    with open(h5_name, "r") as f:
+        file_content = f.read()
+    Logger.logr.info("Checking columns selected for prediction: " + file_content)
+    REGEX_COLUMNS_MODEL = r"Columns TFm_[\w\-]*.h5:\n((\w*[,]?[ ]?)*)"
+    match = re.search(r"h5:\n((\w*[,]?[ ]?)*)", file_content)
+    if match:
+        string_columns = match.group(1)
+        Logger.logr.info("match columns: " + str(string_columns.split(", ")))
+        Logger.logr.info("cols model columns: " + str(cols_model))
+    else:
+        Logger.logr.error(f"Could not extract columns from {h5_name} using REGEX_COLUMNS_MODEL. File content:\n{file_content}")
+        raise ValueError(f"Could not extract columns selection from model file for {model}")
+    Logger.logr.info("Columns required by the Model: " + h5_name + " are: " + string_columns)
     if not ((cols_model == string_columns.split(", ")).all()):
         Logger.logr.info("The columns selected for prediction are not the same as those required by the Model: " + h5_name)
         raise ValueError("The columns selected for prediction are not the same as those required by the Model: " + h5_name)
-
 
 def fill_df_eval_r_with_values(arr_predit, df_eval_r, model_name):
     global df_SCORing
@@ -73,7 +84,8 @@ def fill_df_eval_r_with_values(arr_predit, df_eval_r, model_name):
     # list_per.sort(reverse=True)
     df_eval_r.insert(len(df_eval_r.columns), 'Acert_' + model_name, " ")
     for per in list_per:
-        Threshold_N = df_SCORing[str(int(per * 100)) + "%"].loc[[model_name]][0]
+        Threshold_N = df_SCORing[str(int(per * 100)) + "%"].loc[[model_name]].iloc[0]
+        # Threshold_N = df_SCORing[str(int(per * 100)) + "%"].loc[[model_name]][0]
         # Threshold_N = df_RESULT[model_name][str(int(per * 100)) + "%"]
         df_eval_r.loc[(arr_predit >= Threshold_N).reshape(-1), 'Acert_' + model_name] = str(int(per * 100)) + "%"
     df_eval_r['Score_' + model_name] = np.round(arr_predit, 2)
@@ -141,12 +153,18 @@ def split_df_predict_and_df_eval(df_in_pure):
 def create_df_eval_prediction(df_in_pure, columns_json, df_eval_r, model_name):
     stock, pos_neg, col_select, type_multi = Utils_model_predict.get_config_from_name_model(model_name)
     cols_model = columns_json.get_Dict_JsonColumns()["_" + col_select + "_"]
+    Logger.logr.info("Columns selected for model: " + str(cols_model)+"col_select: " + col_select + " pos_neg: " + pos_neg + " model_name: " + model_name)
     cols_model = COLS_TO_EVAL_FIRSH + ['Date', Y_TARGET] + cols_model
     df_in_pure = df_in_pure[cols_model]
     Logger.logr.info('Load model NameModel: ' +model_name+' Neg/Pos: ' + pos_neg + ' df.shape: ' + str(df_in_pure.shape) +" Columns: " + col_select  )
-
+    
     df_S, df_eval = split_df_predict_and_df_eval(df_in_pure)
+    Logger.logr.info("df_in_pure record:\n" + df_in_pure.head(2).to_string())
+    Logger.logr.info("df_eval:\n" + df_eval.head(2).to_string())
+    Logger.logr.info("df_S record:\n" + df_S.head(2).to_string())
+    # Logger.logr.info("df_eval record:\n" + df_eval.head(2).to_string())
     df_eval_r[['Date', Y_TARGET] + COLS_TO_EVAL_FIRSH] = df_eval[['Date', Y_TARGET] + COLS_TO_EVAL_FIRSH]
+    Logger.logr.info(df_S.columns)
     check_columns_selections_Raise(df_S.columns, model_name)
     shape_imput_3d = (-1, BACHT_SIZE_LOOKBACK, len(df_S.columns) - 1)
     arr_predit = predict_Multi_models(df_S, model_name, shape_imput_3d=shape_imput_3d,scaler_name_file=stock + "_" + pos_neg + "_" + col_select + "_")

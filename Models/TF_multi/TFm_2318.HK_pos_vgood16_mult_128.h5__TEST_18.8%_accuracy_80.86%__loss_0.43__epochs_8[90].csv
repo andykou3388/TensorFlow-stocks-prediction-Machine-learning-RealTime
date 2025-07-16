@@ -1,0 +1,13 @@
+loss	accuracy	val_loss	val_accuracy
+0.684	0.601	0.783	0.294
+0.645	0.626	0.686	0.543
+0.609	0.662	0.593	0.693
+0.574	0.7	0.531	0.723
+0.521	0.732	0.544	0.704
+0.501	0.752	0.544	0.712
+0.466	0.771	0.512	0.745
+0.438	0.798	0.51	0.759
+0.426	0.809	0.398	0.845
+
+Columns TFm_2318.HK_pos_vgood16_mult_128.h5:
+Date, buy_sell_point, ti_ease_of_movement_14, mtum_AR_26, sti_BETA, mcrh_KAMA_10_TRIMA_20, ti_konk_bl, mtum_STOCH_RSI_k, mtum_WILLIAMS_R, mtum_murrey_math

@@ -1,0 +1,13 @@
+loss	accuracy	val_loss	val_accuracy
+0.676	0.657	0.749	0.432
+0.58	0.702	0.515	0.716
+0.506	0.754	0.222	0.918
+0.476	0.768	0.328	0.866
+0.425	0.809	0.323	0.85
+0.39	0.829	0.501	0.749
+0.371	0.837	0.368	0.817
+0.32	0.869	0.263	0.893
+0.306	0.873	0.324	0.847
+
+Columns TFm_1299.HK_neg_reg4__mult_gru.h5:
+Date, buy_sell_point, mtum_AROON_up, mtum_BULLP_13, mtum_AROONOSC, per_Close, mtum_CMO, ichi_isin_cloud, ti_vortex_neg_14, perf_z_30_1, mtum_BR_26, mtum_RSI, sti_ZS_30, mtum_MINUS_DI, mtum_INERTIA_20_14, per_preMarket, mtum_SMI_5_20_5, tend_renko_TR, mtum_PGO_14, mtum_PVOh_12_26_9, vola_TRUERANGE_1, mtum_QQEl_14_5_4236, mtum_PVO_12_26_9, has_preMarket, vola_TRANGE, ti_konk_gre, mtum_CCI, vola_RVI_14, vola_THERMOl_20_2_05, mtum_QQE_14_5_4236_RSIMA, vola_THERMOs_20_2_05, tend_lh, cycl_EBSW_40_10, mtum_PVOs_12_26_9, tend_PSARr_002_02, vola_THERMO_20_2_05, mtum_SMIs_5_20_5, ti_konk_rest, cdl_DOJI, mtum_PSL_12, mtum_BIAS_SMA_26, ti_konk_bro, mtum_STOCH_RSI_k, NQ_Volume, mtum_DMN_14, mtum_ER_10, mtum_MINUS_DM, mtum_CTI_12, mtum_td_seq, mtum_td_seq_sig, mtum_RSX_14, mtum_MACD, mtum_MACD_ext_signal, mtum_MACD_fix, mtum_MACD_fix_signal, mtum_MACD_signal, mtum_PLUS_DI, ti_konk_bl, ti_vortex_neg_5, cdl_HAMMER, cdl_DRAGONFLYDOJI, wood_r3, mtum_STCmacd_10_12_26_05, High, mtum_ROCR100, sti_TOS_STDEVALL_LR, olap_BBAND_dif, ti_konk_avg, wood_r2, wood_r1, volu_PVR, volu_PVI_1, volu_NVI_1, vola_UI_14, vola_KCLe_20_2, ti_mass_index_9_25, ti_donchian_lower_20, perf_CUMPCTRET_1, tend_ll, tend_hh, tend_VHF_28, tend_PSARaf_002_02, sti_TSF, sti_TOS_STDEVALL_L_3, mtum_ROCP, sti_STDDEV, mtum_ROCR, Close, mtum_ROC, ma_TEMA_10, mtum_AO_5_34, cdl_TAKURI, mtum_CFO_9, cycl_DCPERIOD, ma_KAMA_5, Open, mtum_MOM, cdl_LONGLEGGEDDOJI

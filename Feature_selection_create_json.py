@@ -76,6 +76,7 @@ def get_best_columns_to_train(cleaned_df, op_buy_sell : _KEYS_DICT.Op_buy_sell ,
     def get_correlation_corrwith():
         global df
         print(" Correlation Matrix with Heatmap ")
+        df['Date'] = pd.to_datetime(df['Date']).map(pd.Timestamp.timestamp)
         try:
             dcf = df.corrwith(df[Y_TARGET])
         except (ValueError, UnboundLocalError, TypeError) as e:
@@ -124,7 +125,7 @@ def get_json_feature_selection(list_all_columns, path_json):
 
 
 def generate_json_best_columns(cleaned_df, Op_buy_sell: _KEYS_DICT.Op_buy_sell,
-                               list_columns_got=[8, 12, 16, 32, 72], path_json="plots_relations/best_selection_sum_up.json",path_imgs = None,
+                               list_columns_got=[8, 12, 16, 32, 72], path_json="plots_relations/best_selection_sum_up.json",path_imgs = "plots_relations/plot",
                                NUM_MAX_PLOT_RELATION_IMAGE_PER_STOCK=3):
     list_all_columns = []
     list_cols_plot = []

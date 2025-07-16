@@ -1,0 +1,13 @@
+loss	accuracy	val_loss	val_accuracy
+0.785	0.595	0.861	0.381
+0.694	0.615	0.765	0.448
+0.679	0.611	0.693	0.527
+0.656	0.622	0.679	0.524
+0.642	0.632	0.694	0.514
+0.629	0.64	0.684	0.524
+0.614	0.662	0.639	0.559
+0.595	0.687	0.573	0.606
+0.586	0.68	0.611	0.584
+
+Columns TFm_0020.HK_neg_vgood16_mult_28.h5:
+Date, buy_sell_point, tend_ll, volu_PVOL, Volume, mtum_BIAS_SMA_26, mtum_BULLP_13, volu_PVI_1, mtum_STOCH_RSI_k

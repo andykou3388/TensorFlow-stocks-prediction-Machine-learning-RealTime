@@ -1,0 +1,14 @@
+loss	accuracy	val_loss	val_accuracy
+0.646	0.643	0.462	0.837
+0.575	0.682	0.815	0.603
+0.548	0.701	0.687	0.616
+0.521	0.706	0.587	0.732
+0.505	0.721	0.573	0.734
+0.497	0.736	0.572	0.721
+0.483	0.737	0.376	0.829
+0.487	0.749	0.641	0.647
+0.461	0.765	0.446	0.763
+0.453	0.775	0.347	0.808
+
+Columns TFm_0001.HK_pos_vgood16__mult_gru.h5:
+Date, buy_sell_point, mtum_PVOs_12_26_9, tend_PSARaf_002_02, tend_LDECAY_5, cycl_HT_TRENDMODE, ti_donchian_lower_20, perf_CUMPCTRET_1, perf_ha, ichi_kijun_sen

@@ -1,0 +1,24 @@
+loss	accuracy	val_loss	val_accuracy
+0.729	0.605	1.722	0.466
+0.621	0.69	0.4	0.697
+0.568	0.716	0.318	0.921
+0.553	0.714	0.409	0.816
+0.526	0.749	0.905	0.464
+0.497	0.779	0.472	0.741
+0.465	0.79	0.19	0.921
+0.463	0.791	0.462	0.784
+0.446	0.795	0.581	0.682
+0.399	0.813	0.665	0.682
+0.379	0.835	0.792	0.618
+0.371	0.834	1.343	0.569
+0.368	0.852	0.642	0.668
+0.349	0.856	0.78	0.615
+0.324	0.862	0.696	0.624
+0.367	0.852	0.822	0.627
+0.302	0.872	0.383	0.793
+0.322	0.872	0.726	0.665
+0.269	0.89	1.187	0.583
+0.31	0.877	0.281	0.95
+
+Columns TFm_2318.HK_neg_good9_mult_dense2.h5:
+Date, buy_sell_point, tend_lh, ti_chaikin_10_3, volu_Chaikin_ADOSC, volu_PVOL, sti_LINEARREG, ma_TEMA_10, tend_LDECAY_5, Volume, ma_KAMA_20, ma_KAMA_50, mtum_PVO_12_26_9, ichi_kijun_sen, sti_TSF, High, ti_donchian_upper_20, mtum_STCstoch_10_12_26_05, ti_hma_20, cdl_3WHITESOLDIERS, ti_coppock_14_11_10, mcrh_WMA_50_TEMA_100, cama_r1, mcrh_KAMA_10_TRIMA_20, ma_DEMA_10, olap_BBAND_UPPER, ti_ease_of_movement_14, olap_JMA_7_0, ma_DEMA_5, ma_EMA_5, ma_EMA_20, trad_r3, ma_KAMA_10, ma_T3_5, olap_SSF_10_2, ma_TEMA_20, ma_TRIMA_5, mcrh_DEMA_50_EMA_100, sti_TOS_STDEVALL_U_2, ti_force_index_13, sti_TOS_STDEVALL_L_3, mtum_PLUS_DM, olap_BBAND_dif, cama_pp, cama_r2, cama_r3, cama_s1, cama_s2, perf_ha, sti_TOS_STDEVALL_L_2, mtum_PVOh_12_26_9, volu_EFI_13, mtum_MACD_ext_signal, vola_KCUe_20_2, vola_KCBe_20_2, mtum_BR_26

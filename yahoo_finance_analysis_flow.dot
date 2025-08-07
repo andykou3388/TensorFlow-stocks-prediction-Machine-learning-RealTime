@@ -1,0 +1,49 @@
+digraph YahooFinanceAnalysis {
+    rankdir=TB;
+    node [shape=box, style=filled, fillcolor=lightblue, fontname="Arial"];
+    edge [fontname="Arial"];
+
+    // Nodes
+    start [label="Start: Yahoo Finance Data Analysis", shape=ellipse, fillcolor=lightgreen];
+    
+    step1 [label="1. Data Collection\n• Get stock data from Yahoo Finance\n• Collect technical indicators\n• Gather historical prices", fillcolor=lightyellow];
+    
+    step2 [label="2. Data Preprocessing\n• Clean and format data\n• Handle missing values\n• Create features for ML models", fillcolor=lightyellow];
+    
+    step3 [label="3. Model Training\n• Train multiple ML models\n• Use TensorFlow/Keras\n• Implement ensemble methods", fillcolor=lightyellow];
+    
+    step4 [label="4. Real-time Predictions\n• Generate buy/sell signals\n• Calculate confidence scores\n• Store results in CSV", fillcolor=lightyellow];
+    
+    step5 [label="5. Performance Analysis\n• Load prediction results\n• Calculate POS/NEG scores\n• Generate statistics", fillcolor=lightyellow];
+    
+    step6 [label="6. Visualization\n• Create performance charts\n• Generate correlation plots\n• Show time series analysis", fillcolor=lightyellow];
+    
+    step7 [label="7. Chat Integration\n• Format results for chat display\n• Create summary reports\n• Send alerts/notifications", fillcolor=lightyellow];
+    
+    end [label="End: Analysis in Chat", shape=ellipse, fillcolor=lightcoral];
+
+    // Edges
+    start -> step1;
+    step1 -> step2;
+    step2 -> step3;
+    step3 -> step4;
+    step4 -> step5;
+    step5 -> step6;
+    step6 -> step7;
+    step7 -> end;
+
+    // Subgraph for detailed analysis components
+    subgraph cluster_analysis {
+        label="Analysis Components";
+        style=dotted;
+        node [fillcolor=lightgray];
+        
+        pos_neg [label="POS/NEG Scoring\n• Positive model predictions\n• Negative model predictions\n• Net score calculation", fillcolor=lightgray];
+        correlation [label="Correlation Analysis\n• Price vs Score\n• Volume vs Score\n• Time patterns", fillcolor=lightgray];
+        ranking [label="Ticker Ranking\n• Best performers\n• Worst performers\n• Statistical summaries", fillcolor=lightgray];
+    }
+
+    step5 -> pos_neg [style=dashed];
+    step5 -> correlation [style=dashed];
+    step5 -> ranking [style=dashed];
+}

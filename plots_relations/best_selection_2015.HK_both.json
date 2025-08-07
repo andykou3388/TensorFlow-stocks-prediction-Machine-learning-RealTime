@@ -1,0 +1,166 @@
+{
+   "index": {
+      "17": [
+         "tend_hl"
+      ],
+      "16": [
+         "tend_ll"
+      ],
+      "15": [
+         "tend_lh"
+      ],
+      "13": [
+         "olap_HT_TRENDLINE",
+         "ti_donchian_lower_20",
+         "sti_CORREL"
+      ],
+      "12": [
+         "tend_hh",
+         "ma_EMA_50"
+      ],
+      "11": [
+         "sti_LINEARREG_INTERCEPT",
+         "vola_KCLe_20_2",
+         "ti_kelt_20_lower"
+      ],
+      "9": [
+         "ma_SMA_50",
+         "ma_TRIMA_50"
+      ],
+      "8": [
+         "ma_SMA_20",
+         "olap_BBAND_MIDDLE",
+         "olap_MIDPRICE",
+         "volu_PVT",
+         "HSI_SMA_20"
+      ],
+      "7": [
+         "ti_kelt_20_upper",
+         "olap_MIDPOINT",
+         "ma_TRIMA_20"
+      ],
+      "6": [
+         "ma_EMA_20",
+         "vola_KCBe_20_2",
+         "cycl_HT_TRENDMODE",
+         "HSI_SMA_100",
+         "olap_BBAND_UPPER"
+      ],
+      "5": [
+         "cdl_MATCHINGLOW",
+         "ma_KAMA_50",
+         "olap_MCGD_10",
+         "ma_KAMA_20",
+         "sti_TOS_STDEVALL_U_1",
+         "ichi_senkou_a",
+         "ma_DEMA_20",
+         "cdl_HAMMER",
+         "ichi_kijun_sen",
+         "mtum_PSL_12",
+         "ma_T3_10",
+         "ti_ease_of_movement_14",
+         "mcrh_WMA_50_TEMA_100",
+         "ti_donchian_center_20"
+      ],
+      "4": [
+         "sti_TOS_STDEVALL_LR",
+         "ma_WMA_20",
+         "HSI_Close",
+         "ma_KAMA_5",
+         "mtum_PVOs_12_26_9",
+         "vola_KCUe_20_2",
+         "volu_Chaikin_AD",
+         "volu_NVI_1",
+         "olap_VMAP"
+      ],
+      "3": [
+         "olap_SINWMA_14",
+         "olap_BBAND_LOWER",
+         "sti_TOS_STDEVALL_U_2",
+         "sti_TOS_STDEVALL_L_1",
+         "sti_TOS_STDEVALL_L_2",
+         "sti_TOS_STDEVALL_L_3",
+         "sti_TOS_STDEVALL_U_3",
+         "tend_PSARaf_002_02",
+         "ti_donchian_upper_20",
+         "ti_supertrend_20",
+         "trad_s1",
+         "trad_s3",
+         "volu_PVI_1",
+         "mtum_FISHERTs_9_1",
+         "wood_s3",
+         "cdl_GRAVESTONEDOJI",
+         "mcrh_SMA_50_T3_100",
+         "clas_s3",
+         "fibo_s1",
+         "fibo_s2",
+         "ichi_tenkan_sen",
+         "ma_EMA_10",
+         "ma_SMA_10",
+         "clas_s1",
+         "cama_s3",
+         "cycl_DCPERIOD"
+      ],
+      "2": [
+         "olap_ALMA_10_60_085",
+         "vola_UI_14",
+         "wood_s2",
+         "ti_acc_dist",
+         "demark_s1",
+         "wood_s1",
+         "mtum_MACD_ext_signal",
+         "fibo_s3",
+         "mtum_D_9_3",
+         "clas_s2",
+         "High",
+         "ma_KAMA_10",
+         "volu_OBV",
+         "ichi_senkou_b",
+         "mtum_STOCH_RSI_k",
+         "trad_s2",
+         "perf_CUMLOGRET_1",
+         "cama_s2",
+         "cama_s1",
+         "cdl_TAKURI",
+         "olap_SAR",
+         "cdl_DRAGONFLYDOJI"
+      ],
+      "1": [
+         "trad_r2",
+         "vola_THERMOma_20_2_05",
+         "vola_NATR",
+         "vola_ATR",
+         "cycl_DCPHASE",
+         "ti_mass_index_9_25",
+         "Low",
+         "Open",
+         "ti_vortex_neg_14",
+         "mtum_DMP_14",
+         "cycl_EBSW_40_10",
+         "mcrh_SMA_50_TEMA_100",
+         "mtum_CTI_12",
+         "mtum_AROON_up",
+         "mtum_MACD_list",
+         "mtum_APO",
+         "mtum_ADXR",
+         "mtum_STCmacd_10_12_26_05",
+         "mtum_td_seq_sig",
+         "mtum_ADX",
+         "mcrh_WMA_20_TEMA_50",
+         "mcrh_TRIMA_10_DEMA_50",
+         "mcrh_SMA_10_TEMA_50",
+         "cycl_SINE_lead",
+         "mcrh_SMA_10_DEMA_50",
+         "mcrh_KAMA_50_EMA_100",
+         "mcrh_KAMA_10_SMA_20",
+         "perf_ha",
+         "ma_TEMA_5",
+         "ma_TEMA_20",
+         "ma_TEMA_10",
+         "ma_T3_5",
+         "ma_DEMA_5",
+         "tend_LDECAY_5",
+         "mtum_FISHERT_9_1"
+      ]
+   }
+}

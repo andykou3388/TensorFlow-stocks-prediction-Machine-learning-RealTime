@@ -1,0 +1,1676 @@
+root - [INFO]{MainThread} - load_and_clean_DF_Train_from_csv() - df loaded from .csv Shape: (1373, 1075) Path: d_price/1024.HK_PLAIN_stock_history_MONTH_3_AD.csv
+root - [DEBUG]{MainThread} - load_and_clean__buy_sell_atack() - columns_selection List HAS vulues, works trains with: Date, buy_sell_point, tend_lh, ti_donchian_lower_20, tend_hh, ma_SMA_20, olap_BBAND_LOWER, ma_KAMA_50, ma_KAMA_20, ti_kelt_20_lower, HSI_Close, ti_kelt_20_upper, olap_BBAND_MIDDLE, HSI_SMA_20, Open, olap_HT_TRENDLINE, olap_MIDPOINT, vola_KCLe_20_2, olap_MIDPRICE, ma_EMA_50, High, wood_s1, ichi_tenkan_sen, ma_SMA_50, tend_renko_TR, sti_CORREL, ma_EMA_20, ma_TRIMA_20, wood_s3, mtum_PVOs_12_26_9, vola_TRANGE, mcrh_WMA_20_DEMA_100, mtum_INERTIA_20_14, wood_r1, mcrh_T3_10_TEMA_50, vola_TRUERANGE_1, mcrh_KAMA_10_SMA_50, olap_MCGD_10, vola_KCBe_20_2, mcrh_KAMA_10_WMA_50, mcrh_KAMA_10_KAMA_50, olap_HWMA_02_01_01, mcrh_EMA_20_DEMA_100, ma_T3_10, ma_WMA_20, perf_CUMPCTRET_1, mtum_ER_10, olap_SINWMA_14, mcrh_TRIMA_50_WMA_100, ma_EMA_5, ichi_kijun_sen, ma_EMA_10, wood_s2, ti_supertrend_20, cama_pp, vola_HWU, ti_donchian_center_20, vola_KCUe_20_2, clas_pp, demark_pp, clas_s3, ma_KAMA_10, clas_s1, fibo_pp, vola_RVI_14, mtum_PVO_12_26_9, wood_pp, mcrh_T3_5_TEMA_20, mcrh_SMA_10_SMA_20, vola_HWM, ma_DEMA_5, perf_ha, mcrh_DEMA_5_DEMA_50, sti_LINEARREG_INTERCEPT, ti_acc_dist, ma_TRIMA_50, ma_TRIMA_5, ma_TEMA_5, trad_s1, tend_LDECAY_5, mcrh_WMA_20_TRIMA_100, mtum_AROON_up, wood_r3, tend_PSARaf_002_02, mtum_PSL_12, mtum_td_seq_sig, tend_ll, vola_THERMO_20_2_05, trad_pp, olap_ALMA_10_60_085, sti_TSF, olap_JMA_7_0, olap_VWMA_10, tend_hl_crash, Close, mcrh_DEMA_5_TEMA_100, mcrh_SMA_5_TEMA_20, demark_r1, cycl_HT_TRENDMODE, ichi_senkou_a, ichi_senkou_b, fibo_s1, cama_s3, ma_DEMA_20, ma_KAMA_5, mcrh_EMA_10_SMA_20, ma_WMA_5, mcrh_TEMA_10_TEMA_100, cama_r1, mcrh_SMA_50_WMA_100, mcrh_TEMA_5_KAMA_50, Low, HSI_per_Close, HSI_SMA_100, fibo_s2, ti_hma_20, ti_donchian_upper_20, fibo_s3, mcrh_TEMA_5_TRIMA_100, has_preMarket, ichi_isin_cloud, tend_renko_ATR, ma_SMA_10, ma_SMA_5, tend_PSARl_002_02, ti_mass_index_9_25, trad_s2, fibo_r3, trad_r1, wood_r2, cama_r2, volu_NVI_1, cama_s1, cama_s2, vola_THERMOl_20_2_05, cdl_GAPSIDESIDEWHITE, vola_NATR, cdl_RICKSHAWMAN, clas_s2, demark_s1, vola_HWL, vola_ATR, trad_s3, ma_TRIMA_10, fibo_r1, trad_r3, ma_T3_5, sti_STDDEV, ma_WMA_10, mtum_SMIo_5_20_5, mcrh_T3_10_TRIMA_100, mtum_PPO, mtum_PLUS_DM, mtum_MACD_ext_list, mcrh_T3_5_DEMA_50, mtum_FISHERTs_9_1, mtum_FISHERT_9_1, mcrh_TEMA_100_ti_h20, mtum_CCI, mcrh_TEMA_10_DEMA_50, mtum_APO, mtum_ADXR, mcrh_WMA_5_TEMA_100, mcrh_WMA_5_DEMA_50, mcrh_TEMA_20_T3_50, mcrh_WMA_10_DEMA_50, mcrh_TRIMA_20_EMA_50, mcrh_TRIMA_10_TRIMA_100, mcrh_TEMA_5_TEMA_100, mcrh_T3_10_DEMA_100, mtum_STC_10_12_26_05, sti_TOS_STDEVALL_U_1, mcrh_SMA_5_DEMA_100, sti_TOS_STDEVALL_L_2, mcrh_TEMA_5_TRIMA_20, sti_LINEARREG, mcrh_DEMA_50_TEMA_100, mcrh_DEMA_5_KAMA_50, per_preMarket, mcrh_EMA_10_DEMA_50, olap_SWMA_10, olap_SSF_10_2, olap_SAR, olap_PWMA_10, mcrh_EMA_20_TEMA_100, mcrh_KAMA_20_TRIMA_100, mcrh_KAMA_5_T3_20, mcrh_KAMA_5_T3_50, mcrh_SMA_10_DEMA_100, mcrh_SMA_10_KAMA_100, mcrh_SMA_20_SMA_50, mcrh_SMA_5_DEMA_10, mcrh_TRIMA_10_DEMA_100
+root - [DEBUG]{MainThread} - load_and_clean__buy_sell_atack() - DataFrame head:
+                  Date  buy_sell_point  tend_lh  ti_donchian_lower_20  tend_hh  ...  mcrh_SMA_10_DEMA_100  mcrh_SMA_10_KAMA_100  mcrh_SMA_20_SMA_50  mcrh_SMA_5_DEMA_10  mcrh_TRIMA_10_DEMA_100
+0  2025-05-08 09:45:00               0      NaN                   NaN      NaN  ...                     0                     0                   0                   0                       0
+1  2025-05-08 10:00:00               0      NaN                   NaN      NaN  ...                     0                     0                   0                   0                       0
+2  2025-05-08 10:15:00               0      NaN                   NaN      NaN  ...                     0                     0                   0                   0                       0
+3  2025-05-08 10:30:00               0      NaN                   NaN      NaN  ...                     0                     0                   0                   0                       0
+4  2025-05-08 10:45:00               0      NaN                   NaN      NaN  ...                     0                     0                   0                   0                       0
+
+[5 rows x 193 columns]
+root - [DEBUG]{MainThread} - load_and_clean__buy_sell_atack() - DataFrame info:
+None
+root - [DEBUG]{MainThread} - load_and_clean__buy_sell_atack() - DataFrame describe:
+       buy_sell_point      tend_lh  ti_donchian_lower_20      tend_hh    ma_SMA_20  ...  mcrh_SMA_10_DEMA_100  mcrh_SMA_10_KAMA_100  mcrh_SMA_20_SMA_50  mcrh_SMA_5_DEMA_10  mcrh_TRIMA_10_DEMA_100
+count     1373.000000  1351.000000           1354.000000  1337.000000  1354.000000  ...           1373.000000           1373.000000         1373.000000         1373.000000             1373.000000
+mean         0.072833    59.952258             58.654394    61.288033    59.896372  ...              0.000728              0.000728            0.001457            0.012382                0.000000
+std         32.954522     8.029037              7.719479     8.109766     7.949875  ...              0.188981              0.172867            0.183100            0.486546                0.209121
+min       -100.000000    48.950001             47.750000    48.950001    48.547500  ...             -1.000000             -1.000000           -1.000000           -1.000000               -1.000000
+25%          0.000000    52.900000             51.599998    54.299999    52.608125  ...              0.000000              0.000000            0.000000            0.000000                0.000000
+50%          0.000000    59.900002             58.250000    60.450001    59.522500  ...              0.000000              0.000000            0.000000            0.000000                0.000000
+75%          0.000000    65.000000             63.349998    65.800003    64.634375  ...              0.000000              0.000000            0.000000            0.000000                0.000000
+max        100.000000    78.500000             76.150002    78.849998    78.377499  ...              1.000000              1.000000            1.000000            1.000000                1.000000
+
+[8 rows x 191 columns]
+root - [DEBUG]{MainThread} - load_and_clean__buy_sell_atack() -  groupby(Y_TARGET).count()                 Date
+buy_sell_point      
+0               1299
+100               74
+root - [DEBUG]{MainThread} - cast_Y_label_binary() - Label classes: [0, 100]
+root - [DEBUG]{MainThread} - load_split_data_multidimension() - [96mDataFrame head:
+            Date  buy_sell_point    tend_lh  ti_donchian_lower_20    tend_hh  ...  mcrh_SMA_10_DEMA_100  mcrh_SMA_10_KAMA_100  mcrh_SMA_20_SMA_50  mcrh_SMA_5_DEMA_10  mcrh_TRIMA_10_DEMA_100
+77  1.747136e+09               0  55.950001             53.000000  55.950001  ...                     0                     0                   0                   1                       0
+78  1.747137e+09               0  55.950001             53.000000  55.950001  ...                     0                     0                   0                   1                       0
+79  1.747141e+09               0  55.950001             52.900002  55.950001  ...                     0                     0                   0                   0                       0
+80  1.747142e+09               0  55.950001             52.900002  55.950001  ...                     0                     0                   0                   0                       0
+81  1.747143e+09               0  55.950001             52.900002  55.950001  ...                     0                     0                   0                   0                       0
+
+[5 rows x 193 columns][0m
+root - [DEBUG]{MainThread} - load_split_data_multidimension() - [94mshape_imput_3d: (-1, 10, 192)[0m
+root - [DEBUG]{MainThread} - load_split_data_multidimension() - [94mshape_imput_3d: (-1, 10, 192)[0m
+root - [DEBUG]{MainThread} - load_split_data_multidimension() - [96marr_vali sample: [[1747147500.0 55.950001 52.5 ... 0 0 0]
+ [1747146600.0 55.950001 52.549999 ... 0 0 0]
+ [1747145700.0 55.950001 52.75 ... 0 0 0]
+ ...
+ [1747141200.0 55.950001 52.900002 ... 0 0 0]
+ [1747136700.0 55.950001 53.0 ... 0 1 0]
+ [1747135800.0 55.950001 53.0 ... 0 1 0]][0m
+root - [DEBUG]{MainThread} - load_split_data_multidimension() - i want to chc folder: Models/TF_multi/Scalers/1024.HK_neg_low1_
+root - [DEBUG]{MainThread} - scaler_min_max_array() - Scaler will be Saved Path: Models/TF_multi/Scalers/1024.HK_neg_low1_.scal
+root - [INFO]{MainThread} - log_shapes_trains_val_data() - Training features shape SMOTE:(1300, 10, 192)	 Labels shape:(1300, 1)
+root - [DEBUG]{MainThread} - log_shapes_trains_val_data() - Validation features shape:(370, 10, 192)	 Labels shape:(370, 1)
+root - [DEBUG]{MainThread} - log_shapes_trains_val_data() - Test features shape:(232, 10, 192)		 Labels shape:(232, 1)
+root - [DEBUG]{MainThread} - __init__() - [95mCreated object TF_multidimension Path from: d_price/1024.HK_PLAIN_stock_history_MONTH_3_AD.csv[0m
+root - [INFO]{MainThread} - <module>() - Processing stock: 1024.HK, Buy/Sell type: pos, Columns JSON: <Feature_selection_json_columns.JsonColumns object at 0x735334e50670>
+root - [INFO]{MainThread} - load_and_clean_DF_Train_from_csv() - df loaded from .csv Shape: (1373, 1075) Path: d_price/1024.HK_PLAIN_stock_history_MONTH_3_AD.csv
+root - [DEBUG]{MainThread} - load_and_clean__buy_sell_atack() - columns_selection List HAS vulues, works trains with: Date, buy_sell_point, sti_CORREL, tend_PSARaf_002_02, mcrh_TRIMA_50_WMA_100, sti_TOS_STDEVALL_U_1, mtum_td_seq, sti_TOS_STDEVALL_L_3, mcrh_SMA_50_WMA_100
+root - [DEBUG]{MainThread} - load_and_clean__buy_sell_atack() - DataFrame head:
+                  Date  buy_sell_point  sti_CORREL  tend_PSARaf_002_02  mcrh_TRIMA_50_WMA_100  sti_TOS_STDEVALL_U_1  mtum_td_seq  sti_TOS_STDEVALL_L_3  mcrh_SMA_50_WMA_100
+0  2025-05-08 09:45:00               0         NaN                0.02                      0             55.114060            0             22.810756                    0
+1  2025-05-08 10:00:00               0         NaN                0.04                      0             55.132913            0             22.829609                    0
+2  2025-05-08 10:15:00               0         NaN                0.06                      0             55.151766            0             22.848462                    0
+3  2025-05-08 10:30:00               0         NaN                0.08                      0             55.170619            0             22.867315                    0
+4  2025-05-08 10:45:00               0         NaN                0.08                      0             55.189472            0             22.886168                    0
+root - [DEBUG]{MainThread} - load_and_clean__buy_sell_atack() - DataFrame info:
+None
+root - [DEBUG]{MainThread} - load_and_clean__buy_sell_atack() - DataFrame describe:
+       buy_sell_point   sti_CORREL  tend_PSARaf_002_02  mcrh_TRIMA_50_WMA_100  sti_TOS_STDEVALL_U_1  mtum_td_seq  sti_TOS_STDEVALL_L_3  mcrh_SMA_50_WMA_100
+count     1373.000000  1344.000000         1373.000000            1373.000000           1373.000000  1373.000000           1373.000000          1373.000000
+mean         0.072833     0.851263            0.056926              -0.001457             68.047239    10.615441             35.743934             0.000000
+std         32.954522     0.130100            0.037019               0.157414              7.475137     8.984152              7.475137             0.152721
+min       -100.000000     0.131190            0.020000              -1.000000             55.114060     0.000000             22.810756            -1.000000
+25%          0.000000     0.806346            0.020000               0.000000             61.580650     3.000000             29.277345             0.000000
+50%          0.000000     0.888000            0.040000               0.000000             68.047239     8.000000             35.743934             0.000000
+75%          0.000000     0.935357            0.080000               0.000000             74.513829    15.000000             42.210524             0.000000
+max        100.000000     0.986853            0.200000               1.000000             80.980418    41.000000             48.677113             1.000000
+root - [DEBUG]{MainThread} - load_and_clean__buy_sell_atack() -  groupby(Y_TARGET).count()                 Date
+buy_sell_point      
+0               1298
+100               75
+root - [DEBUG]{MainThread} - cast_Y_label_binary() - Label classes: [0, 100]
+root - [DEBUG]{MainThread} - load_split_data_multidimension() - [96mDataFrame head:
+            Date  buy_sell_point  sti_CORREL  tend_PSARaf_002_02  mcrh_TRIMA_50_WMA_100  sti_TOS_STDEVALL_U_1  mtum_td_seq  sti_TOS_STDEVALL_L_3  mcrh_SMA_50_WMA_100
+29  1.746788e+09               0    0.484358                0.08                      0             55.660798           14             23.357494                    0
+30  1.746789e+09               0    0.582903                0.08                      0             55.679651           15             23.376347                    0
+31  1.746790e+09               0    0.643591                0.08                      0             55.698504           16             23.395200                    0
+32  1.746791e+09               0    0.674182                0.08                      0             55.717357           17             23.414053                    0
+33  1.746796e+09               0    0.694345                0.08                      0             55.736210           18             23.432906                    0[0m
+root - [DEBUG]{MainThread} - load_split_data_multidimension() - [94mshape_imput_3d: (-1, 10, 8)[0m
+root - [DEBUG]{MainThread} - load_split_data_multidimension() - [94mshape_imput_3d: (-1, 10, 8)[0m
+root - [DEBUG]{MainThread} - load_split_data_multidimension() - [96marr_vali sample: [[1.7468001e+09 7.2058800e-01 8.0000000e-02 0.0000000e+00 5.5830475e+01
+  2.3000000e+01 2.3527171e+01 0.0000000e+00]
+ [1.7467992e+09 7.1875500e-01 8.0000000e-02 0.0000000e+00 5.5811622e+01
+  2.2000000e+01 2.3508318e+01 0.0000000e+00]
+ [1.7467983e+09 7.2107500e-01 8.0000000e-02 0.0000000e+00 5.5792769e+01
+  2.1000000e+01 2.3489465e+01 0.0000000e+00]
+ [1.7467974e+09 7.2095700e-01 8.0000000e-02 0.0000000e+00 5.5773916e+01
+  2.0000000e+01 2.3470612e+01 0.0000000e+00]
+ [1.7467965e+09 7.1547500e-01 8.0000000e-02 0.0000000e+00 5.5755063e+01
+  1.9000000e+01 2.3451759e+01 0.0000000e+00]
+ [1.7467956e+09 6.9434500e-01 8.0000000e-02 0.0000000e+00 5.5736210e+01
+  1.8000000e+01 2.3432906e+01 0.0000000e+00]
+ [1.7467911e+09 6.7418200e-01 8.0000000e-02 0.0000000e+00 5.5717357e+01
+  1.7000000e+01 2.3414053e+01 0.0000000e+00]
+ [1.7467902e+09 6.4359100e-01 8.0000000e-02 0.0000000e+00 5.5698504e+01
+  1.6000000e+01 2.3395200e+01 0.0000000e+00]
+ [1.7467893e+09 5.8290300e-01 8.0000000e-02 0.0000000e+00 5.5679651e+01
+  1.5000000e+01 2.3376347e+01 0.0000000e+00]
+ [1.7467884e+09 4.8435800e-01 8.0000000e-02 0.0000000e+00 5.5660798e+01
+  1.4000000e+01 2.3357494e+01 0.0000000e+00]][0m
+root - [DEBUG]{MainThread} - load_split_data_multidimension() - i want to chc folder: Models/TF_multi/Scalers/1024.HK_pos_vgood16_
+root - [DEBUG]{MainThread} - scaler_min_max_array() - Scaler will be Saved Path: Models/TF_multi/Scalers/1024.HK_pos_vgood16_.scal
+root - [INFO]{MainThread} - log_shapes_trains_val_data() - Training features shape SMOTE:(1346, 10, 8)	 Labels shape:(1346, 1)
+root - [DEBUG]{MainThread} - log_shapes_trains_val_data() - Validation features shape:(383, 10, 8)	 Labels shape:(383, 1)
+root - [DEBUG]{MainThread} - log_shapes_trains_val_data() - Test features shape:(241, 10, 8)		 Labels shape:(241, 1)
+root - [DEBUG]{MainThread} - __init__() - [95mCreated object TF_multidimension Path from: d_price/1024.HK_PLAIN_stock_history_MONTH_3_AD.csv[0m
+root - [INFO]{MainThread} - load_and_clean_DF_Train_from_csv() - df loaded from .csv Shape: (1373, 1075) Path: d_price/1024.HK_PLAIN_stock_history_MONTH_3_AD.csv
+root - [DEBUG]{MainThread} - load_and_clean__buy_sell_atack() - columns_selection List HAS vulues, works trains with: Date, buy_sell_point, sti_CORREL, tend_PSARaf_002_02, mcrh_TRIMA_50_WMA_100, sti_TOS_STDEVALL_U_1, mtum_td_seq, sti_TOS_STDEVALL_L_3, mcrh_SMA_50_WMA_100, mcrh_SMA_10_SMA_20, mcrh_SMA_20_WMA_100, mcrh_T3_10_TEMA_50, mtum_MACD_ext_list, sti_TOS_STDEVALL_L_2, cycl_HT_TRENDMODE, sti_TOS_STDEVALL_U_3, sti_TOS_STDEVALL_U_2, mcrh_EMA_10_SMA_20, mtum_STOCH_kd, sti_TOS_STDEVALL_L_1, mtum_STOCH_RSI_k, mcrh_WMA_20_TRIMA_100, mtum_MACD_ext_signal, mcrh_SMA_20_EMA_50, cdl_RICKSHAWMAN, has_preMarket, mcrh_KAMA_20_T3_100, tend_renko_TR, mcrh_SMA_20_TEMA_100, vola_TRUERANGE_1, vola_TRANGE, sti_TOS_STDEVALL_LR, mcrh_WMA_20_DEMA_100, cdl_TAKURI, mtum_STOCH_RSI_d, mtum_INERTIA_20_14, ti_konk_bl, mcrh_KAMA_10_KAMA_50, mcrh_EMA_50_WMA_100, mcrh_T3_10_DEMA_100, mcrh_EMA_20_DEMA_100, vola_NATR, vola_UI_14, tend_hl_crash, mtum_ER_10, cdl_DRAGONFLYDOJI, olap_BBAND_LOWER
+root - [DEBUG]{MainThread} - load_and_clean__buy_sell_atack() - DataFrame head:
+                  Date  buy_sell_point  sti_CORREL  tend_PSARaf_002_02  mcrh_TRIMA_50_WMA_100  ...  vola_UI_14  tend_hl_crash  mtum_ER_10  cdl_DRAGONFLYDOJI  olap_BBAND_LOWER
+0  2025-05-08 09:45:00               0         NaN                0.02                      0  ...         NaN              0         NaN               -100               NaN
+1  2025-05-08 10:00:00               0         NaN                0.04                      0  ...         NaN              0         NaN                100               NaN
+2  2025-05-08 10:15:00               0         NaN                0.06                      0  ...         NaN              0         NaN                  0               NaN
+3  2025-05-08 10:30:00               0         NaN                0.08                      0  ...         NaN              0         NaN                  0               NaN
+4  2025-05-08 10:45:00               0         NaN                0.08                      0  ...         NaN              0         NaN                  0               NaN
+
+[5 rows x 47 columns]
+root - [DEBUG]{MainThread} - load_and_clean__buy_sell_atack() - DataFrame info:
+None
+root - [DEBUG]{MainThread} - load_and_clean__buy_sell_atack() - DataFrame describe:
+       buy_sell_point   sti_CORREL  tend_PSARaf_002_02  mcrh_TRIMA_50_WMA_100  sti_TOS_STDEVALL_U_1  ...   vola_UI_14  tend_hl_crash   mtum_ER_10  cdl_DRAGONFLYDOJI  olap_BBAND_LOWER
+count     1373.000000  1344.000000         1373.000000            1373.000000           1373.000000  ...  1347.000000    1373.000000  1363.000000        1373.000000       1354.000000
+mean         0.072833     0.851263            0.056926              -0.001457             68.047239  ...     1.423159       0.059723     0.347700           2.257830         58.660674
+std         32.954522     0.130100            0.037019               0.157414              7.475137  ...     0.921257       0.320694     0.217291          15.343509          7.676921
+min       -100.000000     0.131190            0.020000              -1.000000             55.114060  ...     0.173543      -1.000000     0.000000        -100.000000         47.321727
+25%          0.000000     0.806346            0.020000               0.000000             61.580650  ...     0.736728       0.000000     0.172413           0.000000         51.481333
+50%          0.000000     0.888000            0.040000               0.000000             68.047239  ...     1.197260       0.000000     0.318184           0.000000         58.187453
+75%          0.000000     0.935357            0.080000               0.000000             74.513829  ...     1.909857       0.000000     0.483873           0.000000         63.614035
+max        100.000000     0.986853            0.200000               1.000000             80.980418  ...     4.404717       1.000000     1.000000         100.000000         76.767693
+
+[8 rows x 45 columns]
+root - [DEBUG]{MainThread} - load_and_clean__buy_sell_atack() -  groupby(Y_TARGET).count()                 Date
+buy_sell_point      
+0               1298
+100               75
+root - [DEBUG]{MainThread} - cast_Y_label_binary() - Label classes: [0, 100]
+root - [DEBUG]{MainThread} - load_split_data_multidimension() - [96mDataFrame head:
+             Date  buy_sell_point  sti_CORREL  tend_PSARaf_002_02  mcrh_TRIMA_50_WMA_100  ...  vola_UI_14  tend_hl_crash  mtum_ER_10  cdl_DRAGONFLYDOJI  olap_BBAND_LOWER
+103  1.747228e+09               0    0.760314                0.02                      0  ...    1.089140              0    0.333330                  0         52.130228
+104  1.747229e+09               0    0.730372                0.02                      0  ...    1.046681             -1    0.499997                  0         52.061205
+105  1.747230e+09               0    0.675754                0.04                      0  ...    1.051147             -1    0.255815                  0         52.059527
+106  1.747231e+09               0    0.648416                0.04                      0  ...    0.971351              1    0.285715                  0         52.060819
+107  1.747232e+09               0    0.620362                0.04                      0  ...    0.923151              0    0.210525                  0         52.059033
+
+[5 rows x 47 columns][0m
+root - [DEBUG]{MainThread} - load_split_data_multidimension() - [94mshape_imput_3d: (-1, 10, 46)[0m
+root - [DEBUG]{MainThread} - load_split_data_multidimension() - [94mshape_imput_3d: (-1, 10, 46)[0m
+root - [DEBUG]{MainThread} - load_split_data_multidimension() - [96marr_vali sample: [[1747236600.0 0.553326 0.04 -1 57.2256 11 24.922295 0 0 0 0 0.170726
+  32.998121 0 73.377252 65.301426 0 2.648755 41.073947 12.90354 0
+  0.062607 0 100 False 0 0.149998 0 0.149998 0.149998 49.149774 0 0
+  57.733966 53.358333 -3.247112 0 0 0 0 0.615608 0.63375 0 0.030303 0
+  52.083257]
+ [1747235700.0 0.570358 0.04 -1 57.206747 10 24.903442 0 0 0 0 0.193269
+  32.979268 0 73.358399 65.282573 0 12.390535 41.055094 75.459575 0
+  0.011859 0 0 False 0 0.200001 0 0.200001 0.200001 49.130921 0 0
+  86.766119 53.919163 -3.64488 0 0 0 0 0.640587 0.665448 0 0.268292 0
+  52.02906]
+ [1747234800.0 0.564694 0.04 0 57.187894 9 24.884589 0 0 0 0 0.213604
+  32.960415 0 73.339546 65.26372 0 13.978358 41.036241 84.838784 0
+  -0.037002 0 0 False 0 0.150002 0 0.150002 0.150002 49.112067 0 0
+  74.334814 52.708348 -4.082467 0 0 0 0 0.660863 0.69195 0 0.268292 0
+  52.03565]
+ [1747233900.0 0.58401 0.04 0 57.169041 8 24.865736 0 0 0 0 0.216667
+  32.941562 0 73.320693 65.244867 0 6.374172 41.017388 100.0 0 -0.086539
+  0 0 False 0 0.350002 0 0.350002 0.350002 49.093214 0 0 53.743115
+  51.693184 -1.165633 0 0 0 0 0.689298 0.791479 0 0.299999 0 52.040082]
+ [1747233000.0 0.595799 0.04 0 57.150188 7 24.846883 0 0 0 0 0.216774
+  32.922709 0 73.30184 65.226014 0 -9.78565 40.998535 38.16566 0 -0.13312
+  0 0 False 0 0.200001 0 0.200001 0.200001 49.074361 0 0 20.409782
+  48.646244 -1.332152 0 0 0 0 0.693578 0.871137 0 0.282051 0 52.055196]
+ [1747232100.0 0.620362 0.04 0 57.131335 6 24.82803 0 0 0 0 0.185114
+  32.903856 0 73.282987 65.207161 0 -20.749824 40.979682 23.063685 0
+  -0.178063 0 0 False 0 0.199997 0 0.199997 0.199997 49.055508 0 0
+  23.605196 46.934382 -8.555929 0 0 0 0 0.719233 0.923151 0 0.210525 0
+  52.059033]
+ [1747231200.0 0.648416 0.04 0 57.112482 5 24.809177 0 1 0 0 0.172008
+  32.885003 0 73.264134 65.188308 0 -16.801584 40.960829 0.0 0 -0.216239
+  0 0 False 0 0.25 0 0.25 0.25 49.036655 0 0 49.250634 46.289872
+  -9.778204 0 0 0 0 0.747571 0.971351 1 0.285715 0 52.060819]
+ [1747230300.0 0.675754 0.04 0 57.093629 4 24.790324 0 1 0 0 0.164779
+  32.86615 0 73.245281 65.169455 0 -8.918104 40.941976 47.751903 0
+  -0.251318 0 0 False 0 0.600002 0 0.600002 0.600002 49.017802 0 0
+  75.146721 47.774683 2.878285 0 0 0 0 0.76568 1.051147 -1 0.255815 0
+  52.059527]
+ [1747229400.0 0.730372 0.02 0 57.074775 3 24.771471 0 0 0 0 0.143127
+  32.847297 0 73.226428 65.150602 1 4.386014 40.923123 100.0 0 -0.284793
+  0 0 False 0 0.5 0 0.5 0.5 48.998949 0 0 92.562753 48.200524 3.289468 0
+  0 0 0 0.731797 1.046681 -1 0.499997 0 52.061205]
+ [1747228500.0 0.760314 0.02 0 57.055922 2 24.752618 0 0 0 0 0.088426
+  32.828444 0 73.207575 65.131749 1 2.564123 40.90427 77.68826 0
+  -0.311823 0 0 False 0 0.200001 0 0.200001 0.200001 48.980096 0 0
+  92.562753 46.436992 3.759392 0 0 0 0 0.722024 1.08914 0 0.33333 0
+  52.130228]][0m
+root - [DEBUG]{MainThread} - load_split_data_multidimension() - i want to chc folder: Models/TF_multi/Scalers/1024.HK_pos_good9_
+root - [DEBUG]{MainThread} - scaler_min_max_array() - Scaler will be Saved Path: Models/TF_multi/Scalers/1024.HK_pos_good9_.scal
+root - [INFO]{MainThread} - log_shapes_trains_val_data() - Training features shape SMOTE:(1278, 10, 46)	 Labels shape:(1278, 1)
+root - [DEBUG]{MainThread} - log_shapes_trains_val_data() - Validation features shape:(362, 10, 46)	 Labels shape:(362, 1)
+root - [DEBUG]{MainThread} - log_shapes_trains_val_data() - Test features shape:(227, 10, 46)		 Labels shape:(227, 1)
+root - [DEBUG]{MainThread} - __init__() - [95mCreated object TF_multidimension Path from: d_price/1024.HK_PLAIN_stock_history_MONTH_3_AD.csv[0m
+root - [INFO]{MainThread} - load_and_clean_DF_Train_from_csv() - df loaded from .csv Shape: (1373, 1075) Path: d_price/1024.HK_PLAIN_stock_history_MONTH_3_AD.csv
+root - [DEBUG]{MainThread} - load_and_clean__buy_sell_atack() - columns_selection List HAS vulues, works trains with: Date, buy_sell_point, sti_CORREL, tend_PSARaf_002_02, mcrh_TRIMA_50_WMA_100, sti_TOS_STDEVALL_U_1, mtum_td_seq, sti_TOS_STDEVALL_L_3, mcrh_SMA_50_WMA_100, mcrh_SMA_10_SMA_20, mcrh_SMA_20_WMA_100, mcrh_T3_10_TEMA_50, mtum_MACD_ext_list, sti_TOS_STDEVALL_L_2, cycl_HT_TRENDMODE, sti_TOS_STDEVALL_U_3, sti_TOS_STDEVALL_U_2, mcrh_EMA_10_SMA_20, mtum_STOCH_kd, sti_TOS_STDEVALL_L_1, mtum_STOCH_RSI_k, mcrh_WMA_20_TRIMA_100, mtum_MACD_ext_signal, mcrh_SMA_20_EMA_50, cdl_RICKSHAWMAN, has_preMarket, mcrh_KAMA_20_T3_100, tend_renko_TR, mcrh_SMA_20_TEMA_100, vola_TRUERANGE_1, vola_TRANGE, sti_TOS_STDEVALL_LR, mcrh_WMA_20_DEMA_100, cdl_TAKURI, mtum_STOCH_RSI_d, mtum_INERTIA_20_14, ti_konk_bl, mcrh_KAMA_10_KAMA_50, mcrh_EMA_50_WMA_100, mcrh_T3_10_DEMA_100, mcrh_EMA_20_DEMA_100, vola_NATR, vola_UI_14, tend_hl_crash, mtum_ER_10, cdl_DRAGONFLYDOJI, olap_BBAND_LOWER, mcrh_KAMA_20_TRIMA_100, mcrh_DEMA_5_DEMA_50, mcrh_T3_10_TRIMA_100, olap_VMAP, mcrh_EMA_50_TRIMA_100, tend_lh, olap_HWMA_02_01_01, vola_RVI_14, cycl_SINE_lead, vola_HWM, vola_HWL, mcrh_T3_5_TEMA_20, olap_BBAND_MIDDLE, ti_konk_avg, mcrh_TEMA_5_TRIMA_100, mcrh_TEMA_5_TRIMA_20, mcrh_TEMA_50_TRIMA_100, mtum_PSL_12, mcrh_SMA_20_T3_50, mtum_MACD_signal, mtum_MACD_fix_signal, mtum_AROON_up, mcrh_SMA_20_TRIMA_100, mcrh_TEMA_10_TEMA_100, mtum_AO_5_34, mcrh_TRIMA_10_TRIMA_100, mtum_ADXR, HSI_SMA_100, mcrh_TEMA_5_KAMA_50, mcrh_SMA_5_TEMA_20, mcrh_WMA_10_SMA_20, sti_LINEARREG, olap_JMA_7_0, HSI_Close, mcrh_SMA_10_DEMA_100, cycl_SINE_sine, ma_SMA_20, mcrh_KAMA_5_T3_20, ma_KAMA_10, ti_donchian_lower_20, ma_DEMA_20, vola_ATR, vola_KCLe_20_2, cycl_DCPERIOD, ma_TEMA_20, vola_THERMO_20_2_05, clas_s1, cdl_GRAVESTONEDOJI, vola_THERMOma_20_2_05, volu_PVI_1, HSI_per_Close, HSI_SMA_20, ma_T3_10, ma_KAMA_5, mtum_QQE_14_5_4236_RSIMA, mcrh_EMA_10_TRIMA_100, mcrh_DEMA_10_EMA_20, mcrh_DEMA_50_TEMA_100, mcrh_DEMA_5_EMA_20, mcrh_DEMA_5_TEMA_100, mtum_SMIs_5_20_5, mcrh_KAMA_10_T3_100, mcrh_KAMA_10_WMA_50
+root - [DEBUG]{MainThread} - load_and_clean__buy_sell_atack() - DataFrame head:
+                  Date  buy_sell_point  sti_CORREL  tend_PSARaf_002_02  ...  mcrh_DEMA_5_TEMA_100  mtum_SMIs_5_20_5  mcrh_KAMA_10_T3_100  mcrh_KAMA_10_WMA_50
+0  2025-05-08 09:45:00               0         NaN                0.02  ...                     0               NaN                    0                    0
+1  2025-05-08 10:00:00               0         NaN                0.04  ...                     0               NaN                    0                    0
+2  2025-05-08 10:15:00               0         NaN                0.06  ...                     0               NaN                    0                    0
+3  2025-05-08 10:30:00               0         NaN                0.08  ...                     0               NaN                    0                    0
+4  2025-05-08 10:45:00               0         NaN                0.08  ...                     0               NaN                    0                    0
+
+[5 rows x 110 columns]
+root - [DEBUG]{MainThread} - load_and_clean__buy_sell_atack() - DataFrame info:
+None
+root - [DEBUG]{MainThread} - load_and_clean__buy_sell_atack() - DataFrame describe:
+       buy_sell_point   sti_CORREL  tend_PSARaf_002_02  mcrh_TRIMA_50_WMA_100  ...  mcrh_DEMA_5_TEMA_100  mtum_SMIs_5_20_5  mcrh_KAMA_10_T3_100  mcrh_KAMA_10_WMA_50
+count     1373.000000  1344.000000         1373.000000            1373.000000  ...           1373.000000       1345.000000          1373.000000          1373.000000
+mean         0.072833     0.851263            0.056926              -0.001457  ...             -0.001457          0.036766             0.001457             0.000728
+std         32.954522     0.130100            0.037019               0.157414  ...              0.238431          0.268770             0.101005             0.230665
+min       -100.000000     0.131190            0.020000              -1.000000  ...             -1.000000         -0.581729            -1.000000            -1.000000
+25%          0.000000     0.806346            0.020000               0.000000  ...              0.000000         -0.173227             0.000000             0.000000
+50%          0.000000     0.888000            0.040000               0.000000  ...              0.000000          0.049256             0.000000             0.000000
+75%          0.000000     0.935357            0.080000               0.000000  ...              0.000000          0.256563             0.000000             0.000000
+max        100.000000     0.986853            0.200000               1.000000  ...              1.000000          0.634704             1.000000             1.000000
+
+[8 rows x 108 columns]
+root - [DEBUG]{MainThread} - load_and_clean__buy_sell_atack() -  groupby(Y_TARGET).count()                 Date
+buy_sell_point      
+0               1298
+100               75
+root - [DEBUG]{MainThread} - cast_Y_label_binary() - Label classes: [0, 100]
+root - [DEBUG]{MainThread} - load_split_data_multidimension() - [96mDataFrame head:
+             Date  buy_sell_point  sti_CORREL  tend_PSARaf_002_02  mcrh_TRIMA_50_WMA_100  ...  mcrh_DEMA_5_EMA_20  mcrh_DEMA_5_TEMA_100  mtum_SMIs_5_20_5  mcrh_KAMA_10_T3_100  mcrh_KAMA_10_WMA_50
+103  1.747228e+09               0    0.760314                0.02                      0  ...                   1                     0         -0.085830                    0                    0
+104  1.747229e+09               0    0.730372                0.02                      0  ...                   0                     0         -0.016123                    0                    0
+105  1.747230e+09               0    0.675754                0.04                      0  ...                   0                     0          0.023835                    0                    0
+106  1.747231e+09               0    0.648416                0.04                      0  ...                   0                     0          0.034835                    0                    0
+107  1.747232e+09               0    0.620362                0.04                      0  ...                   0                     0          0.040939                    0                    0
+
+[5 rows x 110 columns][0m
+root - [DEBUG]{MainThread} - load_split_data_multidimension() - [94mshape_imput_3d: (-1, 10, 109)[0m
+root - [DEBUG]{MainThread} - load_split_data_multidimension() - [94mshape_imput_3d: (-1, 10, 109)[0m
+root - [DEBUG]{MainThread} - load_split_data_multidimension() - [96marr_vali sample: [[1747236600.0 0.553326 0.04 ... 0.096872 0 0]
+ [1747235700.0 0.570358 0.04 ... 0.091127 0 0]
+ [1747234800.0 0.564694 0.04 ... 0.079505 0 0]
+ ...
+ [1747230300.0 0.675754 0.04 ... 0.023835 0 0]
+ [1747229400.0 0.730372 0.02 ... -0.016123 0 0]
+ [1747228500.0 0.760314 0.02 ... -0.08583 0 0]][0m
+root - [DEBUG]{MainThread} - load_split_data_multidimension() - i want to chc folder: Models/TF_multi/Scalers/1024.HK_pos_reg4_
+root - [DEBUG]{MainThread} - scaler_min_max_array() - Scaler will be Saved Path: Models/TF_multi/Scalers/1024.HK_pos_reg4_.scal
+root - [INFO]{MainThread} - log_shapes_trains_val_data() - Training features shape SMOTE:(1270, 10, 109)	 Labels shape:(1270, 1)
+root - [DEBUG]{MainThread} - log_shapes_trains_val_data() - Validation features shape:(362, 10, 109)	 Labels shape:(362, 1)
+root - [DEBUG]{MainThread} - log_shapes_trains_val_data() - Test features shape:(227, 10, 109)		 Labels shape:(227, 1)
+root - [DEBUG]{MainThread} - __init__() - [95mCreated object TF_multidimension Path from: d_price/1024.HK_PLAIN_stock_history_MONTH_3_AD.csv[0m
+root - [INFO]{MainThread} - load_and_clean_DF_Train_from_csv() - df loaded from .csv Shape: (1373, 1075) Path: d_price/1024.HK_PLAIN_stock_history_MONTH_3_AD.csv
+root - [DEBUG]{MainThread} - load_and_clean__buy_sell_atack() - columns_selection List HAS vulues, works trains with: Date, buy_sell_point, sti_CORREL, tend_PSARaf_002_02, mcrh_TRIMA_50_WMA_100, sti_TOS_STDEVALL_U_1, mtum_td_seq, sti_TOS_STDEVALL_L_3, mcrh_SMA_50_WMA_100, mcrh_SMA_10_SMA_20, mcrh_SMA_20_WMA_100, mcrh_T3_10_TEMA_50, mtum_MACD_ext_list, sti_TOS_STDEVALL_L_2, cycl_HT_TRENDMODE, sti_TOS_STDEVALL_U_3, sti_TOS_STDEVALL_U_2, mcrh_EMA_10_SMA_20, mtum_STOCH_kd, sti_TOS_STDEVALL_L_1, mtum_STOCH_RSI_k, mcrh_WMA_20_TRIMA_100, mtum_MACD_ext_signal, mcrh_SMA_20_EMA_50, cdl_RICKSHAWMAN, has_preMarket, mcrh_KAMA_20_T3_100, tend_renko_TR, mcrh_SMA_20_TEMA_100, vola_TRUERANGE_1, vola_TRANGE, sti_TOS_STDEVALL_LR, mcrh_WMA_20_DEMA_100, cdl_TAKURI, mtum_STOCH_RSI_d, mtum_INERTIA_20_14, ti_konk_bl, mcrh_KAMA_10_KAMA_50, mcrh_EMA_50_WMA_100, mcrh_T3_10_DEMA_100, mcrh_EMA_20_DEMA_100, vola_NATR, vola_UI_14, tend_hl_crash, mtum_ER_10, cdl_DRAGONFLYDOJI, olap_BBAND_LOWER, mcrh_KAMA_20_TRIMA_100, mcrh_DEMA_5_DEMA_50, mcrh_T3_10_TRIMA_100, olap_VMAP, mcrh_EMA_50_TRIMA_100, tend_lh, olap_HWMA_02_01_01, vola_RVI_14, cycl_SINE_lead, vola_HWM, vola_HWL, mcrh_T3_5_TEMA_20, olap_BBAND_MIDDLE, ti_konk_avg, mcrh_TEMA_5_TRIMA_100, mcrh_TEMA_5_TRIMA_20, mcrh_TEMA_50_TRIMA_100, mtum_PSL_12, mcrh_SMA_20_T3_50, mtum_MACD_signal, mtum_MACD_fix_signal, mtum_AROON_up, mcrh_SMA_20_TRIMA_100, mcrh_TEMA_10_TEMA_100, mtum_AO_5_34, mcrh_TRIMA_10_TRIMA_100, mtum_ADXR, HSI_SMA_100, mcrh_TEMA_5_KAMA_50, mcrh_SMA_5_TEMA_20, mcrh_WMA_10_SMA_20, sti_LINEARREG, olap_JMA_7_0, HSI_Close, mcrh_SMA_10_DEMA_100, cycl_SINE_sine, ma_SMA_20, mcrh_KAMA_5_T3_20, ma_KAMA_10, ti_donchian_lower_20, ma_DEMA_20, vola_ATR, vola_KCLe_20_2, cycl_DCPERIOD, ma_TEMA_20, vola_THERMO_20_2_05, clas_s1, cdl_GRAVESTONEDOJI, vola_THERMOma_20_2_05, volu_PVI_1, HSI_per_Close, HSI_SMA_20, ma_T3_10, ma_KAMA_5, mtum_QQE_14_5_4236_RSIMA, mcrh_EMA_10_TRIMA_100, mcrh_DEMA_10_EMA_20, mcrh_DEMA_50_TEMA_100, mcrh_DEMA_5_EMA_20, mcrh_DEMA_5_TEMA_100, mtum_SMIs_5_20_5, mcrh_KAMA_10_T3_100, mcrh_KAMA_10_WMA_50, volu_NVI_1, mtum_STC_10_12_26_05, vola_THERMOl_20_2_05, olap_SAR, mtum_STCstoch_10_12_26_05, tend_VHF_28, tend_hh, vola_HWU, per_preMarket, ti_acc_dist, trad_s3, olap_SWMA_10, olap_SAREXT, olap_PWMA_10, ti_choppiness_14, olap_MIDPOINT, ti_coppock_14_11_10, olap_SSF_10_2, tend_renko_ATR, trad_s1, tend_hl, ti_hma_20, olap_BBAND_UPPER, ti_kelt_20_lower, olap_VWMA_10, ti_kelt_20_upper, mtum_td_seq_sig, mcrh_TEMA_5_EMA_20, mtum_SMIo_5_20_5, fibo_s3, ma_WMA_10, ma_TRIMA_5, ma_TRIMA_20, ma_TRIMA_10, ma_T3_5, ma_SMA_50, ma_SMA_5, ma_EMA_50, ma_EMA_5, ma_EMA_10, ma_DEMA_10, ichi_senkou_b, ichi_senkou_a, ichi_isin_cloud, fibo_s2, mtum_MACD, fibo_s1, fibo_r2, fibo_pp, demark_s1, demark_pp, cycl_DCPHASE, clas_s3, cdl_GAPSIDESIDEWHITE, cama_s3, cama_s2, cama_s1, cama_pp, Open, Low, ma_WMA_20, ma_WMA_5, mcrh_DEMA_5_KAMA_50, mcrh_DEMA_5_SMA_10, mtum_CCI, mtum_BR_26, mtum_AR_26, mtum_ADX, mcrh_WMA_5_TEMA_100, mcrh_WMA_5_EMA_10, mcrh_WMA_5_DEMA_50, mcrh_WMA_10_DEMA_50, mcrh_TRIMA_5_ti_h20, mcrh_TRIMA_20_EMA_50, mcrh_TRIMA_10_DEMA_100, mcrh_TEMA_5_TEMA_100, mcrh_TEMA_5_KAMA_20, mcrh_TEMA_5_DEMA_20, mcrh_TEMA_10_DEMA_50, mcrh_TEMA_10_DEMA_100, mcrh_TEMA_100_ti_h20, mcrh_T3_5_SMA_20, mcrh_T3_5_DEMA_50, mcrh_T3_5_DEMA_10, mcrh_T3_10_DEMA_50, mcrh_SMA_5_SMA_20, mcrh_SMA_5_DEMA_10, mcrh_SMA_10_KAMA_100, mcrh_EMA_20_WMA_100, mcrh_EMA_20_TEMA_100, mcrh_EMA_10_DEMA_50, mcrh_DEMA_5_WMA_20, mcrh_DEMA_5_TRIMA_10, wood_s3
+root - [DEBUG]{MainThread} - load_and_clean__buy_sell_atack() - DataFrame head:
+                  Date  buy_sell_point  sti_CORREL  tend_PSARaf_002_02  mcrh_TRIMA_50_WMA_100  ...  mcrh_EMA_20_TEMA_100  mcrh_EMA_10_DEMA_50  mcrh_DEMA_5_WMA_20  mcrh_DEMA_5_TRIMA_10    wood_s3
+0  2025-05-08 09:45:00               0         NaN                0.02                      0  ...                     0                    0                   0                     0        NaN
+1  2025-05-08 10:00:00               0         NaN                0.04                      0  ...                     0                    0                   0                     0  52.650002
+2  2025-05-08 10:15:00               0         NaN                0.06                      0  ...                     0                    0                   0                     0  52.674997
+3  2025-05-08 10:30:00               0         NaN                0.08                      0  ...                     0                    0                   0                     0  52.674999
+4  2025-05-08 10:45:00               0         NaN                0.08                      0  ...                     0                    0                   0                     0  52.599998
+
+[5 rows x 204 columns]
+root - [DEBUG]{MainThread} - load_and_clean__buy_sell_atack() - DataFrame info:
+None
+root - [DEBUG]{MainThread} - load_and_clean__buy_sell_atack() - DataFrame describe:
+       buy_sell_point   sti_CORREL  tend_PSARaf_002_02  mcrh_TRIMA_50_WMA_100  ...  mcrh_EMA_10_DEMA_50  mcrh_DEMA_5_WMA_20  mcrh_DEMA_5_TRIMA_10      wood_s3
+count     1373.000000  1344.000000         1373.000000            1373.000000  ...          1373.000000         1373.000000           1373.000000  1372.000000
+mean         0.072833     0.851263            0.056926              -0.001457  ...             0.000728            0.008012              0.021122    59.258018
+std         32.954522     0.130100            0.037019               0.157414  ...             0.248903            0.386462              0.474101     7.912581
+min       -100.000000     0.131190            0.020000              -1.000000  ...            -1.000000           -1.000000             -1.000000    45.674998
+25%          0.000000     0.806346            0.020000               0.000000  ...             0.000000            0.000000              0.000000    52.043747
+50%          0.000000     0.888000            0.040000               0.000000  ...             0.000000            0.000000              0.000000    58.775002
+75%          0.000000     0.935357            0.080000               0.000000  ...             0.000000            0.000000              0.000000    64.306252
+max        100.000000     0.986853            0.200000               1.000000  ...             1.000000            1.000000              1.000000    79.250000
+
+[8 rows x 202 columns]
+root - [DEBUG]{MainThread} - load_and_clean__buy_sell_atack() -  groupby(Y_TARGET).count()                 Date
+buy_sell_point      
+0               1298
+100               75
+root - [DEBUG]{MainThread} - cast_Y_label_binary() - Label classes: [0, 100]
+root - [DEBUG]{MainThread} - load_split_data_multidimension() - [96mDataFrame head:
+             Date  buy_sell_point  sti_CORREL  tend_PSARaf_002_02  mcrh_TRIMA_50_WMA_100  ...  mcrh_EMA_20_TEMA_100  mcrh_EMA_10_DEMA_50  mcrh_DEMA_5_WMA_20  mcrh_DEMA_5_TRIMA_10    wood_s3
+103  1.747228e+09               0    0.760314                0.02                      0  ...                     0                    0                   0                     0  52.200001
+104  1.747229e+09               0    0.730372                0.02                      0  ...                     0                    0                   0                     0  52.549997
+105  1.747230e+09               0    0.675754                0.04                      0  ...                     0                    0                   0                     0  52.549999
+106  1.747231e+09               0    0.648416                0.04                      0  ...                     0                    0                   0                     0  51.999998
+107  1.747232e+09               0    0.620362                0.04                      0  ...                     0                    1                   0                     0  52.325001
+
+[5 rows x 204 columns][0m
+root - [DEBUG]{MainThread} - load_split_data_multidimension() - [94mshape_imput_3d: (-1, 10, 203)[0m
+root - [DEBUG]{MainThread} - load_split_data_multidimension() - [94mshape_imput_3d: (-1, 10, 203)[0m
+root - [DEBUG]{MainThread} - load_split_data_multidimension() - [96marr_vali sample: [[1747236600.0 0.553326 0.04 ... 0 0 52.699999]
+ [1747235700.0 0.570358 0.04 ... 0 0 52.874996]
+ [1747234800.0 0.564694 0.04 ... 0 0 52.624998]
+ ...
+ [1747230300.0 0.675754 0.04 ... 0 0 52.549999]
+ [1747229400.0 0.730372 0.02 ... 0 0 52.549997]
+ [1747228500.0 0.760314 0.02 ... 0 0 52.200001]][0m
+root - [DEBUG]{MainThread} - load_split_data_multidimension() - i want to chc folder: Models/TF_multi/Scalers/1024.HK_pos_low1_
+root - [DEBUG]{MainThread} - scaler_min_max_array() - Scaler will be Saved Path: Models/TF_multi/Scalers/1024.HK_pos_low1_.scal
+root - [INFO]{MainThread} - log_shapes_trains_val_data() - Training features shape SMOTE:(1264, 10, 203)	 Labels shape:(1264, 1)
+root - [DEBUG]{MainThread} - log_shapes_trains_val_data() - Validation features shape:(362, 10, 203)	 Labels shape:(362, 1)
+root - [DEBUG]{MainThread} - log_shapes_trains_val_data() - Test features shape:(227, 10, 203)		 Labels shape:(227, 1)
+root - [DEBUG]{MainThread} - __init__() - [95mCreated object TF_multidimension Path from: d_price/1024.HK_PLAIN_stock_history_MONTH_3_AD.csv[0m
+root - [INFO]{MainThread} - <module>() - Processing stock: 3968.HK, CSV path: d_price/3968.HK_PLAIN_stock_history_MONTH_3_AD.csv
+root - [INFO]{MainThread} - <module>() - Processing stock: 3968.HK, Buy/Sell type: neg, Columns JSON: <Feature_selection_json_columns.JsonColumns object at 0x7352e10bb970>
+root - [INFO]{MainThread} - load_and_clean_DF_Train_from_csv() - df loaded from .csv Shape: (1374, 1075) Path: d_price/3968.HK_PLAIN_stock_history_MONTH_3_AD.csv
+root - [DEBUG]{MainThread} - load_and_clean__buy_sell_atack() - columns_selection List HAS vulues, works trains with: Date, buy_sell_point, ti_kelt_20_lower, ichi_kijun_sen, ti_donchian_center_20, olap_BBAND_LOWER, tend_ll, ti_donchian_lower_20, tend_hl, vola_KCLe_20_2, ma_KAMA_20, olap_MIDPRICE, ma_SMA_20, vola_KCBe_20_2
+root - [DEBUG]{MainThread} - load_and_clean__buy_sell_atack() - DataFrame head:
+                  Date  buy_sell_point  ti_kelt_20_lower  ichi_kijun_sen  ti_donchian_center_20  olap_BBAND_LOWER  ...  tend_hl  vola_KCLe_20_2  ma_KAMA_20  olap_MIDPRICE  ma_SMA_20  vola_KCBe_20_2
+0  2025-05-08 09:15:00             100               NaN             NaN                    NaN               NaN  ...      NaN             NaN         NaN            NaN        NaN             NaN
+1  2025-05-08 09:45:00               0               NaN             NaN                    NaN               NaN  ...      NaN             NaN         NaN            NaN        NaN             NaN
+2  2025-05-08 10:00:00               0               NaN             NaN                    NaN               NaN  ...      NaN             NaN         NaN            NaN        NaN             NaN
+3  2025-05-08 10:15:00               0               NaN             NaN                    NaN               NaN  ...      NaN             NaN         NaN            NaN        NaN             NaN
+4  2025-05-08 10:30:00               0               NaN             NaN                    NaN               NaN  ...      NaN             NaN         NaN            NaN        NaN             NaN
+
+[5 rows x 14 columns]
+root - [DEBUG]{MainThread} - load_and_clean__buy_sell_atack() - DataFrame info:
+None
+root - [DEBUG]{MainThread} - load_and_clean__buy_sell_atack() - DataFrame describe:
+       buy_sell_point  ti_kelt_20_lower  ichi_kijun_sen  ti_donchian_center_20  olap_BBAND_LOWER  ...  vola_KCLe_20_2   ma_KAMA_20  olap_MIDPRICE    ma_SMA_20  vola_KCBe_20_2
+count     1374.000000       1355.000000     1349.000000            1355.000000       1355.000000  ...     1354.000000  1354.000000    1361.000000  1355.000000     1355.000000
+mean         0.291121         50.726214       51.126909              51.147546         50.680857  ...       50.728559    51.257969      51.165852    51.247030       51.246089
+std         33.271309          2.255042        2.362517               2.366479          2.254016  ...        2.241006     2.257436       2.360726     2.271766        2.258709
+min       -100.000000         44.740000       44.549999              44.500000         44.677539  ...       44.368400    45.336785      44.500000    45.390000       45.334743
+25%          0.000000         48.991250       49.250001              49.299999         49.055443  ...       48.957605    49.473852      49.349998    49.381250       49.371437
+50%          0.000000         50.750000       51.325001              51.400002         50.789920  ...       50.757807    51.285438      51.325001    51.340000       51.373836
+75%          0.000000         52.125000       52.450001              52.450001         52.017847  ...       52.173568    52.762713      52.450001    52.631250       52.689733
+max        100.000000         55.862500       56.250000              56.275000         56.077900  ...       55.877505    56.182842      56.349998    56.334999       56.300073
+
+[8 rows x 13 columns]
+root - [DEBUG]{MainThread} - load_and_clean__buy_sell_atack() -  groupby(Y_TARGET).count()                 Date
+buy_sell_point      
+0               1300
+100               74
+root - [DEBUG]{MainThread} - cast_Y_label_binary() - Label classes: [0, 100]
+root - [DEBUG]{MainThread} - load_split_data_multidimension() - [96mDataFrame head:
+             Date  buy_sell_point  ti_kelt_20_lower  ichi_kijun_sen  ti_donchian_center_20  olap_BBAND_LOWER  ...    tend_hl  vola_KCLe_20_2  ma_KAMA_20  olap_MIDPRICE  ma_SMA_20  vola_KCBe_20_2
+252  1.747926e+09               0         49.344999           49.65              49.650000         49.413010  ...  49.650002       49.370810   49.589323      49.849998    49.8100       49.747461
+253  1.747927e+09               0         49.352499           49.65              49.650000         49.495936  ...  49.650002       49.373590   49.595467      49.849998    49.8325       49.752465
+254  1.747928e+09               0         49.402500           49.65              49.700001         49.610684  ...  49.650002       49.376106   49.598049      49.849998    49.8525       49.747468
+255  1.747929e+09               0         49.447499           49.65              49.900000         49.624530  ...  49.650002       49.378381   49.599710      49.824999    49.8575       49.752471
+256  1.747930e+09               0         49.464999           49.65              49.900000         49.618568  ...  49.650002       49.404250   49.600622      49.775000    49.8550       49.752236
+
+[5 rows x 14 columns][0m
+root - [DEBUG]{MainThread} - load_split_data_multidimension() - [94mshape_imput_3d: (-1, 10, 13)[0m
+root - [DEBUG]{MainThread} - load_split_data_multidimension() - [94mshape_imput_3d: (-1, 10, 13)[0m
+root - [DEBUG]{MainThread} - load_split_data_multidimension() - [96marr_vali sample: [[1.7479953e+09 4.9329999e+01 4.9275000e+01 4.9250001e+01 4.9634041e+01
+  4.9650002e+01 4.8350000e+01 4.9650002e+01 4.9215034e+01 4.9626763e+01
+  4.9250001e+01 4.9830000e+01 4.9810528e+01]
+ [1.7479944e+09 4.9357499e+01 4.9275000e+01 4.9250001e+01 4.9628037e+01
+  4.9650002e+01 4.8350000e+01 4.9650002e+01 4.9221880e+01 4.9623859e+01
+  4.9250001e+01 4.9837500e+01 4.9806373e+01]
+ [1.7479935e+09 4.9342500e+01 4.9275000e+01 4.9250001e+01 4.9644683e+01
+  4.9650002e+01 4.8350000e+01 4.9650002e+01 4.9171552e+01 4.9618838e+01
+  4.9250001e+01 4.9832500e+01 4.9775466e+01]
+ [1.7479926e+09 4.9325000e+01 4.9275000e+01 4.9224999e+01 4.9645644e+01
+  4.9650002e+01 4.8350000e+01 4.9650002e+01 4.9168558e+01 4.9610000e+01
+  4.9150000e+01 4.9820000e+01 4.9751830e+01]
+ [1.7479917e+09 4.9349999e+01 4.9275000e+01 4.9250001e+01 4.9637263e+01
+  4.9650002e+01 4.8350000e+01 4.9650002e+01 4.9170512e+01 4.9606088e+01
+  4.9150000e+01 4.9835000e+01 4.9752023e+01]
+ [1.7479296e+09 4.9464999e+01 4.9650000e+01 4.9900000e+01 4.9618568e+01
+  4.9650002e+01 4.9599998e+01 4.9650002e+01 4.9404250e+01 4.9600622e+01
+  4.9775000e+01 4.9855000e+01 4.9752236e+01]
+ [1.7479287e+09 4.9447499e+01 4.9650000e+01 4.9900000e+01 4.9624530e+01
+  4.9650002e+01 4.9599998e+01 4.9650002e+01 4.9378381e+01 4.9599710e+01
+  4.9824999e+01 4.9857500e+01 4.9752471e+01]
+ [1.7479278e+09 4.9402500e+01 4.9650000e+01 4.9700001e+01 4.9610684e+01
+  4.9650002e+01 4.9200001e+01 4.9650002e+01 4.9376106e+01 4.9598049e+01
+  4.9849998e+01 4.9852500e+01 4.9747468e+01]
+ [1.7479269e+09 4.9352499e+01 4.9650000e+01 4.9650000e+01 4.9495936e+01
+  4.9650002e+01 4.9099998e+01 4.9650002e+01 4.9373590e+01 4.9595467e+01
+  4.9849998e+01 4.9832500e+01 4.9752465e+01]
+ [1.7479260e+09 4.9344999e+01 4.9650000e+01 4.9650000e+01 4.9413010e+01
+  4.9650002e+01 4.9099998e+01 4.9650002e+01 4.9370810e+01 4.9589323e+01
+  4.9849998e+01 4.9810000e+01 4.9747461e+01]][0m
+root - [DEBUG]{MainThread} - load_split_data_multidimension() - i want to chc folder: Models/TF_multi/Scalers/3968.HK_neg_vgood16_
+root - [DEBUG]{MainThread} - scaler_min_max_array() - Scaler will be Saved Path: Models/TF_multi/Scalers/3968.HK_neg_vgood16_.scal
+root - [INFO]{MainThread} - log_shapes_trains_val_data() - Training features shape SMOTE:(1112, 10, 13)	 Labels shape:(1112, 1)
+root - [DEBUG]{MainThread} - log_shapes_trains_val_data() - Validation features shape:(320, 10, 13)	 Labels shape:(320, 1)
+root - [DEBUG]{MainThread} - log_shapes_trains_val_data() - Test features shape:(201, 10, 13)		 Labels shape:(201, 1)
+root - [DEBUG]{MainThread} - __init__() - [95mCreated object TF_multidimension Path from: d_price/3968.HK_PLAIN_stock_history_MONTH_3_AD.csv[0m
+root - [INFO]{MainThread} - load_and_clean_DF_Train_from_csv() - df loaded from .csv Shape: (1374, 1075) Path: d_price/3968.HK_PLAIN_stock_history_MONTH_3_AD.csv
+root - [DEBUG]{MainThread} - load_and_clean__buy_sell_atack() - columns_selection List HAS vulues, works trains with: Date, buy_sell_point, ti_kelt_20_lower, ichi_kijun_sen, ti_donchian_center_20, olap_BBAND_LOWER, tend_ll, ti_donchian_lower_20, tend_hl, vola_KCLe_20_2, ma_KAMA_20, olap_MIDPRICE, ma_SMA_20, vola_KCBe_20_2, ma_EMA_50, ma_KAMA_50, tend_lh, ma_WMA_20, Open, olap_BBAND_MIDDLE, olap_MCGD_10, High, ma_EMA_20, olap_MIDPOINT, ma_TRIMA_20, wood_r1, perf_ha, ti_supertrend_20, wood_s1, ichi_tenkan_sen, vola_KCUe_20_2, olap_VWMA_10, olap_HT_TRENDLINE, ma_TRIMA_50, ma_SMA_50, ma_SMA_10, mcrh_TRIMA_50_DEMA_100, ti_kelt_20_upper, ma_EMA_10, tend_LDECAY_5, vola_THERMOs_20_2_05, tend_hh, has_preMarket, sti_TOS_STDEVALL_LR, ma_WMA_10, wood_r2, wood_pp, vola_HWL, ma_T3_10, ma_KAMA_10, ma_SMA_5, ma_WMA_5, ma_DEMA_10, sti_CORREL, ichi_senkou_b
+root - [DEBUG]{MainThread} - load_and_clean__buy_sell_atack() - DataFrame head:
+                  Date  buy_sell_point  ti_kelt_20_lower  ichi_kijun_sen  ti_donchian_center_20  olap_BBAND_LOWER  ...  ma_KAMA_10  ma_SMA_5   ma_WMA_5  ma_DEMA_10  sti_CORREL  ichi_senkou_b
+0  2025-05-08 09:15:00             100               NaN             NaN                    NaN               NaN  ...         NaN       NaN        NaN         NaN         NaN            NaN
+1  2025-05-08 09:45:00               0               NaN             NaN                    NaN               NaN  ...         NaN       NaN        NaN         NaN         NaN            NaN
+2  2025-05-08 10:00:00               0               NaN             NaN                    NaN               NaN  ...         NaN       NaN        NaN         NaN         NaN            NaN
+3  2025-05-08 10:15:00               0               NaN             NaN                    NaN               NaN  ...         NaN       NaN        NaN         NaN         NaN            NaN
+4  2025-05-08 10:30:00               0               NaN             NaN                    NaN               NaN  ...         NaN      45.2  45.396666         NaN         NaN            NaN
+
+[5 rows x 55 columns]
+root - [DEBUG]{MainThread} - load_and_clean__buy_sell_atack() - DataFrame info:
+None
+root - [DEBUG]{MainThread} - load_and_clean__buy_sell_atack() - DataFrame describe:
+       buy_sell_point  ti_kelt_20_lower  ichi_kijun_sen  ti_donchian_center_20  olap_BBAND_LOWER      tend_ll  ...   ma_KAMA_10     ma_SMA_5     ma_WMA_5   ma_DEMA_10   sti_CORREL  ichi_senkou_b
+count     1374.000000       1355.000000     1349.000000            1355.000000       1355.000000  1122.000000  ...  1364.000000  1370.000000  1370.000000  1356.000000  1345.000000    1297.000000
+mean         0.291121         50.726214       51.126909              51.147546         50.680857    51.148841  ...    51.251107    51.215730    51.218710    51.283748     0.735373      51.033944
+std         33.271309          2.255042        2.362517               2.366479          2.254016     2.004594  ...     2.280807     2.317918     2.314981     2.256537     0.289783       2.311103
+min       -100.000000         44.740000       44.549999              44.500000         44.677539    46.549999  ...    45.440382    45.200000    45.226667    45.210694    -0.801126      45.299999
+25%          0.000000         48.991250       49.250001              49.299999         49.055443    50.250000  ...    49.454319    49.380000    49.390000    49.420088     0.656202      49.150000
+50%          0.000000         50.750000       51.325001              51.400002         50.789920    51.450000  ...    51.337314    51.300000    51.296666    51.312516     0.846705      51.300000
+75%          0.000000         52.125000       52.450001              52.450001         52.017847    52.000000  ...    52.733385    52.587499    52.603334    52.598358     0.922936      52.324999
+max        100.000000         55.862500       56.250000              56.275000         56.077900    56.200001  ...    56.286509    56.429999    56.463332    56.481091     0.982750      56.149999
+
+[8 rows x 53 columns]
+root - [DEBUG]{MainThread} - load_and_clean__buy_sell_atack() -  groupby(Y_TARGET).count()                 Date
+buy_sell_point      
+0               1300
+100               74
+root - [DEBUG]{MainThread} - cast_Y_label_binary() - Label classes: [0, 100]
+root - [DEBUG]{MainThread} - load_split_data_multidimension() - [96mDataFrame head:
+             Date  buy_sell_point  ti_kelt_20_lower  ichi_kijun_sen  ti_donchian_center_20  olap_BBAND_LOWER  ...  ma_KAMA_10  ma_SMA_5   ma_WMA_5  ma_DEMA_10  sti_CORREL  ichi_senkou_b
+252  1.747926e+09               0         49.344999           49.65              49.650000         49.413010  ...   49.778532     49.81  49.780000   49.812740    0.891737      49.050001
+253  1.747927e+09               0         49.352499           49.65              49.650000         49.495936  ...   49.778621     49.80  49.776667   49.809609    0.890627      49.050001
+254  1.747928e+09               0         49.402500           49.65              49.700001         49.610684  ...   49.776328     49.77  49.743334   49.774139    0.891054      49.050001
+255  1.747929e+09               0         49.447499           49.65              49.900000         49.624530  ...   49.776737     49.75  49.753333   49.781001    0.887800      49.050001
+256  1.747930e+09               0         49.464999           49.65              49.900000         49.618568  ...   49.776470     49.74  49.753333   49.769693    0.875318      49.050001
+
+[5 rows x 55 columns][0m
+root - [DEBUG]{MainThread} - load_split_data_multidimension() - [94mshape_imput_3d: (-1, 10, 54)[0m
+root - [DEBUG]{MainThread} - load_split_data_multidimension() - [94mshape_imput_3d: (-1, 10, 54)[0m
+root - [DEBUG]{MainThread} - load_split_data_multidimension() - [96marr_vali sample: [[1747995300.0 49.329999 49.275 49.250001 49.634041 49.650002 48.35
+  49.650002 49.215034 49.626763 49.250001 49.83 49.810528 49.59869
+  49.595709 50.099998 49.836904 50.099998 49.83 49.813264 50.150002
+  49.810528 49.875 49.809091 50.199999 49.974999 49.630001 49.999998
+  49.250001 50.406022 49.822643 49.828421 49.641923 49.609 49.815 0
+  50.330001 49.862111 49.899998 1 50.150002 False 49.595721 49.862727
+  50.275001 50.075 49.660849 49.831582 49.792117 49.889999 49.926666
+  49.90934 0.607159 49.125]
+ [1747994400.0 49.357499 49.275 49.250001 49.628037 49.650002 48.35
+  49.650002 49.22188 49.623859 49.250001 49.8375 49.806373 49.588433
+  49.588009 50.099998 49.835714 50.049999 49.8375 49.809197 50.150002
+  49.806373 49.875 49.813636 50.25 50.0625 49.630001 49.849998 49.250001
+  50.390866 49.819332 49.826199 49.621077 49.59 49.81 0 50.3175 49.864803
+  50.099998 1 50.150002 False 49.591935 49.855454 50.400002 50.0
+  49.684482 49.824843 49.791637 49.87 49.933333 49.925219 0.624812
+  49.050001]
+ [1747993500.0 49.3425 49.275 49.250001 49.644683 49.650002 48.35
+  49.650002 49.171552 49.618838 49.250001 49.8325 49.775466 49.567552
+  49.562129 50.150002 49.810238 49.75 49.8325 49.777798 50.150002
+  49.775466 49.825001 49.819545 49.9 49.9125 49.630001 49.6 49.250001
+  50.379379 49.795325 49.824912 49.598846 49.563 49.79 0 50.3225
+  49.812537 50.0 1 50.150002 False 49.588149 49.799091 50.024999
+  49.724999 49.622131 49.823409 49.780716 49.81 49.836667 49.834113
+  0.642934 49.050001]
+ [1747992600.0 49.325 49.275 49.224999 49.645644 49.650002 48.35
+  49.650002 49.168558 49.61 49.15 49.82 49.75183 49.549901 49.540896
+  50.150002 49.793095 49.700001 49.82 49.753645 49.849998 49.75183
+  49.775002 49.826364 50.400001 49.7125 49.630001 49.000001 49.125001
+  50.335102 49.776371 49.827807 49.576308 49.537 49.775 0 50.315
+  49.770878 49.75 1 50.150002 False 49.584363 49.758182 50.775 49.375
+  49.576794 49.833143 49.774985 49.75 49.753333 49.755591 0.667963
+  49.050001]
+ [1747991700.0 49.349999 49.275 49.250001 49.637263 49.650002 48.35
+  49.650002 49.170512 49.606088 49.15 49.835 49.752023 49.541734 49.53349
+  50.150002 49.80119 48.35 49.835 49.75405 49.75 49.752023 49.775002
+  49.836363 48.35 49.05 49.630001 48.35 49.15 50.333534 49.784994
+  49.834722 49.553923 49.517 49.785 0 50.32 49.775518 49.75 1 50.150002
+  True 49.580577 49.764545 49.05 49.05 49.5884 49.849923 49.775564 49.76
+  49.756667 49.761473 0.684025 49.050001]
+ [1747929600.0 49.464999 49.65 49.9 49.618568 49.650002 49.599998
+  49.650002 49.40425 49.600622 49.775 49.855 49.752236 49.533233
+  49.526423 50.150002 49.81119 49.75 49.855 49.7545 49.75 49.752236
+  49.775002 49.847727 49.85 49.75 49.630001 49.65 49.775 50.100222
+  49.796638 49.844167 49.531385 49.498 49.8 0 50.245 49.781189 49.75 1
+  50.150002 False 49.576792 49.773636 49.925 49.724999 49.602127
+  49.867467 49.77647 49.74 49.753333 49.769693 0.875318 49.050001]
+ [1747928700.0 49.447499 49.65 49.9 49.62453 49.650002 49.599998
+  49.650002 49.378381 49.59971 49.824999 49.8575 49.752471 49.524386
+  49.518713 50.150002 49.821428 49.650002 49.8575 49.755 49.799999
+  49.752471 49.775002 49.857727 49.725 49.7125 49.630001 49.575003 49.775
+  50.126562 49.80537 49.857222 49.508769 49.478 49.805 0 50.2675 49.78812
+  49.799999 0 50.150002 False 49.573006 49.783636 49.837499 49.687501
+  49.620096 49.885191 49.776737 49.75 49.753333 49.781001 0.8878
+  49.050001]
+ [1747927800.0 49.4025 49.65 49.700001 49.610684 49.650002 49.200001
+  49.650002 49.376106 49.598049 49.849998 49.8525 49.747468 49.513136
+  49.507666 50.150002 49.826429 49.799999 49.8525 49.750022 49.799999
+  49.747468 49.825001 49.865454 49.9 49.7375 49.630001 49.699999 49.775
+  50.118831 49.816115 49.863611 49.486077 49.456 49.815 0 50.3025
+  49.78548 49.700001 0 50.150002 False 49.56922 49.786364 49.95 49.749999
+  49.625036 49.902393 49.776328 49.77 49.743334 49.774139 0.891054
+  49.050001]
+ [1747926900.0 49.352499 49.65 49.65 49.495936 49.650002 49.099998
+  49.650002 49.37359 49.595467 49.849998 49.8325 49.752465 49.505509
+  49.500854 50.150002 49.839048 49.650002 49.8325 49.755608 49.799999
+  49.752465 49.825001 49.867273 49.75 49.7125 49.630001 49.550003 49.775
+  50.13134 49.83499 49.857778 49.463462 49.436 49.83 0 50.312501
+  49.804475 49.799999 0 50.150002 False 49.565434 49.81 49.899998
+  49.700001 49.667414 49.918347 49.778621 49.8 49.776667 49.809609
+  0.890627 49.050001]
+ [1747926000.0 49.344999 49.65 49.65 49.41301 49.650002 49.099998
+  49.650002 49.37081 49.589323 49.849998 49.81 49.747461 49.493489
+  49.489374 50.150002 49.84 49.849998 49.81 49.750697 49.849998 49.747461
+  49.825001 49.863636 49.924999 49.75 49.630001 49.774998 49.800001
+  50.124113 49.837984 49.838567 49.440923 49.415 49.83 0 50.275 49.80547
+  49.650002 1 50.150002 False 49.561648 49.815455 49.987501 49.8375
+  49.679291 49.929783 49.778532 49.81 49.78 49.81274 0.891737 49.050001]][0m
+root - [DEBUG]{MainThread} - load_split_data_multidimension() - i want to chc folder: Models/TF_multi/Scalers/3968.HK_neg_good9_
+root - [DEBUG]{MainThread} - scaler_min_max_array() - Scaler will be Saved Path: Models/TF_multi/Scalers/3968.HK_neg_good9_.scal
+root - [INFO]{MainThread} - log_shapes_trains_val_data() - Training features shape SMOTE:(1114, 10, 54)	 Labels shape:(1114, 1)
+root - [DEBUG]{MainThread} - log_shapes_trains_val_data() - Validation features shape:(320, 10, 54)	 Labels shape:(320, 1)
+root - [DEBUG]{MainThread} - log_shapes_trains_val_data() - Test features shape:(201, 10, 54)		 Labels shape:(201, 1)
+root - [DEBUG]{MainThread} - __init__() - [95mCreated object TF_multidimension Path from: d_price/3968.HK_PLAIN_stock_history_MONTH_3_AD.csv[0m
+root - [INFO]{MainThread} - load_and_clean_DF_Train_from_csv() - df loaded from .csv Shape: (1374, 1075) Path: d_price/3968.HK_PLAIN_stock_history_MONTH_3_AD.csv
+root - [DEBUG]{MainThread} - load_and_clean__buy_sell_atack() - columns_selection List HAS vulues, works trains with: Date, buy_sell_point, ti_kelt_20_lower, ichi_kijun_sen, ti_donchian_center_20, olap_BBAND_LOWER, tend_ll, ti_donchian_lower_20, tend_hl, vola_KCLe_20_2, ma_KAMA_20, olap_MIDPRICE, ma_SMA_20, vola_KCBe_20_2, ma_EMA_50, ma_KAMA_50, tend_lh, ma_WMA_20, Open, olap_BBAND_MIDDLE, olap_MCGD_10, High, ma_EMA_20, olap_MIDPOINT, ma_TRIMA_20, wood_r1, perf_ha, ti_supertrend_20, wood_s1, ichi_tenkan_sen, vola_KCUe_20_2, olap_VWMA_10, olap_HT_TRENDLINE, ma_TRIMA_50, ma_SMA_50, ma_SMA_10, mcrh_TRIMA_50_DEMA_100, ti_kelt_20_upper, ma_EMA_10, tend_LDECAY_5, vola_THERMOs_20_2_05, tend_hh, has_preMarket, sti_TOS_STDEVALL_LR, ma_WMA_10, wood_r2, wood_pp, vola_HWL, ma_T3_10, ma_KAMA_10, ma_SMA_5, ma_WMA_5, ma_DEMA_10, sti_CORREL, ichi_senkou_b, olap_JMA_7_0, mtum_td_seq, olap_SAR, olap_SINWMA_14, olap_SSF_10_2, ti_donchian_upper_20, wood_r3, wood_s2, sti_TOS_STDEVALL_L_1, wood_s3, fibo_r1, mcrh_KAMA_10_DEMA_100, Low, ma_EMA_5, ma_DEMA_5, ma_TEMA_5, ma_DEMA_20, fibo_pp, ma_KAMA_5, sti_TOS_STDEVALL_L_2, sti_TOS_STDEVALL_L_3, sti_TSF, tend_PSARs_002_02, tend_VHF_28, ichi_senkou_a, mtum_ADXR, tend_lh_crash, demark_r1, demark_pp, trad_pp, vola_HWM, vola_HWU, clas_pp, cama_s3, volu_PVT, cama_r2, cama_pp, sti_LINEARREG, Close, ma_T3_5, ma_TRIMA_10, mtum_ADX, olap_HWMA_02_01_01, mcrh_KAMA_20_SMA_100, HSI_SMA_100, olap_PWMA_10, ma_TRIMA_5, mcrh_T3_50_T3_100, perf_CUMPCTRET_1, perf_CUMLOGRET_1, olap_SWMA_10
+root - [DEBUG]{MainThread} - load_and_clean__buy_sell_atack() - DataFrame head:
+                  Date  buy_sell_point  ti_kelt_20_lower  ichi_kijun_sen  ti_donchian_center_20  ...  ma_TRIMA_5  mcrh_T3_50_T3_100  perf_CUMPCTRET_1  perf_CUMLOGRET_1  olap_SWMA_10
+0  2025-05-08 09:15:00             100               NaN             NaN                    NaN  ...         NaN                  0          0.000000          0.000000           NaN
+1  2025-05-08 09:45:00               0               NaN             NaN                    NaN  ...         NaN                  0          0.027149          0.026787           NaN
+2  2025-05-08 10:00:00               0               NaN             NaN                    NaN  ...         NaN                  0          0.023756          0.023478           NaN
+3  2025-05-08 10:15:00               0               NaN             NaN                    NaN  ...         NaN                  0          0.030543          0.030086           NaN
+4  2025-05-08 10:30:00               0               NaN             NaN                    NaN  ...   45.272222                  0          0.031674          0.031183           NaN
+
+[5 rows x 106 columns]
+root - [DEBUG]{MainThread} - load_and_clean__buy_sell_atack() - DataFrame info:
+None
+root - [DEBUG]{MainThread} - load_and_clean__buy_sell_atack() - DataFrame describe:
+       buy_sell_point  ti_kelt_20_lower  ichi_kijun_sen  ti_donchian_center_20  olap_BBAND_LOWER  ...   ma_TRIMA_5  mcrh_T3_50_T3_100  perf_CUMPCTRET_1  perf_CUMLOGRET_1  olap_SWMA_10
+count     1374.000000       1355.000000     1349.000000            1355.000000       1355.000000  ...  1370.000000        1374.000000       1374.000000       1374.000000   1365.000000
+mean         0.291121         50.726214       51.126909              51.147546         50.680857  ...    51.215823          -0.001456          0.158520          0.146102     51.226219
+std         33.271309          2.255042        2.362517               2.366479          2.254016  ...     2.318983           0.085330          0.052802          0.045708      2.305423
+min       -100.000000         44.740000       44.549999              44.500000         44.677539  ...    45.233334          -1.000000          0.000000          0.000000     45.283333
+25%          0.000000         48.991250       49.250001              49.299999         49.055443  ...    49.372222           0.000000          0.117647          0.111226     49.376667
+50%          0.000000         50.750000       51.325001              51.400002         50.789920  ...    51.302778           0.000000          0.160633          0.148966     51.315000
+75%          0.000000         52.125000       52.450001              52.450001         52.017847  ...    52.600001           0.000000          0.190045          0.173991     52.603333
+max        100.000000         55.862500       56.250000              56.275000         56.077900  ...    56.466665           1.000000          0.281674          0.248167     56.396666
+
+[8 rows x 104 columns]
+root - [DEBUG]{MainThread} - load_and_clean__buy_sell_atack() -  groupby(Y_TARGET).count()                 Date
+buy_sell_point      
+0               1300
+100               74
+root - [DEBUG]{MainThread} - cast_Y_label_binary() - Label classes: [0, 100]
+root - [DEBUG]{MainThread} - load_split_data_multidimension() - [96mDataFrame head:
+             Date  buy_sell_point  ti_kelt_20_lower  ichi_kijun_sen  ti_donchian_center_20  ...  ma_TRIMA_5  mcrh_T3_50_T3_100  perf_CUMPCTRET_1  perf_CUMLOGRET_1  olap_SWMA_10
+252  1.747926e+09               0         49.344999           49.65              49.650000  ...   49.833333                  0          0.123303          0.116274     49.850000
+253  1.747927e+09               0         49.352499           49.65              49.650000  ...   49.794445                  0          0.126697          0.119290     49.841667
+254  1.747928e+09               0         49.402500           49.65              49.700001  ...   49.750000                  0          0.124434          0.117280     49.826667
+255  1.747929e+09               0         49.447499           49.65              49.900000  ...   49.744445                  0          0.126697          0.119290     49.808333
+256  1.747930e+09               0         49.464999           49.65              49.900000  ...   49.744445                  0          0.125566          0.118286     49.788333
+
+[5 rows x 106 columns][0m
+root - [DEBUG]{MainThread} - load_split_data_multidimension() - [94mshape_imput_3d: (-1, 10, 105)[0m
+root - [DEBUG]{MainThread} - load_split_data_multidimension() - [94mshape_imput_3d: (-1, 10, 105)[0m
+root - [DEBUG]{MainThread} - load_split_data_multidimension() - [96marr_vali sample: [[1747995300.0 49.329999 49.275 ... 0.127828 0.120294 49.803333]
+ [1747994400.0 49.357499 49.275 ... 0.133484 0.125296 49.78]
+ [1747993500.0 49.3425 49.275 ... 0.131222 0.123298 49.763333]
+ ...
+ [1747927800.0 49.4025 49.65 ... 0.124434 0.11728 49.826667]
+ [1747926900.0 49.352499 49.65 ... 0.126697 0.11929 49.841667]
+ [1747926000.0 49.344999 49.65 ... 0.123303 0.116274 49.85]][0m
+root - [DEBUG]{MainThread} - load_split_data_multidimension() - i want to chc folder: Models/TF_multi/Scalers/3968.HK_neg_reg4_
+root - [DEBUG]{MainThread} - scaler_min_max_array() - Scaler will be Saved Path: Models/TF_multi/Scalers/3968.HK_neg_reg4_.scal
+root - [INFO]{MainThread} - log_shapes_trains_val_data() - Training features shape SMOTE:(1100, 10, 105)	 Labels shape:(1100, 1)
+root - [DEBUG]{MainThread} - log_shapes_trains_val_data() - Validation features shape:(320, 10, 105)	 Labels shape:(320, 1)
+root - [DEBUG]{MainThread} - log_shapes_trains_val_data() - Test features shape:(201, 10, 105)		 Labels shape:(201, 1)
+root - [DEBUG]{MainThread} - __init__() - [95mCreated object TF_multidimension Path from: d_price/3968.HK_PLAIN_stock_history_MONTH_3_AD.csv[0m
+root - [INFO]{MainThread} - load_and_clean_DF_Train_from_csv() - df loaded from .csv Shape: (1374, 1075) Path: d_price/3968.HK_PLAIN_stock_history_MONTH_3_AD.csv
+root - [DEBUG]{MainThread} - load_and_clean__buy_sell_atack() - columns_selection List HAS vulues, works trains with: Date, buy_sell_point, ti_kelt_20_lower, ichi_kijun_sen, ti_donchian_center_20, olap_BBAND_LOWER, tend_ll, ti_donchian_lower_20, tend_hl, vola_KCLe_20_2, ma_KAMA_20, olap_MIDPRICE, ma_SMA_20, vola_KCBe_20_2, ma_EMA_50, ma_KAMA_50, tend_lh, ma_WMA_20, Open, olap_BBAND_MIDDLE, olap_MCGD_10, High, ma_EMA_20, olap_MIDPOINT, ma_TRIMA_20, wood_r1, perf_ha, ti_supertrend_20, wood_s1, ichi_tenkan_sen, vola_KCUe_20_2, olap_VWMA_10, olap_HT_TRENDLINE, ma_TRIMA_50, ma_SMA_50, ma_SMA_10, mcrh_TRIMA_50_DEMA_100, ti_kelt_20_upper, ma_EMA_10, tend_LDECAY_5, vola_THERMOs_20_2_05, tend_hh, has_preMarket, sti_TOS_STDEVALL_LR, ma_WMA_10, wood_r2, wood_pp, vola_HWL, ma_T3_10, ma_KAMA_10, ma_SMA_5, ma_WMA_5, ma_DEMA_10, sti_CORREL, ichi_senkou_b, olap_JMA_7_0, mtum_td_seq, olap_SAR, olap_SINWMA_14, olap_SSF_10_2, ti_donchian_upper_20, wood_r3, wood_s2, sti_TOS_STDEVALL_L_1, wood_s3, fibo_r1, mcrh_KAMA_10_DEMA_100, Low, ma_EMA_5, ma_DEMA_5, ma_TEMA_5, ma_DEMA_20, fibo_pp, ma_KAMA_5, sti_TOS_STDEVALL_L_2, sti_TOS_STDEVALL_L_3, sti_TSF, tend_PSARs_002_02, tend_VHF_28, ichi_senkou_a, mtum_ADXR, tend_lh_crash, demark_r1, demark_pp, trad_pp, vola_HWM, vola_HWU, clas_pp, cama_s3, volu_PVT, cama_r2, cama_pp, sti_LINEARREG, Close, ma_T3_5, ma_TRIMA_10, mtum_ADX, olap_HWMA_02_01_01, mcrh_KAMA_20_SMA_100, HSI_SMA_100, olap_PWMA_10, ma_TRIMA_5, mcrh_T3_50_T3_100, perf_CUMPCTRET_1, perf_CUMLOGRET_1, olap_SWMA_10, cama_s1, mtum_AROON_down, trad_s1, cycl_DCPERIOD, olap_ALMA_10_60_085, mtum_AROONOSC, clas_s1, cdl_HARAMICROSS, mtum_PSL_12, volu_OBV, volu_PVI_1, cycl_SINE_sine, cama_r1, mtum_AROON_up, cama_s2, mtum_MACD_ext_signal, ti_force_index_13, olap_BBAND_dif, fibo_s2, per_Close, ma_TEMA_10, sti_TOS_STDEVALL_U_2, sti_TOS_STDEVALL_U_3, mtum_APO, tend_PSARl_002_02, mcrh_DEMA_10_TEMA_20, fibo_s1, mcrh_T3_20_KAMA_100, mcrh_KAMA_20_KAMA_50, fibo_r2, ti_chaikin_10_3, ti_choppiness_14, demark_s1, sti_LINEARREG_INTERCEPT, ti_hma_20, sti_ZS_30
+root - [DEBUG]{MainThread} - load_and_clean__buy_sell_atack() - DataFrame head:
+                  Date  buy_sell_point  ti_kelt_20_lower  ichi_kijun_sen  ti_donchian_center_20  ...  ti_choppiness_14  demark_s1  sti_LINEARREG_INTERCEPT  ti_hma_20  sti_ZS_30
+0  2025-05-08 09:15:00             100               NaN             NaN                    NaN  ...               NaN        NaN                      NaN        NaN        NaN
+1  2025-05-08 09:45:00               0               NaN             NaN                    NaN  ...               NaN  42.875000                      NaN        NaN        NaN
+2  2025-05-08 10:00:00               0               NaN             NaN                    NaN  ...               NaN  44.975000                      NaN        NaN        NaN
+3  2025-05-08 10:15:00               0               NaN             NaN                    NaN  ...               NaN  45.050001                      NaN        NaN        NaN
+4  2025-05-08 10:30:00               0               NaN             NaN                    NaN  ...               NaN  45.125002                      NaN        NaN        NaN
+
+[5 rows x 142 columns]
+root - [DEBUG]{MainThread} - load_and_clean__buy_sell_atack() - DataFrame info:
+None
+root - [DEBUG]{MainThread} - load_and_clean__buy_sell_atack() - DataFrame describe:
+       buy_sell_point  ti_kelt_20_lower  ichi_kijun_sen  ti_donchian_center_20  olap_BBAND_LOWER  ...  ti_choppiness_14    demark_s1  sti_LINEARREG_INTERCEPT    ti_hma_20    sti_ZS_30
+count     1374.000000       1355.000000     1349.000000            1355.000000       1355.000000  ...       1361.000000  1373.000000              1361.000000  1352.000000  1345.000000
+mean         0.291121         50.726214       51.126909              51.147546         50.680857  ...         44.765776    51.013693                51.207116    51.298364     0.129881
+std         33.271309          2.255042        2.362517               2.366479          2.254016  ...         11.887492     2.349419                 2.351830     2.244314     1.361470
+min       -100.000000         44.740000       44.549999              44.500000         44.677539  ...          9.178259    42.600000                45.105713    45.202803    -4.336587
+25%          0.000000         48.991250       49.250001              49.299999         49.055443  ...         36.569189    49.249998                49.390001    49.423156    -0.958013
+50%          0.000000         50.750000       51.325001              51.400002         50.789920  ...         45.469489    51.150000                51.325714    51.304245     0.267262
+75%          0.000000         52.125000       52.450001              52.450001         52.017847  ...         53.052568    52.400002                52.651429    52.606541     1.209290
+max        100.000000         55.862500       56.250000              56.275000         56.077900  ...         83.258334    56.450001                57.215715    56.449317     3.936990
+
+[8 rows x 140 columns]
+root - [DEBUG]{MainThread} - load_and_clean__buy_sell_atack() -  groupby(Y_TARGET).count()                 Date
+buy_sell_point      
+0               1300
+100               74
+root - [DEBUG]{MainThread} - cast_Y_label_binary() - Label classes: [0, 100]
+root - [DEBUG]{MainThread} - load_split_data_multidimension() - [96mDataFrame head:
+             Date  buy_sell_point  ti_kelt_20_lower  ichi_kijun_sen  ti_donchian_center_20  ...  ti_choppiness_14  demark_s1  sti_LINEARREG_INTERCEPT  ti_hma_20  sti_ZS_30
+252  1.747926e+09               0         49.344999           49.65              49.650000  ...         63.193354  49.699999                49.900000  49.834089  -0.005872
+253  1.747927e+09               0         49.352499           49.65              49.650000  ...         59.438578  49.550003                49.932857  49.806825   0.492719
+254  1.747928e+09               0         49.402500           49.65              49.700001  ...         56.993044  49.599998                49.907142  49.775812   0.112492
+255  1.747929e+09               0         49.447499           49.65              49.900000  ...         61.818214  49.600002                49.861428  49.757509   0.422574
+256  1.747930e+09               0         49.464999           49.65              49.900000  ...         66.980687  49.599998                49.872857  49.745541   0.202790
+
+[5 rows x 142 columns][0m
+root - [DEBUG]{MainThread} - load_split_data_multidimension() - [94mshape_imput_3d: (-1, 10, 141)[0m
+root - [DEBUG]{MainThread} - load_split_data_multidimension() - [94mshape_imput_3d: (-1, 10, 141)[0m
+root - [DEBUG]{MainThread} - load_split_data_multidimension() - [96marr_vali sample: [[1747995300.0 49.329999 49.275 ... 49.771428 49.847894 0.251042]
+ [1747994400.0 49.357499 49.275 ... 49.794286 49.803905 1.441688]
+ [1747993500.0 49.3425 49.275 ... 49.825714 49.751346 1.064584]
+ ...
+ [1747927800.0 49.4025 49.65 ... 49.907142 49.775812 0.112492]
+ [1747926900.0 49.352499 49.65 ... 49.932857 49.806825 0.492719]
+ [1747926000.0 49.344999 49.65 ... 49.9 49.834089 -0.005872]][0m
+root - [DEBUG]{MainThread} - load_split_data_multidimension() - i want to chc folder: Models/TF_multi/Scalers/3968.HK_neg_low1_
+root - [DEBUG]{MainThread} - scaler_min_max_array() - Scaler will be Saved Path: Models/TF_multi/Scalers/3968.HK_neg_low1_.scal
+root - [INFO]{MainThread} - log_shapes_trains_val_data() - Training features shape SMOTE:(1100, 10, 141)	 Labels shape:(1100, 1)
+root - [DEBUG]{MainThread} - log_shapes_trains_val_data() - Validation features shape:(320, 10, 141)	 Labels shape:(320, 1)
+root - [DEBUG]{MainThread} - log_shapes_trains_val_data() - Test features shape:(201, 10, 141)		 Labels shape:(201, 1)
+root - [DEBUG]{MainThread} - __init__() - [95mCreated object TF_multidimension Path from: d_price/3968.HK_PLAIN_stock_history_MONTH_3_AD.csv[0m
+root - [INFO]{MainThread} - <module>() - Processing stock: 3968.HK, Buy/Sell type: pos, Columns JSON: <Feature_selection_json_columns.JsonColumns object at 0x73532cadd420>
+root - [INFO]{MainThread} - load_and_clean_DF_Train_from_csv() - df loaded from .csv Shape: (1374, 1075) Path: d_price/3968.HK_PLAIN_stock_history_MONTH_3_AD.csv
+root - [DEBUG]{MainThread} - load_and_clean__buy_sell_atack() - columns_selection List HAS vulues, works trains with: Date, buy_sell_point, mtum_PVOs_12_26_9, volu_PVT, tend_PSARaf_002_02, mtum_PVO_12_26_9, mcrh_KAMA_10_T3_100, ichi_kijun_sen, volu_OBV, ma_KAMA_20, ti_donchian_center_20, ti_donchian_lower_20, tend_hl
+root - [DEBUG]{MainThread} - load_and_clean__buy_sell_atack() - DataFrame head:
+                  Date  buy_sell_point  mtum_PVOs_12_26_9      volu_PVT  tend_PSARaf_002_02  ...    volu_OBV  ma_KAMA_20  ti_donchian_center_20  ti_donchian_lower_20  tend_hl
+0  2025-05-08 09:15:00             100                NaN           NaN                0.02  ...    211550.0         NaN                    NaN                   NaN      NaN
+1  2025-05-08 09:45:00               0                NaN  2.574315e+07                0.04  ...   9693597.0         NaN                    NaN                   NaN      NaN
+2  2025-05-08 10:00:00               0                NaN  2.534650e+07                0.04  ...   8493097.0         NaN                    NaN                   NaN      NaN
+3  2025-05-08 10:15:00               0                NaN  2.653300e+07                0.06  ...  10282738.0         NaN                    NaN                   NaN      NaN
+4  2025-05-08 10:30:00               0                NaN  2.662916e+07                0.08  ...  11158788.0         NaN                    NaN                   NaN      NaN
+
+[5 rows x 13 columns]
+root - [DEBUG]{MainThread} - load_and_clean__buy_sell_atack() - DataFrame info:
+None
+root - [DEBUG]{MainThread} - load_and_clean__buy_sell_atack() - DataFrame describe:
+       buy_sell_point  mtum_PVOs_12_26_9      volu_PVT  tend_PSARaf_002_02  mtum_PVO_12_26_9  ...      volu_OBV   ma_KAMA_20  ti_donchian_center_20  ti_donchian_lower_20      tend_hl
+count     1374.000000        1341.000000  1.373000e+03         1374.000000       1349.000000  ...  1.374000e+03  1354.000000            1355.000000           1355.000000  1363.000000
+mean         0.291121          -2.068360  7.538283e+07            0.051310         -2.078118  ...  8.531072e+07    51.257969              51.147546             50.339409    50.874615
+std         33.271309           9.403067  1.667819e+07            0.040311         13.209403  ...  3.158053e+07     2.257436               2.366479              2.469627     2.447005
+min       -100.000000         -25.550648  2.520016e+07            0.020000        -34.267961  ...  2.115500e+05    45.336785              44.500000             43.000000    45.150002
+25%          0.000000          -8.209471  6.274205e+07            0.020000        -11.305898  ...  6.158460e+07    49.473852              49.299999             48.725001    49.049999
+50%          0.000000          -2.252307  8.233995e+07            0.040000         -2.779104  ...  9.565509e+07    51.285438              51.400002             50.549999    51.000000
+75%          0.000000           3.610774  8.666956e+07            0.060000          5.724045  ...  1.139742e+08    52.762713              52.450001             51.799999    52.150002
+max        100.000000          32.680387  1.032969e+08            0.200000         75.920975  ...  1.260505e+08    56.182842              56.275000             55.799999    56.200001
+
+[8 rows x 12 columns]
+root - [DEBUG]{MainThread} - load_and_clean__buy_sell_atack() -  groupby(Y_TARGET).count()                 Date
+buy_sell_point      
+0               1296
+100               78
+root - [DEBUG]{MainThread} - cast_Y_label_binary() - Label classes: [0, 100]
+root - [DEBUG]{MainThread} - load_split_data_multidimension() - [96mDataFrame head:
+            Date  buy_sell_point  mtum_PVOs_12_26_9      volu_PVT  tend_PSARaf_002_02  ...    volu_OBV  ma_KAMA_20  ti_donchian_center_20  ti_donchian_lower_20  tend_hl
+33  1.746791e+09               0           9.678082  3.068844e+07                0.04  ...  13994648.0   45.622182              44.549999                  43.0     45.2
+34  1.746796e+09               0           5.682448  3.060826e+07                0.04  ...  13257039.0   45.655131              44.549999                  43.0     45.2
+35  1.746796e+09               0           1.880266  3.067317e+07                0.04  ...  13853539.0   45.692224              44.549999                  43.0     45.2
+36  1.746797e+09               0          -2.100141  3.063773e+07                0.04  ...  13527539.0   45.713951              44.549999                  43.0     45.2
+37  1.746798e+09               0          -5.263031  3.081143e+07                0.04  ...  14325689.0   45.752393              44.549999                  43.0     45.2
+
+[5 rows x 13 columns][0m
+root - [DEBUG]{MainThread} - load_split_data_multidimension() - [94mshape_imput_3d: (-1, 10, 12)[0m
+root - [DEBUG]{MainThread} - load_split_data_multidimension() - [94mshape_imput_3d: (-1, 10, 12)[0m
+root - [DEBUG]{MainThread} - load_split_data_multidimension() - [96marr_vali sample: [[ 1.74680280e+09 -1.37899320e+01  3.10654752e+07  4.00000000e-02
+  -1.76588390e+01  0.00000000e+00  4.45499990e+01  1.53147970e+07
+   4.58341820e+01  4.45499990e+01  4.30000000e+01  4.52000000e+01]
+ [ 1.74680190e+09 -1.28227050e+01  3.09136934e+07  4.00000000e-02
+  -1.75218650e+01  0.00000000e+00  4.45499990e+01  1.46181080e+07
+   4.58136210e+01  4.45499990e+01  4.30000000e+01  4.52000000e+01]
+ [ 1.74680100e+09 -1.16479150e+01  3.09999512e+07  4.00000000e-02
+  -1.38845770e+01  0.00000000e+00  4.45499990e+01  1.50149000e+07
+   4.58057980e+01  4.45499990e+01  4.30000000e+01  4.52000000e+01]
+ [ 1.74680010e+09 -1.10887500e+01  3.06454743e+07  4.00000000e-02
+  -2.29985880e+01  0.00000000e+00  4.45499990e+01  1.33878260e+07
+   4.57807130e+01  4.45499990e+01  4.30000000e+01  4.52000000e+01]
+ [ 1.74679920e+09 -8.11129000e+00  3.06833409e+07  4.00000000e-02
+  -1.95043280e+01  0.00000000e+00  4.45499990e+01  1.37358260e+07
+   4.57716860e+01  4.45499990e+01  4.30000000e+01  4.52000000e+01]
+ [ 1.74679830e+09 -5.26303100e+00  3.08114308e+07  4.00000000e-02
+  -1.79145920e+01  0.00000000e+00  4.45499990e+01  1.43256890e+07
+   4.57523930e+01  4.45499990e+01  4.30000000e+01  4.52000000e+01]
+ [ 1.74679740e+09 -2.10014100e+00  3.06377338e+07  4.00000000e-02
+  -1.80217680e+01  0.00000000e+00  4.45499990e+01  1.35275390e+07
+   4.57139510e+01  4.45499990e+01  4.30000000e+01  4.52000000e+01]
+ [ 1.74679650e+09  1.88026600e+00  3.06731681e+07  4.00000000e-02
+  -1.33284620e+01  0.00000000e+00  4.45499990e+01  1.38535390e+07
+   4.56922240e+01  4.45499990e+01  4.30000000e+01  4.52000000e+01]
+ [ 1.74679560e+09  5.68244800e+00  3.06082615e+07  4.00000000e-02
+  -1.03000910e+01  0.00000000e+00  4.45499990e+01  1.32570390e+07
+   4.56551310e+01  4.45499990e+01  4.30000000e+01  4.52000000e+01]
+ [ 1.74679110e+09  9.67808200e+00  3.06884352e+07  4.00000000e-02
+  -7.85151100e+00  0.00000000e+00  4.45499990e+01  1.39946480e+07
+   4.56221820e+01  4.45499990e+01  4.30000000e+01  4.52000000e+01]][0m
+root - [DEBUG]{MainThread} - load_split_data_multidimension() - i want to chc folder: Models/TF_multi/Scalers/3968.HK_pos_vgood16_
+root - [DEBUG]{MainThread} - scaler_min_max_array() - Scaler will be Saved Path: Models/TF_multi/Scalers/3968.HK_pos_vgood16_.scal
+root - [INFO]{MainThread} - log_shapes_trains_val_data() - Training features shape SMOTE:(1350, 10, 12)	 Labels shape:(1350, 1)
+root - [DEBUG]{MainThread} - log_shapes_trains_val_data() - Validation features shape:(383, 10, 12)	 Labels shape:(383, 1)
+root - [DEBUG]{MainThread} - log_shapes_trains_val_data() - Test features shape:(240, 10, 12)		 Labels shape:(240, 1)
+root - [DEBUG]{MainThread} - __init__() - [95mCreated object TF_multidimension Path from: d_price/3968.HK_PLAIN_stock_history_MONTH_3_AD.csv[0m
+root - [INFO]{MainThread} - load_and_clean_DF_Train_from_csv() - df loaded from .csv Shape: (1374, 1075) Path: d_price/3968.HK_PLAIN_stock_history_MONTH_3_AD.csv
+root - [DEBUG]{MainThread} - load_and_clean__buy_sell_atack() - columns_selection List HAS vulues, works trains with: Date, buy_sell_point, mtum_PVOs_12_26_9, volu_PVT, tend_PSARaf_002_02, mtum_PVO_12_26_9, mcrh_KAMA_10_T3_100, ichi_kijun_sen, volu_OBV, ma_KAMA_20, ti_donchian_center_20, ti_donchian_lower_20, tend_hl, HSI_SMA_20, mtum_BR_26, mtum_MINUS_DI, cdl_DRAGONFLYDOJI, HSI_Close, Open, ti_kelt_20_lower, olap_VMAP, ma_SMA_20, olap_SAR, Low, olap_BBAND_LOWER, mtum_AR_26, mcrh_SMA_20_T3_100, mtum_ER_10, has_preMarket, cdl_TAKURI, perf_ha, per_preMarket, ma_WMA_20, vola_HWM, olap_SAREXT, wood_s1, vola_HWL, HSI_SMA_100, tend_PSARs_002_02, cdl_3WHITESOLDIERS, olap_HWMA_02_01_01, olap_BBAND_MIDDLE, vola_KCLe_20_2, olap_MCGD_10, vola_KCBe_20_2, wood_r3, tend_renko_ATR, wood_r2, ma_KAMA_10, sti_TOS_STDEVALL_L_3, tend_VHF_28, ma_EMA_20, wood_r1, ma_SMA_10, tend_PSARl_002_02
+root - [DEBUG]{MainThread} - load_and_clean__buy_sell_atack() - DataFrame head:
+                  Date  buy_sell_point  mtum_PVOs_12_26_9      volu_PVT  tend_PSARaf_002_02  ...  tend_VHF_28  ma_EMA_20    wood_r1  ma_SMA_10  tend_PSARl_002_02
+0  2025-05-08 09:15:00             100                NaN           NaN                0.02  ...          NaN        NaN        NaN        NaN            0.00000
+1  2025-05-08 09:45:00               0                NaN  2.574315e+07                0.04  ...          NaN        NaN  46.025002        NaN           43.30000
+2  2025-05-08 10:00:00               0                NaN  2.534650e+07                0.04  ...          NaN        NaN  45.675001        NaN           43.30000
+3  2025-05-08 10:15:00               0                NaN  2.653300e+07                0.06  ...          NaN        NaN  45.400000        NaN           43.38600
+4  2025-05-08 10:30:00               0                NaN  2.662916e+07                0.08  ...          NaN        NaN  45.824997        NaN           43.51884
+
+[5 rows x 55 columns]
+root - [DEBUG]{MainThread} - load_and_clean__buy_sell_atack() - DataFrame info:
+None
+root - [DEBUG]{MainThread} - load_and_clean__buy_sell_atack() - DataFrame describe:
+       buy_sell_point  mtum_PVOs_12_26_9      volu_PVT  tend_PSARaf_002_02  mtum_PVO_12_26_9  ...  tend_VHF_28    ma_EMA_20      wood_r1    ma_SMA_10  tend_PSARl_002_02
+count     1374.000000        1341.000000  1.373000e+03         1374.000000       1349.000000  ...  1346.000000  1355.000000  1373.000000  1365.000000        1374.000000
+mean         0.291121          -2.068360  7.538283e+07            0.051310         -2.078118  ...     0.350111    51.246089    51.312564    51.226062          26.888481
+std         33.271309           9.403067  1.667819e+07            0.040311         13.209403  ...     0.118509     2.258709     2.358959     2.302795          25.075988
+min       -100.000000         -25.550648  2.520016e+07            0.020000        -34.267961  ...     0.133333    45.334743    44.000000    45.275000           0.000000
+25%          0.000000          -8.209471  6.274205e+07            0.020000        -11.305898  ...     0.257408    49.371437    49.450003    49.385000           0.000000
+50%          0.000000          -2.252307  8.233995e+07            0.040000         -2.779104  ...     0.333334    51.373836    51.400000    51.325000          46.575720
+75%          0.000000           3.610774  8.666956e+07            0.060000          5.724045  ...     0.407409    52.689733    52.725002    52.605000          50.558639
+max        100.000000          32.680387  1.032969e+08            0.200000         75.920975  ...     0.783785    56.300073    57.250002    56.359999          55.668141
+
+[8 rows x 53 columns]
+root - [DEBUG]{MainThread} - load_and_clean__buy_sell_atack() -  groupby(Y_TARGET).count()                 Date
+buy_sell_point      
+0               1296
+100               78
+root - [DEBUG]{MainThread} - cast_Y_label_binary() - Label classes: [0, 100]
+root - [DEBUG]{MainThread} - load_split_data_multidimension() - [96mDataFrame head:
+            Date  buy_sell_point  mtum_PVOs_12_26_9      volu_PVT  tend_PSARaf_002_02  mtum_PVO_12_26_9  ...  sti_TOS_STDEVALL_L_3  tend_VHF_28  ma_EMA_20    wood_r1  ma_SMA_10  tend_PSARl_002_02
+33  1.746791e+09               0           9.678082  3.068844e+07                0.04         -7.851511  ...             41.730999     0.320755  45.722399  46.074999     45.930          43.863692
+34  1.746796e+09               0           5.682448  3.060826e+07                0.04        -10.300091  ...             41.734785     0.320755  45.744076  45.975000     45.955          43.953144
+35  1.746796e+09               0           1.880266  3.067317e+07                0.04        -13.328462  ...             41.738571     0.333334  45.768450  45.975000     45.965          44.039018
+36  1.746797e+09               0          -2.100141  3.063773e+07                0.04        -18.021768  ...             41.742357     0.346939  45.785740  46.075001     45.970          44.121458
+37  1.746798e+09               0          -5.263031  3.081143e+07                0.04        -17.914592  ...             41.746143     0.367347  45.810908  45.950001     45.975          44.200599
+
+[5 rows x 55 columns][0m
+root - [DEBUG]{MainThread} - load_split_data_multidimension() - [94mshape_imput_3d: (-1, 10, 54)[0m
+root - [DEBUG]{MainThread} - load_split_data_multidimension() - [94mshape_imput_3d: (-1, 10, 54)[0m
+root - [DEBUG]{MainThread} - load_split_data_multidimension() - [96marr_vali sample: [[1746802800.0 -13.789932 31065475.160998 0.04 -17.658839 0 44.549999
+  15314797.0 45.834182 44.549999 43.0 45.2 22805.301953125 85.365548
+  24.771078 0 22843.5703125 45.950001 45.220002 45.517209 45.91 44.55128
+  45.900002 45.551392 179.628562 0 0.0 False 0 45.962501 0.0 45.96
+  45.948233 44.55128 45.900002 45.729291 23032.707890625 0.0 0 45.948233
+  45.91 45.449419 45.852192 45.866496 46.099998 0.292307 46.049999
+  45.918356 41.765072 0.386366 45.866496 46.0 45.97 44.55128]
+ [1746801900.0 -12.822705 30913693.386224 0.04 -17.521865 0 44.549999
+  14618108.0 45.813621 44.549999 43.0 45.2 22801.91943359375 84.337154
+  25.57441 0 22813.94921875 45.950001 45.185002 45.511518 45.87 44.48675
+  45.900002 45.399469 176.362781 0 0.166667 False 0 45.937501 0.0
+  45.947619 45.94125 44.48675 45.875002 45.710903 23032.707890625 0.0 0
+  45.94125 45.87 45.412516 45.836027 45.852443 46.174997 0.29423
+  46.112498 45.918015 41.761286 0.404764 45.852443 46.025 45.97 44.48675]
+ [1746801000.0 -11.647915 30999951.200449 0.04 -13.884577 0 44.549999
+  15014900.0 45.805798 44.549999 43.0 45.2 22798.93701171875 88.888715
+  26.368465 0 22812.41015625 45.900002 45.147502 45.508209 45.8375
+  44.419532 45.900002 45.295398 176.36292 0 0.0 False 0 45.962501 0.0
+  45.941667 45.957388 44.419532 45.85 45.715142 23032.707890625 0.0 0
+  45.957388 45.8375 45.382254 45.828968 45.847437 46.050005 0.29423
+  46.000003 45.918518 41.7575 0.404764 45.847437 45.950003 45.98
+  44.419532]
+ [1746800100.0 -11.08875 30645474.268264 0.04 -22.998588 0 44.549999
+  13387826.0 45.780713 44.549999 43.0 45.2 22797.13896484375 83.333246
+  27.560355 0 22821.51953125 45.900002 45.110002 45.493303 45.8 44.349512
+  45.849998 45.206704 163.792623 0 0.090915 False 0 45.900001 0.0
+  45.922619 45.949505 44.349512 45.825003 45.6942 23032.707890625 0.0 0
+  45.949505 45.8 45.348806 45.81031 45.831378 46.124998 0.296153
+  46.087499 45.918178 41.753714 0.414636 45.831378 45.975 45.98 44.349512]
+ [1746799200.0 -8.11129 30683340.936834 0.04 -19.504328 0 44.549999
+  13735826.0 45.771686 44.549999 43.0 45.2 22795.5099609375 87.804804
+  26.914298 0 22841.599609375 46.0 45.077502 45.490506 45.7725 44.276575
+  45.900002 45.150025 168.420714 0 0.0 False 0 45.975 0.0 45.910476
+  45.9643 44.276575 45.900002 45.696608 23032.707890625 0.0 0 45.9643
+  45.7725 45.311839 45.80044 45.824155 46.299995 0.296153 46.199997
+  45.91844 41.749929 0.418606 45.824155 46.099998 45.975 44.276575]
+ [1746798300.0 -5.263031 30811430.841107 0.04 -17.914592 0 44.549999
+  14325689.0 45.752393 44.549999 43.0 45.2 22791.5814453125 93.670725
+  28.03855 0 22857.9296875 45.900002 45.047502 45.484792 45.7375
+  44.200599 45.900002 45.081089 171.428182 0 0.090908 False 0 45.9875 0.0
+  45.890238 45.967074 44.200599 45.850002 45.684911 23032.707890625 0.0 0
+  45.967074 45.7375 45.276242 45.784086 45.810908 46.049999 0.29423
+  46.025 45.918308 41.746143 0.367347 45.810908 45.950001 45.975
+  44.200599]
+ [1746797400.0 -2.100141 30637733.82088 0.04 -18.021768 0 44.549999
+  13527539.0 45.713951 44.549999 43.0 45.2 22787.20947265625 88.888799
+  29.567708 0 22817.140625 46.0 45.020001 45.476437 45.7 44.121458
+  45.900002 45.033666 153.333223 0 0.090908 False 0 45.962501 0.0
+  45.856905 45.943596 44.121458 45.924999 45.646836 23032.707890625 0.0 0
+  45.943596 45.7 45.236899 45.75537 45.78574 46.225002 0.29423 46.112501
+  45.916408 41.742357 0.346939 45.78574 46.075001 45.97 44.121458]
+ [1746796500.0 1.880266 30673168.062797 0.04 -13.328462 0 44.549999
+  13853539.0 45.692224 44.549999 43.0 45.2 22785.8609375 82.758471
+  30.335843 0 22799.1796875 45.900002 44.985001 45.473279 45.67 44.039018
+  45.849998 44.997393 139.393694 0 0.199997 False 0 45.9375 0.0 45.830238
+  45.940281 44.039018 45.825003 45.627607 23032.707890625 0.0 0 45.940281
+  45.67 45.182888 45.734192 45.76845 46.124998 0.305769 46.112498
+  45.915923 41.738571 0.333334 45.76845 45.975 45.965 44.039018]
+ [1746795600.0 5.682448 30608261.546123 0.04 -10.300091 0 44.549999
+  13257039.0 45.655131 44.549999 43.0 45.2 22786.30341796875 81.609135
+  28.971794 0 22771.08984375 45.950001 44.955 45.4677 45.635 43.953144
+  45.950001 44.961872 137.878725 0 0.384614 False 0 45.9875 0.0 45.795476
+  45.922102 43.953144 45.925001 45.593824 23032.707890625 0.0 0 45.922102
+  45.635 45.128455 45.705488 45.744076 46.025 0.303846 46.0125 45.912946
+  41.734785 0.320755 45.744076 45.975 45.955 43.953144]
+ [1746791100.0 9.678082 30688435.214056 0.04 -7.851511 0 44.549999
+  13994648.0 45.622182 44.549999 43.0 45.2 22793.9189453125 76.923016
+  30.018283 0 22777.619140625 46.0 44.9175 45.459056 45.6025 43.863692
+  45.950001 44.93058 125.352081 0 0.727271 False 100 45.9875 0.0
+  45.762381 45.911936 43.863692 45.925001 45.568007 23032.707890625 0.0 0
+  45.911936 45.6025 45.073555 45.679024 45.722399 46.224997 0.309615
+  46.162498 45.909384 41.730999 0.320755 45.722399 46.074999 45.93
+  43.863692]][0m
+root - [DEBUG]{MainThread} - load_split_data_multidimension() - i want to chc folder: Models/TF_multi/Scalers/3968.HK_pos_good9_
+root - [DEBUG]{MainThread} - scaler_min_max_array() - Scaler will be Saved Path: Models/TF_multi/Scalers/3968.HK_pos_good9_.scal
+root - [INFO]{MainThread} - log_shapes_trains_val_data() - Training features shape SMOTE:(1338, 10, 54)	 Labels shape:(1338, 1)
+root - [DEBUG]{MainThread} - log_shapes_trains_val_data() - Validation features shape:(383, 10, 54)	 Labels shape:(383, 1)
+root - [DEBUG]{MainThread} - log_shapes_trains_val_data() - Test features shape:(240, 10, 54)		 Labels shape:(240, 1)
+root - [DEBUG]{MainThread} - __init__() - [95mCreated object TF_multidimension Path from: d_price/3968.HK_PLAIN_stock_history_MONTH_3_AD.csv[0m
+root - [INFO]{MainThread} - load_and_clean_DF_Train_from_csv() - df loaded from .csv Shape: (1374, 1075) Path: d_price/3968.HK_PLAIN_stock_history_MONTH_3_AD.csv
+root - [DEBUG]{MainThread} - load_and_clean__buy_sell_atack() - columns_selection List HAS vulues, works trains with: Date, buy_sell_point, mtum_PVOs_12_26_9, volu_PVT, tend_PSARaf_002_02, mtum_PVO_12_26_9, mcrh_KAMA_10_T3_100, ichi_kijun_sen, volu_OBV, ma_KAMA_20, ti_donchian_center_20, ti_donchian_lower_20, tend_hl, HSI_SMA_20, mtum_BR_26, mtum_MINUS_DI, cdl_DRAGONFLYDOJI, HSI_Close, Open, ti_kelt_20_lower, olap_VMAP, ma_SMA_20, olap_SAR, Low, olap_BBAND_LOWER, mtum_AR_26, mcrh_SMA_20_T3_100, mtum_ER_10, has_preMarket, cdl_TAKURI, perf_ha, per_preMarket, ma_WMA_20, vola_HWM, olap_SAREXT, wood_s1, vola_HWL, HSI_SMA_100, tend_PSARs_002_02, cdl_3WHITESOLDIERS, olap_HWMA_02_01_01, olap_BBAND_MIDDLE, vola_KCLe_20_2, olap_MCGD_10, vola_KCBe_20_2, wood_r3, tend_renko_ATR, wood_r2, ma_KAMA_10, sti_TOS_STDEVALL_L_3, tend_VHF_28, ma_EMA_20, wood_r1, ma_SMA_10, tend_PSARl_002_02, sti_TOS_STDEVALL_LR, ti_supertrend_20, mtum_MACD_ext_list, wood_pp, tend_PSARr_002_02, vola_KCUe_20_2, olap_BBAND_UPPER, olap_JMA_7_0, sti_TSF, sti_TOS_STDEVALL_L_1, sti_TOS_STDEVALL_U_3, olap_SSF_10_2, olap_SWMA_10, sti_TOS_STDEVALL_U_2, sti_TOS_STDEVALL_U_1, perf_CUMLOGRET_1, sti_TOS_STDEVALL_L_2, perf_CUMPCTRET_1, Close, wood_s3, ma_TRIMA_10, ma_TEMA_5, ma_KAMA_5, ma_DEMA_5, ma_DEMA_20, ma_DEMA_10, mcrh_EMA_50_KAMA_100, ichi_tenkan_sen, tend_renko_TR, sti_LINEARREG, ma_TEMA_10, ma_T3_5, ma_T3_10, ma_EMA_5, tend_lh, fibo_r2, ma_TRIMA_20, ti_donchian_upper_20, ti_hma_20, demark_r1, ti_kelt_20_upper, trad_r1, trad_r3, clas_r3, vola_THERMO_20_2_05, vola_TRANGE, vola_TRUERANGE_1, volu_Chaikin_AD, cama_r3, cama_r1, High, sti_BETA, mtum_DX, ma_SMA_5, ma_WMA_5, mcrh_TRIMA_20_T3_100, mcrh_SMA_20_DEMA_100, olap_MIDPOINT, olap_MIDPRICE, mtum_QQEs_14_5_4236, mtum_BEARP_13, olap_VWMA_10
+root - [DEBUG]{MainThread} - load_and_clean__buy_sell_atack() - DataFrame head:
+                  Date  buy_sell_point  mtum_PVOs_12_26_9      volu_PVT  tend_PSARaf_002_02  ...  olap_MIDPOINT  olap_MIDPRICE  mtum_QQEs_14_5_4236  mtum_BEARP_13  olap_VWMA_10
+0  2025-05-08 09:15:00             100                NaN           NaN                0.02  ...            NaN            NaN                  0.0            NaN           NaN
+1  2025-05-08 09:45:00               0                NaN  2.574315e+07                0.04  ...            NaN            NaN                  0.0            NaN           NaN
+2  2025-05-08 10:00:00               0                NaN  2.534650e+07                0.04  ...            NaN            NaN                  0.0            NaN           NaN
+3  2025-05-08 10:15:00               0                NaN  2.653300e+07                0.06  ...            NaN            NaN                  0.0            NaN           NaN
+4  2025-05-08 10:30:00               0                NaN  2.662916e+07                0.08  ...            NaN            NaN                  0.0            NaN           NaN
+
+[5 rows x 117 columns]
+root - [DEBUG]{MainThread} - load_and_clean__buy_sell_atack() - DataFrame info:
+None
+root - [DEBUG]{MainThread} - load_and_clean__buy_sell_atack() - DataFrame describe:
+       buy_sell_point  mtum_PVOs_12_26_9      volu_PVT  tend_PSARaf_002_02  mtum_PVO_12_26_9  ...  olap_MIDPOINT  olap_MIDPRICE  mtum_QQEs_14_5_4236  mtum_BEARP_13  olap_VWMA_10
+count     1374.000000        1341.000000  1.373000e+03         1374.000000       1349.000000  ...    1361.000000    1361.000000          1374.000000    1362.000000   1365.000000
+mean         0.291121          -2.068360  7.538283e+07            0.051310         -2.078118  ...      51.236554      51.165852            26.701735      -0.108778     51.242038
+std         33.271309           9.403067  1.667819e+07            0.040311         13.209403  ...       2.293019       2.360726            27.941239       0.378724      2.292718
+min       -100.000000         -25.550648  2.520016e+07            0.020000        -34.267961  ...      45.075000      44.500000             0.000000      -6.265254     45.244681
+25%          0.000000          -8.209471  6.274205e+07            0.020000        -11.305898  ...      49.400000      49.349998             0.000000      -0.210032     49.403715
+50%          0.000000          -2.252307  8.233995e+07            0.040000         -2.779104  ...      51.375000      51.325001             0.000000      -0.075539     51.338757
+75%          0.000000           3.610774  8.666956e+07            0.060000          5.724045  ...      52.625000      52.450001            52.590475       0.056767     52.626030
+max        100.000000          32.680387  1.032969e+08            0.200000         75.920975  ...      56.400000      56.349998            78.336699       0.877937     56.350806
+
+[8 rows x 115 columns]
+root - [DEBUG]{MainThread} - load_and_clean__buy_sell_atack() -  groupby(Y_TARGET).count()                 Date
+buy_sell_point      
+0               1296
+100               78
+root - [DEBUG]{MainThread} - cast_Y_label_binary() - Label classes: [0, 100]
+root - [DEBUG]{MainThread} - load_split_data_multidimension() - [96mDataFrame head:
+             Date  buy_sell_point  mtum_PVOs_12_26_9      volu_PVT  tend_PSARaf_002_02  ...  olap_MIDPOINT  olap_MIDPRICE  mtum_QQEs_14_5_4236  mtum_BEARP_13  olap_VWMA_10
+117  1.747301e+09               0          -7.552047  6.078462e+07                0.02  ...      49.324999          49.35             0.000000      -0.237481     49.291534
+118  1.747302e+09               0          -5.473259  5.959411e+07                0.02  ...      49.324999          49.35             0.000000      -0.124986     49.292779
+119  1.747303e+09               0          -3.163629  5.959411e+07                0.02  ...      49.324999          49.35            63.393163      -0.214272     49.280072
+120  1.747304e+09               0          -2.203866  5.970079e+07                0.02  ...      49.324999          49.35            62.564193      -0.219376     49.290488
+121  1.747305e+09               0          -1.640809  5.995249e+07                0.02  ...      49.324999          49.35            62.564193      -0.095178     49.299299
+
+[5 rows x 117 columns][0m
+root - [DEBUG]{MainThread} - load_split_data_multidimension() - [94mshape_imput_3d: (-1, 10, 116)[0m
+root - [DEBUG]{MainThread} - load_split_data_multidimension() - [94mshape_imput_3d: (-1, 10, 116)[0m
+root - [DEBUG]{MainThread} - load_split_data_multidimension() - [96marr_vali sample: [[1747309500.0 -11.916663 59931114.63198 ... 62.444904 -0.006002
+  49.322035]
+ [1747308600.0 -8.567414 59931114.63198 ... 62.564193 0.001331 49.321112]
+ [1747307700.0 -5.65581 59931114.63198 ... 62.564193 0.009886 49.316925]
+ ...
+ [1747303200.0 -3.163629 59594105.352671 ... 63.393163 -0.214272
+  49.280072]
+ [1747302300.0 -5.473259 59594105.352671 ... 0.0 -0.124986 49.292779]
+ [1747301400.0 -7.552047 60784615.863962 ... 0.0 -0.237481 49.291534]][0m
+root - [DEBUG]{MainThread} - load_split_data_multidimension() - i want to chc folder: Models/TF_multi/Scalers/3968.HK_pos_reg4_
+root - [DEBUG]{MainThread} - scaler_min_max_array() - Scaler will be Saved Path: Models/TF_multi/Scalers/3968.HK_pos_reg4_.scal
+root - [INFO]{MainThread} - log_shapes_trains_val_data() - Training features shape SMOTE:(1262, 10, 116)	 Labels shape:(1262, 1)
+root - [DEBUG]{MainThread} - log_shapes_trains_val_data() - Validation features shape:(359, 10, 116)	 Labels shape:(359, 1)
+root - [DEBUG]{MainThread} - log_shapes_trains_val_data() - Test features shape:(225, 10, 116)		 Labels shape:(225, 1)
+root - [DEBUG]{MainThread} - __init__() - [95mCreated object TF_multidimension Path from: d_price/3968.HK_PLAIN_stock_history_MONTH_3_AD.csv[0m
+root - [INFO]{MainThread} - load_and_clean_DF_Train_from_csv() - df loaded from .csv Shape: (1374, 1075) Path: d_price/3968.HK_PLAIN_stock_history_MONTH_3_AD.csv
+root - [DEBUG]{MainThread} - load_and_clean__buy_sell_atack() - columns_selection List HAS vulues, works trains with: Date, buy_sell_point, mtum_PVOs_12_26_9, volu_PVT, tend_PSARaf_002_02, mtum_PVO_12_26_9, mcrh_KAMA_10_T3_100, ichi_kijun_sen, volu_OBV, ma_KAMA_20, ti_donchian_center_20, ti_donchian_lower_20, tend_hl, HSI_SMA_20, mtum_BR_26, mtum_MINUS_DI, cdl_DRAGONFLYDOJI, HSI_Close, Open, ti_kelt_20_lower, olap_VMAP, ma_SMA_20, olap_SAR, Low, olap_BBAND_LOWER, mtum_AR_26, mcrh_SMA_20_T3_100, mtum_ER_10, has_preMarket, cdl_TAKURI, perf_ha, per_preMarket, ma_WMA_20, vola_HWM, olap_SAREXT, wood_s1, vola_HWL, HSI_SMA_100, tend_PSARs_002_02, cdl_3WHITESOLDIERS, olap_HWMA_02_01_01, olap_BBAND_MIDDLE, vola_KCLe_20_2, olap_MCGD_10, vola_KCBe_20_2, wood_r3, tend_renko_ATR, wood_r2, ma_KAMA_10, sti_TOS_STDEVALL_L_3, tend_VHF_28, ma_EMA_20, wood_r1, ma_SMA_10, tend_PSARl_002_02, sti_TOS_STDEVALL_LR, ti_supertrend_20, mtum_MACD_ext_list, wood_pp, tend_PSARr_002_02, vola_KCUe_20_2, olap_BBAND_UPPER, olap_JMA_7_0, sti_TSF, sti_TOS_STDEVALL_L_1, sti_TOS_STDEVALL_U_3, olap_SSF_10_2, olap_SWMA_10, sti_TOS_STDEVALL_U_2, sti_TOS_STDEVALL_U_1, perf_CUMLOGRET_1, sti_TOS_STDEVALL_L_2, perf_CUMPCTRET_1, Close, wood_s3, ma_TRIMA_10, ma_TEMA_5, ma_KAMA_5, ma_DEMA_5, ma_DEMA_20, ma_DEMA_10, mcrh_EMA_50_KAMA_100, ichi_tenkan_sen, tend_renko_TR, sti_LINEARREG, ma_TEMA_10, ma_T3_5, ma_T3_10, ma_EMA_5, tend_lh, fibo_r2, ma_TRIMA_20, ti_donchian_upper_20, ti_hma_20, demark_r1, ti_kelt_20_upper, trad_r1, trad_r3, clas_r3, vola_THERMO_20_2_05, vola_TRANGE, vola_TRUERANGE_1, volu_Chaikin_AD, cama_r3, cama_r1, High, sti_BETA, mtum_DX, ma_SMA_5, ma_WMA_5, mcrh_TRIMA_20_T3_100, mcrh_SMA_20_DEMA_100, olap_MIDPOINT, olap_MIDPRICE, mtum_QQEs_14_5_4236, mtum_BEARP_13, olap_VWMA_10, mtum_FISHERTs_9_1, mtum_FISHERT_9_1, mcrh_TRIMA_50_EMA_100, vola_ATR, wood_s2, clas_s1, mcrh_TRIMA_5_WMA_50, vola_HWU, clas_r1, cdl_LONGLEGGEDDOJI, cdl_INVERTEDHAMMER, cama_s3, mtum_ADX, mtum_MACD_list, trad_pp, vola_UI_14, mtum_K_9_3, cdl_HAMMER, volu_PVI_1, cdl_GRAVESTONEDOJI, cdl_DOJI, mtum_AROON_up, ma_TRIMA_5, clas_s2, mcrh_DEMA_50_DEMA_100, sti_CORREL, ma_WMA_10, sti_LINEARREG_INTERCEPT, ma_TEMA_20, mcrh_DEMA_20_DEMA_100, mcrh_DEMA_20_KAMA_100, olap_SINWMA_14, mtum_D_9_3, ma_KAMA_50, tend_LDECAY_5, mcrh_EMA_10_TEMA_50, mtum_RSX_14, ma_EMA_10, olap_PWMA_10, tend_hh, mcrh_EMA_50_SMA_100, mcrh_KAMA_20_KAMA_100, mcrh_KAMA_20_WMA_50, ti_acc_dist, fibo_pp, ma_TRIMA_50, mtum_SMIo_5_20_5, mtum_SMIs_5_20_5
+root - [DEBUG]{MainThread} - load_and_clean__buy_sell_atack() - DataFrame head:
+                  Date  buy_sell_point  mtum_PVOs_12_26_9      volu_PVT  tend_PSARaf_002_02  ...   ti_acc_dist    fibo_pp  ma_TRIMA_50  mtum_SMIo_5_20_5  mtum_SMIs_5_20_5
+0  2025-05-08 09:15:00             100                NaN           NaN                0.02  ...  6.044286e+03        NaN          NaN               NaN               NaN
+1  2025-05-08 09:45:00               0                NaN  2.574315e+07                0.04  ...  7.381005e+06  44.183333          NaN               NaN               NaN
+2  2025-05-08 10:00:00               0                NaN  2.534650e+07                0.04  ...  6.980829e+06  45.283334          NaN               NaN               NaN
+3  2025-05-08 10:15:00               0                NaN  2.653300e+07                0.06  ...  8.372775e+06  45.283334          NaN               NaN               NaN
+4  2025-05-08 10:30:00               0                NaN  2.662916e+07                0.08  ...  8.372758e+06  45.433333          NaN               NaN               NaN
+
+[5 rows x 165 columns]
+root - [DEBUG]{MainThread} - load_and_clean__buy_sell_atack() - DataFrame info:
+None
+root - [DEBUG]{MainThread} - load_and_clean__buy_sell_atack() - DataFrame describe:
+       buy_sell_point  mtum_PVOs_12_26_9      volu_PVT  tend_PSARaf_002_02  mtum_PVO_12_26_9  ...   ti_acc_dist      fibo_pp  ma_TRIMA_50  mtum_SMIo_5_20_5  mtum_SMIs_5_20_5
+count     1374.000000        1341.000000  1.373000e+03         1374.000000       1349.000000  ...  1.374000e+03  1373.000000  1325.000000       1346.000000       1346.000000
+mean         0.291121          -2.068360  7.538283e+07            0.051310         -2.078118  ...  8.668829e+07    51.200085    51.306572         -0.000938          0.045303
+std         33.271309           9.403067  1.667819e+07            0.040311         13.209403  ...  3.305321e+07     2.338352     2.192399          0.066384          0.249714
+min       -100.000000         -25.550648  2.520016e+07            0.020000        -34.267961  ...  6.044286e+03    44.183333    45.677769         -0.333039         -0.675799
+25%          0.000000          -8.209471  6.274205e+07            0.020000        -11.305898  ...  5.860059e+07    49.366667    49.395615         -0.037732         -0.124566
+50%          0.000000          -2.252307  8.233995e+07            0.040000         -2.779104  ...  1.064444e+08    51.300001    51.365769         -0.001752          0.035256
+75%          0.000000           3.610774  8.666956e+07            0.060000          5.724045  ...  1.149145e+08    52.600001    52.708231          0.036189          0.225766
+max        100.000000          32.680387  1.032969e+08            0.200000         75.920975  ...  1.261672e+08    56.549999    56.190615          0.263154          0.631694
+
+[8 rows x 163 columns]
+root - [DEBUG]{MainThread} - load_and_clean__buy_sell_atack() -  groupby(Y_TARGET).count()                 Date
+buy_sell_point      
+0               1296
+100               78
+root - [DEBUG]{MainThread} - cast_Y_label_binary() - Label classes: [0, 100]
+root - [DEBUG]{MainThread} - load_split_data_multidimension() - [96mDataFrame head:
+             Date  buy_sell_point  mtum_PVOs_12_26_9      volu_PVT  tend_PSARaf_002_02  ...   ti_acc_dist    fibo_pp  ma_TRIMA_50  mtum_SMIo_5_20_5  mtum_SMIs_5_20_5
+117  1.747301e+09               0          -7.552047  6.078462e+07                0.02  ...  4.322735e+07  49.300000    48.664000          0.062115          0.305005
+118  1.747302e+09               0          -5.473259  5.959411e+07                0.02  ...  4.217760e+07  49.449999    48.689077         -0.055273          0.277368
+119  1.747303e+09               0          -3.163629  5.959411e+07                0.02  ...  4.217761e+07  49.283333    48.715923         -0.086134          0.234301
+120  1.747304e+09               0          -2.203866  5.970079e+07                0.02  ...  4.270200e+07  49.150000    48.741769         -0.069350          0.199626
+121  1.747305e+09               0          -1.640809  5.995249e+07                0.02  ...  4.325293e+07  49.166667    48.768307         -0.029090          0.185081
+
+[5 rows x 165 columns][0m
+root - [DEBUG]{MainThread} - load_split_data_multidimension() - [94mshape_imput_3d: (-1, 10, 164)[0m
+root - [DEBUG]{MainThread} - load_split_data_multidimension() - [94mshape_imput_3d: (-1, 10, 164)[0m
+root - [DEBUG]{MainThread} - load_split_data_multidimension() - [96marr_vali sample: [[1747309500.0 -11.916663 59931114.63198 ... 48.906384 -0.010302 0.156447]
+ [1747308600.0 -8.567414 59931114.63198 ... 48.879538 -0.011113 0.161598]
+ [1747307700.0 -5.65581 59931114.63198 ... 48.851846 -0.010273 0.167155]
+ ...
+ [1747303200.0 -3.163629 59594105.352671 ... 48.715923 -0.086134 0.234301]
+ [1747302300.0 -5.473259 59594105.352671 ... 48.689077 -0.055273 0.277368]
+ [1747301400.0 -7.552047 60784615.863962 ... 48.664 0.062115 0.305005]][0m
+root - [DEBUG]{MainThread} - load_split_data_multidimension() - i want to chc folder: Models/TF_multi/Scalers/3968.HK_pos_low1_
+root - [DEBUG]{MainThread} - scaler_min_max_array() - Scaler will be Saved Path: Models/TF_multi/Scalers/3968.HK_pos_low1_.scal
+root - [INFO]{MainThread} - log_shapes_trains_val_data() - Training features shape SMOTE:(1268, 10, 164)	 Labels shape:(1268, 1)
+root - [DEBUG]{MainThread} - log_shapes_trains_val_data() - Validation features shape:(359, 10, 164)	 Labels shape:(359, 1)
+root - [DEBUG]{MainThread} - log_shapes_trains_val_data() - Test features shape:(225, 10, 164)		 Labels shape:(225, 1)
+root - [DEBUG]{MainThread} - __init__() - [95mCreated object TF_multidimension Path from: d_price/3968.HK_PLAIN_stock_history_MONTH_3_AD.csv[0m
+root - [INFO]{MainThread} - <module>() - Processing stock: 9633.HK, CSV path: d_price/9633.HK_PLAIN_stock_history_MONTH_3_AD.csv
+root - [INFO]{MainThread} - <module>() - Processing stock: 9633.HK, Buy/Sell type: neg, Columns JSON: <Feature_selection_json_columns.JsonColumns object at 0x7352e0132bc0>
+root - [INFO]{MainThread} - load_and_clean_DF_Train_from_csv() - df loaded from .csv Shape: (1368, 1075) Path: d_price/9633.HK_PLAIN_stock_history_MONTH_3_AD.csv
+root - [DEBUG]{MainThread} - load_and_clean__buy_sell_atack() - columns_selection List HAS vulues, works trains with: Date, buy_sell_point, sti_VAR, vola_THERMO_20_2_05, sti_STDDEV, tend_renko_TR, vola_TRANGE, vola_TRUERANGE_1, volu_PVOL, Volume, mtum_AROON_down, sti_KURT_30
+root - [DEBUG]{MainThread} - load_and_clean__buy_sell_atack() - DataFrame head:
+                  Date  buy_sell_point  sti_VAR  vola_THERMO_20_2_05  sti_STDDEV  tend_renko_TR  vola_TRANGE  vola_TRUERANGE_1     volu_PVOL  Volume  mtum_AROON_down  sti_KURT_30
+0  2025-05-08 09:45:00               0      NaN                  NaN         NaN            NaN          NaN               NaN  3.082118e+07  816455              NaN          NaN
+1  2025-05-08 10:00:00               0      NaN             0.250000         NaN            NaN     0.250000          0.250000  8.383480e+06  221200              NaN          NaN
+2  2025-05-08 10:15:00               0      NaN             0.200001         NaN            NaN     0.299999          0.299999  9.978184e+06  261209              NaN          NaN
+3  2025-05-08 10:30:00               0      NaN             0.149998         NaN            NaN     0.200001          0.200001  1.319428e+07  345400              NaN          NaN
+4  2025-05-08 10:45:00               0   0.0486             0.100002    0.220454            NaN     0.199997          0.199997  1.055008e+07  275100              NaN          NaN
+root - [DEBUG]{MainThread} - load_and_clean__buy_sell_atack() - DataFrame info:
+None
+root - [DEBUG]{MainThread} - load_and_clean__buy_sell_atack() - DataFrame describe:
+       buy_sell_point      sti_VAR  vola_THERMO_20_2_05   sti_STDDEV  tend_renko_TR  vola_TRANGE  vola_TRUERANGE_1     volu_PVOL        Volume  mtum_AROON_down  sti_KURT_30
+count     1368.000000  1364.000000          1367.000000  1364.000000    1342.000000  1367.000000       1367.000000  1.368000e+03  1.368000e+03      1354.000000  1339.000000
+mean        -0.365497     0.032080             0.167410     0.129121       0.224851     0.224141          0.224141  1.297817e+07  3.187126e+05        51.318844     0.057844
+std         33.233642     0.090480             0.224979     0.124172       0.234979     0.233211          0.233211  1.806407e+07  4.330103e+05        36.199242     1.826633
+min       -100.000000     0.000000             0.000000     0.000000       0.000000     0.000000          0.000000  3.396800e+03  8.800000e+01         0.000000    -1.947319
+25%          0.000000     0.003400             0.049999     0.058310       0.100002     0.100002          0.100002  4.528108e+06  1.163500e+05        14.285714    -1.048140
+50%          0.000000     0.008600             0.100002     0.092736       0.150002     0.150002          0.150002  8.308265e+06  2.107000e+05        50.000000    -0.354055
+75%          0.000000     0.021400             0.200001     0.146287       0.250000     0.250000          0.250000  1.506307e+07  3.666500e+05        85.714286     0.679628
+max        100.000000     1.255402             2.950001     1.120447       4.000000     4.000000          4.000000  2.502004e+08  6.231640e+06       100.000000    19.328829
+root - [DEBUG]{MainThread} - load_and_clean__buy_sell_atack() -  groupby(Y_TARGET).count()                 Date
+buy_sell_point      
+0               1290
+100               78
+root - [DEBUG]{MainThread} - cast_Y_label_binary() - Label classes: [0, 100]
+root - [DEBUG]{MainThread} - load_split_data_multidimension() - [96mDataFrame head:
+            Date  buy_sell_point  sti_VAR  vola_THERMO_20_2_05  sti_STDDEV  tend_renko_TR  vola_TRANGE  vola_TRUERANGE_1     volu_PVOL  Volume  mtum_AROON_down  sti_KURT_30
+29  1.746789e+09               0   0.0200             0.099998    0.141421       0.100002     0.100002          0.100002  2.678720e+06   70400       100.000000     2.092507
+30  1.746790e+09               0   0.0104             0.000000    0.101980       0.100002     0.100002          0.100002  2.662870e+06   69800       100.000000     1.066582
+31  1.746791e+09               0   0.0044             0.049999    0.066333       0.100002     0.100002          0.100002  2.130933e+06   55930        92.857143     0.296723
+32  1.746796e+09               0   0.0014             0.099998    0.037418       0.250000     0.250000          0.250000  5.166360e+06  135600       100.000000     0.156933
+33  1.746796e+09               0   0.0014             0.149998    0.037418       0.050003     0.050003          0.050003  2.113510e+06   55400        92.857143     0.075075[0m
+root - [DEBUG]{MainThread} - load_split_data_multidimension() - [94mshape_imput_3d: (-1, 10, 11)[0m
+root - [DEBUG]{MainThread} - load_split_data_multidimension() - [94mshape_imput_3d: (-1, 10, 11)[0m
+root - [DEBUG]{MainThread} - load_split_data_multidimension() - [96marr_vali sample: [[1.74680100e+09 3.40000000e-03 4.99990000e-02 5.83090000e-02
+  9.99980000e-02 9.99980000e-02 9.99980000e-02 1.69608003e+06
+  4.44000000e+04 5.71428570e+01 6.01808000e-01]
+ [1.74680010e+09 4.60000000e-03 9.99980000e-02 6.78220000e-02
+  4.99990000e-02 4.99990000e-02 4.99990000e-02 3.28520007e+06
+  8.60000000e+04 6.42857140e+01 1.55740000e-01]
+ [1.74679920e+09 7.40000000e-03 0.00000000e+00 8.60230000e-02
+  1.49998000e-01 1.49998000e-01 1.49998000e-01 1.96348004e+06
+  5.14000000e+04 7.14285710e+01 4.11610000e-02]
+ [1.74679830e+09 9.40000000e-03 4.99990000e-02 9.69540000e-02
+  1.49998000e-01 1.49998000e-01 1.49998000e-01 2.55410990e+06
+  6.66000000e+04 7.85714290e+01 7.50750000e-02]
+ [1.74679740e+09 3.00000000e-03 1.49998000e-01 5.47730000e-02
+  1.49998000e-01 1.49998000e-01 1.49998000e-01 3.12120000e+06
+  8.16000000e+04 8.57142860e+01 4.62290000e-02]
+ [1.74679650e+09 1.40000000e-03 1.49998000e-01 3.74180000e-02
+  5.00030000e-02 5.00030000e-02 5.00030000e-02 2.11351008e+06
+  5.54000000e+04 9.28571430e+01 7.50750000e-02]
+ [1.74679560e+09 1.40000000e-03 9.99980000e-02 3.74180000e-02
+  2.50000000e-01 2.50000000e-01 2.50000000e-01 5.16635979e+06
+  1.35600000e+05 1.00000000e+02 1.56933000e-01]
+ [1.74679110e+09 4.40000000e-03 4.99990000e-02 6.63330000e-02
+  1.00002000e-01 1.00002000e-01 1.00002000e-01 2.13093291e+06
+  5.59300000e+04 9.28571430e+01 2.96723000e-01]
+ [1.74679020e+09 1.04000000e-02 0.00000000e+00 1.01980000e-01
+  1.00002000e-01 1.00002000e-01 1.00002000e-01 2.66287011e+06
+  6.98000000e+04 1.00000000e+02 1.06658200e+00]
+ [1.74678930e+09 2.00000000e-02 9.99980000e-02 1.41421000e-01
+  1.00002000e-01 1.00002000e-01 1.00002000e-01 2.67871995e+06
+  7.04000000e+04 1.00000000e+02 2.09250700e+00]][0m
+root - [DEBUG]{MainThread} - load_split_data_multidimension() - i want to chc folder: Models/TF_multi/Scalers/9633.HK_neg_vgood16_
+root - [DEBUG]{MainThread} - scaler_min_max_array() - Scaler will be Saved Path: Models/TF_multi/Scalers/9633.HK_neg_vgood16_.scal
+root - [INFO]{MainThread} - log_shapes_trains_val_data() - Training features shape SMOTE:(1326, 10, 11)	 Labels shape:(1326, 1)
+root - [DEBUG]{MainThread} - log_shapes_trains_val_data() - Validation features shape:(382, 10, 11)	 Labels shape:(382, 1)
+root - [DEBUG]{MainThread} - log_shapes_trains_val_data() - Test features shape:(240, 10, 11)		 Labels shape:(240, 1)
+root - [DEBUG]{MainThread} - __init__() - [95mCreated object TF_multidimension Path from: d_price/9633.HK_PLAIN_stock_history_MONTH_3_AD.csv[0m
+root - [INFO]{MainThread} - load_and_clean_DF_Train_from_csv() - df loaded from .csv Shape: (1368, 1075) Path: d_price/9633.HK_PLAIN_stock_history_MONTH_3_AD.csv
+root - [DEBUG]{MainThread} - load_and_clean__buy_sell_atack() - columns_selection List HAS vulues, works trains with: Date, buy_sell_point, sti_VAR, vola_THERMO_20_2_05, sti_STDDEV, tend_renko_TR, vola_TRANGE, vola_TRUERANGE_1, volu_PVOL, Volume, mtum_AROON_down, sti_KURT_30, mtum_INERTIA_20_14, mcrh_DEMA_50_DEMA_100, vola_THERMOma_20_2_05, mtum_DMP_14, mtum_PLUS_DM, mtum_PVOh_12_26_9, mtum_PVO_12_26_9, mcrh_TEMA_50_WMA_100, ti_ease_of_movement_14, vola_ATR, mcrh_WMA_5_TEMA_50, mtum_PSL_12, vola_THERMOl_20_2_05, has_preMarket, tend_PSARs_002_02, vola_NATR, mtum_ADXR, mcrh_DEMA_5_ti_h20, ti_mass_index_9_25, per_Volume, mtum_td_seq_sig, mtum_STC_10_12_26_05, mtum_ADX, mtum_FISHERT_9_1, mtum_ER_10, mcrh_EMA_50_WMA_100, mcrh_T3_20_TRIMA_50, mcrh_EMA_20_TEMA_50, ti_konk_gre_bl_crash, vola_RVI_14, mtum_PVOs_12_26_9, cycl_DCPERIOD, mcrh_WMA_10_KAMA_20, volu_Chaikin_AD, mcrh_TEMA_5_DEMA_10, mcrh_KAMA_5_TRIMA_100
+root - [DEBUG]{MainThread} - load_and_clean__buy_sell_atack() - DataFrame head:
+                  Date  buy_sell_point  sti_VAR  vola_THERMO_20_2_05  sti_STDDEV  ...  cycl_DCPERIOD  mcrh_WMA_10_KAMA_20  volu_Chaikin_AD  mcrh_TEMA_5_DEMA_10  mcrh_KAMA_5_TRIMA_100
+0  2025-05-08 09:45:00               0      NaN                  NaN         NaN  ...            NaN                    0     8.164550e+05                    0                      0
+1  2025-05-08 10:00:00               0      NaN             0.250000         NaN  ...            NaN                    0     8.606977e+05                    0                      0
+2  2025-05-08 10:15:00               0      NaN             0.200001         NaN  ...            NaN                    0     1.121907e+06                    0                      0
+3  2025-05-08 10:30:00               0      NaN             0.149998         NaN  ...            NaN                    0     1.294610e+06                    0                      0
+4  2025-05-08 10:45:00               0   0.0486             0.100002    0.220454  ...            NaN                    0     1.569710e+06                    0                      0
+
+[5 rows x 48 columns]
+root - [DEBUG]{MainThread} - load_and_clean__buy_sell_atack() - DataFrame info:
+None
+root - [DEBUG]{MainThread} - load_and_clean__buy_sell_atack() - DataFrame describe:
+       buy_sell_point      sti_VAR  vola_THERMO_20_2_05   sti_STDDEV  tend_renko_TR  ...  cycl_DCPERIOD  mcrh_WMA_10_KAMA_20  volu_Chaikin_AD  mcrh_TEMA_5_DEMA_10  mcrh_KAMA_5_TRIMA_100
+count     1368.000000  1364.000000          1367.000000  1364.000000    1342.000000  ...    1336.000000          1368.000000     1.368000e+03          1368.000000            1368.000000
+mean        -0.365497     0.032080             0.167410     0.129121       0.224851  ...      20.940530             0.000000     1.223364e+07             0.034357              -0.001462
+std         33.233642     0.090480             0.224979     0.124172       0.234979  ...       4.698444             0.296283     7.666642e+06             0.547245               0.157702
+min       -100.000000     0.000000             0.000000     0.000000       0.000000  ...      12.619514            -1.000000     8.164550e+05            -1.000000              -1.000000
+25%          0.000000     0.003400             0.049999     0.058310       0.100002  ...      17.521399             0.000000     7.959327e+06             0.000000               0.000000
+50%          0.000000     0.008600             0.100002     0.092736       0.150002  ...      20.443106             0.000000     1.053856e+07             0.000000               0.000000
+75%          0.000000     0.021400             0.200001     0.146287       0.250000  ...      23.687777             0.000000     1.354053e+07             0.000000               0.000000
+max        100.000000     1.255402             2.950001     1.120447       4.000000  ...      38.809334             1.000000     3.370960e+07             1.000000               1.000000
+
+[8 rows x 46 columns]
+root - [DEBUG]{MainThread} - load_and_clean__buy_sell_atack() -  groupby(Y_TARGET).count()                 Date
+buy_sell_point      
+0               1290
+100               78
+root - [DEBUG]{MainThread} - cast_Y_label_binary() - Label classes: [0, 100]
+root - [DEBUG]{MainThread} - load_split_data_multidimension() - [96mDataFrame head:
+            Date  buy_sell_point  sti_VAR  vola_THERMO_20_2_05  sti_STDDEV  ...  cycl_DCPERIOD  mcrh_WMA_10_KAMA_20  volu_Chaikin_AD  mcrh_TEMA_5_DEMA_10  mcrh_KAMA_5_TRIMA_100
+45  1.747041e+09               0   0.0034             0.049999    0.058310  ...      27.239399                    0     1.550339e+06                    1                      0
+46  1.747042e+09               0   0.1394             1.000000    0.373362  ...      27.230914                    1     2.253403e+06                    1                      0
+47  1.747043e+09               0   0.1746             0.500000    0.417852  ...      27.171276                    1     1.736523e+06                    0                      0
+48  1.747044e+09               0   0.1314             0.349998    0.362491  ...      27.126851                    0     1.662613e+06                    0                      0
+49  1.747045e+09               0   0.0830             0.200001    0.288097  ...      27.157776                    0     1.580013e+06                    0                      0
+
+[5 rows x 48 columns][0m
+root - [DEBUG]{MainThread} - load_split_data_multidimension() - [94mshape_imput_3d: (-1, 10, 47)[0m
+root - [DEBUG]{MainThread} - load_split_data_multidimension() - [94mshape_imput_3d: (-1, 10, 47)[0m
+root - [DEBUG]{MainThread} - load_split_data_multidimension() - [96marr_vali sample: [[1747049400.0 0.0064 0.099998 0.08 0.050003 0.050003 0.050003
+  2038360.079956 52400 21.428571 -0.592425 50.747452 0 0.179464 0.980806
+  0.980806 -12.017931 2.022379 0 0.331397 0.200206 0 58.333333 1 False
+  0.0 0.514669 31.545208 0 25.544377 -68.622754 0 0.0 31.399629 0.517502
+  0.437502 0 0 0 0 70.119533 14.04031 31.088892 0 2211277.345538 1 0]
+ [1747048500.0 0.0034 0.100002 0.058309 0.150002 0.150002 0.150002
+  6487949.745178 167000 28.571429 -0.380219 47.098668 0 0.187829 1.056252
+  1.056252 -7.050097 9.994696 0 0.310158 0.21176 0 50.0 1 False 0.0
+  0.545071 31.399713 0 25.660087 -21.15203 -1 0.0 31.600921 0.564166
+  0.454547 0 0 0 0 62.847204 17.044793 31.443434 0 2158877.345538 0 0]
+ [1747047600.0 0.0016 0.049999 0.039999 0.149998 0.149998 0.149998
+  8217839.838409 211800 35.714286 -0.233093 45.414748 0 0.197074 1.029808
+  1.029808 -3.130328 15.676989 0 0.289474 0.216511 0 41.666667 1 False
+  0.0 0.558018 31.243027 -1 25.749231 103.653846 -2 0.0 31.817698
+  0.530559 0.393939 0 0 0 0 53.025658 18.807317 30.915619 0 2103216.34152
+  0 0]
+ [1747046700.0 0.0094 0.150002 0.096954 0.099998 0.099998 0.099998
+  4024800.079346 104000 42.857143 0.18543 46.44426 0 0.212555 1.055178
+  1.055178 1.52668 21.116578 0 0.256531 0.221627 0 33.333333 1 False 0.0
+  0.57268 31.252114 -1 25.842622 -79.961464 -3 0.0 32.406805 0.591762
+  0.272728 0 0 0 0 39.323416 19.589899 28.996164 0 1891416.34152 -1 0]
+ [1747045800.0 0.0254 0.200001 0.159373 0.25 0.25 0.25 20085300.395966
+  519000 50.0 0.710621 49.668448 0 0.21914 1.136346 1.136346 10.929342
+  30.137571 0 0.211493 0.230983 0 41.666667 1 False 0.0 0.596856
+  31.918295 0 25.941659 109.443099 -2 0.0 33.222531 0.682361 0.235295 0 0
+  0 0 39.323416 19.208229 27.690082 0 1891416.34152 -1 0]
+ [1747044900.0 0.083 0.200001 0.288097 0.149998 0.149998 0.149998
+  9602250.0 247800 57.142857 1.377402 52.24725 0 0.221155 1.223757
+  1.223757 14.693053 31.168946 0 0.243654 0.229521 0 41.666667 1 False
+  0.0 0.592311 32.358711 0 25.926571 -62.748046 -1 0.0 34.101005 0.804123
+  0.272728 0 0 0 0 50.370624 16.475893 27.157776 0 1580013.173795 0 0]
+ [1747044000.0 0.1314 0.349998 0.362491 0.450001 0.450001 0.450001
+  25743240.507507 665200 64.285714 2.368425 53.948983 0 0.223382 1.317892
+  1.317892 25.525711 38.328341 0 0.280307 0.235638 0 33.333333 1 False
+  0.0 0.608883 32.270573 0 25.809372 -28.503869 -2 0.0 33.922193 0.774197
+  0.294118 0 0 0 0 34.612453 12.80263 27.126851 0 1662613.173795 0 0]
+ [1747043100.0 0.1746 0.5 0.417852 0.450001 0.450001 0.450001
+  36239080.709839 930400 71.428571 3.495461 57.794013 0 0.210053 1.419269
+  1.419269 31.072914 37.494116 0 0.467519 0.219148 0 33.333333 0 False
+  0.0 0.56264 32.175656 1 25.474585 -11.776977 -1 0.0 33.729626 0.663587
+  0.517242 0 0 0 0 46.904896 6.421203 27.171276 1 1736523.031804 0 0]
+ [1747042200.0 0.1394 1.0 0.373362 1.0 1.0 1.0 41234858.390808 1054600
+  0.0 6.012411 58.796689 0 0.179533 1.474598 1.474598 27.977288 26.630262
+  0 0.388228 0.20139 0 41.666667 0 False 0.0 0.515065 31.043496 1
+  25.048758 23813.8322 0 0.0 31.200562 0.227117 0.692306 0 0 0 0
+  66.502585 -1.347026 27.230914 1 2253403.157265 1 0]
+ [1747041300.0 0.0034 0.049999 0.05831 0.05 0.05 0.05 168682.5 4410
+  7.142857 1.582846 55.413464 0 0.093168 0.511105 0.511105 4.096161
+  -4.245187 0 0.190321 0.139959 0 41.666667 1 True 0.0 0.365905 30.306122
+  0 24.097862 -98.923865 -1 0.0 28.554616 -0.066289 0.166665 0 0 0 0
+  52.363892 -8.341348 27.239399 0 1550339.470578 1 0]][0m
+root - [DEBUG]{MainThread} - load_split_data_multidimension() - i want to chc folder: Models/TF_multi/Scalers/9633.HK_neg_good9_
+root - [DEBUG]{MainThread} - scaler_min_max_array() - Scaler will be Saved Path: Models/TF_multi/Scalers/9633.HK_neg_good9_.scal
+root - [INFO]{MainThread} - log_shapes_trains_val_data() - Training features shape SMOTE:(1312, 10, 47)	 Labels shape:(1312, 1)
+root - [DEBUG]{MainThread} - log_shapes_trains_val_data() - Validation features shape:(377, 10, 47)	 Labels shape:(377, 1)
+root - [DEBUG]{MainThread} - log_shapes_trains_val_data() - Test features shape:(237, 10, 47)		 Labels shape:(237, 1)
+root - [DEBUG]{MainThread} - __init__() - [95mCreated object TF_multidimension Path from: d_price/9633.HK_PLAIN_stock_history_MONTH_3_AD.csv[0m
+root - [INFO]{MainThread} - load_and_clean_DF_Train_from_csv() - df loaded from .csv Shape: (1368, 1075) Path: d_price/9633.HK_PLAIN_stock_history_MONTH_3_AD.csv
+root - [DEBUG]{MainThread} - load_and_clean__buy_sell_atack() - columns_selection List HAS vulues, works trains with: Date, buy_sell_point, sti_VAR, vola_THERMO_20_2_05, sti_STDDEV, tend_renko_TR, vola_TRANGE, vola_TRUERANGE_1, volu_PVOL, Volume, mtum_AROON_down, sti_KURT_30, mtum_INERTIA_20_14, mcrh_DEMA_50_DEMA_100, vola_THERMOma_20_2_05, mtum_DMP_14, mtum_PLUS_DM, mtum_PVOh_12_26_9, mtum_PVO_12_26_9, mcrh_TEMA_50_WMA_100, ti_ease_of_movement_14, vola_ATR, mcrh_WMA_5_TEMA_50, mtum_PSL_12, vola_THERMOl_20_2_05, has_preMarket, tend_PSARs_002_02, vola_NATR, mtum_ADXR, mcrh_DEMA_5_ti_h20, ti_mass_index_9_25, per_Volume, mtum_td_seq_sig, mtum_STC_10_12_26_05, mtum_ADX, mtum_FISHERT_9_1, mtum_ER_10, mcrh_EMA_50_WMA_100, mcrh_T3_20_TRIMA_50, mcrh_EMA_20_TEMA_50, ti_konk_gre_bl_crash, vola_RVI_14, mtum_PVOs_12_26_9, cycl_DCPERIOD, mcrh_WMA_10_KAMA_20, volu_Chaikin_AD, mcrh_TEMA_5_DEMA_10, mcrh_KAMA_5_TRIMA_100, mtum_AROONOSC, mtum_DX, mtum_BULLP_13, mtum_CTI_12, mcrh_TEMA_10_TEMA_100, olap_SAREXT, mtum_D_9_3, ti_acc_dist, mtum_WILLIAMS_R, cdl_RICKSHAWMAN, mtum_QQEl_14_5_4236, mtum_murrey_math, mcrh_KAMA_5_TEMA_50, mcrh_TEMA_5_ti_h20, mtum_K_9_3, mcrh_KAMA_20_KAMA_50, mtum_FISHERTs_9_1, tend_PSARl_002_02, mtum_MACD_fix_crash, mtum_J_9_3, mtum_PLUS_DI, mtum_QQEs_14_5_4236, mtum_RSX_14, mcrh_TRIMA_20_TRIMA_100, mtum_STOCH_d, mcrh_KAMA_10_TEMA_100, mcrh_DEMA_10_ti_h20, mcrh_EMA_50_EMA_100, mcrh_EMA_5_TEMA_100, tend_renko_ATR, mcrh_TEMA_5_TEMA_10, mcrh_KAMA_5_DEMA_50, ti_konk_rest, mcrh_SMA_20_DEMA_100, mcrh_SMA_20_TRIMA_100, mcrh_EMA_10_TEMA_100, mcrh_SMA_5_SMA_100, ti_choppiness_14, cycl_SINE_lead, mcrh_T3_50_TEMA_100, sti_TOS_STDEVALL_L_3, clas_r3, sti_TOS_STDEVALL_L_2, mcrh_TEMA_50_DEMA_100, cdl_DOJI
+root - [DEBUG]{MainThread} - load_and_clean__buy_sell_atack() - DataFrame head:
+                  Date  buy_sell_point  sti_VAR  vola_THERMO_20_2_05  sti_STDDEV  ...  sti_TOS_STDEVALL_L_3    clas_r3  sti_TOS_STDEVALL_L_2  mcrh_TEMA_50_DEMA_100  cdl_DOJI
+0  2025-05-08 09:45:00               0      NaN                  NaN         NaN  ...             29.180601        NaN             31.684884                      0      -100
+1  2025-05-08 10:00:00               0      NaN             0.250000         NaN  ...             29.185504  38.166667             31.689787                      0       100
+2  2025-05-08 10:15:00               0      NaN             0.200001         NaN  ...             29.190407  38.383334             31.694689                      0         0
+3  2025-05-08 10:30:00               0      NaN             0.149998         NaN  ...             29.195310  38.699999             31.699592                      0         0
+4  2025-05-08 10:45:00               0   0.0486             0.100002    0.220454  ...             29.200212  38.566668             31.704495                      0         0
+
+[5 rows x 93 columns]
+root - [DEBUG]{MainThread} - load_and_clean__buy_sell_atack() - DataFrame info:
+None
+root - [DEBUG]{MainThread} - load_and_clean__buy_sell_atack() - DataFrame describe:
+       buy_sell_point      sti_VAR  vola_THERMO_20_2_05   sti_STDDEV  tend_renko_TR  ...  sti_TOS_STDEVALL_L_3      clas_r3  sti_TOS_STDEVALL_L_2  mcrh_TEMA_50_DEMA_100     cdl_DOJI
+count     1368.000000  1364.000000          1367.000000  1364.000000    1342.000000  ...           1368.000000  1367.000000           1368.000000            1368.000000  1368.000000
+mean        -0.365497     0.032080             0.167410     0.129121       0.224851  ...             32.531706    40.473433             35.035989              -0.001462    20.540936
+std         33.233642     0.090480             0.224979     0.124172       0.234979  ...              1.936884     2.605826              1.936884               0.166721    40.595419
+min       -100.000000     0.000000             0.000000     0.000000       0.000000  ...             29.180601    36.566666             31.684884              -1.000000  -100.000000
+25%          0.000000     0.003400             0.049999     0.058310       0.100002  ...             30.856153    38.883332             33.360436               0.000000     0.000000
+50%          0.000000     0.008600             0.100002     0.092736       0.150002  ...             32.531706    39.600000             35.035989               0.000000     0.000000
+75%          0.000000     0.021400             0.200001     0.146287       0.250000  ...             34.207259    40.808333             36.711541               0.000000     0.000000
+max        100.000000     1.255402             2.950001     1.120447       4.000000  ...             35.882811    52.333333             38.387094               1.000000   100.000000
+
+[8 rows x 91 columns]
+root - [DEBUG]{MainThread} - load_and_clean__buy_sell_atack() -  groupby(Y_TARGET).count()                 Date
+buy_sell_point      
+0               1290
+100               78
+root - [DEBUG]{MainThread} - cast_Y_label_binary() - Label classes: [0, 100]
+root - [DEBUG]{MainThread} - load_split_data_multidimension() - [96mDataFrame head:
+             Date  buy_sell_point  sti_VAR  vola_THERMO_20_2_05  sti_STDDEV  ...  sti_TOS_STDEVALL_L_3    clas_r3  sti_TOS_STDEVALL_L_2  mcrh_TEMA_50_DEMA_100  cdl_DOJI
+103  1.747229e+09               0   0.0194             0.199997    0.139283  ...             29.685596  39.133336             32.189878                      0         0
+104  1.747230e+09               0   0.0190             0.050003    0.137840  ...             29.690498  39.516665             32.194781                      0         0
+105  1.747231e+09               0   0.0146             0.300003    0.120830  ...             29.695401  39.550006             32.199684                      0       100
+106  1.747232e+09               0   0.0114             0.050003    0.106771  ...             29.700304  38.999996             32.204587                      0         0
+107  1.747233e+09               0   0.0110             0.049999    0.104881  ...             29.705207  39.133336             32.209490                      0         0
+
+[5 rows x 93 columns][0m
+root - [DEBUG]{MainThread} - load_split_data_multidimension() - [94mshape_imput_3d: (-1, 10, 92)[0m
+root - [DEBUG]{MainThread} - load_split_data_multidimension() - [94mshape_imput_3d: (-1, 10, 92)[0m
+root - [DEBUG]{MainThread} - load_split_data_multidimension() - [96marr_vali sample: [[1747237500.0 0.0014 0.050003 0.037417 0.150002 0.150002 0.150002
+  12346529.515076 317800 21.428571 0.324918 57.946874 0 0.090396 0.457269
+  0.457269 5.651211 -7.741563 0 -0.000138 0.165036 0 50.0 1 False
+  39.124321 0.424804 14.318279 0 25.490102 101.139241 -2 50.0 11.104074
+  -0.902332 0.0 0 0 0 0 58.56389 -13.392774 12.700735 0 8260022.287916 0
+  0 21.428571 0.905886 0.066222 -0.12971 0 -39.124321 40.2347
+  8260022.287916 -54.545707 0 49.096825 -0.045457 0 0 34.496099 0
+  -0.632988 0.0 0 23.018897 19.791926 0.0 52.472891 0 38.055012 0 0 0 0
+  0.178846 0 0 -68.285364 0 0 0 0 52.529776 -0.59456 0 29.729721
+  39.099995 32.234004 0 0]
+ [1747236600.0 0.002 0.049999 0.044722 0.149998 0.149998 0.149998
+  6138299.758911 158000 28.571429 0.423596 55.887005 0 0.094648 0.438595
+  0.438595 -1.191363 -15.996939 0 0.023376 0.166193 0 50.0 1 False
+  39.142001 0.42778 14.670886 0 25.332979 93.317101 -1 50.0 11.88855
+  -0.632988 0.111109 0 0 0 0 58.56389 -14.805576 12.806602 0
+  8154099.730569 0 0 21.428571 6.686186 0.018922 0.121267 0 -39.142001
+  43.104 8154099.730569 -54.545707 0 49.096825 -0.045457 0 0 35.077765 0
+  -0.132977 0.0 0 19.025293 18.851589 0.0 53.122215 0 33.055268 0 0 0 0
+  0.176923 0 0 -65.532805 0 0 0 0 52.52971 -0.945131 0 29.724819
+  38.999996 32.229101 0 0]
+ [1747235700.0 0.002 0.050003 0.044722 0.099998 0.099998 0.099998
+  3171162.737644 81731 35.714286 0.53045 54.295175 0 0.099348 0.472333
+  0.472333 -2.482747 -16.990482 0 0.006732 0.167438 0 50.0 1 False
+  39.150002 0.431542 14.828297 0 25.250174 -40.860347 -2 0.0 12.288732
+  -0.132977 0.111109 0 0 0 0 51.264198 -14.507736 13.010409 0
+  7996099.730569 0 0 21.428571 1.444169 0.022075 0.17717 0 -39.150002
+  47.117118 7996099.730569 -63.636427 0 49.096825 -0.136364 0 0 35.950263
+  0 0.293844 0.0 0 13.616551 20.150742 0.0 54.05517 0 31.944365 0 0 0 0
+  0.176923 0 0 -66.980273 0 0 0 0 53.38131 -0.999995 0 29.719916 39.11667
+  32.224198 0 0]
+ [1747234800.0 0.002 0.099998 0.044722 0.150002 0.150002 0.150002
+  5362159.894562 138200 42.857143 0.423596 54.476275 0 0.104542 0.508666
+  0.508666 0.278889 -13.60816 0 0.020348 0.172626 0 50.0 1 False 0.0
+  0.444913 14.987922 0 25.190421 89.835165 -1 0.0 13.122929 0.293844 0.0
+  0 0 0 0 51.264198 -13.887049 13.29708 0 7996099.730569 1 0 21.428571
+  1.444169 0.067424 0.411188 0 38.738763 52.700546 7996099.730569
+  -63.636427 0 49.096825 -0.136364 0 0 47.675513 0 0.416561 38.738763 0
+  37.625447 21.048713 0.0 55.40241 0 33.207037 0 0 0 0 0.175 0 0
+  -72.436248 0 0 0 0 53.38131 -0.933079 0 29.715013 39.100005 32.219295 0
+  0]
+ [1747233900.0 0.0014 0.049999 0.037418 0.100002 0.100002 0.100002
+  2831920.111084 72800 50.0 0.324918 55.163118 0 0.10502 0.547794
+  0.547794 1.361367 -12.595404 0 0.005301 0.174367 0 50.0 1 False 0.0
+  0.448243 15.435138 1 25.015215 -60.691145 0 0.0 14.021295 0.416561
+  0.200002 0 0 0 0 59.768064 -13.956771 13.627363 0 8042168.740284 1 0
+  21.428571 9.127599 0.111994 0.598122 0 38.703003 55.213063
+  8042168.740284 -45.454293 100 49.096825 0.045457 0 0 53.331483 0
+  0.407865 38.703003 0 49.568324 22.44169 0.0 56.425795 0 33.964525 0 0 0
+  0 0.173077 0 0 -81.248296 0 0 0 0 54.214065 -0.726291 0 29.71011
+  39.183337 32.214393 0 100]
+ [1747233000.0 0.011 0.049999 0.104881 0.150002 0.150002 0.150002
+  7204280.282593 185200 57.142857 0.324918 54.114919 0 0.110812 0.589932
+  0.589932 6.399463 -7.89765 0 -0.068655 0.180087 0 58.333333 1 False 0.0
+  0.462948 15.621238 -1 24.903423 -14.100186 1 0.0 14.397733 0.407865
+  0.200002 0 0 0 0 59.768064 -14.297113 13.958611 0 8042165.963248 0 0
+  21.428571 9.127599 0.122326 0.585369 0 38.664133 56.153853
+  8042165.963248 -45.454293 0 49.096825 0.045457 0 0 52.724371 0 0.51656
+  38.664133 0 45.865409 23.400364 0.0 56.53213 0 43.055399 0 -1 0 0
+  0.173077 0 0 -74.995913 0 0 0 0 55.826723 -0.149578 0 29.705207
+  39.133336 32.20949 0 0]
+ [1747232100.0 0.0114 0.050003 0.106771 0.150002 0.150002 0.150002
+  8376059.671021 215600 64.285714 0.613012 52.489912 0 0.117213 0.581466
+  0.581466 8.121355 -7.775624 0 -0.061466 0.182401 0 50.0 1 False 0.0
+  0.469501 15.957031 -1 24.741264 4.558681 1 0.0 14.803128 0.51656
+  0.099999 0 0 0 0 53.904778 -15.896979 14.247782 0 7980429.490027 -1 0
+  21.428571 4.72143 0.084382 0.593013 0 38.621884 57.868593
+  7980429.490027 -54.545707 0 49.096825 -0.045457 0 -1 51.813704 0
+  0.752248 38.621884 0 39.703925 22.772017 0.0 56.880478 0 57.491337 0 -1
+  0 0 0.171154 -1 0 -71.703467 0 0 0 0 55.826723 0.195454 0 29.700304
+  38.999996 32.204587 0 0]
+ [1747231200.0 0.0146 0.300003 0.12083 0.099998 0.099998 0.099998
+  8000559.842682 206200 0.0 0.642715 51.444922 0 0.124288 0.572345
+  0.572345 8.902483 -9.024835 0 0.06733 0.184893 0 41.666667 0 False 0.0
+  0.476529 16.772563 0 24.575863 -20.139427 1 0.0 15.578644 0.752248
+  0.099999 0 0 0 0 47.241031 -17.927318 14.474201 0 7908570.133941 -1 0
+  92.857143 0.228993 0.040109 0.448918 0 38.575961 60.896038
+  7908570.133941 -63.636427 100 49.096825 -0.136364 0 -1 54.993409 0
+  0.906656 38.575961 0 43.188152 22.112762 0.0 57.711221 0 72.659749 0 0
+  0 0 0.171154 -1 0 -70.335936 0 0 0 0 59.581511 0.484816 0 29.695401
+  39.550006 32.199684 0 100]
+ [1747230300.0 0.019 0.050003 0.13784 0.300003 0.300003 0.300003
+  10031069.606018 258200 0.0 0.702938 51.859784 0 0.105792 0.616371
+  0.616371 10.137063 -10.015876 0 0.262509 0.191424 0 41.666667 1 False
+  0.0 0.492725 17.823614 0 24.408179 -23.280345 2 0.0 16.759386 0.906656
+  0.0 0 0 0 0 54.446592 -20.152938 14.648676 0 7908570.133941 0 0 100.0
+  9.847049 0.338463 0.305354 0 38.526044 63.847352 7908570.133941
+  -40.000407 0 49.096825 0.099996 0 0 64.308327 0 0.434821 38.526044 0
+  65.230276 23.001417 0.0 58.426052 0 72.82821 0 0 0 0 0.171154 0 0
+  -99.700662 0 0 0 0 51.893007 -0.865321 0 29.690498 39.516665 32.194781
+  0 0]
+ [1747229400.0 0.0194 0.199997 0.139283 0.25 0.25 0.25 13159104.486465
+  336550 7.142857 0.91012 50.604574 0 0.111664 0.609935 0.609935 8.903179
+  -13.784025 0 -303.237838 0.183072 0 50.0 1 False 0.0 0.468214 17.88171
+  1 24.110935 117.409561 3 0.0 17.291104 0.434821 0.22222 0 0 0 0
+  63.073349 -22.687204 14.764049 1 8166770.133941 1 0 92.857143 5.64281
+  0.29487 0.065791 0 38.489409 63.616865 8166770.133941 -0.0 0 49.096825
+  0.5 0 1 73.735344 0 0.024128 38.489409 0 93.972302 23.799914 0.0
+  57.24917 0 67.40766 0 1 0 0 0.169231 1 0 -102.934972 0 0 0 0 46.247643
+  -0.850981 0 29.685596 39.133336 32.189878 0 0]][0m
+root - [DEBUG]{MainThread} - load_split_data_multidimension() - i want to chc folder: Models/TF_multi/Scalers/9633.HK_neg_reg4_
+root - [DEBUG]{MainThread} - scaler_min_max_array() - Scaler will be Saved Path: Models/TF_multi/Scalers/9633.HK_neg_reg4_.scal
+root - [INFO]{MainThread} - log_shapes_trains_val_data() - Training features shape SMOTE:(1256, 10, 92)	 Labels shape:(1256, 1)
+root - [DEBUG]{MainThread} - log_shapes_trains_val_data() - Validation features shape:(361, 10, 92)	 Labels shape:(361, 1)
+root - [DEBUG]{MainThread} - log_shapes_trains_val_data() - Test features shape:(227, 10, 92)		 Labels shape:(227, 1)
+root - [DEBUG]{MainThread} - __init__() - [95mCreated object TF_multidimension Path from: d_price/9633.HK_PLAIN_stock_history_MONTH_3_AD.csv[0m
+root - [INFO]{MainThread} - load_and_clean_DF_Train_from_csv() - df loaded from .csv Shape: (1368, 1075) Path: d_price/9633.HK_PLAIN_stock_history_MONTH_3_AD.csv
+root - [DEBUG]{MainThread} - load_and_clean__buy_sell_atack() - columns_selection List HAS vulues, works trains with: Date, buy_sell_point, sti_VAR, vola_THERMO_20_2_05, sti_STDDEV, tend_renko_TR, vola_TRANGE, vola_TRUERANGE_1, volu_PVOL, Volume, mtum_AROON_down, sti_KURT_30, mtum_INERTIA_20_14, mcrh_DEMA_50_DEMA_100, vola_THERMOma_20_2_05, mtum_DMP_14, mtum_PLUS_DM, mtum_PVOh_12_26_9, mtum_PVO_12_26_9, mcrh_TEMA_50_WMA_100, ti_ease_of_movement_14, vola_ATR, mcrh_WMA_5_TEMA_50, mtum_PSL_12, vola_THERMOl_20_2_05, has_preMarket, tend_PSARs_002_02, vola_NATR, mtum_ADXR, mcrh_DEMA_5_ti_h20, ti_mass_index_9_25, per_Volume, mtum_td_seq_sig, mtum_STC_10_12_26_05, mtum_ADX, mtum_FISHERT_9_1, mtum_ER_10, mcrh_EMA_50_WMA_100, mcrh_T3_20_TRIMA_50, mcrh_EMA_20_TEMA_50, ti_konk_gre_bl_crash, vola_RVI_14, mtum_PVOs_12_26_9, cycl_DCPERIOD, mcrh_WMA_10_KAMA_20, volu_Chaikin_AD, mcrh_TEMA_5_DEMA_10, mcrh_KAMA_5_TRIMA_100, mtum_AROONOSC, mtum_DX, mtum_BULLP_13, mtum_CTI_12, mcrh_TEMA_10_TEMA_100, olap_SAREXT, mtum_D_9_3, ti_acc_dist, mtum_WILLIAMS_R, cdl_RICKSHAWMAN, mtum_QQEl_14_5_4236, mtum_murrey_math, mcrh_KAMA_5_TEMA_50, mcrh_TEMA_5_ti_h20, mtum_K_9_3, mcrh_KAMA_20_KAMA_50, mtum_FISHERTs_9_1, tend_PSARl_002_02, mtum_MACD_fix_crash, mtum_J_9_3, mtum_PLUS_DI, mtum_QQEs_14_5_4236, mtum_RSX_14, mcrh_TRIMA_20_TRIMA_100, mtum_STOCH_d, mcrh_KAMA_10_TEMA_100, mcrh_DEMA_10_ti_h20, mcrh_EMA_50_EMA_100, mcrh_EMA_5_TEMA_100, tend_renko_ATR, mcrh_TEMA_5_TEMA_10, mcrh_KAMA_5_DEMA_50, ti_konk_rest, mcrh_SMA_20_DEMA_100, mcrh_SMA_20_TRIMA_100, mcrh_EMA_10_TEMA_100, mcrh_SMA_5_SMA_100, ti_choppiness_14, cycl_SINE_lead, mcrh_T3_50_TEMA_100, sti_TOS_STDEVALL_L_3, clas_r3, sti_TOS_STDEVALL_L_2, mcrh_TEMA_50_DEMA_100, cdl_DOJI, ti_vortex_pos_5, olap_SWMA_10, vola_THERMOs_20_2_05, ti_konk_gre, ti_konk_bro, volu_EFI_13, olap_MIDPRICE, volu_PVI_1, ti_vortex_pos_14, sti_TOS_STDEVALL_LR, olap_VMAP, sti_TOS_STDEVALL_U_2, sti_TOS_STDEVALL_L_1, sti_LINEARREG_SLOPE, sti_LINEARREG_ANGLE, perf_z_30_1, sti_TOS_STDEVALL_U_1, mtum_ULTOSC, perf_CUMPCTRET_1, pcrh_wood_pp, sti_TOS_STDEVALL_U_3, sti_ZS_30, tend_PSARaf_002_02, tend_VHF_28, tend_ll, per_Close, Close, mtum_DMN_14, mtum_STCmacd_10_12_26_05, mtum_PGO_14, mcrh_EMA_5_TEMA_50, mcrh_EMA_5_DEMA_100, mcrh_EMA_50_TRIMA_100, mcrh_EMA_50_TEMA_100, mcrh_EMA_20_WMA_50, mcrh_EMA_20_WMA_100, mcrh_EMA_20_TRIMA_50, mcrh_EMA_10_TRIMA_50, mcrh_EMA_10_TRIMA_100, mcrh_EMA_10_SMA_100, mcrh_DEMA_5_DEMA_10, mcrh_DEMA_50_EMA_100, mcrh_DEMA_20_TRIMA_50, mcrh_DEMA_20_TRIMA_100, ma_SMA_50, ma_EMA_10, ichi_isin_cloud, cycl_SINE_sine, cycl_HT_TRENDMODE, cycl_EBSW_40_10, cdl_LONGLEGGEDDOJI, cdl_HAMMER, cdl_GRAVESTONEDOJI, cama_r3, HSI_SMA_20, mcrh_KAMA_50_TRIMA_100, mcrh_KAMA_5_DEMA_20, mcrh_KAMA_5_SMA_10, mcrh_WMA_10_DEMA_20, mtum_MINUS_DM, mtum_MINUS_DI, mtum_MFI, mtum_MACD_signal, mtum_MACD_fix_list, mtum_MACD_fix, mtum_MACD_crash, HSI_Close, mtum_BIAS_SMA_26, mcrh_WMA_20_TRIMA_100, mcrh_WMA_10_TRIMA_100, mcrh_TRIMA_5_TRIMA_100, mcrh_KAMA_5_T3_10, mcrh_TRIMA_5_SMA_100, mcrh_TRIMA_10_KAMA_20, mcrh_TEMA_50_ti_h20, mcrh_TEMA_10_DEMA_50, mcrh_T3_5_KAMA_20, mcrh_T3_5_EMA_20, mcrh_T3_20_TRIMA_100, mcrh_SMA_5_WMA_20, mcrh_SMA_5_T3_10, mcrh_SMA_50_WMA_100, mcrh_KAMA_5_ti_h20, wood_r3
+root - [DEBUG]{MainThread} - load_and_clean__buy_sell_atack() - DataFrame head:
+                  Date  buy_sell_point  sti_VAR  vola_THERMO_20_2_05  sti_STDDEV  ...  mcrh_SMA_5_WMA_20  mcrh_SMA_5_T3_10  mcrh_SMA_50_WMA_100  mcrh_KAMA_5_ti_h20    wood_r3
+0  2025-05-08 09:45:00               0      NaN                  NaN         NaN  ...                  0                 0                    0                   0        NaN
+1  2025-05-08 10:00:00               0      NaN             0.250000         NaN  ...                  0                 0                    0                   0  38.125000
+2  2025-05-08 10:15:00               0      NaN             0.200001         NaN  ...                  0                 0                    0                   0  38.275002
+3  2025-05-08 10:30:00               0      NaN             0.149998         NaN  ...                  0                 0                    0                   0  38.600000
+4  2025-05-08 10:45:00               0   0.0486             0.100002    0.220454  ...                  0                 0                    0                   0  38.450003
+
+[5 rows x 177 columns]
+root - [DEBUG]{MainThread} - load_and_clean__buy_sell_atack() - DataFrame info:
+None
+root - [DEBUG]{MainThread} - load_and_clean__buy_sell_atack() - DataFrame describe:
+       buy_sell_point      sti_VAR  vola_THERMO_20_2_05   sti_STDDEV  tend_renko_TR  ...  mcrh_SMA_5_WMA_20  mcrh_SMA_5_T3_10  mcrh_SMA_50_WMA_100  mcrh_KAMA_5_ti_h20      wood_r3
+count     1368.000000  1364.000000          1367.000000  1364.000000    1342.000000  ...        1368.000000       1368.000000          1368.000000         1368.000000  1367.000000
+mean        -0.365497     0.032080             0.167410     0.129121       0.224851  ...           0.004386          0.005848             0.000000            0.009503    40.369203
+std         33.233642     0.090480             0.224979     0.124172       0.234979  ...           0.417234          0.408356             0.162281            0.450048     2.582486
+min       -100.000000     0.000000             0.000000     0.000000       0.000000  ...          -1.000000         -1.000000            -1.000000           -1.000000    36.500000
+25%          0.000000     0.003400             0.049999     0.058310       0.100002  ...           0.000000          0.000000             0.000000            0.000000    38.800005
+50%          0.000000     0.008600             0.100002     0.092736       0.150002  ...           0.000000          0.000000             0.000000            0.000000    39.499996
+75%          0.000000     0.021400             0.200001     0.146287       0.250000  ...           0.000000          0.000000             0.000000            0.000000    40.699997
+max        100.000000     1.255402             2.950001     1.120447       4.000000  ...           1.000000          1.000000             1.000000            1.000000    51.000000
+
+[8 rows x 175 columns]
+root - [DEBUG]{MainThread} - load_and_clean__buy_sell_atack() -  groupby(Y_TARGET).count()                 Date
+buy_sell_point      
+0               1290
+100               78
+root - [DEBUG]{MainThread} - cast_Y_label_binary() - Label classes: [0, 100]
+root - [DEBUG]{MainThread} - load_split_data_multidimension() - [96mDataFrame head:
+             Date  buy_sell_point  sti_VAR  vola_THERMO_20_2_05  sti_STDDEV  ...  mcrh_SMA_5_WMA_20  mcrh_SMA_5_T3_10  mcrh_SMA_50_WMA_100  mcrh_KAMA_5_ti_h20    wood_r3
+103  1.747229e+09               0   0.0194             0.199997    0.139283  ...                  1                 1                    0                   1  39.075001
+104  1.747230e+09               0   0.0190             0.050003    0.137840  ...                  0                 0                    0                   1  39.474998
+105  1.747231e+09               0   0.0146             0.300003    0.120830  ...                  0                 0                    0                   0  39.250004
+106  1.747232e+09               0   0.0114             0.050003    0.106771  ...                  0                 0                    0                   0  38.949997
+107  1.747233e+09               0   0.0110             0.049999    0.104881  ...                  0                 0                    0                   0  39.025002
+
+[5 rows x 177 columns][0m
+root - [DEBUG]{MainThread} - load_split_data_multidimension() - [94mshape_imput_3d: (-1, 10, 176)[0m
+root - [DEBUG]{MainThread} - load_split_data_multidimension() - [94mshape_imput_3d: (-1, 10, 176)[0m
+root - [DEBUG]{MainThread} - load_split_data_multidimension() - [96marr_vali sample: [[1747237500.0 0.0014 0.050003 ... 0 0 39.024996]
+ [1747236600.0 0.002 0.049999 ... 0 0 38.949997]
+ [1747235700.0 0.002 0.050003 ... 0 0 39.075001]
+ ...
+ [1747231200.0 0.0146 0.300003 ... 0 0 39.250004]
+ [1747230300.0 0.019 0.050003 ... 0 1 39.474998]
+ [1747229400.0 0.0194 0.199997 ... 0 1 39.075001]][0m
+root - [DEBUG]{MainThread} - load_split_data_multidimension() - i want to chc folder: Models/TF_multi/Scalers/9633.HK_neg_low1_
+root - [DEBUG]{MainThread} - scaler_min_max_array() - Scaler will be Saved Path: Models/TF_multi/Scalers/9633.HK_neg_low1_.scal
+root - [INFO]{MainThread} - log_shapes_trains_val_data() - Training features shape SMOTE:(1254, 10, 176)	 Labels shape:(1254, 1)
+root - [DEBUG]{MainThread} - log_shapes_trains_val_data() - Validation features shape:(361, 10, 176)	 Labels shape:(361, 1)
+root - [DEBUG]{MainThread} - log_shapes_trains_val_data() - Test features shape:(227, 10, 176)		 Labels shape:(227, 1)
+root - [DEBUG]{MainThread} - __init__() - [95mCreated object TF_multidimension Path from: d_price/9633.HK_PLAIN_stock_history_MONTH_3_AD.csv[0m
+root - [INFO]{MainThread} - <module>() - Processing stock: 9633.HK, Buy/Sell type: pos, Columns JSON: <Feature_selection_json_columns.JsonColumns object at 0x73533543eb60>
+root - [INFO]{MainThread} - load_and_clean_DF_Train_from_csv() - df loaded from .csv Shape: (1368, 1075) Path: d_price/9633.HK_PLAIN_stock_history_MONTH_3_AD.csv
+root - [DEBUG]{MainThread} - load_and_clean__buy_sell_atack() - columns_selection List HAS vulues, works trains with: Date, buy_sell_point, mtum_PVOs_12_26_9, mtum_K_9_3, mtum_CTI_12, mtum_D_9_3, mtum_STOCH_d, sti_TOS_STDEVALL_LR, mtum_ER_10, sti_TOS_STDEVALL_L_2
+root - [DEBUG]{MainThread} - load_and_clean__buy_sell_atack() - DataFrame head:
+                  Date  buy_sell_point  mtum_PVOs_12_26_9  mtum_K_9_3  mtum_CTI_12  mtum_D_9_3  mtum_STOCH_d  sti_TOS_STDEVALL_LR  mtum_ER_10  sti_TOS_STDEVALL_L_2
+0  2025-05-08 09:45:00               0                NaN         NaN          NaN         NaN           NaN            36.693449         NaN             31.684884
+1  2025-05-08 10:00:00               0                NaN         NaN          NaN         NaN           NaN            36.698352         NaN             31.689787
+2  2025-05-08 10:15:00               0                NaN         NaN          NaN         NaN           NaN            36.703255         NaN             31.694689
+3  2025-05-08 10:30:00               0                NaN         NaN          NaN         NaN           NaN            36.708158         NaN             31.699592
+4  2025-05-08 10:45:00               0                NaN         NaN          NaN         NaN           NaN            36.713060         NaN             31.704495
+root - [DEBUG]{MainThread} - load_and_clean__buy_sell_atack() - DataFrame info:
+None
+root - [DEBUG]{MainThread} - load_and_clean__buy_sell_atack() - DataFrame describe:
+       buy_sell_point  mtum_PVOs_12_26_9   mtum_K_9_3  mtum_CTI_12   mtum_D_9_3  mtum_STOCH_d  sti_TOS_STDEVALL_LR   mtum_ER_10  sti_TOS_STDEVALL_L_2
+count     1368.000000        1335.000000  1358.000000  1357.000000  1356.000000   1360.000000          1368.000000  1358.000000           1368.000000
+mean        -0.365497          -2.662721    49.289917     0.016917    49.328892     49.587517            40.044554     0.321024             35.035989
+std         33.233642          12.266268    22.629606     0.622655    19.689622     23.688268             1.936884     0.231113              1.936884
+min       -100.000000         -37.282149     4.339062    -0.975577     9.528226     -0.000000            36.693449     0.000000             31.684884
+25%          0.000000         -10.526462    30.023464    -0.579559    33.996197     30.823221            38.369001     0.142855             33.360436
+50%          0.000000          -3.809343    48.561954    -0.006703    48.350626     48.077091            40.044555     0.272732             35.035989
+75%          0.000000           5.393019    68.339799     0.630844    64.480728     69.642938            41.720107     0.466668             36.711541
+max        100.000000          29.160734    94.970616     0.974949    91.195619     98.765359            43.395659     1.000000             38.387094
+root - [DEBUG]{MainThread} - load_and_clean__buy_sell_atack() -  groupby(Y_TARGET).count()                 Date
+buy_sell_point      
+0               1295
+100               73
+root - [DEBUG]{MainThread} - cast_Y_label_binary() - Label classes: [0, 100]
+root - [DEBUG]{MainThread} - load_split_data_multidimension() - [96mDataFrame head:
+            Date  buy_sell_point  mtum_PVOs_12_26_9  mtum_K_9_3  mtum_CTI_12  mtum_D_9_3  mtum_STOCH_d  sti_TOS_STDEVALL_LR  mtum_ER_10  sti_TOS_STDEVALL_L_2
+33  1.746796e+09               0          -9.871309   13.946011    -0.871630   19.311042     20.793718            36.855243    0.647050             31.846678
+34  1.746797e+09               0         -13.141575   28.345161    -0.787723   22.322534     31.322892            36.860146    0.444442             31.851581
+35  1.746798e+09               0         -16.222695   52.230388    -0.527356   32.292082     48.518800            36.865049    0.125002             31.856484
+36  1.746799e+09               0         -19.252472   51.487131    -0.276466   38.690544     65.555897            36.869952    0.176467             31.861387
+37  1.746800e+09               0         -21.682695   50.991630     0.039835   42.790954     71.111524            36.874855    0.066665             31.866290[0m
+root - [DEBUG]{MainThread} - load_split_data_multidimension() - [94mshape_imput_3d: (-1, 10, 9)[0m
+root - [DEBUG]{MainThread} - load_split_data_multidimension() - [94mshape_imput_3d: (-1, 10, 9)[0m
+root - [DEBUG]{MainThread} - load_split_data_multidimension() - [96marr_vali sample: [[ 1.7468046e+09 -1.4240268e+01  3.4963043e+01  4.3267500e-01
+   4.6152518e+01  3.7962516e+01  3.6899369e+01  7.6928000e-02
+   3.1890804e+01]
+ [ 1.7468037e+09 -1.5383463e+01  5.2444583e+01  6.6867100e-01
+   5.1747269e+01  4.1481183e+01  3.6894466e+01  2.7273200e-01
+   3.1885901e+01]
+ [ 1.7468028e+09 -1.6560075e+01  5.7238232e+01  7.6386100e-01
+   5.1398611e+01  3.9444507e+01  3.6889563e+01  2.7272300e-01
+   3.1880998e+01]
+ [ 1.7468019e+09 -1.9289070e+01  5.4607461e+01  6.8766600e-01
+   4.8478785e+01  4.6667042e+01  3.6884661e+01  3.8461400e-01
+   3.1876095e+01]
+ [ 1.7468010e+09 -2.4167436e+01  5.0661298e+01  3.8100000e-01
+   4.5414423e+01  5.9444894e+01  3.6879758e+01  7.6921000e-02
+   3.1871192e+01]
+ [ 1.7468001e+09 -2.1682695e+01  5.0991630e+01  3.9835000e-02
+   4.2790954e+01  7.1111524e+01  3.6874855e+01  6.6665000e-02
+   3.1866290e+01]
+ [ 1.7467992e+09 -1.9252472e+01  5.1487131e+01 -2.7646600e-01
+   3.8690544e+01  6.5555897e+01  3.6869952e+01  1.7646700e-01
+   3.1861387e+01]
+ [ 1.7467983e+09 -1.6222695e+01  5.2230388e+01 -5.2735600e-01
+   3.2292082e+01  4.8518800e+01  3.6865049e+01  1.2500200e-01
+   3.1856484e+01]
+ [ 1.7467974e+09 -1.3141575e+01  2.8345161e+01 -7.8772300e-01
+   2.2322534e+01  3.1322892e+01  3.6860146e+01  4.4444200e-01
+   3.1851581e+01]
+ [ 1.7467965e+09 -9.8713090e+00  1.3946011e+01 -8.7163000e-01
+   1.9311042e+01  2.0793718e+01  3.6855243e+01  6.4705000e-01
+   3.1846678e+01]][0m
+root - [DEBUG]{MainThread} - load_split_data_multidimension() - i want to chc folder: Models/TF_multi/Scalers/9633.HK_pos_vgood16_
+root - [DEBUG]{MainThread} - scaler_min_max_array() - Scaler will be Saved Path: Models/TF_multi/Scalers/9633.HK_pos_vgood16_.scal
+root - [INFO]{MainThread} - log_shapes_trains_val_data() - Training features shape SMOTE:(1350, 10, 9)	 Labels shape:(1350, 1)
+root - [DEBUG]{MainThread} - log_shapes_trains_val_data() - Validation features shape:(381, 10, 9)	 Labels shape:(381, 1)
+root - [DEBUG]{MainThread} - log_shapes_trains_val_data() - Test features shape:(239, 10, 9)		 Labels shape:(239, 1)
+root - [DEBUG]{MainThread} - __init__() - [95mCreated object TF_multidimension Path from: d_price/9633.HK_PLAIN_stock_history_MONTH_3_AD.csv[0m
+root - [INFO]{MainThread} - load_and_clean_DF_Train_from_csv() - df loaded from .csv Shape: (1368, 1075) Path: d_price/9633.HK_PLAIN_stock_history_MONTH_3_AD.csv
+root - [DEBUG]{MainThread} - load_and_clean__buy_sell_atack() - columns_selection List HAS vulues, works trains with: Date, buy_sell_point, mtum_PVOs_12_26_9, mtum_K_9_3, mtum_CTI_12, mtum_D_9_3, mtum_STOCH_d, sti_TOS_STDEVALL_LR, mtum_ER_10, sti_TOS_STDEVALL_L_2, mtum_QQEl_14_5_4236, sti_TOS_STDEVALL_L_3, cycl_SINE_lead, mtum_J_9_3, sti_TOS_STDEVALL_U_3, mtum_ULTOSC, mtum_AROON_down, sti_TOS_STDEVALL_L_1, mcrh_T3_5_EMA_20, sti_TOS_STDEVALL_U_2, mtum_PVO_12_26_9, cycl_EBSW_40_10, ti_acc_dist, mtum_murrey_math, sti_TOS_STDEVALL_U_1, HSI_SMA_20, mtum_FISHERT_9_1, volu_Chaikin_AD, mtum_WILLIAMS_R, ti_mass_index_9_25, vola_TRUERANGE_1, HSI_SMA_100, vola_TRANGE, vola_THERMO_20_2_05, sti_VAR, sti_CORREL, sti_STDDEV, tend_renko_TR, volu_NVI_1, volu_OBV, volu_PVOL, volu_PVT, vola_NATR, olap_VMAP, ti_konk_gre, ma_WMA_5, mcrh_EMA_50_EMA_100, HSI_Close, Volume, cdl_EVENINGDOJISTAR, ichi_isin_cloud
+root - [DEBUG]{MainThread} - load_and_clean__buy_sell_atack() - DataFrame head:
+                  Date  buy_sell_point  mtum_PVOs_12_26_9  mtum_K_9_3  mtum_CTI_12  mtum_D_9_3  ...  ma_WMA_5  mcrh_EMA_50_EMA_100     HSI_Close  Volume  cdl_EVENINGDOJISTAR  ichi_isin_cloud
+0  2025-05-08 09:45:00               0                NaN         NaN          NaN         NaN  ...       NaN                    0  22816.919922  816455                 -100                0
+1  2025-05-08 10:00:00               0                NaN         NaN          NaN         NaN  ...       NaN                    0  22776.720703  221200                  100                0
+2  2025-05-08 10:15:00               0                NaN         NaN          NaN         NaN  ...       NaN                    0  22894.380859  261209                    0                0
+3  2025-05-08 10:30:00               0                NaN         NaN          NaN         NaN  ...       NaN                    0  22846.960938  345400                    0                0
+4  2025-05-08 10:45:00               0                NaN         NaN          NaN         NaN  ...     38.18                    0  22911.650391  275100                    0                0
+
+[5 rows x 51 columns]
+root - [DEBUG]{MainThread} - load_and_clean__buy_sell_atack() - DataFrame info:
+None
+root - [DEBUG]{MainThread} - load_and_clean__buy_sell_atack() - DataFrame describe:
+       buy_sell_point  mtum_PVOs_12_26_9   mtum_K_9_3  mtum_CTI_12   mtum_D_9_3  mtum_STOCH_d  ...     ma_WMA_5  mcrh_EMA_50_EMA_100     HSI_Close        Volume  cdl_EVENINGDOJISTAR  ichi_isin_cloud
+count     1368.000000        1335.000000  1358.000000  1357.000000  1356.000000   1360.000000  ...  1364.000000          1368.000000   1368.000000  1.368000e+03          1368.000000      1368.000000
+mean        -0.365497          -2.662721    49.289917     0.016917    49.328892     49.587517  ...    40.043319             0.000000  24007.778807  3.187126e+05            -0.073099         0.052632
+std         33.233642          12.266268    22.629606     0.622655    19.689622     23.688268  ...     2.494873             0.132502    696.103648  4.330103e+05             4.684071         0.371054
+min       -100.000000         -37.282149     4.339062    -0.975577     9.528226     -0.000000  ...    36.313333            -1.000000  22676.820312  8.800000e+01          -100.000000        -1.000000
+25%          0.000000         -10.526462    30.023464    -0.579559    33.996197     30.823221  ...    38.545834             0.000000  23483.776855  1.163500e+05             0.000000         0.000000
+50%          0.000000          -3.809343    48.561954    -0.006703    48.350626     48.077091  ...    39.168334             0.000000  23915.580078  2.107000e+05             0.000000         0.000000
+75%          0.000000           5.393019    68.339799     0.630844    64.480728     69.642938  ...    40.390000             0.000000  24354.392578  3.666500e+05             0.000000         0.000000
+max        100.000000          29.160734    94.970616     0.974949    91.195619     98.765359  ...    47.050000             1.000000  25715.500000  6.231640e+06           100.000000         1.000000
+
+[8 rows x 50 columns]
+root - [DEBUG]{MainThread} - load_and_clean__buy_sell_atack() -  groupby(Y_TARGET).count()                 Date
+buy_sell_point      
+0               1295
+100               73
+root - [DEBUG]{MainThread} - cast_Y_label_binary() - Label classes: [0, 100]
+root - [DEBUG]{MainThread} - load_split_data_multidimension() - [96mDataFrame head:
+             Date  buy_sell_point  mtum_PVOs_12_26_9  mtum_K_9_3  mtum_CTI_12  mtum_D_9_3  ...   ma_WMA_5  mcrh_EMA_50_EMA_100     HSI_Close  Volume  cdl_EVENINGDOJISTAR  ichi_isin_cloud
+103  1.747229e+09               0         -22.687204   73.735344     0.065791   63.616865  ...  38.889999                    0  23581.199219  336550                    0                0
+104  1.747230e+09               0         -20.152938   64.308327     0.305354   63.847352  ...  38.893332                    0  23512.289062  258200                    0                0
+105  1.747231e+09               0         -17.927318   54.993409     0.448918   60.896038  ...  38.876665                    0  23505.980469  206200                    0                0
+106  1.747232e+09               0         -15.896979   51.813704     0.593013   57.868593  ...  38.869999                    0  23517.900391  215600                    0                0
+107  1.747233e+09               0         -14.297113   52.724371     0.585369   56.153853  ...  38.873333                    0  23563.619141  185200                    0                0
+
+[5 rows x 51 columns][0m
+root - [DEBUG]{MainThread} - load_split_data_multidimension() - [94mshape_imput_3d: (-1, 10, 50)[0m
+root - [DEBUG]{MainThread} - load_split_data_multidimension() - [94mshape_imput_3d: (-1, 10, 50)[0m
+root - [DEBUG]{MainThread} - load_split_data_multidimension() - [96marr_vali sample: [[ 1.74723750e+09 -1.33927740e+01  3.44960990e+01 -1.29710000e-01
+   4.02347000e+01  3.80550120e+01  3.72425690e+01  0.00000000e+00
+   3.22340040e+01  4.90968250e+01  2.97297210e+01 -5.94560000e-01
+   2.30188970e+01  4.47554170e+01  6.15735500e+01  2.14285710e+01
+   3.47382870e+01  0.00000000e+00  4.22511350e+01 -7.74156300e+00
+  -8.02627000e-01  8.26002229e+06 -4.54570000e-02  3.97468520e+01
+   2.34945796e+04 -9.02332000e-01  8.26002229e+06 -5.45457070e+01
+   2.54901020e+01  1.50002000e-01  2.31493935e+04  1.50002000e-01
+   5.00030000e-02  1.40000000e-03  7.50525000e-01  3.74170000e-02
+   1.50002000e-01  9.97228610e+02  6.35683000e+06  1.23465295e+07
+   5.45044334e+06  4.24804000e-01  3.87109580e+01  6.39051530e+01
+   3.88366660e+01  0.00000000e+00  2.36193398e+04  3.17800000e+05
+   0.00000000e+00  1.00000000e+00]
+ [ 1.74723660e+09 -1.48055760e+01  3.50777650e+01  1.21267000e-01
+   4.31040000e+01  3.30552680e+01  3.72376670e+01  1.11109000e-01
+   3.22291010e+01  4.90968250e+01  2.97248190e+01 -9.45131000e-01
+   1.90252930e+01  4.47505150e+01  5.91358410e+01  2.85714290e+01
+   3.47333840e+01  0.00000000e+00  4.22462320e+01 -1.59969390e+01
+  -9.38484000e-01  8.15409973e+06 -4.54570000e-02  3.97419490e+01
+   2.34847696e+04 -6.32988000e-01  8.15409973e+06 -5.45457070e+01
+   2.53329790e+01  1.49998000e-01  2.31409050e+04  1.49998000e-01
+   4.99990000e-02  2.00000000e-03  7.45672000e-01  4.47220000e-02
+   1.49998000e-01  9.97228610e+02  6.35683000e+06  6.13829976e+06
+   5.45044334e+06  4.27780000e-01  3.87097990e+01  6.04953280e+01
+   3.88366660e+01  0.00000000e+00  2.35924902e+04  1.58000000e+05
+   0.00000000e+00  1.00000000e+00]
+ [ 1.74723570e+09 -1.45077360e+01  3.59502630e+01  1.77170000e-01
+   4.71171180e+01  3.19443650e+01  3.72327640e+01  1.11109000e-01
+   3.22241980e+01  4.90968250e+01  2.97199160e+01 -9.99995000e-01
+   1.36165510e+01  4.47456120e+01  4.47928640e+01  3.57142860e+01
+   3.47284810e+01  0.00000000e+00  4.22413290e+01 -1.69904820e+01
+  -4.73310000e-01  7.99609973e+06 -1.36364000e-01  3.97370460e+01
+   2.34734206e+04 -1.32977000e-01  7.99609973e+06 -6.36364270e+01
+   2.52501740e+01  9.99980000e-02  2.31328818e+04  9.99980000e-02
+   5.00030000e-02  2.00000000e-03  7.43365000e-01  4.47220000e-02
+   9.99980000e-02  9.97228610e+02  6.19883000e+06  3.17116274e+06
+   5.43008282e+06  4.31542000e-01  3.87094680e+01  6.11814260e+01
+   3.88366670e+01  0.00000000e+00  2.35641406e+04  8.17310000e+04
+   0.00000000e+00  0.00000000e+00]
+ [ 1.74723480e+09 -1.38870490e+01  4.76755130e+01  4.11188000e-01
+   5.27005460e+01  3.32070370e+01  3.72278610e+01  0.00000000e+00
+   3.22192950e+01  4.90968250e+01  2.97150130e+01 -9.33079000e-01
+   3.76254470e+01  4.47407090e+01  5.15955530e+01  4.28571430e+01
+   3.47235780e+01  0.00000000e+00  4.22364260e+01 -1.36081600e+01
+   9.34610000e-02  7.99609973e+06 -1.36364000e-01  3.97321430e+01
+   2.34611690e+04  2.93844000e-01  7.99609973e+06 -6.36364270e+01
+   2.51904210e+01  1.50002000e-01  2.31253207e+04  1.50002000e-01
+   9.99980000e-02  2.00000000e-03  7.48030000e-01  4.47220000e-02
+   1.50002000e-01  9.97228610e+02  6.19883000e+06  5.36215989e+06
+   5.43008282e+06  4.44913000e-01  3.87092290e+01  6.57536360e+01
+   3.88533340e+01  0.00000000e+00  2.36020508e+04  1.38200000e+05
+   0.00000000e+00  0.00000000e+00]
+ [ 1.74723390e+09 -1.39567710e+01  5.33314830e+01  5.98122000e-01
+   5.52130630e+01  3.39645250e+01  3.72229580e+01  2.00002000e-01
+   3.22143930e+01  4.90968250e+01  2.97101100e+01 -7.26291000e-01
+   4.95683240e+01  4.47358060e+01  5.37486130e+01  5.00000000e+01
+   3.47186750e+01  0.00000000e+00  4.22315230e+01 -1.25954040e+01
+   6.25344000e-01  8.04216874e+06  4.54570000e-02  3.97272410e+01
+   2.34364800e+04  4.16561000e-01  8.04216874e+06 -4.54542930e+01
+   2.50152150e+01  1.00002000e-01  2.31178067e+04  1.00002000e-01
+   4.99990000e-02  1.40000000e-03  7.47116000e-01  3.74180000e-02
+   1.00002000e-01  9.97228610e+02  6.33703000e+06  2.83192011e+06
+   5.46561063e+06  4.48243000e-01  3.87087110e+01  7.35374110e+01
+   3.88733340e+01  0.00000000e+00  2.35962891e+04  7.28000000e+04
+   0.00000000e+00  0.00000000e+00]
+ [ 1.74723300e+09 -1.42971130e+01  5.27243710e+01  5.85369000e-01
+   5.61538530e+01  4.30553990e+01  3.72180550e+01  2.00002000e-01
+   3.22094900e+01  4.90968250e+01  2.97052070e+01 -1.49578000e-01
+   4.58654090e+01  4.47309030e+01  5.64191950e+01  5.71428570e+01
+   3.47137720e+01  0.00000000e+00  4.22266200e+01 -7.89765000e+00
+  -8.12430000e-02  8.04216596e+06  4.54570000e-02  3.97223380e+01
+   2.34120370e+04  4.07865000e-01  8.04216596e+06 -4.54542930e+01
+   2.49034230e+01  1.50002000e-01  2.31103495e+04  1.50002000e-01
+   4.99990000e-02  1.10000000e-02  7.33625000e-01  1.04881000e-01
+   1.50002000e-01  9.97228610e+02  6.33703000e+06  7.20428028e+06
+   5.46561063e+06  4.62948000e-01  3.87082590e+01  6.60853180e+01
+   3.88733330e+01  0.00000000e+00  2.35636191e+04  1.85200000e+05
+   0.00000000e+00  0.00000000e+00]
+ [ 1.74723210e+09 -1.58969790e+01  5.18137040e+01  5.93013000e-01
+   5.78685930e+01  5.74913370e+01  3.72131520e+01  9.99990000e-02
+   3.22045870e+01  4.90968250e+01  2.97003040e+01  1.95454000e-01
+   3.97039250e+01  4.47260000e+01  5.41605600e+01  6.42857140e+01
+   3.47088700e+01  0.00000000e+00  4.22217180e+01 -7.77562400e+00
+   5.42456000e-01  7.98042949e+06 -4.54570000e-02  3.97174350e+01
+   2.33881211e+04  5.16560000e-01  7.98042949e+06 -5.45457070e+01
+   2.47412640e+01  1.50002000e-01  2.31028441e+04  1.50002000e-01
+   5.00030000e-02  1.14000000e-02  7.21848000e-01  1.06771000e-01
+   1.50002000e-01  9.97099902e+02  6.15183000e+06  8.37605967e+06
+   5.44177391e+06  4.69501000e-01  3.87072510e+01  5.78825360e+01
+   3.88699990e+01  0.00000000e+00  2.35179004e+04  2.15600000e+05
+   0.00000000e+00  0.00000000e+00]
+ [ 1.74723120e+09 -1.79273180e+01  5.49934090e+01  4.48918000e-01
+   6.08960380e+01  7.26597490e+01  3.72082490e+01  9.99990000e-02
+   3.21996840e+01  4.90968250e+01  2.96954010e+01  4.84816000e-01
+   4.31881520e+01  4.47210970e+01  5.69521270e+01  0.00000000e+00
+   3.47039670e+01  0.00000000e+00  4.22168150e+01 -9.02483500e+00
+   7.92543000e-01  7.90857013e+06 -1.36364000e-01  3.97125320e+01
+   2.33682561e+04  7.52248000e-01  7.90857013e+06 -6.36364270e+01
+   2.45758630e+01  9.99980000e-02  2.30958188e+04  9.99980000e-02
+   3.00003000e-01  1.46000000e-02  7.15049000e-01  1.20830000e-01
+   9.99980000e-02  9.97099902e+02  5.93623000e+06  8.00055984e+06
+   5.41399082e+06  4.76529000e-01  3.87064170e+01  5.42224390e+01
+   3.88766650e+01  0.00000000e+00  2.35059805e+04  2.06200000e+05
+   0.00000000e+00  0.00000000e+00]
+ [ 1.74723030e+09 -2.01529380e+01  6.43083270e+01  3.05354000e-01
+   6.38473520e+01  7.28282100e+01  3.72033460e+01  0.00000000e+00
+   3.21947810e+01  4.90968250e+01  2.96904980e+01 -8.65321000e-01
+   6.52302760e+01  4.47161940e+01  5.44490680e+01  0.00000000e+00
+   3.46990640e+01  0.00000000e+00  4.22119120e+01 -1.00158760e+01
+   9.16002000e-01  7.90857013e+06  9.99960000e-02  3.97076290e+01
+   2.33500285e+04  9.06656000e-01  7.90857013e+06 -4.00004070e+01
+   2.44081790e+01  3.00003000e-01  2.30892706e+04  3.00003000e-01
+   5.00030000e-02  1.90000000e-02  7.13467000e-01  1.37840000e-01
+   3.00003000e-01  9.97228600e+02  6.14243000e+06  1.00310696e+07
+   5.44052839e+06  4.92725000e-01  3.87057780e+01  8.45120440e+01
+   3.88933320e+01  0.00000000e+00  2.35122891e+04  2.58200000e+05
+   0.00000000e+00  0.00000000e+00]
+ [ 1.74722940e+09 -2.26872040e+01  7.37353440e+01  6.57910000e-02
+   6.36168650e+01  6.74076600e+01  3.71984440e+01  2.22220000e-01
+   3.21898780e+01  4.90968250e+01  2.96855960e+01 -8.50981000e-01
+   9.39723020e+01  4.47112920e+01  6.51716920e+01  7.14285700e+00
+   3.46941610e+01  0.00000000e+00  4.22070090e+01 -1.37840250e+01
+   6.71616000e-01  8.16677013e+06  5.00000000e-01  3.97027260e+01
+   2.33317985e+04  4.34821000e-01  8.16677013e+06 -0.00000000e+00
+   2.41109350e+01  2.50000000e-01  2.30835668e+04  2.50000000e-01
+   1.99997000e-01  1.94000000e-02  6.90197000e-01  1.39283000e-01
+   2.50000000e-01  9.97867987e+02  6.40063000e+06  1.31591045e+07
+   5.60561791e+06  4.68214000e-01  3.87032420e+01  1.03779509e+02
+   3.88899990e+01  0.00000000e+00  2.35811992e+04  3.36550000e+05
+   0.00000000e+00  0.00000000e+00]][0m
+root - [DEBUG]{MainThread} - load_split_data_multidimension() - i want to chc folder: Models/TF_multi/Scalers/9633.HK_pos_good9_
+root - [DEBUG]{MainThread} - scaler_min_max_array() - Scaler will be Saved Path: Models/TF_multi/Scalers/9633.HK_pos_good9_.scal
+root - [INFO]{MainThread} - log_shapes_trains_val_data() - Training features shape SMOTE:(1264, 10, 50)	 Labels shape:(1264, 1)
+root - [DEBUG]{MainThread} - log_shapes_trains_val_data() - Validation features shape:(361, 10, 50)	 Labels shape:(361, 1)
+root - [DEBUG]{MainThread} - log_shapes_trains_val_data() - Test features shape:(227, 10, 50)		 Labels shape:(227, 1)
+root - [DEBUG]{MainThread} - __init__() - [95mCreated object TF_multidimension Path from: d_price/9633.HK_PLAIN_stock_history_MONTH_3_AD.csv[0m
+root - [INFO]{MainThread} - load_and_clean_DF_Train_from_csv() - df loaded from .csv Shape: (1368, 1075) Path: d_price/9633.HK_PLAIN_stock_history_MONTH_3_AD.csv
+root - [DEBUG]{MainThread} - load_and_clean__buy_sell_atack() - columns_selection List HAS vulues, works trains with: Date, buy_sell_point, mtum_PVOs_12_26_9, mtum_K_9_3, mtum_CTI_12, mtum_D_9_3, mtum_STOCH_d, sti_TOS_STDEVALL_LR, mtum_ER_10, sti_TOS_STDEVALL_L_2, mtum_QQEl_14_5_4236, sti_TOS_STDEVALL_L_3, cycl_SINE_lead, mtum_J_9_3, sti_TOS_STDEVALL_U_3, mtum_ULTOSC, mtum_AROON_down, sti_TOS_STDEVALL_L_1, mcrh_T3_5_EMA_20, sti_TOS_STDEVALL_U_2, mtum_PVO_12_26_9, cycl_EBSW_40_10, ti_acc_dist, mtum_murrey_math, sti_TOS_STDEVALL_U_1, HSI_SMA_20, mtum_FISHERT_9_1, volu_Chaikin_AD, mtum_WILLIAMS_R, ti_mass_index_9_25, vola_TRUERANGE_1, HSI_SMA_100, vola_TRANGE, vola_THERMO_20_2_05, sti_VAR, sti_CORREL, sti_STDDEV, tend_renko_TR, volu_NVI_1, volu_OBV, volu_PVOL, volu_PVT, vola_NATR, olap_VMAP, ti_konk_gre, ma_WMA_5, mcrh_EMA_50_EMA_100, HSI_Close, Volume, cdl_EVENINGDOJISTAR, ichi_isin_cloud, mtum_RSX_14, ti_vortex_pos_5, mtum_BR_26, tend_renko_ATR, mtum_QQEs_14_5_4236, sti_KURT_30, ti_konk_rest, ti_supertrend_20, mtum_FISHERTs_9_1, ma_EMA_50, vola_THERMOma_20_2_05, mtum_PSL_12, volu_PVI_1, olap_HT_TRENDLINE, fibo_s2, olap_BBAND_UPPER, olap_MIDPOINT, mtum_STOCH_k, perf_z_30_1, mtum_STOCH_Fa_d, ichi_senkou_b, mtum_SMIs_5_20_5, fibo_s3, ma_WMA_20, sti_ZS_30, trad_s2, cdl_GRAVESTONEDOJI, vola_THERMOl_20_2_05, vola_RVI_14, clas_s1, vola_KCBe_20_2, trad_s3, trad_s1, tend_PSARs_002_02, clas_s2, clas_s3, ti_konk_bro, ti_kelt_20_upper, ti_donchian_upper_20, tend_VHF_28, ti_choppiness_14, olap_HWMA_02_01_01, mcrh_WMA_10_EMA_20, mcrh_TEMA_5_TEMA_10, mcrh_T3_20_TEMA_50, ma_TRIMA_10, mtum_INERTIA_20_14, ma_TRIMA_20, mtum_AR_26, ma_SMA_5, mcrh_T3_10_TRIMA_20, mtum_PLUS_DM, mtum_PVOh_12_26_9, mcrh_DEMA_50_DEMA_100
+root - [DEBUG]{MainThread} - load_and_clean__buy_sell_atack() - DataFrame head:
+                  Date  buy_sell_point  mtum_PVOs_12_26_9  mtum_K_9_3  mtum_CTI_12  mtum_D_9_3  ...  mtum_AR_26  ma_SMA_5  mcrh_T3_10_TRIMA_20  mtum_PLUS_DM  mtum_PVOh_12_26_9  mcrh_DEMA_50_DEMA_100
+0  2025-05-08 09:45:00               0                NaN         NaN          NaN         NaN  ...         NaN       NaN                    0           NaN                NaN                      0
+1  2025-05-08 10:00:00               0                NaN         NaN          NaN         NaN  ...         NaN       NaN                    0           NaN                NaN                      0
+2  2025-05-08 10:15:00               0                NaN         NaN          NaN         NaN  ...         NaN       NaN                    0           NaN                NaN                      0
+3  2025-05-08 10:30:00               0                NaN         NaN          NaN         NaN  ...         NaN       NaN                    0           NaN                NaN                      0
+4  2025-05-08 10:45:00               0                NaN         NaN          NaN         NaN  ...         NaN     38.08                    0           NaN                NaN                      0
+
+[5 rows x 105 columns]
+root - [DEBUG]{MainThread} - load_and_clean__buy_sell_atack() - DataFrame info:
+None
+root - [DEBUG]{MainThread} - load_and_clean__buy_sell_atack() - DataFrame describe:
+       buy_sell_point  mtum_PVOs_12_26_9   mtum_K_9_3  mtum_CTI_12   mtum_D_9_3  ...     ma_SMA_5  mcrh_T3_10_TRIMA_20  mtum_PLUS_DM  mtum_PVOh_12_26_9  mcrh_DEMA_50_DEMA_100
+count     1368.000000        1335.000000  1358.000000  1357.000000  1356.000000  ...  1364.000000          1368.000000   1355.000000        1335.000000            1368.000000
+mean        -0.365497          -2.662721    49.289917     0.016917    49.328892  ...    40.039670            -0.001462      0.824091           0.013582              -0.001462
+std         33.233642          12.266268    22.629606     0.622655    19.689622  ...     2.491503             0.283665      0.463333          10.547833               0.157702
+min       -100.000000         -37.282149     4.339062    -0.975577     9.528226  ...    36.300000            -1.000000      0.149629         -20.487646              -1.000000
+25%          0.000000         -10.526462    30.023464    -0.579559    33.996197  ...    38.540001             0.000000      0.486690          -7.238853               0.000000
+50%          0.000000          -3.809343    48.561954    -0.006703    48.350626  ...    39.170000             0.000000      0.702114          -1.697936               0.000000
+75%          0.000000           5.393019    68.339799     0.630844    64.480728  ...    40.380000             0.000000      1.048291           5.003279               0.000000
+max        100.000000          29.160734    94.970616     0.974949    91.195619  ...    47.060000             1.000000      3.150403          60.571855               1.000000
+
+[8 rows x 104 columns]
+root - [DEBUG]{MainThread} - load_and_clean__buy_sell_atack() -  groupby(Y_TARGET).count()                 Date
+buy_sell_point      
+0               1295
+100               73
+root - [DEBUG]{MainThread} - cast_Y_label_binary() - Label classes: [0, 100]
+root - [DEBUG]{MainThread} - load_split_data_multidimension() - [96mDataFrame head:
+             Date  buy_sell_point  mtum_PVOs_12_26_9  mtum_K_9_3  mtum_CTI_12  mtum_D_9_3  ...  mtum_AR_26   ma_SMA_5  mcrh_T3_10_TRIMA_20  mtum_PLUS_DM  mtum_PVOh_12_26_9  mcrh_DEMA_50_DEMA_100
+103  1.747229e+09               0         -22.687204   73.735344     0.065791   63.616865  ...  114.633827  38.839999                    0      0.609935           8.903179                      0
+104  1.747230e+09               0         -20.152938   64.308327     0.305354   63.847352  ...   97.777578  38.849999                    0      0.616371          10.137063                      0
+105  1.747231e+09               0         -17.927318   54.993409     0.448918   60.896038  ...   97.777409  38.869999                    0      0.572345           8.902483                      0
+106  1.747232e+09               0         -15.896979   51.813704     0.593013   57.868593  ...   97.777409  38.889999                    0      0.581466           8.121355                      0
+107  1.747233e+09               0         -14.297113   52.724371     0.585369   56.153853  ...  104.545133  38.899999                    0      0.589932           6.399463                      0
+
+[5 rows x 105 columns][0m
+root - [DEBUG]{MainThread} - load_split_data_multidimension() - [94mshape_imput_3d: (-1, 10, 104)[0m
+root - [DEBUG]{MainThread} - load_split_data_multidimension() - [94mshape_imput_3d: (-1, 10, 104)[0m
+root - [DEBUG]{MainThread} - load_split_data_multidimension() - [96marr_vali sample: [[ 1.7472375e+09 -1.3392774e+01  3.4496099e+01 ...  4.5726900e-01
+   5.6512110e+00  0.0000000e+00]
+ [ 1.7472366e+09 -1.4805576e+01  3.5077765e+01 ...  4.3859500e-01
+  -1.1913630e+00  0.0000000e+00]
+ [ 1.7472357e+09 -1.4507736e+01  3.5950263e+01 ...  4.7233300e-01
+  -2.4827470e+00  0.0000000e+00]
+ ...
+ [ 1.7472312e+09 -1.7927318e+01  5.4993409e+01 ...  5.7234500e-01
+   8.9024830e+00  0.0000000e+00]
+ [ 1.7472303e+09 -2.0152938e+01  6.4308327e+01 ...  6.1637100e-01
+   1.0137063e+01  0.0000000e+00]
+ [ 1.7472294e+09 -2.2687204e+01  7.3735344e+01 ...  6.0993500e-01
+   8.9031790e+00  0.0000000e+00]][0m
+root - [DEBUG]{MainThread} - load_split_data_multidimension() - i want to chc folder: Models/TF_multi/Scalers/9633.HK_pos_reg4_
+root - [DEBUG]{MainThread} - scaler_min_max_array() - Scaler will be Saved Path: Models/TF_multi/Scalers/9633.HK_pos_reg4_.scal
+root - [INFO]{MainThread} - log_shapes_trains_val_data() - Training features shape SMOTE:(1270, 10, 104)	 Labels shape:(1270, 1)
+root - [DEBUG]{MainThread} - log_shapes_trains_val_data() - Validation features shape:(361, 10, 104)	 Labels shape:(361, 1)
+root - [DEBUG]{MainThread} - log_shapes_trains_val_data() - Test features shape:(227, 10, 104)		 Labels shape:(227, 1)
+root - [DEBUG]{MainThread} - __init__() - [95mCreated object TF_multidimension Path from: d_price/9633.HK_PLAIN_stock_history_MONTH_3_AD.csv[0m
+root - [INFO]{MainThread} - load_and_clean_DF_Train_from_csv() - df loaded from .csv Shape: (1368, 1075) Path: d_price/9633.HK_PLAIN_stock_history_MONTH_3_AD.csv
+root - [DEBUG]{MainThread} - load_and_clean__buy_sell_atack() - columns_selection List HAS vulues, works trains with: Date, buy_sell_point, mtum_PVOs_12_26_9, mtum_K_9_3, mtum_CTI_12, mtum_D_9_3, mtum_STOCH_d, sti_TOS_STDEVALL_LR, mtum_ER_10, sti_TOS_STDEVALL_L_2, mtum_QQEl_14_5_4236, sti_TOS_STDEVALL_L_3, cycl_SINE_lead, mtum_J_9_3, sti_TOS_STDEVALL_U_3, mtum_ULTOSC, mtum_AROON_down, sti_TOS_STDEVALL_L_1, mcrh_T3_5_EMA_20, sti_TOS_STDEVALL_U_2, mtum_PVO_12_26_9, cycl_EBSW_40_10, ti_acc_dist, mtum_murrey_math, sti_TOS_STDEVALL_U_1, HSI_SMA_20, mtum_FISHERT_9_1, volu_Chaikin_AD, mtum_WILLIAMS_R, ti_mass_index_9_25, vola_TRUERANGE_1, HSI_SMA_100, vola_TRANGE, vola_THERMO_20_2_05, sti_VAR, sti_CORREL, sti_STDDEV, tend_renko_TR, volu_NVI_1, volu_OBV, volu_PVOL, volu_PVT, vola_NATR, olap_VMAP, ti_konk_gre, ma_WMA_5, mcrh_EMA_50_EMA_100, HSI_Close, Volume, cdl_EVENINGDOJISTAR, ichi_isin_cloud, mtum_RSX_14, ti_vortex_pos_5, mtum_BR_26, tend_renko_ATR, mtum_QQEs_14_5_4236, sti_KURT_30, ti_konk_rest, ti_supertrend_20, mtum_FISHERTs_9_1, ma_EMA_50, vola_THERMOma_20_2_05, mtum_PSL_12, volu_PVI_1, olap_HT_TRENDLINE, fibo_s2, olap_BBAND_UPPER, olap_MIDPOINT, mtum_STOCH_k, perf_z_30_1, mtum_STOCH_Fa_d, ichi_senkou_b, mtum_SMIs_5_20_5, fibo_s3, ma_WMA_20, sti_ZS_30, trad_s2, cdl_GRAVESTONEDOJI, vola_THERMOl_20_2_05, vola_RVI_14, clas_s1, vola_KCBe_20_2, trad_s3, trad_s1, tend_PSARs_002_02, clas_s2, clas_s3, ti_konk_bro, ti_kelt_20_upper, ti_donchian_upper_20, tend_VHF_28, ti_choppiness_14, olap_HWMA_02_01_01, mcrh_WMA_10_EMA_20, mcrh_TEMA_5_TEMA_10, mcrh_T3_20_TEMA_50, ma_TRIMA_10, mtum_INERTIA_20_14, ma_TRIMA_20, mtum_AR_26, ma_SMA_5, mcrh_T3_10_TRIMA_20, mtum_PLUS_DM, mtum_PVOh_12_26_9, mcrh_DEMA_50_DEMA_100, trad_pp, mcrh_TRIMA_50_WMA_100, ti_vortex_pos_14, mcrh_TRIMA_10_SMA_20, ma_TRIMA_50, ti_kelt_20_lower, mcrh_TEMA_10_DEMA_50, ti_ease_of_movement_14, mcrh_TEMA_50_DEMA_100, mcrh_SMA_20_DEMA_100, mcrh_TEMA_5_DEMA_10, ti_konk_bl, ti_konk_avg, mcrh_T3_5_KAMA_20, ma_KAMA_50, mcrh_KAMA_5_ti_h20, vola_HWL, wood_s2, Low, mcrh_DEMA_5_ti_h20, cama_r2, cama_s1, cama_s3, vola_UI_14, mcrh_EMA_10_TEMA_20, mcrh_EMA_10_ti_h20, ma_WMA_10, mcrh_EMA_50_TEMA_100, cdl_INVERTEDHAMMER, mcrh_EMA_5_DEMA_100, mcrh_KAMA_20_EMA_50, vola_KCLe_20_2, mcrh_KAMA_50_TEMA_100, cycl_DCPERIOD, vola_HWM, mcrh_WMA_10_KAMA_20, cycl_DCPHASE, ma_KAMA_10, mcrh_DEMA_10_ti_h20, ma_SMA_50, olap_BBAND_MIDDLE, olap_BBAND_LOWER, olap_ALMA_10_60_085, mtum_td_seq_sig, ma_EMA_5, mtum_MACD, ma_T3_5, ma_KAMA_20, mtum_STOCH_RSI_d, mtum_MACD_ext_list, mtum_SMI_5_20_5, ma_SMA_20, mtum_RSI, ma_KAMA_5, olap_MCGD_10, olap_MIDPRICE, tend_hl, ma_TRIMA_5, tend_hh, mtum_QQE_14_5_4236_RSIMA, mcrh_WMA_5_TEMA_50, mtum_AROONOSC, cycl_HT_TRENDMODE, demark_s1, fibo_s1, mtum_CMO, olap_SAREXT, ichi_senkou_a, ma_DEMA_20, ma_EMA_10, ma_TEMA_20, perf_CUMPCTRET_1, ma_EMA_20, olap_SSF_10_2, wood_s3
+root - [DEBUG]{MainThread} - load_and_clean__buy_sell_atack() - DataFrame head:
+                  Date  buy_sell_point  mtum_PVOs_12_26_9  mtum_K_9_3  mtum_CTI_12  mtum_D_9_3  ...  ma_EMA_10  ma_TEMA_20  perf_CUMPCTRET_1  ma_EMA_20  olap_SSF_10_2    wood_s3
+0  2025-05-08 09:45:00               0                NaN         NaN          NaN         NaN  ...        NaN         NaN          0.000000        NaN      43.537740        NaN
+1  2025-05-08 10:00:00               0                NaN         NaN          NaN         NaN  ...        NaN         NaN          0.003974        NaN      41.303333  37.375000
+2  2025-05-08 10:15:00               0                NaN         NaN          NaN         NaN  ...        NaN         NaN          0.011921        NaN      39.598706  37.525002
+3  2025-05-08 10:30:00               0                NaN         NaN          NaN         NaN  ...        NaN         NaN          0.011921        NaN      38.543549  37.700003
+4  2025-05-08 10:45:00               0                NaN         NaN          NaN         NaN  ...        NaN         NaN          0.015894        NaN      38.060620  37.850000
+
+[5 rows x 180 columns]
+root - [DEBUG]{MainThread} - load_and_clean__buy_sell_atack() - DataFrame info:
+None
+root - [DEBUG]{MainThread} - load_and_clean__buy_sell_atack() - DataFrame describe:
+       buy_sell_point  mtum_PVOs_12_26_9   mtum_K_9_3  mtum_CTI_12   mtum_D_9_3  mtum_STOCH_d  ...    ma_EMA_10   ma_TEMA_20  perf_CUMPCTRET_1    ma_EMA_20  olap_SSF_10_2      wood_s3
+count     1368.000000        1335.000000  1358.000000  1357.000000  1356.000000   1360.000000  ...  1359.000000  1311.000000       1368.000000  1349.000000    1368.000000  1367.000000
+mean        -0.365497          -2.662721    49.289917     0.016917    49.328892     49.587517  ...    40.031995    40.118781          0.060783    40.015773      40.044571    39.716094
+std         33.233642          12.266268    22.629606     0.622655    19.689622     23.688268  ...     2.472469     2.542936          0.066339     2.436695       2.495395     2.473561
+min       -100.000000         -37.282149     4.339062    -0.975577     9.528226     -0.000000  ...    36.506355    36.104850         -0.043709    36.557809      36.274854    35.475000
+25%          0.000000         -10.526462    30.023464    -0.579559    33.996197     30.823221  ...    38.586438    38.606359          0.021192    38.599543      38.545801    38.250000
+50%          0.000000          -3.809343    48.561954    -0.006703    48.350626     48.077091  ...    39.121714    39.260079          0.038411    39.077717      39.180633    38.875004
+75%          0.000000           5.393019    68.339799     0.630844    64.480728     69.642938  ...    40.371448    40.423219          0.070199    40.347713      40.385513    40.137499
+max        100.000000          29.160734    94.970616     0.974949    91.195619     98.765359  ...    46.918831    47.290143          0.258278    46.673998      47.047844    48.000000
+
+[8 rows x 179 columns]
+root - [DEBUG]{MainThread} - load_and_clean__buy_sell_atack() -  groupby(Y_TARGET).count()                 Date
+buy_sell_point      
+0               1295
+100               73
+root - [DEBUG]{MainThread} - cast_Y_label_binary() - Label classes: [0, 100]
+root - [DEBUG]{MainThread} - load_split_data_multidimension() - [96mDataFrame head:
+             Date  buy_sell_point  mtum_PVOs_12_26_9  mtum_K_9_3  mtum_CTI_12  mtum_D_9_3  mtum_STOCH_d  ...  ma_DEMA_20  ma_EMA_10  ma_TEMA_20  perf_CUMPCTRET_1  ma_EMA_20  olap_SSF_10_2    wood_s3
+103  1.747229e+09               0         -22.687204   73.735344     0.065791   63.616865     67.407660  ...   38.815286  38.822035   38.845427          0.035762  38.787113      38.860377  38.624996
+104  1.747230e+09               0         -20.152938   64.308327     0.305354   63.847352     72.828210  ...   38.824010  38.827119   38.853756          0.029139  38.793102      38.898126  38.724998
+105  1.747231e+09               0         -17.927318   54.993409     0.448918   60.896038     72.659749  ...   38.822318  38.822188   38.847105          0.027815  38.793759      38.888805  38.349995
+106  1.747232e+09               0         -15.896979   51.813704     0.593013   57.868593     57.491337  ...   38.829800  38.827245   38.854151          0.029139  38.799115      38.875146  38.650002
+107  1.747233e+09               0         -14.297113   52.724371     0.585369   56.153853     43.055399  ...   38.845179  38.840473   38.872432          0.030464  38.808723      38.875822  38.574997
+
+[5 rows x 180 columns][0m
+root - [DEBUG]{MainThread} - load_split_data_multidimension() - [94mshape_imput_3d: (-1, 10, 179)[0m
+root - [DEBUG]{MainThread} - load_split_data_multidimension() - [94mshape_imput_3d: (-1, 10, 179)[0m
+root - [DEBUG]{MainThread} - load_split_data_multidimension() - [96marr_vali sample: [[ 1.7472375e+09 -1.3392774e+01  3.4496099e+01 ...  3.8820741e+01
+   3.8834336e+01  3.8575003e+01]
+ [ 1.7472366e+09 -1.4805576e+01  3.5077765e+01 ...  3.8817661e+01
+   3.8833044e+01  3.8650002e+01]
+ [ 1.7472357e+09 -1.4507736e+01  3.5950263e+01 ...  3.8814257e+01
+   3.8840343e+01  3.8624996e+01]
+ ...
+ [ 1.7472312e+09 -1.7927318e+01  5.4993409e+01 ...  3.8793759e+01
+   3.8888805e+01  3.8349995e+01]
+ [ 1.7472303e+09 -2.0152938e+01  6.4308327e+01 ...  3.8793102e+01
+   3.8898126e+01  3.8724998e+01]
+ [ 1.7472294e+09 -2.2687204e+01  7.3735344e+01 ...  3.8787113e+01
+   3.8860377e+01  3.8624996e+01]][0m
+root - [DEBUG]{MainThread} - load_split_data_multidimension() - i want to chc folder: Models/TF_multi/Scalers/9633.HK_pos_low1_
+root - [DEBUG]{MainThread} - scaler_min_max_array() - Scaler will be Saved Path: Models/TF_multi/Scalers/9633.HK_pos_low1_.scal
+root - [INFO]{MainThread} - log_shapes_trains_val_data() - Training features shape SMOTE:(1256, 10, 179)	 Labels shape:(1256, 1)
+root - [DEBUG]{MainThread} - log_shapes_trains_val_data() - Validation features shape:(361, 10, 179)	 Labels shape:(361, 1)
+root - [DEBUG]{MainThread} - log_shapes_trains_val_data() - Test features shape:(227, 10, 179)		 Labels shape:(227, 1)
+root - [DEBUG]{MainThread} - __init__() - [95mCreated object TF_multidimension Path from: d_price/9633.HK_PLAIN_stock_history_MONTH_3_AD.csv[0m

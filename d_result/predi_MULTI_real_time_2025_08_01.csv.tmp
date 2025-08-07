@@ -1,0 +1,451 @@
+Date	ticker	buy_sell_point	Close	Volume	POS_score	POS_num	NEG_score	NEG_num	POS_score_list	NEG_score_list	POS_models_name	NEG_moldel_name
+53	2025-07-24 09:45:00	0005.HK	0	100.7	760562	25	2]	196	2]	25%0	98%98	0005.HK_pos_vgood16_mult_lstm, 0005.HK_pos_vgood16__mult_gru	0005.HK_neg_reg4__mult_gru, 0005.HK_neg_reg4_mult_128
+54	2025-07-24 09:30:00	0005.HK	0	100.7	760562	25	2]	194	2]	25%0	98%96	0005.HK_pos_vgood16_mult_lstm, 0005.HK_pos_vgood16__mult_gru	0005.HK_neg_reg4__mult_gru, 0005.HK_neg_reg4_mult_128
+53	2025-07-24 09:45:00	0388.HK	0	443.2	371320	25	2]	172	2]	25%0	80%92	0388.HK_pos_good9_mult_lstm, 0388.HK_pos_good9__mult_gru	0388.HK_neg_reg4_mult_lstm, 0388.HK_neg_good9__mult_gru
+54	2025-07-24 09:30:00	0388.HK	0	439.4	371320	25	2]	170	2]	25%0	80%90	0388.HK_pos_good9_mult_lstm, 0388.HK_pos_good9__mult_gru	0388.HK_neg_reg4_mult_lstm, 0388.HK_neg_good9__mult_gru
+53	2025-07-24 09:45:00	0700.HK	0	554.0	1625245	123	2]	150	2]	25%98	60%90	0700.HK_pos_vgood16_mult_128, 0700.HK_pos_reg4_mult_conv2	0700.HK_neg_low1_mult_lstm, 0700.HK_neg_good9__mult_gru
+54	2025-07-24 09:30:00	0700.HK	0	550.0	1625245	123	2]	110	2]	25%98	50%60	0700.HK_pos_vgood16_mult_128, 0700.HK_pos_reg4_mult_conv2	0700.HK_neg_low1_mult_lstm, 0700.HK_neg_good9__mult_gru
+53	2025-07-24 09:45:00	9999.HK	0	216.6	317224	135	2]	174	2]	60%75	94%80	9999.HK_pos_reg4_mult_128, 9999.HK_pos_reg4__mult_gru	9999.HK_neg_low1_mult_64, 9999.HK_neg_reg4__mult_gru
+54	2025-07-24 09:30:00	9999.HK	0	216.8	317224	145	2]	165	2]	70%75	75%90	9999.HK_pos_reg4_mult_128, 9999.HK_pos_reg4__mult_gru	9999.HK_neg_low1_mult_64, 9999.HK_neg_reg4__mult_gru
+53	2025-07-24 09:45:00	2628.HK	0	22.25	14685099	0.0	0]	196	2]		98%98		2628.HK_neg_reg4_mult_128, 2628.HK_neg_reg4__mult_gru
+54	2025-07-24 09:30:00	2628.HK	0	22.1	14685099	0.0	0]	196	2]		98%98		2628.HK_neg_reg4_mult_128, 2628.HK_neg_reg4__mult_gru
+53	2025-07-24 09:45:00	1024.HK	0	79.35	4181067	150	2]	178	2]	60%90	98%80	1024.HK_pos_good9__mult_gru, 1024.HK_pos_good9_mult_dense2	1024.HK_neg_reg4_mult_conv2, 1024.HK_neg_good9_mult_64
+54	2025-07-24 09:30:00	1024.HK	0	78.45	4181067	148	2]	168	2]	60%88	98%70	1024.HK_pos_good9__mult_gru, 1024.HK_pos_good9_mult_dense2	1024.HK_neg_reg4_mult_conv2, 1024.HK_neg_good9_mult_64
+53	2025-07-24 09:45:00	2888.HK	0	142.4	35450	120	2]	120	2]	60%60	70%50	2888.HK_pos_low1_mult_lstm, 2888.HK_pos_reg4_mult_lstm	2888.HK_neg_good9_mult_64, 2888.HK_neg_low1__mult_gru
+54	2025-07-24 09:30:00	2888.HK	0	142.2	35450	120	2]	120	2]	60%60	70%50	2888.HK_pos_low1_mult_lstm, 2888.HK_pos_reg4_mult_lstm	2888.HK_neg_good9_mult_64, 2888.HK_neg_low1__mult_gru
+53	2025-07-24 09:45:00	0267.HK	0	11.8	1450050	0	2]	179	2]	0%0	92%87	0267.HK_pos_low1_mult_lstm, 0267.HK_pos_low1_mult_28	0267.HK_neg_low1_mult_lstm, 0267.HK_neg_good9_mult_lstm
+54	2025-07-24 09:30:00	0267.HK	0	11.78	1450050	0	2]	178	2]	0%0	92%86	0267.HK_pos_low1_mult_lstm, 0267.HK_pos_low1_mult_28	0267.HK_neg_low1_mult_lstm, 0267.HK_neg_good9_mult_lstm
+53	2025-07-24 09:45:00	2388.HK	0	36.1	659500	50	2]	165	2]	25%25	85%80	2388.HK_pos_reg4_mult_dense2, 2388.HK_pos_good9_mult_lstm	2388.HK_neg_low1_mult_128, 2388.HK_neg_low1_mult_lstm
+54	2025-07-24 09:30:00	2388.HK	0	36.2	659500	75	2]	165	2]	50%25	85%80	2388.HK_pos_reg4_mult_dense2, 2388.HK_pos_good9_mult_lstm	2388.HK_neg_low1_mult_128, 2388.HK_neg_low1_mult_lstm
+53	2025-07-24 09:45:00	2015.HK	0	119.9	1183200	88	2]	110	2]	0%88	60%50	2015.HK_pos_reg4_mult_128, 2015.HK_pos_low1_mult_28	2015.HK_neg_low1_mult_lstm, 2015.HK_neg_low1__mult_gru
+54	2025-07-24 09:30:00	2015.HK	0	119.4	1183200	80	2]	100	2]	0%80	50%50	2015.HK_pos_reg4_mult_128, 2015.HK_pos_low1_mult_28	2015.HK_neg_low1_mult_lstm, 2015.HK_neg_low1__mult_gru
+53	2025-07-24 09:45:00	0939.HK	0	8.35	10819271	25	2]	187	2]	0%25	90%97	0939.HK_pos_reg4_mult_128, 0939.HK_pos_good9_mult_lstm	0939.HK_neg_low1_mult_lstm, 0939.HK_neg_good9__mult_gru
+54	2025-07-24 09:30:00	0939.HK	0	8.36	10819271	50	2]	188	2]	25%25	90%98	0939.HK_pos_reg4_mult_128, 0939.HK_pos_good9_mult_lstm	0939.HK_neg_low1_mult_lstm, 0939.HK_neg_good9__mult_gru
+53	2025-07-24 09:45:00	2318.HK	0	54.75	2085447	25	2]	188	2]	25%0	97%91	2318.HK_pos_reg4_mult_lstm, 2318.HK_pos_reg4__mult_gru	2318.HK_neg_good9__mult_gru, 2318.HK_neg_low1__mult_gru
+54	2025-07-24 09:30:00	2318.HK	0	54.55	2085447	25	2]	188	2]	25%0	97%91	2318.HK_pos_reg4_mult_lstm, 2318.HK_pos_reg4__mult_gru	2318.HK_neg_good9__mult_gru, 2318.HK_neg_low1__mult_gru
+53	2025-07-24 09:45:00	3968.HK	0	53.2	1210833	171	3]	60	2]	50%96%25	0%60	3968.HK_pos_vgood16_mult_128, 3968.HK_pos_reg4_mult_64, 3968.HK_pos_low1__mult_gru	3968.HK_neg_low1_mult_128, 3968.HK_neg_low1__mult_gru
+54	2025-07-24 09:30:00	3968.HK	0	53.35	1210833	170	3]	85	2]	50%95%25	25%60	3968.HK_pos_vgood16_mult_128, 3968.HK_pos_reg4_mult_64, 3968.HK_pos_low1__mult_gru	3968.HK_neg_low1_mult_128, 3968.HK_neg_low1__mult_gru
+53	2025-07-24 09:45:00	0981.HK	0	49.75	8912042	85	2]	144	2]	60%25	94%50	0981.HK_pos_low1__mult_gru, 0981.HK_pos_reg4__mult_gru	0981.HK_neg_low1_mult_dense2, 0981.HK_neg_vgood16__mult_gru
+54	2025-07-24 09:30:00	0981.HK	0	49.7	8912042	110	2]	145	2]	60%50	95%50	0981.HK_pos_low1__mult_gru, 0981.HK_pos_reg4__mult_gru	0981.HK_neg_low1_mult_dense2, 0981.HK_neg_vgood16__mult_gru
+53	2025-07-24 09:45:00	9633.HK	0	45.3	306800	50	2]	25	2]	25%25	0%25	9633.HK_pos_good9__mult_gru, 9633.HK_pos_reg4_mult_lstm	9633.HK_neg_good9_mult_dense2, 9633.HK_neg_low1__mult_gru
+54	2025-07-24 09:30:00	9633.HK	0	45.2	306800	50	2]	50	2]	25%25	0%50	9633.HK_pos_good9__mult_gru, 9633.HK_pos_reg4_mult_lstm	9633.HK_neg_good9_mult_dense2, 9633.HK_neg_low1__mult_gru
+53	2025-07-24 09:45:00	1810.HK	0	58.4	3231823	0	2]	0	2]	0%0	0%0	1810.HK_pos_vgood16_mult_conv, 1810.HK_pos_good9_mult_lstm	1810.HK_neg_low1__mult_gru, 1810.HK_neg_good9__mult_gru
+54	2025-07-24 09:30:00	1810.HK	0	58.2	3231823	0	2]	0	2]	0%0	0%0	1810.HK_pos_vgood16_mult_conv, 1810.HK_pos_good9_mult_lstm	1810.HK_neg_low1__mult_gru, 1810.HK_neg_good9__mult_gru
+53	2025-07-24 09:45:00	0175.HK	0	19.22	4664910	0	2]	111	2]	0%0	25%86	0175.HK_pos_good9_mult_dense2, 0175.HK_pos_good9_mult_128	0175.HK_neg_vgood16_mult_lstm, 0175.HK_neg_low1_mult_lstm
+54	2025-07-24 09:30:00	0175.HK	0	19.1	4664910	25	2]	112	2]	25%0	25%87	0175.HK_pos_good9_mult_dense2, 0175.HK_pos_good9_mult_128	0175.HK_neg_vgood16_mult_lstm, 0175.HK_neg_low1_mult_lstm
+53	2025-07-24 09:45:00	0005.HK	0	100.7	760562	25	2]	196	2]	25%0	98%98	0005.HK_pos_vgood16_mult_lstm, 0005.HK_pos_vgood16__mult_gru	0005.HK_neg_reg4__mult_gru, 0005.HK_neg_reg4_mult_128
+54	2025-07-24 09:30:00	0005.HK	0	100.7	760562	25	2]	194	2]	25%0	98%96	0005.HK_pos_vgood16_mult_lstm, 0005.HK_pos_vgood16__mult_gru	0005.HK_neg_reg4__mult_gru, 0005.HK_neg_reg4_mult_128
+53	2025-07-24 09:45:00	0388.HK	0	443.2	371320	25	2]	172	2]	25%0	80%92	0388.HK_pos_good9_mult_lstm, 0388.HK_pos_good9__mult_gru	0388.HK_neg_reg4_mult_lstm, 0388.HK_neg_good9__mult_gru
+54	2025-07-24 09:30:00	0388.HK	0	439.4	371320	25	2]	170	2]	25%0	80%90	0388.HK_pos_good9_mult_lstm, 0388.HK_pos_good9__mult_gru	0388.HK_neg_reg4_mult_lstm, 0388.HK_neg_good9__mult_gru
+53	2025-07-24 09:45:00	0700.HK	0	554.0	1625245	123	2]	150	2]	25%98	60%90	0700.HK_pos_vgood16_mult_128, 0700.HK_pos_reg4_mult_conv2	0700.HK_neg_low1_mult_lstm, 0700.HK_neg_good9__mult_gru
+54	2025-07-24 09:30:00	0700.HK	0	550.0	1625245	123	2]	110	2]	25%98	50%60	0700.HK_pos_vgood16_mult_128, 0700.HK_pos_reg4_mult_conv2	0700.HK_neg_low1_mult_lstm, 0700.HK_neg_good9__mult_gru
+53	2025-07-24 09:45:00	9999.HK	0	216.6	317224	135	2]	174	2]	60%75	94%80	9999.HK_pos_reg4_mult_128, 9999.HK_pos_reg4__mult_gru	9999.HK_neg_low1_mult_64, 9999.HK_neg_reg4__mult_gru
+54	2025-07-24 09:30:00	9999.HK	0	216.8	317224	145	2]	165	2]	70%75	75%90	9999.HK_pos_reg4_mult_128, 9999.HK_pos_reg4__mult_gru	9999.HK_neg_low1_mult_64, 9999.HK_neg_reg4__mult_gru
+53	2025-07-24 09:45:00	2628.HK	0	22.25	14685099	0.0	0]	196	2]		98%98		2628.HK_neg_reg4_mult_128, 2628.HK_neg_reg4__mult_gru
+54	2025-07-24 09:30:00	2628.HK	0	22.1	14685099	0.0	0]	196	2]		98%98		2628.HK_neg_reg4_mult_128, 2628.HK_neg_reg4__mult_gru
+53	2025-07-24 09:45:00	1024.HK	0	79.35	4181067	154	2]	193	2]	60%94	98%95	1024.HK_pos_good9__mult_gru, 1024.HK_pos_good9_mult_dense2	1024.HK_neg_reg4_mult_conv2, 1024.HK_neg_good9_mult_64
+54	2025-07-24 09:30:00	1024.HK	0	78.45	4181067	153	2]	178	2]	60%93	98%80	1024.HK_pos_good9__mult_gru, 1024.HK_pos_good9_mult_dense2	1024.HK_neg_reg4_mult_conv2, 1024.HK_neg_good9_mult_64
+53	2025-07-24 09:45:00	2888.HK	0	142.4	35450	130	2]	120	2]	70%60	70%50	2888.HK_pos_low1_mult_lstm, 2888.HK_pos_reg4_mult_lstm	2888.HK_neg_good9_mult_64, 2888.HK_neg_low1__mult_gru
+54	2025-07-24 09:30:00	2888.HK	0	142.2	35450	120	2]	120	2]	60%60	70%50	2888.HK_pos_low1_mult_lstm, 2888.HK_pos_reg4_mult_lstm	2888.HK_neg_good9_mult_64, 2888.HK_neg_low1__mult_gru
+53	2025-07-24 09:45:00	0267.HK	0	11.8	1450050	0	2]	179	2]	0%0	92%87	0267.HK_pos_low1_mult_lstm, 0267.HK_pos_low1_mult_28	0267.HK_neg_low1_mult_lstm, 0267.HK_neg_good9_mult_lstm
+54	2025-07-24 09:30:00	0267.HK	0	11.78	1450050	0	2]	177	2]	0%0	91%86	0267.HK_pos_low1_mult_lstm, 0267.HK_pos_low1_mult_28	0267.HK_neg_low1_mult_lstm, 0267.HK_neg_good9_mult_lstm
+53	2025-07-24 09:45:00	2388.HK	0	36.1	659500	50	2]	160	2]	25%25	80%80	2388.HK_pos_reg4_mult_dense2, 2388.HK_pos_good9_mult_lstm	2388.HK_neg_low1_mult_128, 2388.HK_neg_low1_mult_lstm
+54	2025-07-24 09:30:00	2388.HK	0	36.2	659500	85	2]	160	2]	60%25	80%80	2388.HK_pos_reg4_mult_dense2, 2388.HK_pos_good9_mult_lstm	2388.HK_neg_low1_mult_128, 2388.HK_neg_low1_mult_lstm
+53	2025-07-24 09:45:00	2015.HK	0	119.9	1183200	90	2]	110	2]	0%90	60%50	2015.HK_pos_reg4_mult_128, 2015.HK_pos_low1_mult_28	2015.HK_neg_low1_mult_lstm, 2015.HK_neg_low1__mult_gru
+54	2025-07-24 09:30:00	2015.HK	0	119.4	1183200	114	2]	100	2]	25%89	50%50	2015.HK_pos_reg4_mult_128, 2015.HK_pos_low1_mult_28	2015.HK_neg_low1_mult_lstm, 2015.HK_neg_low1__mult_gru
+53	2025-07-24 09:45:00	0939.HK	0	8.35	10819271	0	2]	188	2]	0%0	90%98	0939.HK_pos_reg4_mult_128, 0939.HK_pos_good9_mult_lstm	0939.HK_neg_low1_mult_lstm, 0939.HK_neg_good9__mult_gru
+54	2025-07-24 09:30:00	0939.HK	0	8.36	10819271	50	2]	188	2]	25%25	90%98	0939.HK_pos_reg4_mult_128, 0939.HK_pos_good9_mult_lstm	0939.HK_neg_low1_mult_lstm, 0939.HK_neg_good9__mult_gru
+53	2025-07-24 09:45:00	2318.HK	0	54.75	2085447	25	2]	188	2]	25%0	97%91	2318.HK_pos_reg4_mult_lstm, 2318.HK_pos_reg4__mult_gru	2318.HK_neg_good9__mult_gru, 2318.HK_neg_low1__mult_gru
+54	2025-07-24 09:30:00	2318.HK	0	54.55	2085447	25	2]	188	2]	25%0	97%91	2318.HK_pos_reg4_mult_lstm, 2318.HK_pos_reg4__mult_gru	2318.HK_neg_good9__mult_gru, 2318.HK_neg_low1__mult_gru
+53	2025-07-24 09:45:00	3968.HK	0	53.2	1210833	171	3]	60	2]	50%96%25	0%60	3968.HK_pos_vgood16_mult_128, 3968.HK_pos_reg4_mult_64, 3968.HK_pos_low1__mult_gru	3968.HK_neg_low1_mult_128, 3968.HK_neg_low1__mult_gru
+54	2025-07-24 09:30:00	3968.HK	0	53.35	1210833	170	3]	85	2]	50%95%25	25%60	3968.HK_pos_vgood16_mult_128, 3968.HK_pos_reg4_mult_64, 3968.HK_pos_low1__mult_gru	3968.HK_neg_low1_mult_128, 3968.HK_neg_low1__mult_gru
+53	2025-07-24 09:45:00	0981.HK	0	49.75	8912042	85	2]	144	2]	60%25	94%50	0981.HK_pos_low1__mult_gru, 0981.HK_pos_reg4__mult_gru	0981.HK_neg_low1_mult_dense2, 0981.HK_neg_vgood16__mult_gru
+54	2025-07-24 09:30:00	0981.HK	0	49.7	8912042	110	2]	145	2]	60%50	95%50	0981.HK_pos_low1__mult_gru, 0981.HK_pos_reg4__mult_gru	0981.HK_neg_low1_mult_dense2, 0981.HK_neg_vgood16__mult_gru
+53	2025-07-24 09:45:00	9633.HK	0	45.3	306800	50	2]	25	2]	25%25	0%25	9633.HK_pos_good9__mult_gru, 9633.HK_pos_reg4_mult_lstm	9633.HK_neg_good9_mult_dense2, 9633.HK_neg_low1__mult_gru
+54	2025-07-24 09:30:00	9633.HK	0	45.2	306800	50	2]	50	2]	25%25	0%50	9633.HK_pos_good9__mult_gru, 9633.HK_pos_reg4_mult_lstm	9633.HK_neg_good9_mult_dense2, 9633.HK_neg_low1__mult_gru
+53	2025-07-24 09:45:00	1810.HK	0	58.4	3231823	0	2]	0	2]	0%0	0%0	1810.HK_pos_vgood16_mult_conv, 1810.HK_pos_good9_mult_lstm	1810.HK_neg_low1__mult_gru, 1810.HK_neg_good9__mult_gru
+54	2025-07-24 09:30:00	1810.HK	0	58.2	3231823	0	2]	0	2]	0%0	0%0	1810.HK_pos_vgood16_mult_conv, 1810.HK_pos_good9_mult_lstm	1810.HK_neg_low1__mult_gru, 1810.HK_neg_good9__mult_gru
+53	2025-07-24 09:45:00	0175.HK	0	19.22	4664910	0	2]	111	2]	0%0	25%86	0175.HK_pos_good9_mult_dense2, 0175.HK_pos_good9_mult_128	0175.HK_neg_vgood16_mult_lstm, 0175.HK_neg_low1_mult_lstm
+54	2025-07-24 09:30:00	0175.HK	0	19.1	4664910	25	2]	112	2]	25%0	25%87	0175.HK_pos_good9_mult_dense2, 0175.HK_pos_good9_mult_128	0175.HK_neg_vgood16_mult_lstm, 0175.HK_neg_low1_mult_lstm
+53	2025-07-24 09:45:00	0005.HK	0	100.7	760562	25	2]	196	2]	25%0	98%98	0005.HK_pos_vgood16_mult_lstm, 0005.HK_pos_vgood16__mult_gru	0005.HK_neg_reg4__mult_gru, 0005.HK_neg_reg4_mult_128
+54	2025-07-24 09:30:00	0005.HK	0	100.7	760562	25	2]	194	2]	25%0	98%96	0005.HK_pos_vgood16_mult_lstm, 0005.HK_pos_vgood16__mult_gru	0005.HK_neg_reg4__mult_gru, 0005.HK_neg_reg4_mult_128
+53	2025-07-24 09:45:00	0388.HK	0	443.2	371320	25	2]	172	2]	25%0	80%92	0388.HK_pos_good9_mult_lstm, 0388.HK_pos_good9__mult_gru	0388.HK_neg_reg4_mult_lstm, 0388.HK_neg_good9__mult_gru
+54	2025-07-24 09:30:00	0388.HK	0	439.4	371320	25	2]	170	2]	25%0	80%90	0388.HK_pos_good9_mult_lstm, 0388.HK_pos_good9__mult_gru	0388.HK_neg_reg4_mult_lstm, 0388.HK_neg_good9__mult_gru
+53	2025-07-24 09:45:00	0700.HK	0	554.0	1625245	123	2]	150	2]	25%98	60%90	0700.HK_pos_vgood16_mult_128, 0700.HK_pos_reg4_mult_conv2	0700.HK_neg_low1_mult_lstm, 0700.HK_neg_good9__mult_gru
+54	2025-07-24 09:30:00	0700.HK	0	550.0	1625245	123	2]	110	2]	25%98	50%60	0700.HK_pos_vgood16_mult_128, 0700.HK_pos_reg4_mult_conv2	0700.HK_neg_low1_mult_lstm, 0700.HK_neg_good9__mult_gru
+53	2025-07-24 09:45:00	9999.HK	0	216.6	317224	135	2]	174	2]	60%75	94%80	9999.HK_pos_reg4_mult_128, 9999.HK_pos_reg4__mult_gru	9999.HK_neg_low1_mult_64, 9999.HK_neg_reg4__mult_gru
+54	2025-07-24 09:30:00	9999.HK	0	216.8	317224	145	2]	165	2]	70%75	75%90	9999.HK_pos_reg4_mult_128, 9999.HK_pos_reg4__mult_gru	9999.HK_neg_low1_mult_64, 9999.HK_neg_reg4__mult_gru
+53	2025-07-24 09:45:00	2628.HK	0	22.25	14685099	0.0	0]	196	2]		98%98		2628.HK_neg_reg4_mult_128, 2628.HK_neg_reg4__mult_gru
+54	2025-07-24 09:30:00	2628.HK	0	22.1	14685099	0.0	0]	196	2]		98%98		2628.HK_neg_reg4_mult_128, 2628.HK_neg_reg4__mult_gru
+53	2025-07-24 09:45:00	9633.HK	0	45.3	306800	50	2]	25	2]	25%25	0%25	9633.HK_pos_good9__mult_gru, 9633.HK_pos_reg4_mult_lstm	9633.HK_neg_good9_mult_dense2, 9633.HK_neg_low1__mult_gru
+54	2025-07-24 09:30:00	9633.HK	0	45.2	306800	50	2]	50	2]	25%25	0%50	9633.HK_pos_good9__mult_gru, 9633.HK_pos_reg4_mult_lstm	9633.HK_neg_good9_mult_dense2, 9633.HK_neg_low1__mult_gru
+53	2025-07-24 09:45:00	1810.HK	0	58.4	3231823	0	2]	0	2]	0%0	0%0	1810.HK_pos_vgood16_mult_conv, 1810.HK_pos_good9_mult_lstm	1810.HK_neg_low1__mult_gru, 1810.HK_neg_good9__mult_gru
+54	2025-07-24 09:30:00	1810.HK	0	58.2	3231823	0	2]	0	2]	0%0	0%0	1810.HK_pos_vgood16_mult_conv, 1810.HK_pos_good9_mult_lstm	1810.HK_neg_low1__mult_gru, 1810.HK_neg_good9__mult_gru
+53	2025-07-24 09:45:00	1024.HK	0	79.35	4181067	154	2]	193	2]	60%94	98%95	1024.HK_pos_good9__mult_gru, 1024.HK_pos_good9_mult_dense2	1024.HK_neg_reg4_mult_conv2, 1024.HK_neg_good9_mult_64
+54	2025-07-24 09:30:00	1024.HK	0	78.45	4181067	153	2]	178	2]	60%93	98%80	1024.HK_pos_good9__mult_gru, 1024.HK_pos_good9_mult_dense2	1024.HK_neg_reg4_mult_conv2, 1024.HK_neg_good9_mult_64
+53	2025-07-24 09:45:00	0175.HK	0	19.22	4664910	0	2]	111	2]	0%0	25%86	0175.HK_pos_good9_mult_dense2, 0175.HK_pos_good9_mult_128	0175.HK_neg_vgood16_mult_lstm, 0175.HK_neg_low1_mult_lstm
+54	2025-07-24 09:30:00	0175.HK	0	19.1	4664910	25	2]	112	2]	25%0	25%87	0175.HK_pos_good9_mult_dense2, 0175.HK_pos_good9_mult_128	0175.HK_neg_vgood16_mult_lstm, 0175.HK_neg_low1_mult_lstm
+53	2025-07-24 09:45:00	2888.HK	0	142.4	35450	130	2]	120	2]	70%60	70%50	2888.HK_pos_low1_mult_lstm, 2888.HK_pos_reg4_mult_lstm	2888.HK_neg_good9_mult_64, 2888.HK_neg_low1__mult_gru
+54	2025-07-24 09:30:00	2888.HK	0	142.2	35450	120	2]	120	2]	60%60	70%50	2888.HK_pos_low1_mult_lstm, 2888.HK_pos_reg4_mult_lstm	2888.HK_neg_good9_mult_64, 2888.HK_neg_low1__mult_gru
+53	2025-07-24 09:45:00	0267.HK	0	11.8	1450050	0	2]	179	2]	0%0	92%87	0267.HK_pos_low1_mult_lstm, 0267.HK_pos_low1_mult_28	0267.HK_neg_low1_mult_lstm, 0267.HK_neg_good9_mult_lstm
+54	2025-07-24 09:30:00	0267.HK	0	11.78	1450050	0	2]	177	2]	0%0	91%86	0267.HK_pos_low1_mult_lstm, 0267.HK_pos_low1_mult_28	0267.HK_neg_low1_mult_lstm, 0267.HK_neg_good9_mult_lstm
+53	2025-07-24 09:45:00	2388.HK	0	36.1	659500	50	2]	160	2]	25%25	80%80	2388.HK_pos_reg4_mult_dense2, 2388.HK_pos_good9_mult_lstm	2388.HK_neg_low1_mult_128, 2388.HK_neg_low1_mult_lstm
+54	2025-07-24 09:30:00	2388.HK	0	36.2	659500	85	2]	160	2]	60%25	80%80	2388.HK_pos_reg4_mult_dense2, 2388.HK_pos_good9_mult_lstm	2388.HK_neg_low1_mult_128, 2388.HK_neg_low1_mult_lstm
+53	2025-07-24 09:45:00	2015.HK	0	119.9	1183200	90	2]	110	2]	0%90	60%50	2015.HK_pos_reg4_mult_128, 2015.HK_pos_low1_mult_28	2015.HK_neg_low1_mult_lstm, 2015.HK_neg_low1__mult_gru
+54	2025-07-24 09:30:00	2015.HK	0	119.4	1183200	114	2]	100	2]	25%89	50%50	2015.HK_pos_reg4_mult_128, 2015.HK_pos_low1_mult_28	2015.HK_neg_low1_mult_lstm, 2015.HK_neg_low1__mult_gru
+53	2025-07-24 09:45:00	0939.HK	0	8.35	10819271	0	2]	188	2]	0%0	90%98	0939.HK_pos_reg4_mult_128, 0939.HK_pos_good9_mult_lstm	0939.HK_neg_low1_mult_lstm, 0939.HK_neg_good9__mult_gru
+54	2025-07-24 09:30:00	0939.HK	0	8.36	10819271	50	2]	188	2]	25%25	90%98	0939.HK_pos_reg4_mult_128, 0939.HK_pos_good9_mult_lstm	0939.HK_neg_low1_mult_lstm, 0939.HK_neg_good9__mult_gru
+53	2025-07-24 09:45:00	0005.HK	0	100.7	760562	25	2]	196	2]	25%0	98%98	0005.HK_pos_vgood16_mult_lstm, 0005.HK_pos_vgood16__mult_gru	0005.HK_neg_reg4__mult_gru, 0005.HK_neg_reg4_mult_128
+54	2025-07-24 09:30:00	0005.HK	0	100.7	760562	25	2]	194	2]	25%0	98%96	0005.HK_pos_vgood16_mult_lstm, 0005.HK_pos_vgood16__mult_gru	0005.HK_neg_reg4__mult_gru, 0005.HK_neg_reg4_mult_128
+53	2025-07-25 09:45:00	2318.HK	0	55.2	2501500	50	2]	89	2]	50%0	89%0	2318.HK_pos_reg4_mult_lstm, 2318.HK_pos_reg4__mult_gru	2318.HK_neg_good9__mult_gru, 2318.HK_neg_low1__mult_gru
+54	2025-07-25 09:30:00	2318.HK	0	55.3	2501500	75	2]	86	2]	50%25	86%0	2318.HK_pos_reg4_mult_lstm, 2318.HK_pos_reg4__mult_gru	2318.HK_neg_good9__mult_gru, 2318.HK_neg_low1__mult_gru
+53	2025-07-24 09:45:00	0388.HK	0	443.2	371320	25	2]	166	2]	25%0	75%91	0388.HK_pos_good9_mult_lstm, 0388.HK_pos_good9__mult_gru	0388.HK_neg_reg4_mult_lstm, 0388.HK_neg_good9__mult_gru
+54	2025-07-24 09:30:00	0388.HK	0	439.4	371320	25	2]	169	2]	25%0	80%89	0388.HK_pos_good9_mult_lstm, 0388.HK_pos_good9__mult_gru	0388.HK_neg_reg4_mult_lstm, 0388.HK_neg_good9__mult_gru
+53	2025-07-25 09:45:00	3968.HK	0	52.65	389000	245	3]	155	2]	60%98%87	80%75	3968.HK_pos_vgood16_mult_128, 3968.HK_pos_reg4_mult_64, 3968.HK_pos_low1__mult_gru	3968.HK_neg_low1_mult_128, 3968.HK_neg_low1__mult_gru
+54	2025-07-25 09:30:00	3968.HK	0	53.0	389000	228	3]	145	2]	50%98%80	75%70	3968.HK_pos_vgood16_mult_128, 3968.HK_pos_reg4_mult_64, 3968.HK_pos_low1__mult_gru	3968.HK_neg_low1_mult_128, 3968.HK_neg_low1__mult_gru
+53	2025-07-25 09:45:00	0700.HK	0	552.0	1238196	89	2]	0	2]	89%0	0%0	0700.HK_pos_vgood16_mult_128, 0700.HK_pos_reg4_mult_conv2	0700.HK_neg_low1_mult_lstm, 0700.HK_neg_good9__mult_gru
+54	2025-07-25 09:30:00	0700.HK	0	551.0	1238196	87	2]	0	2]	87%0	0%0	0700.HK_pos_vgood16_mult_128, 0700.HK_pos_reg4_mult_conv2	0700.HK_neg_low1_mult_lstm, 0700.HK_neg_good9__mult_gru
+53	2025-07-25 09:45:00	0981.HK	0	51.05	7354124	0	2]	144	2]	0%0	94%50	0981.HK_pos_low1__mult_gru, 0981.HK_pos_reg4__mult_gru	0981.HK_neg_low1_mult_dense2, 0981.HK_neg_vgood16__mult_gru
+54	2025-07-25 09:30:00	0981.HK	0	50.9	7354124	0	2]	146	2]	0%0	96%50	0981.HK_pos_low1__mult_gru, 0981.HK_pos_reg4__mult_gru	0981.HK_neg_low1_mult_dense2, 0981.HK_neg_vgood16__mult_gru
+53	2025-07-25 09:45:00	9999.HK	0	213.8	297400	0	2]	0	2]	0%0	0%0	9999.HK_pos_reg4_mult_128, 9999.HK_pos_reg4__mult_gru	9999.HK_neg_low1_mult_64, 9999.HK_neg_reg4__mult_gru
+54	2025-07-25 09:30:00	9999.HK	0	213.2	297400	0	2]	0	2]	0%0	0%0	9999.HK_pos_reg4_mult_128, 9999.HK_pos_reg4__mult_gru	9999.HK_neg_low1_mult_64, 9999.HK_neg_reg4__mult_gru
+53	2025-07-25 09:45:00	2628.HK	0	22.4	5222908	0.0	0]	0	2]		0%0		2628.HK_neg_reg4_mult_128, 2628.HK_neg_reg4__mult_gru
+54	2025-07-25 09:30:00	2628.HK	0	22.45	5222908	0.0	0]	0	2]		0%0		2628.HK_neg_reg4_mult_128, 2628.HK_neg_reg4__mult_gru
+53	2025-07-25 09:45:00	9633.HK	0	46.9	1829200	0	2]	25	2]	0%0	25%0	9633.HK_pos_good9__mult_gru, 9633.HK_pos_reg4_mult_lstm	9633.HK_neg_good9_mult_dense2, 9633.HK_neg_low1__mult_gru
+54	2025-07-25 09:30:00	9633.HK	0	47.25	1829200	0	2]	25	2]	0%0	25%0	9633.HK_pos_good9__mult_gru, 9633.HK_pos_reg4_mult_lstm	9633.HK_neg_good9_mult_dense2, 9633.HK_neg_low1__mult_gru
+53	2025-07-25 09:45:00	1810.HK	0	57.35	13341295	50	2]	95	2]	25%25	0%95	1810.HK_pos_vgood16_mult_conv, 1810.HK_pos_good9_mult_lstm	1810.HK_neg_low1__mult_gru, 1810.HK_neg_good9__mult_gru
+54	2025-07-25 09:30:00	1810.HK	0	57.2	13341295	25	2]	94	2]	0%25	0%94	1810.HK_pos_vgood16_mult_conv, 1810.HK_pos_good9_mult_lstm	1810.HK_neg_low1__mult_gru, 1810.HK_neg_good9__mult_gru
+53	2025-07-25 09:45:00	1024.HK	0	73.85	6784700	0	2]	146	2]	0%0	96%50	1024.HK_pos_good9__mult_gru, 1024.HK_pos_good9_mult_dense2	1024.HK_neg_reg4_mult_conv2, 1024.HK_neg_good9_mult_64
+54	2025-07-25 09:30:00	1024.HK	0	74.6	6784700	125	2]	144	2]	50%75	94%50	1024.HK_pos_good9__mult_gru, 1024.HK_pos_good9_mult_dense2	1024.HK_neg_reg4_mult_conv2, 1024.HK_neg_good9_mult_64
+53	2025-07-25 09:45:00	0175.HK	0	19.26	4304903	172	2]	0	2]	92%80	0%0	0175.HK_pos_good9_mult_dense2, 0175.HK_pos_good9_mult_128	0175.HK_neg_vgood16_mult_lstm, 0175.HK_neg_low1_mult_lstm
+54	2025-07-25 09:30:00	0175.HK	0	19.12	4304903	151	2]	0	2]	91%60	0%0	0175.HK_pos_good9_mult_dense2, 0175.HK_pos_good9_mult_128	0175.HK_neg_vgood16_mult_lstm, 0175.HK_neg_low1_mult_lstm
+53	2025-07-25 09:45:00	2888.HK	0	144.1	77850	130	2]	150	2]	70%60	80%70	2888.HK_pos_low1_mult_lstm, 2888.HK_pos_reg4_mult_lstm	2888.HK_neg_good9_mult_64, 2888.HK_neg_low1__mult_gru
+54	2025-07-25 09:30:00	2888.HK	0	143.0	77850	145	2]	155	2]	75%70	80%75	2888.HK_pos_low1_mult_lstm, 2888.HK_pos_reg4_mult_lstm	2888.HK_neg_good9_mult_64, 2888.HK_neg_low1__mult_gru
+53	2025-07-25 09:45:00	0267.HK	0	12.14	2107000	0	2]	179	2]	0%0	91%88	0267.HK_pos_low1_mult_lstm, 0267.HK_pos_low1_mult_28	0267.HK_neg_low1_mult_lstm, 0267.HK_neg_good9_mult_lstm
+54	2025-07-25 09:30:00	0267.HK	0	12.26	2107000	0	2]	179	2]	0%0	91%88	0267.HK_pos_low1_mult_lstm, 0267.HK_pos_low1_mult_28	0267.HK_neg_low1_mult_lstm, 0267.HK_neg_good9_mult_lstm
+53	2025-07-25 09:45:00	2388.HK	0	35.95	1517420	0	2]	0	2]	0%0	0%0	2388.HK_pos_reg4_mult_dense2, 2388.HK_pos_good9_mult_lstm	2388.HK_neg_low1_mult_128, 2388.HK_neg_low1_mult_lstm
+54	2025-07-25 09:30:00	2388.HK	0	35.75	1517420	0	2]	0	2]	0%0	0%0	2388.HK_pos_reg4_mult_dense2, 2388.HK_pos_good9_mult_lstm	2388.HK_neg_low1_mult_128, 2388.HK_neg_low1_mult_lstm
+53	2025-07-25 09:45:00	2015.HK	0	115.9	1778900	168	2]	170	2]	80%88	90%80	2015.HK_pos_reg4_mult_128, 2015.HK_pos_low1_mult_28	2015.HK_neg_low1_mult_lstm, 2015.HK_neg_low1__mult_gru
+54	2025-07-25 09:30:00	2015.HK	0	116.0	1778900	170	2]	145	2]	95%75	75%70	2015.HK_pos_reg4_mult_128, 2015.HK_pos_low1_mult_28	2015.HK_neg_low1_mult_lstm, 2015.HK_neg_low1__mult_gru
+53	2025-07-25 09:45:00	0939.HK	0	8.32	10159490	110	2]	177	2]	50%60	87%90	0939.HK_pos_reg4_mult_128, 0939.HK_pos_good9_mult_lstm	0939.HK_neg_low1_mult_lstm, 0939.HK_neg_good9__mult_gru
+54	2025-07-25 09:30:00	0939.HK	0	8.35	10159490	110	2]	160	2]	50%60	80%80	0939.HK_pos_reg4_mult_128, 0939.HK_pos_good9_mult_lstm	0939.HK_neg_low1_mult_lstm, 0939.HK_neg_good9__mult_gru
+53	2025-07-25 09:45:00	0005.HK	0	101.8	495323	50	2]	196	2]	25%25	98%98	0005.HK_pos_vgood16_mult_lstm, 0005.HK_pos_vgood16__mult_gru	0005.HK_neg_reg4__mult_gru, 0005.HK_neg_reg4_mult_128
+54	2025-07-25 09:30:00	0005.HK	0	101.6	495323	50	2]	196	2]	25%25	98%98	0005.HK_pos_vgood16_mult_lstm, 0005.HK_pos_vgood16__mult_gru	0005.HK_neg_reg4__mult_gru, 0005.HK_neg_reg4_mult_128
+53	2025-07-25 09:45:00	2318.HK	0	55.2	2501500	50	2]	89	2]	25%25	89%0	2318.HK_pos_reg4_mult_lstm, 2318.HK_pos_reg4__mult_gru	2318.HK_neg_good9__mult_gru, 2318.HK_neg_low1__mult_gru
+54	2025-07-25 09:30:00	2318.HK	0	55.3	2501500	75	2]	86	2]	50%25	86%0	2318.HK_pos_reg4_mult_lstm, 2318.HK_pos_reg4__mult_gru	2318.HK_neg_good9__mult_gru, 2318.HK_neg_low1__mult_gru
+53	2025-07-25 09:45:00	0388.HK	0	446.8	292559	25	2]	150	2]	25%0	75%75	0388.HK_pos_good9_mult_lstm, 0388.HK_pos_good9__mult_gru	0388.HK_neg_reg4_mult_lstm, 0388.HK_neg_good9__mult_gru
+54	2025-07-25 09:30:00	0388.HK	0	444.6	292559	25	2]	130	2]	25%0	70%60	0388.HK_pos_good9_mult_lstm, 0388.HK_pos_good9__mult_gru	0388.HK_neg_reg4_mult_lstm, 0388.HK_neg_good9__mult_gru
+53	2025-07-25 09:45:00	3968.HK	0	52.65	389000	245	3]	155	2]	60%98%87	80%75	3968.HK_pos_vgood16_mult_128, 3968.HK_pos_reg4_mult_64, 3968.HK_pos_low1__mult_gru	3968.HK_neg_low1_mult_128, 3968.HK_neg_low1__mult_gru
+54	2025-07-25 09:30:00	3968.HK	0	53.0	389000	228	3]	145	2]	50%98%80	75%70	3968.HK_pos_vgood16_mult_128, 3968.HK_pos_reg4_mult_64, 3968.HK_pos_low1__mult_gru	3968.HK_neg_low1_mult_128, 3968.HK_neg_low1__mult_gru
+53	2025-07-25 09:45:00	0700.HK	0	552.0	1238196	89	2]	0	2]	89%0	0%0	0700.HK_pos_vgood16_mult_128, 0700.HK_pos_reg4_mult_conv2	0700.HK_neg_low1_mult_lstm, 0700.HK_neg_good9__mult_gru
+54	2025-07-25 09:30:00	0700.HK	0	551.0	1238196	87	2]	0	2]	87%0	0%0	0700.HK_pos_vgood16_mult_128, 0700.HK_pos_reg4_mult_conv2	0700.HK_neg_low1_mult_lstm, 0700.HK_neg_good9__mult_gru
+53	2025-07-25 09:45:00	0981.HK	0	51.05	7354124	0	2]	144	2]	0%0	94%50	0981.HK_pos_low1__mult_gru, 0981.HK_pos_reg4__mult_gru	0981.HK_neg_low1_mult_dense2, 0981.HK_neg_vgood16__mult_gru
+54	2025-07-25 09:30:00	0981.HK	0	50.9	7354124	0	2]	146	2]	0%0	96%50	0981.HK_pos_low1__mult_gru, 0981.HK_pos_reg4__mult_gru	0981.HK_neg_low1_mult_dense2, 0981.HK_neg_vgood16__mult_gru
+53	2025-07-25 09:45:00	9999.HK	0	213.8	297400	190	2]	105	2]	93%97	25%80	9999.HK_pos_reg4_mult_128, 9999.HK_pos_reg4__mult_gru	9999.HK_neg_low1_mult_64, 9999.HK_neg_reg4__mult_gru
+54	2025-07-25 09:30:00	9999.HK	0	213.2	297400	187	2]	110	2]	95%92	25%85	9999.HK_pos_reg4_mult_128, 9999.HK_pos_reg4__mult_gru	9999.HK_neg_low1_mult_64, 9999.HK_neg_reg4__mult_gru
+53	2025-07-25 09:45:00	2628.HK	0	22.4	5222908	0.0	0]	0	2]		0%0		2628.HK_neg_reg4_mult_128, 2628.HK_neg_reg4__mult_gru
+54	2025-07-25 09:30:00	2628.HK	0	22.45	5222908	0.0	0]	0	2]		0%0		2628.HK_neg_reg4_mult_128, 2628.HK_neg_reg4__mult_gru
+53	2025-07-25 09:45:00	9633.HK	0	46.9	1829200	0	2]	25	2]	0%0	25%0	9633.HK_pos_good9__mult_gru, 9633.HK_pos_reg4_mult_lstm	9633.HK_neg_good9_mult_dense2, 9633.HK_neg_low1__mult_gru
+54	2025-07-25 09:30:00	9633.HK	0	47.25	1829200	0	2]	25	2]	0%0	25%0	9633.HK_pos_good9__mult_gru, 9633.HK_pos_reg4_mult_lstm	9633.HK_neg_good9_mult_dense2, 9633.HK_neg_low1__mult_gru
+53	2025-07-25 09:45:00	1810.HK	0	57.35	13341295	50	2]	95	2]	25%25	0%95	1810.HK_pos_vgood16_mult_conv, 1810.HK_pos_good9_mult_lstm	1810.HK_neg_low1__mult_gru, 1810.HK_neg_good9__mult_gru
+54	2025-07-25 09:30:00	1810.HK	0	57.2	13341295	25	2]	94	2]	0%25	0%94	1810.HK_pos_vgood16_mult_conv, 1810.HK_pos_good9_mult_lstm	1810.HK_neg_low1__mult_gru, 1810.HK_neg_good9__mult_gru
+53	2025-07-25 09:45:00	1024.HK	0	73.85	6784700	0	2]	0	2]	0%0	0%0	1024.HK_pos_good9__mult_gru, 1024.HK_pos_good9_mult_dense2	1024.HK_neg_reg4_mult_conv2, 1024.HK_neg_good9_mult_64
+54	2025-07-25 09:30:00	1024.HK	0	74.6	6784700	0	2]	0	2]	0%0	0%0	1024.HK_pos_good9__mult_gru, 1024.HK_pos_good9_mult_dense2	1024.HK_neg_reg4_mult_conv2, 1024.HK_neg_good9_mult_64
+53	2025-07-25 09:45:00	0175.HK	0	19.26	4304903	0	2]	0	2]	0%0	0%0	0175.HK_pos_good9_mult_dense2, 0175.HK_pos_good9_mult_128	0175.HK_neg_vgood16_mult_lstm, 0175.HK_neg_low1_mult_lstm
+54	2025-07-25 09:30:00	0175.HK	0	19.12	4304903	0	2]	0	2]	0%0	0%0	0175.HK_pos_good9_mult_dense2, 0175.HK_pos_good9_mult_128	0175.HK_neg_vgood16_mult_lstm, 0175.HK_neg_low1_mult_lstm
+53	2025-07-25 09:45:00	2888.HK	0	144.1	77850	135	2]	150	2]	75%60	80%70	2888.HK_pos_low1_mult_lstm, 2888.HK_pos_reg4_mult_lstm	2888.HK_neg_good9_mult_64, 2888.HK_neg_low1__mult_gru
+54	2025-07-25 09:30:00	2888.HK	0	143.0	77850	145	2]	150	2]	75%70	80%70	2888.HK_pos_low1_mult_lstm, 2888.HK_pos_reg4_mult_lstm	2888.HK_neg_good9_mult_64, 2888.HK_neg_low1__mult_gru
+53	2025-07-25 09:45:00	0267.HK	0	12.14	2107000	0	2]	179	2]	0%0	91%88	0267.HK_pos_low1_mult_lstm, 0267.HK_pos_low1_mult_28	0267.HK_neg_low1_mult_lstm, 0267.HK_neg_good9_mult_lstm
+54	2025-07-25 09:30:00	0267.HK	0	12.26	2107000	25	2]	179	2]	25%0	91%88	0267.HK_pos_low1_mult_lstm, 0267.HK_pos_low1_mult_28	0267.HK_neg_low1_mult_lstm, 0267.HK_neg_good9_mult_lstm
+53	2025-07-25 09:45:00	2388.HK	0	35.95	1517420	80	2]	140	2]	80%0	60%80	2388.HK_pos_reg4_mult_dense2, 2388.HK_pos_good9_mult_lstm	2388.HK_neg_low1_mult_128, 2388.HK_neg_low1_mult_lstm
+54	2025-07-25 09:30:00	2388.HK	0	35.75	1517420	80	2]	105	2]	80%0	25%80	2388.HK_pos_reg4_mult_dense2, 2388.HK_pos_good9_mult_lstm	2388.HK_neg_low1_mult_128, 2388.HK_neg_low1_mult_lstm
+53	2025-07-25 09:45:00	2015.HK	0	115.9	1778900	168	2]	170	2]	80%88	90%80	2015.HK_pos_reg4_mult_128, 2015.HK_pos_low1_mult_28	2015.HK_neg_low1_mult_lstm, 2015.HK_neg_low1__mult_gru
+54	2025-07-25 09:30:00	2015.HK	0	116.0	1778900	170	2]	145	2]	95%75	75%70	2015.HK_pos_reg4_mult_128, 2015.HK_pos_low1_mult_28	2015.HK_neg_low1_mult_lstm, 2015.HK_neg_low1__mult_gru
+53	2025-07-25 09:45:00	0939.HK	0	8.32	10159490	110	2]	177	2]	50%60	87%90	0939.HK_pos_reg4_mult_128, 0939.HK_pos_good9_mult_lstm	0939.HK_neg_low1_mult_lstm, 0939.HK_neg_good9__mult_gru
+54	2025-07-25 09:30:00	0939.HK	0	8.35	10159490	110	2]	160	2]	50%60	80%80	0939.HK_pos_reg4_mult_128, 0939.HK_pos_good9_mult_lstm	0939.HK_neg_low1_mult_lstm, 0939.HK_neg_good9__mult_gru
+53	2025-07-25 09:45:00	0005.HK	0	101.8	495323	50	2]	196	2]	25%25	98%98	0005.HK_pos_vgood16_mult_lstm, 0005.HK_pos_vgood16__mult_gru	0005.HK_neg_reg4__mult_gru, 0005.HK_neg_reg4_mult_128
+54	2025-07-25 09:30:00	0005.HK	0	101.6	495323	50	2]	196	2]	25%25	98%98	0005.HK_pos_vgood16_mult_lstm, 0005.HK_pos_vgood16__mult_gru	0005.HK_neg_reg4__mult_gru, 0005.HK_neg_reg4_mult_128
+53	2025-07-25 09:45:00	2318.HK	0	55.2	2501500	50	2]	89	2]	25%25	89%0	2318.HK_pos_reg4_mult_lstm, 2318.HK_pos_reg4__mult_gru	2318.HK_neg_good9__mult_gru, 2318.HK_neg_low1__mult_gru
+54	2025-07-25 09:30:00	2318.HK	0	55.3	2501500	75	2]	86	2]	50%25	86%0	2318.HK_pos_reg4_mult_lstm, 2318.HK_pos_reg4__mult_gru	2318.HK_neg_good9__mult_gru, 2318.HK_neg_low1__mult_gru
+53	2025-07-25 09:45:00	0388.HK	0	446.8	292559	25	2]	155	2]	25%0	80%75	0388.HK_pos_good9_mult_lstm, 0388.HK_pos_good9__mult_gru	0388.HK_neg_reg4_mult_lstm, 0388.HK_neg_good9__mult_gru
+54	2025-07-25 09:30:00	0388.HK	0	444.6	292559	25	2]	130	2]	25%0	70%60	0388.HK_pos_good9_mult_lstm, 0388.HK_pos_good9__mult_gru	0388.HK_neg_reg4_mult_lstm, 0388.HK_neg_good9__mult_gru
+53	2025-07-25 09:45:00	3968.HK	0	52.65	389000	245	3]	155	2]	60%98%87	80%75	3968.HK_pos_vgood16_mult_128, 3968.HK_pos_reg4_mult_64, 3968.HK_pos_low1__mult_gru	3968.HK_neg_low1_mult_128, 3968.HK_neg_low1__mult_gru
+54	2025-07-25 09:30:00	3968.HK	0	53.0	389000	228	3]	145	2]	50%98%80	75%70	3968.HK_pos_vgood16_mult_128, 3968.HK_pos_reg4_mult_64, 3968.HK_pos_low1__mult_gru	3968.HK_neg_low1_mult_128, 3968.HK_neg_low1__mult_gru
+53	2025-07-25 09:45:00	0700.HK	0	552.0	1238196	89	2]	0	2]	89%0	0%0	0700.HK_pos_vgood16_mult_128, 0700.HK_pos_reg4_mult_conv2	0700.HK_neg_low1_mult_lstm, 0700.HK_neg_good9__mult_gru
+54	2025-07-25 09:30:00	0700.HK	0	551.0	1238196	180	2]	168	2]	87%93	75%93	0700.HK_pos_vgood16_mult_128, 0700.HK_pos_reg4_mult_conv2	0700.HK_neg_low1_mult_lstm, 0700.HK_neg_good9__mult_gru
+53	2025-07-25 09:45:00	0981.HK	0	51.05	7354124	0	2]	144	2]	0%0	94%50	0981.HK_pos_low1__mult_gru, 0981.HK_pos_reg4__mult_gru	0981.HK_neg_low1_mult_dense2, 0981.HK_neg_vgood16__mult_gru
+54	2025-07-25 09:30:00	0981.HK	0	50.9	7354124	0	2]	146	2]	0%0	96%50	0981.HK_pos_low1__mult_gru, 0981.HK_pos_reg4__mult_gru	0981.HK_neg_low1_mult_dense2, 0981.HK_neg_vgood16__mult_gru
+53	2025-07-25 09:45:00	9999.HK	0	213.8	297400	0	2]	0	2]	0%0	0%0	9999.HK_pos_reg4_mult_128, 9999.HK_pos_reg4__mult_gru	9999.HK_neg_low1_mult_64, 9999.HK_neg_reg4__mult_gru
+54	2025-07-25 09:30:00	9999.HK	0	213.2	297400	187	2]	105	2]	95%92	25%80	9999.HK_pos_reg4_mult_128, 9999.HK_pos_reg4__mult_gru	9999.HK_neg_low1_mult_64, 9999.HK_neg_reg4__mult_gru
+53	2025-07-25 09:45:00	2628.HK	0	22.4	5222908	0.0	0]	0	2]		0%0		2628.HK_neg_reg4_mult_128, 2628.HK_neg_reg4__mult_gru
+54	2025-07-25 09:30:00	2628.HK	0	22.45	5222908	0.0	0]	166	2]		86%80		2628.HK_neg_reg4_mult_128, 2628.HK_neg_reg4__mult_gru
+53	2025-07-25 09:45:00	9633.HK	0	46.9	1829200	0	2]	25	2]	0%0	25%0	9633.HK_pos_good9__mult_gru, 9633.HK_pos_reg4_mult_lstm	9633.HK_neg_good9_mult_dense2, 9633.HK_neg_low1__mult_gru
+54	2025-07-25 09:30:00	9633.HK	0	47.25	1829200	145	2]	25	2]	70%75	25%0	9633.HK_pos_good9__mult_gru, 9633.HK_pos_reg4_mult_lstm	9633.HK_neg_good9_mult_dense2, 9633.HK_neg_low1__mult_gru
+53	2025-07-25 09:45:00	1810.HK	0	57.35	13341295	50	2]	95	2]	25%25	0%95	1810.HK_pos_vgood16_mult_conv, 1810.HK_pos_good9_mult_lstm	1810.HK_neg_low1__mult_gru, 1810.HK_neg_good9__mult_gru
+54	2025-07-25 09:30:00	1810.HK	0	57.2	13341295	25	2]	179	2]	0%25	85%94	1810.HK_pos_vgood16_mult_conv, 1810.HK_pos_good9_mult_lstm	1810.HK_neg_low1__mult_gru, 1810.HK_neg_good9__mult_gru
+53	2025-07-25 09:45:00	1024.HK	0	73.85	6784700	0	2]	0	2]	0%0	0%0	1024.HK_pos_good9__mult_gru, 1024.HK_pos_good9_mult_dense2	1024.HK_neg_reg4_mult_conv2, 1024.HK_neg_good9_mult_64
+54	2025-07-25 09:30:00	1024.HK	0	74.6	6784700	125	2]	0	2]	50%75	0%0	1024.HK_pos_good9__mult_gru, 1024.HK_pos_good9_mult_dense2	1024.HK_neg_reg4_mult_conv2, 1024.HK_neg_good9_mult_64
+53	2025-07-25 09:45:00	0175.HK	0	19.26	4304903	0	2]	0	2]	0%0	0%0	0175.HK_pos_good9_mult_dense2, 0175.HK_pos_good9_mult_128	0175.HK_neg_vgood16_mult_lstm, 0175.HK_neg_low1_mult_lstm
+54	2025-07-25 09:30:00	0175.HK	0	19.12	4304903	0	2]	0	2]	0%0	0%0	0175.HK_pos_good9_mult_dense2, 0175.HK_pos_good9_mult_128	0175.HK_neg_vgood16_mult_lstm, 0175.HK_neg_low1_mult_lstm
+53	2025-07-25 09:45:00	2888.HK	0	144.1	77850	135	2]	150	2]	75%60	80%70	2888.HK_pos_low1_mult_lstm, 2888.HK_pos_reg4_mult_lstm	2888.HK_neg_good9_mult_64, 2888.HK_neg_low1__mult_gru
+54	2025-07-25 09:30:00	2888.HK	0	143.0	77850	150	2]	150	2]	80%70	80%70	2888.HK_pos_low1_mult_lstm, 2888.HK_pos_reg4_mult_lstm	2888.HK_neg_good9_mult_64, 2888.HK_neg_low1__mult_gru
+53	2025-07-25 09:45:00	0267.HK	0	12.14	2107000	0	2]	179	2]	0%0	91%88	0267.HK_pos_low1_mult_lstm, 0267.HK_pos_low1_mult_28	0267.HK_neg_low1_mult_lstm, 0267.HK_neg_good9_mult_lstm
+54	2025-07-25 09:30:00	0267.HK	0	12.26	2107000	25	2]	180	2]	25%0	91%89	0267.HK_pos_low1_mult_lstm, 0267.HK_pos_low1_mult_28	0267.HK_neg_low1_mult_lstm, 0267.HK_neg_good9_mult_lstm
+53	2025-07-25 09:45:00	2388.HK	0	35.95	1517420	0	2]	0	2]	0%0	0%0	2388.HK_pos_reg4_mult_dense2, 2388.HK_pos_good9_mult_lstm	2388.HK_neg_low1_mult_128, 2388.HK_neg_low1_mult_lstm
+54	2025-07-25 09:30:00	2388.HK	0	35.75	1517420	80	2]	105	2]	80%0	25%80	2388.HK_pos_reg4_mult_dense2, 2388.HK_pos_good9_mult_lstm	2388.HK_neg_low1_mult_128, 2388.HK_neg_low1_mult_lstm
+53	2025-07-25 09:45:00	2015.HK	0	115.9	1778900	178	2]	170	2]	88%90	90%80	2015.HK_pos_reg4_mult_128, 2015.HK_pos_low1_mult_28	2015.HK_neg_low1_mult_lstm, 2015.HK_neg_low1__mult_gru
+54	2025-07-25 09:30:00	2015.HK	0	116.0	1778900	174	2]	145	2]	94%80	75%70	2015.HK_pos_reg4_mult_128, 2015.HK_pos_low1_mult_28	2015.HK_neg_low1_mult_lstm, 2015.HK_neg_low1__mult_gru
+53	2025-07-25 09:45:00	0939.HK	0	8.32	10159490	110	2]	177	2]	50%60	87%90	0939.HK_pos_reg4_mult_128, 0939.HK_pos_good9_mult_lstm	0939.HK_neg_low1_mult_lstm, 0939.HK_neg_good9__mult_gru
+54	2025-07-25 09:30:00	0939.HK	0	8.35	10159490	110	2]	160	2]	50%60	80%80	0939.HK_pos_reg4_mult_128, 0939.HK_pos_good9_mult_lstm	0939.HK_neg_low1_mult_lstm, 0939.HK_neg_good9__mult_gru
+53	2025-07-25 09:45:00	0005.HK	0	101.8	495323	50	2]	196	2]	25%25	98%98	0005.HK_pos_vgood16_mult_lstm, 0005.HK_pos_vgood16__mult_gru	0005.HK_neg_reg4__mult_gru, 0005.HK_neg_reg4_mult_128
+54	2025-07-25 09:30:00	0005.HK	0	101.6	495323	50	2]	196	2]	25%25	98%98	0005.HK_pos_vgood16_mult_lstm, 0005.HK_pos_vgood16__mult_gru	0005.HK_neg_reg4__mult_gru, 0005.HK_neg_reg4_mult_128
+53	2025-07-25 09:45:00	2318.HK	0	55.2	2501500	50	2]	89	2]	25%25	89%0	2318.HK_pos_reg4_mult_lstm, 2318.HK_pos_reg4__mult_gru	2318.HK_neg_good9__mult_gru, 2318.HK_neg_low1__mult_gru
+54	2025-07-25 09:30:00	2318.HK	0	55.3	2501500	75	2]	171	2]	50%25	86%85	2318.HK_pos_reg4_mult_lstm, 2318.HK_pos_reg4__mult_gru	2318.HK_neg_good9__mult_gru, 2318.HK_neg_low1__mult_gru
+53	2025-07-25 09:45:00	0388.HK	0	446.8	292559	25	2]	160	2]	25%0	80%80	0388.HK_pos_good9_mult_lstm, 0388.HK_pos_good9__mult_gru	0388.HK_neg_reg4_mult_lstm, 0388.HK_neg_good9__mult_gru
+54	2025-07-25 09:30:00	0388.HK	0	444.6	292559	25	2]	130	2]	25%0	60%70	0388.HK_pos_good9_mult_lstm, 0388.HK_pos_good9__mult_gru	0388.HK_neg_reg4_mult_lstm, 0388.HK_neg_good9__mult_gru
+53	2025-07-25 09:45:00	3968.HK	0	52.65	389000	245	3]	155	2]	60%98%87	80%75	3968.HK_pos_vgood16_mult_128, 3968.HK_pos_reg4_mult_64, 3968.HK_pos_low1__mult_gru	3968.HK_neg_low1_mult_128, 3968.HK_neg_low1__mult_gru
+54	2025-07-25 09:30:00	3968.HK	0	53.0	389000	228	3]	145	2]	50%98%80	75%70	3968.HK_pos_vgood16_mult_128, 3968.HK_pos_reg4_mult_64, 3968.HK_pos_low1__mult_gru	3968.HK_neg_low1_mult_128, 3968.HK_neg_low1__mult_gru
+53	2025-07-25 09:45:00	0700.HK	0	552.0	1238196	181	2]	170	2]	89%92	75%95	0700.HK_pos_vgood16_mult_128, 0700.HK_pos_reg4_mult_conv2	0700.HK_neg_low1_mult_lstm, 0700.HK_neg_good9__mult_gru
+54	2025-07-25 09:30:00	0700.HK	0	551.0	1238196	180	2]	168	2]	87%93	75%93	0700.HK_pos_vgood16_mult_128, 0700.HK_pos_reg4_mult_conv2	0700.HK_neg_low1_mult_lstm, 0700.HK_neg_good9__mult_gru
+53	2025-07-25 09:45:00	0981.HK	0	51.05	7354124	0	2]	144	2]	0%0	94%50	0981.HK_pos_low1__mult_gru, 0981.HK_pos_reg4__mult_gru	0981.HK_neg_low1_mult_dense2, 0981.HK_neg_vgood16__mult_gru
+54	2025-07-25 09:30:00	0981.HK	0	50.9	7354124	0	2]	146	2]	0%0	96%50	0981.HK_pos_low1__mult_gru, 0981.HK_pos_reg4__mult_gru	0981.HK_neg_low1_mult_dense2, 0981.HK_neg_vgood16__mult_gru
+53	2025-07-25 09:45:00	9999.HK	0	213.8	297400	190	2]	105	2]	93%97	25%80	9999.HK_pos_reg4_mult_128, 9999.HK_pos_reg4__mult_gru	9999.HK_neg_low1_mult_64, 9999.HK_neg_reg4__mult_gru
+54	2025-07-25 09:30:00	9999.HK	0	213.2	297400	187	2]	110	2]	95%92	25%85	9999.HK_pos_reg4_mult_128, 9999.HK_pos_reg4__mult_gru	9999.HK_neg_low1_mult_64, 9999.HK_neg_reg4__mult_gru
+53	2025-07-25 09:45:00	2628.HK	0	22.4	5222908	0.0	0]	169	2]		89%80		2628.HK_neg_reg4_mult_128, 2628.HK_neg_reg4__mult_gru
+54	2025-07-25 09:30:00	2628.HK	0	22.45	5222908	0.0	0]	166	2]		86%80		2628.HK_neg_reg4_mult_128, 2628.HK_neg_reg4__mult_gru
+53	2025-07-25 09:45:00	9633.HK	0	46.9	1829200	0	2]	25	2]	0%0	25%0	9633.HK_pos_good9__mult_gru, 9633.HK_pos_reg4_mult_lstm	9633.HK_neg_good9_mult_dense2, 9633.HK_neg_low1__mult_gru
+54	2025-07-25 09:30:00	9633.HK	0	47.25	1829200	145	2]	25	2]	70%75	25%0	9633.HK_pos_good9__mult_gru, 9633.HK_pos_reg4_mult_lstm	9633.HK_neg_good9_mult_dense2, 9633.HK_neg_low1__mult_gru
+53	2025-07-25 09:45:00	1810.HK	0	57.35	13341295	50	2]	95	2]	25%25	0%95	1810.HK_pos_vgood16_mult_conv, 1810.HK_pos_good9_mult_lstm	1810.HK_neg_low1__mult_gru, 1810.HK_neg_good9__mult_gru
+54	2025-07-25 09:30:00	1810.HK	0	57.2	13341295	25	2]	179	2]	0%25	85%94	1810.HK_pos_vgood16_mult_conv, 1810.HK_pos_good9_mult_lstm	1810.HK_neg_low1__mult_gru, 1810.HK_neg_good9__mult_gru
+53	2025-07-25 09:45:00	1024.HK	0	73.85	6784700	0	2]	0	2]	0%0	0%0	1024.HK_pos_good9__mult_gru, 1024.HK_pos_good9_mult_dense2	1024.HK_neg_reg4_mult_conv2, 1024.HK_neg_good9_mult_64
+54	2025-07-25 09:30:00	1024.HK	0	74.6	6784700	125	2]	0	2]	50%75	0%0	1024.HK_pos_good9__mult_gru, 1024.HK_pos_good9_mult_dense2	1024.HK_neg_reg4_mult_conv2, 1024.HK_neg_good9_mult_64
+53	2025-07-25 09:45:00	0175.HK	0	19.26	4304903	0	2]	0	2]	0%0	0%0	0175.HK_pos_good9_mult_dense2, 0175.HK_pos_good9_mult_128	0175.HK_neg_vgood16_mult_lstm, 0175.HK_neg_low1_mult_lstm
+54	2025-07-25 09:30:00	0175.HK	0	19.12	4304903	0	2]	0	2]	0%0	0%0	0175.HK_pos_good9_mult_dense2, 0175.HK_pos_good9_mult_128	0175.HK_neg_vgood16_mult_lstm, 0175.HK_neg_low1_mult_lstm
+53	2025-07-25 09:45:00	2888.HK	0	144.1	77850	135	2]	150	2]	75%60	80%70	2888.HK_pos_low1_mult_lstm, 2888.HK_pos_reg4_mult_lstm	2888.HK_neg_good9_mult_64, 2888.HK_neg_low1__mult_gru
+54	2025-07-25 09:30:00	2888.HK	0	143.0	77850	150	2]	150	2]	80%70	80%70	2888.HK_pos_low1_mult_lstm, 2888.HK_pos_reg4_mult_lstm	2888.HK_neg_good9_mult_64, 2888.HK_neg_low1__mult_gru
+53	2025-07-25 09:45:00	0267.HK	0	12.14	2107000	0	2]	179	2]	0%0	91%88	0267.HK_pos_low1_mult_lstm, 0267.HK_pos_low1_mult_28	0267.HK_neg_low1_mult_lstm, 0267.HK_neg_good9_mult_lstm
+54	2025-07-25 09:30:00	0267.HK	0	12.26	2107000	25	2]	180	2]	25%0	91%89	0267.HK_pos_low1_mult_lstm, 0267.HK_pos_low1_mult_28	0267.HK_neg_low1_mult_lstm, 0267.HK_neg_good9_mult_lstm
+53	2025-07-25 09:45:00	2388.HK	0	35.95	1517420	0	2]	0	2]	0%0	0%0	2388.HK_pos_reg4_mult_dense2, 2388.HK_pos_good9_mult_lstm	2388.HK_neg_low1_mult_128, 2388.HK_neg_low1_mult_lstm
+54	2025-07-25 09:30:00	2388.HK	0	35.75	1517420	80	2]	105	2]	80%0	25%80	2388.HK_pos_reg4_mult_dense2, 2388.HK_pos_good9_mult_lstm	2388.HK_neg_low1_mult_128, 2388.HK_neg_low1_mult_lstm
+53	2025-07-25 09:45:00	2015.HK	0	115.9	1778900	178	2]	170	2]	88%90	90%80	2015.HK_pos_reg4_mult_128, 2015.HK_pos_low1_mult_28	2015.HK_neg_low1_mult_lstm, 2015.HK_neg_low1__mult_gru
+54	2025-07-25 09:30:00	2015.HK	0	116.0	1778900	174	2]	145	2]	94%80	75%70	2015.HK_pos_reg4_mult_128, 2015.HK_pos_low1_mult_28	2015.HK_neg_low1_mult_lstm, 2015.HK_neg_low1__mult_gru
+53	2025-07-25 09:45:00	0939.HK	0	8.32	10159490	110	2]	177	2]	50%60	87%90	0939.HK_pos_reg4_mult_128, 0939.HK_pos_good9_mult_lstm	0939.HK_neg_low1_mult_lstm, 0939.HK_neg_good9__mult_gru
+54	2025-07-25 09:30:00	0939.HK	0	8.35	10159490	110	2]	160	2]	50%60	80%80	0939.HK_pos_reg4_mult_128, 0939.HK_pos_good9_mult_lstm	0939.HK_neg_low1_mult_lstm, 0939.HK_neg_good9__mult_gru
+53	2025-07-25 09:45:00	0005.HK	0	101.8	495323	50	2]	196	2]	25%25	98%98	0005.HK_pos_vgood16_mult_lstm, 0005.HK_pos_vgood16__mult_gru	0005.HK_neg_reg4__mult_gru, 0005.HK_neg_reg4_mult_128
+54	2025-07-25 09:30:00	0005.HK	0	101.6	495323	50	2]	196	2]	25%25	98%98	0005.HK_pos_vgood16_mult_lstm, 0005.HK_pos_vgood16__mult_gru	0005.HK_neg_reg4__mult_gru, 0005.HK_neg_reg4_mult_128
+53	2025-07-25 09:45:00	2318.HK	0	55.2	2501500	50	2]	89	2]	25%25	89%0	2318.HK_pos_reg4_mult_lstm, 2318.HK_pos_reg4__mult_gru	2318.HK_neg_good9__mult_gru, 2318.HK_neg_low1__mult_gru
+54	2025-07-25 09:30:00	2318.HK	0	55.3	2501500	75	2]	171	2]	50%25	86%85	2318.HK_pos_reg4_mult_lstm, 2318.HK_pos_reg4__mult_gru	2318.HK_neg_good9__mult_gru, 2318.HK_neg_low1__mult_gru
+53	2025-07-25 09:45:00	0388.HK	0	446.8	292559	25	2]	155	2]	25%0	80%75	0388.HK_pos_good9_mult_lstm, 0388.HK_pos_good9__mult_gru	0388.HK_neg_reg4_mult_lstm, 0388.HK_neg_good9__mult_gru
+54	2025-07-25 09:30:00	0388.HK	0	444.6	292559	25	2]	130	2]	25%0	70%60	0388.HK_pos_good9_mult_lstm, 0388.HK_pos_good9__mult_gru	0388.HK_neg_reg4_mult_lstm, 0388.HK_neg_good9__mult_gru
+53	2025-07-25 09:45:00	3968.HK	0	52.65	389000	245	3]	155	2]	60%98%87	80%75	3968.HK_pos_vgood16_mult_128, 3968.HK_pos_reg4_mult_64, 3968.HK_pos_low1__mult_gru	3968.HK_neg_low1_mult_128, 3968.HK_neg_low1__mult_gru
+54	2025-07-25 09:30:00	3968.HK	0	53.0	389000	228	3]	145	2]	50%98%80	75%70	3968.HK_pos_vgood16_mult_128, 3968.HK_pos_reg4_mult_64, 3968.HK_pos_low1__mult_gru	3968.HK_neg_low1_mult_128, 3968.HK_neg_low1__mult_gru
+53	2025-07-25 09:45:00	0700.HK	0	552.0	1238196	89	2]	0	2]	89%0	0%0	0700.HK_pos_vgood16_mult_128, 0700.HK_pos_reg4_mult_conv2	0700.HK_neg_low1_mult_lstm, 0700.HK_neg_good9__mult_gru
+54	2025-07-25 09:30:00	0700.HK	0	551.0	1238196	180	2]	168	2]	87%93	75%93	0700.HK_pos_vgood16_mult_128, 0700.HK_pos_reg4_mult_conv2	0700.HK_neg_low1_mult_lstm, 0700.HK_neg_good9__mult_gru
+53	2025-07-25 09:45:00	0981.HK	0	51.05	7354124	0	2]	144	2]	0%0	94%50	0981.HK_pos_low1__mult_gru, 0981.HK_pos_reg4__mult_gru	0981.HK_neg_low1_mult_dense2, 0981.HK_neg_vgood16__mult_gru
+54	2025-07-25 09:30:00	0981.HK	0	50.9	7354124	0	2]	146	2]	0%0	96%50	0981.HK_pos_low1__mult_gru, 0981.HK_pos_reg4__mult_gru	0981.HK_neg_low1_mult_dense2, 0981.HK_neg_vgood16__mult_gru
+53	2025-07-25 09:45:00	9999.HK	0	213.8	297400	0	2]	0	2]	0%0	0%0	9999.HK_pos_reg4_mult_128, 9999.HK_pos_reg4__mult_gru	9999.HK_neg_low1_mult_64, 9999.HK_neg_reg4__mult_gru
+54	2025-07-25 09:30:00	9999.HK	0	213.2	297400	187	2]	105	2]	95%92	25%80	9999.HK_pos_reg4_mult_128, 9999.HK_pos_reg4__mult_gru	9999.HK_neg_low1_mult_64, 9999.HK_neg_reg4__mult_gru
+53	2025-07-25 09:45:00	2628.HK	0	22.4	5222908	0.0	0]	0	2]		0%0		2628.HK_neg_reg4_mult_128, 2628.HK_neg_reg4__mult_gru
+54	2025-07-25 09:30:00	2628.HK	0	22.45	5222908	0.0	0]	166	2]		86%80		2628.HK_neg_reg4_mult_128, 2628.HK_neg_reg4__mult_gru
+53	2025-07-25 09:45:00	9633.HK	0	46.9	1829200	0	2]	25	2]	0%0	25%0	9633.HK_pos_good9__mult_gru, 9633.HK_pos_reg4_mult_lstm	9633.HK_neg_good9_mult_dense2, 9633.HK_neg_low1__mult_gru
+54	2025-07-25 09:30:00	9633.HK	0	47.25	1829200	145	2]	25	2]	70%75	25%0	9633.HK_pos_good9__mult_gru, 9633.HK_pos_reg4_mult_lstm	9633.HK_neg_good9_mult_dense2, 9633.HK_neg_low1__mult_gru
+53	2025-07-25 09:45:00	1810.HK	0	57.35	13341295	50	2]	95	2]	25%25	0%95	1810.HK_pos_vgood16_mult_conv, 1810.HK_pos_good9_mult_lstm	1810.HK_neg_low1__mult_gru, 1810.HK_neg_good9__mult_gru
+54	2025-07-25 09:30:00	1810.HK	0	57.2	13341295	25	2]	179	2]	0%25	85%94	1810.HK_pos_vgood16_mult_conv, 1810.HK_pos_good9_mult_lstm	1810.HK_neg_low1__mult_gru, 1810.HK_neg_good9__mult_gru
+53	2025-07-25 09:45:00	1024.HK	0	73.85	6784700	0	2]	0	2]	0%0	0%0	1024.HK_pos_good9__mult_gru, 1024.HK_pos_good9_mult_dense2	1024.HK_neg_reg4_mult_conv2, 1024.HK_neg_good9_mult_64
+54	2025-07-25 09:30:00	1024.HK	0	74.6	6784700	125	2]	0	2]	50%75	0%0	1024.HK_pos_good9__mult_gru, 1024.HK_pos_good9_mult_dense2	1024.HK_neg_reg4_mult_conv2, 1024.HK_neg_good9_mult_64
+53	2025-07-25 09:45:00	0175.HK	0	19.26	4304903	0	2]	0	2]	0%0	0%0	0175.HK_pos_good9_mult_dense2, 0175.HK_pos_good9_mult_128	0175.HK_neg_vgood16_mult_lstm, 0175.HK_neg_low1_mult_lstm
+54	2025-07-25 09:30:00	0175.HK	0	19.12	4304903	0	2]	0	2]	0%0	0%0	0175.HK_pos_good9_mult_dense2, 0175.HK_pos_good9_mult_128	0175.HK_neg_vgood16_mult_lstm, 0175.HK_neg_low1_mult_lstm
+53	2025-07-25 09:45:00	2888.HK	0	144.1	77850	135	2]	150	2]	75%60	80%70	2888.HK_pos_low1_mult_lstm, 2888.HK_pos_reg4_mult_lstm	2888.HK_neg_good9_mult_64, 2888.HK_neg_low1__mult_gru
+54	2025-07-25 09:30:00	2888.HK	0	143.0	77850	150	2]	150	2]	80%70	80%70	2888.HK_pos_low1_mult_lstm, 2888.HK_pos_reg4_mult_lstm	2888.HK_neg_good9_mult_64, 2888.HK_neg_low1__mult_gru
+53	2025-07-25 09:45:00	0267.HK	0	12.14	2107000	0	2]	179	2]	0%0	91%88	0267.HK_pos_low1_mult_lstm, 0267.HK_pos_low1_mult_28	0267.HK_neg_low1_mult_lstm, 0267.HK_neg_good9_mult_lstm
+54	2025-07-25 09:30:00	0267.HK	0	12.26	2107000	25	2]	180	2]	25%0	91%89	0267.HK_pos_low1_mult_lstm, 0267.HK_pos_low1_mult_28	0267.HK_neg_low1_mult_lstm, 0267.HK_neg_good9_mult_lstm
+53	2025-07-25 09:45:00	2388.HK	0	35.95	1517420	0	2]	0	2]	0%0	0%0	2388.HK_pos_reg4_mult_dense2, 2388.HK_pos_good9_mult_lstm	2388.HK_neg_low1_mult_128, 2388.HK_neg_low1_mult_lstm
+54	2025-07-25 09:30:00	2388.HK	0	35.75	1517420	80	2]	105	2]	80%0	25%80	2388.HK_pos_reg4_mult_dense2, 2388.HK_pos_good9_mult_lstm	2388.HK_neg_low1_mult_128, 2388.HK_neg_low1_mult_lstm
+53	2025-07-25 09:45:00	2015.HK	0	115.9	1778900	178	2]	170	2]	88%90	90%80	2015.HK_pos_reg4_mult_128, 2015.HK_pos_low1_mult_28	2015.HK_neg_low1_mult_lstm, 2015.HK_neg_low1__mult_gru
+54	2025-07-25 09:30:00	2015.HK	0	116.0	1778900	174	2]	145	2]	94%80	75%70	2015.HK_pos_reg4_mult_128, 2015.HK_pos_low1_mult_28	2015.HK_neg_low1_mult_lstm, 2015.HK_neg_low1__mult_gru
+53	2025-07-25 09:45:00	0939.HK	0	8.32	10159490	110	2]	177	2]	50%60	87%90	0939.HK_pos_reg4_mult_128, 0939.HK_pos_good9_mult_lstm	0939.HK_neg_low1_mult_lstm, 0939.HK_neg_good9__mult_gru
+54	2025-07-25 09:30:00	0939.HK	0	8.35	10159490	110	2]	160	2]	50%60	80%80	0939.HK_pos_reg4_mult_128, 0939.HK_pos_good9_mult_lstm	0939.HK_neg_low1_mult_lstm, 0939.HK_neg_good9__mult_gru
+53	2025-07-25 09:45:00	0005.HK	0	101.8	495323	50	2]	196	2]	25%25	98%98	0005.HK_pos_vgood16_mult_lstm, 0005.HK_pos_vgood16__mult_gru	0005.HK_neg_reg4__mult_gru, 0005.HK_neg_reg4_mult_128
+54	2025-07-25 09:30:00	0005.HK	0	101.6	495323	50	2]	196	2]	25%25	98%98	0005.HK_pos_vgood16_mult_lstm, 0005.HK_pos_vgood16__mult_gru	0005.HK_neg_reg4__mult_gru, 0005.HK_neg_reg4_mult_128
+53	2025-07-25 09:45:00	2318.HK	0	55.2	2501500	50	2]	89	2]	25%25	89%0	2318.HK_pos_reg4_mult_lstm, 2318.HK_pos_reg4__mult_gru	2318.HK_neg_good9__mult_gru, 2318.HK_neg_low1__mult_gru
+54	2025-07-25 09:30:00	2318.HK	0	55.3	2501500	75	2]	171	2]	50%25	86%85	2318.HK_pos_reg4_mult_lstm, 2318.HK_pos_reg4__mult_gru	2318.HK_neg_good9__mult_gru, 2318.HK_neg_low1__mult_gru
+53	2025-07-25 09:45:00	0388.HK	0	446.8	292559	25	2]	155	2]	25%0	80%75	0388.HK_pos_good9_mult_lstm, 0388.HK_pos_good9__mult_gru	0388.HK_neg_reg4_mult_lstm, 0388.HK_neg_good9__mult_gru
+54	2025-07-25 09:30:00	0388.HK	0	444.6	292559	25	2]	130	2]	25%0	70%60	0388.HK_pos_good9_mult_lstm, 0388.HK_pos_good9__mult_gru	0388.HK_neg_reg4_mult_lstm, 0388.HK_neg_good9__mult_gru
+53	2025-07-25 09:45:00	3968.HK	0	52.65	389000	245	3]	155	2]	60%98%87	80%75	3968.HK_pos_vgood16_mult_128, 3968.HK_pos_reg4_mult_64, 3968.HK_pos_low1__mult_gru	3968.HK_neg_low1_mult_128, 3968.HK_neg_low1__mult_gru
+54	2025-07-25 09:30:00	3968.HK	0	53.0	389000	228	3]	145	2]	50%98%80	75%70	3968.HK_pos_vgood16_mult_128, 3968.HK_pos_reg4_mult_64, 3968.HK_pos_low1__mult_gru	3968.HK_neg_low1_mult_128, 3968.HK_neg_low1__mult_gru
+53	2025-07-25 09:45:00	0700.HK	0	552.0	1238196	89	2]	0	2]	89%0	0%0	0700.HK_pos_vgood16_mult_128, 0700.HK_pos_reg4_mult_conv2	0700.HK_neg_low1_mult_lstm, 0700.HK_neg_good9__mult_gru
+54	2025-07-25 09:30:00	0700.HK	0	551.0	1238196	180	2]	168	2]	87%93	75%93	0700.HK_pos_vgood16_mult_128, 0700.HK_pos_reg4_mult_conv2	0700.HK_neg_low1_mult_lstm, 0700.HK_neg_good9__mult_gru
+53	2025-07-25 09:45:00	0981.HK	0	51.05	7354124	0	2]	144	2]	0%0	94%50	0981.HK_pos_low1__mult_gru, 0981.HK_pos_reg4__mult_gru	0981.HK_neg_low1_mult_dense2, 0981.HK_neg_vgood16__mult_gru
+54	2025-07-25 09:30:00	0981.HK	0	50.9	7354124	0	2]	146	2]	0%0	96%50	0981.HK_pos_low1__mult_gru, 0981.HK_pos_reg4__mult_gru	0981.HK_neg_low1_mult_dense2, 0981.HK_neg_vgood16__mult_gru
+53	2025-07-25 09:45:00	9999.HK	0	213.8	297400	0	2]	0	2]	0%0	0%0	9999.HK_pos_reg4_mult_128, 9999.HK_pos_reg4__mult_gru	9999.HK_neg_low1_mult_64, 9999.HK_neg_reg4__mult_gru
+54	2025-07-25 09:30:00	9999.HK	0	213.2	297400	187	2]	105	2]	95%92	25%80	9999.HK_pos_reg4_mult_128, 9999.HK_pos_reg4__mult_gru	9999.HK_neg_low1_mult_64, 9999.HK_neg_reg4__mult_gru
+53	2025-07-25 09:45:00	2628.HK	0	22.4	5222908	0.0	0]	0	2]		0%0		2628.HK_neg_reg4_mult_128, 2628.HK_neg_reg4__mult_gru
+54	2025-07-25 09:30:00	2628.HK	0	22.45	5222908	0.0	0]	166	2]		86%80		2628.HK_neg_reg4_mult_128, 2628.HK_neg_reg4__mult_gru
+53	2025-07-25 09:45:00	9633.HK	0	46.9	1829200	0	2]	25	2]	0%0	25%0	9633.HK_pos_good9__mult_gru, 9633.HK_pos_reg4_mult_lstm	9633.HK_neg_good9_mult_dense2, 9633.HK_neg_low1__mult_gru
+54	2025-07-25 09:30:00	9633.HK	0	47.25	1829200	145	2]	25	2]	70%75	25%0	9633.HK_pos_good9__mult_gru, 9633.HK_pos_reg4_mult_lstm	9633.HK_neg_good9_mult_dense2, 9633.HK_neg_low1__mult_gru
+53	2025-07-25 09:45:00	1810.HK	0	57.35	13341295	50	2]	95	2]	25%25	0%95	1810.HK_pos_vgood16_mult_conv, 1810.HK_pos_good9_mult_lstm	1810.HK_neg_low1__mult_gru, 1810.HK_neg_good9__mult_gru
+54	2025-07-25 09:30:00	1810.HK	0	57.2	13341295	25	2]	179	2]	0%25	85%94	1810.HK_pos_vgood16_mult_conv, 1810.HK_pos_good9_mult_lstm	1810.HK_neg_low1__mult_gru, 1810.HK_neg_good9__mult_gru
+53	2025-07-25 09:45:00	1024.HK	0	73.85	6784700	0	2]	0	2]	0%0	0%0	1024.HK_pos_good9__mult_gru, 1024.HK_pos_good9_mult_dense2	1024.HK_neg_reg4_mult_conv2, 1024.HK_neg_good9_mult_64
+54	2025-07-25 09:30:00	1024.HK	0	74.6	6784700	125	2]	0	2]	50%75	0%0	1024.HK_pos_good9__mult_gru, 1024.HK_pos_good9_mult_dense2	1024.HK_neg_reg4_mult_conv2, 1024.HK_neg_good9_mult_64
+53	2025-07-25 09:45:00	0175.HK	0	19.26	4304903	0	2]	0	2]	0%0	0%0	0175.HK_pos_good9_mult_dense2, 0175.HK_pos_good9_mult_128	0175.HK_neg_vgood16_mult_lstm, 0175.HK_neg_low1_mult_lstm
+54	2025-07-25 09:30:00	0175.HK	0	19.12	4304903	0	2]	0	2]	0%0	0%0	0175.HK_pos_good9_mult_dense2, 0175.HK_pos_good9_mult_128	0175.HK_neg_vgood16_mult_lstm, 0175.HK_neg_low1_mult_lstm
+53	2025-07-25 09:45:00	2888.HK	0	144.1	77850	135	2]	150	2]	75%60	80%70	2888.HK_pos_low1_mult_lstm, 2888.HK_pos_reg4_mult_lstm	2888.HK_neg_good9_mult_64, 2888.HK_neg_low1__mult_gru
+54	2025-07-25 09:30:00	2888.HK	0	143.0	77850	150	2]	150	2]	80%70	80%70	2888.HK_pos_low1_mult_lstm, 2888.HK_pos_reg4_mult_lstm	2888.HK_neg_good9_mult_64, 2888.HK_neg_low1__mult_gru
+53	2025-07-25 09:45:00	0267.HK	0	12.14	2107000	0	2]	179	2]	0%0	91%88	0267.HK_pos_low1_mult_lstm, 0267.HK_pos_low1_mult_28	0267.HK_neg_low1_mult_lstm, 0267.HK_neg_good9_mult_lstm
+54	2025-07-25 09:30:00	0267.HK	0	12.26	2107000	25	2]	180	2]	25%0	91%89	0267.HK_pos_low1_mult_lstm, 0267.HK_pos_low1_mult_28	0267.HK_neg_low1_mult_lstm, 0267.HK_neg_good9_mult_lstm
+53	2025-07-25 09:45:00	2388.HK	0	35.95	1517420	0	2]	0	2]	0%0	0%0	2388.HK_pos_reg4_mult_dense2, 2388.HK_pos_good9_mult_lstm	2388.HK_neg_low1_mult_128, 2388.HK_neg_low1_mult_lstm
+54	2025-07-25 09:30:00	2388.HK	0	35.75	1517420	80	2]	105	2]	80%0	25%80	2388.HK_pos_reg4_mult_dense2, 2388.HK_pos_good9_mult_lstm	2388.HK_neg_low1_mult_128, 2388.HK_neg_low1_mult_lstm
+53	2025-07-25 09:45:00	2015.HK	0	115.9	1778900	178	2]	170	2]	88%90	90%80	2015.HK_pos_reg4_mult_128, 2015.HK_pos_low1_mult_28	2015.HK_neg_low1_mult_lstm, 2015.HK_neg_low1__mult_gru
+54	2025-07-25 09:30:00	2015.HK	0	116.0	1778900	174	2]	145	2]	94%80	75%70	2015.HK_pos_reg4_mult_128, 2015.HK_pos_low1_mult_28	2015.HK_neg_low1_mult_lstm, 2015.HK_neg_low1__mult_gru
+53	2025-07-25 09:45:00	0939.HK	0	8.32	10159490	110	2]	177	2]	50%60	87%90	0939.HK_pos_reg4_mult_128, 0939.HK_pos_good9_mult_lstm	0939.HK_neg_low1_mult_lstm, 0939.HK_neg_good9__mult_gru
+54	2025-07-25 09:30:00	0939.HK	0	8.35	10159490	110	2]	160	2]	50%60	80%80	0939.HK_pos_reg4_mult_128, 0939.HK_pos_good9_mult_lstm	0939.HK_neg_low1_mult_lstm, 0939.HK_neg_good9__mult_gru
+53	2025-07-25 09:45:00	0005.HK	0	101.8	495323	50	2]	196	2]	25%25	98%98	0005.HK_pos_vgood16_mult_lstm, 0005.HK_pos_vgood16__mult_gru	0005.HK_neg_reg4__mult_gru, 0005.HK_neg_reg4_mult_128
+54	2025-07-25 09:30:00	0005.HK	0	101.6	495323	50	2]	196	2]	25%25	98%98	0005.HK_pos_vgood16_mult_lstm, 0005.HK_pos_vgood16__mult_gru	0005.HK_neg_reg4__mult_gru, 0005.HK_neg_reg4_mult_128
+53	2025-07-25 09:45:00	2318.HK	0	55.2	2501500	50	2]	175	2]	25%25	89%86	2318.HK_pos_reg4_mult_lstm, 2318.HK_pos_reg4__mult_gru	2318.HK_neg_good9__mult_gru, 2318.HK_neg_low1__mult_gru
+54	2025-07-25 09:30:00	2318.HK	0	55.3	2501500	75	2]	172	2]	50%25	86%86	2318.HK_pos_reg4_mult_lstm, 2318.HK_pos_reg4__mult_gru	2318.HK_neg_good9__mult_gru, 2318.HK_neg_low1__mult_gru
+53	2025-07-25 09:45:00	0388.HK	0	446.8	292559	25	2]	155	2]	25%0	80%75	0388.HK_pos_good9_mult_lstm, 0388.HK_pos_good9__mult_gru	0388.HK_neg_reg4_mult_lstm, 0388.HK_neg_good9__mult_gru
+54	2025-07-25 09:30:00	0388.HK	0	444.6	292559	60	2]	140	2]	60%0	70%70	0388.HK_pos_good9_mult_lstm, 0388.HK_pos_good9__mult_gru	0388.HK_neg_reg4_mult_lstm, 0388.HK_neg_good9__mult_gru
+53	2025-07-25 09:45:00	3968.HK	0	52.65	389000	244	3]	155	2]	60%98%86	80%75	3968.HK_pos_vgood16_mult_128, 3968.HK_pos_reg4_mult_64, 3968.HK_pos_low1__mult_gru	3968.HK_neg_low1_mult_128, 3968.HK_neg_low1__mult_gru
+54	2025-07-25 09:30:00	3968.HK	0	53.0	389000	228	3]	150	2]	50%98%80	75%75	3968.HK_pos_vgood16_mult_128, 3968.HK_pos_reg4_mult_64, 3968.HK_pos_low1__mult_gru	3968.HK_neg_low1_mult_128, 3968.HK_neg_low1__mult_gru
+53	2025-07-25 09:45:00	0700.HK	0	552.0	1238196	181	2]	170	2]	89%92	75%95	0700.HK_pos_vgood16_mult_128, 0700.HK_pos_reg4_mult_conv2	0700.HK_neg_low1_mult_lstm, 0700.HK_neg_good9__mult_gru
+54	2025-07-25 09:30:00	0700.HK	0	551.0	1238196	180	2]	168	2]	87%93	75%93	0700.HK_pos_vgood16_mult_128, 0700.HK_pos_reg4_mult_conv2	0700.HK_neg_low1_mult_lstm, 0700.HK_neg_good9__mult_gru
+53	2025-07-25 09:45:00	0981.HK	0	51.05	7354124	0	2]	144	2]	0%0	94%50	0981.HK_pos_low1__mult_gru, 0981.HK_pos_reg4__mult_gru	0981.HK_neg_low1_mult_dense2, 0981.HK_neg_vgood16__mult_gru
+54	2025-07-25 09:30:00	0981.HK	0	50.9	7354124	0	2]	146	2]	0%0	96%50	0981.HK_pos_low1__mult_gru, 0981.HK_pos_reg4__mult_gru	0981.HK_neg_low1_mult_dense2, 0981.HK_neg_vgood16__mult_gru
+53	2025-07-25 09:45:00	9999.HK	0	213.8	297400	190	2]	105	2]	93%97	25%80	9999.HK_pos_reg4_mult_128, 9999.HK_pos_reg4__mult_gru	9999.HK_neg_low1_mult_64, 9999.HK_neg_reg4__mult_gru
+54	2025-07-25 09:30:00	9999.HK	0	213.2	297400	187	2]	105	2]	95%92	25%80	9999.HK_pos_reg4_mult_128, 9999.HK_pos_reg4__mult_gru	9999.HK_neg_low1_mult_64, 9999.HK_neg_reg4__mult_gru
+53	2025-07-25 09:45:00	2628.HK	0	22.4	5222908	0.0	0]	169	2]		89%80		2628.HK_neg_reg4_mult_128, 2628.HK_neg_reg4__mult_gru
+54	2025-07-25 09:30:00	2628.HK	0	22.45	5222908	0.0	0]	166	2]		86%80		2628.HK_neg_reg4_mult_128, 2628.HK_neg_reg4__mult_gru
+53	2025-07-25 09:45:00	9633.HK	0	46.9	1829200	155	2]	25	2]	80%75	25%0	9633.HK_pos_good9__mult_gru, 9633.HK_pos_reg4_mult_lstm	9633.HK_neg_good9_mult_dense2, 9633.HK_neg_low1__mult_gru
+54	2025-07-25 09:30:00	9633.HK	0	47.25	1829200	145	2]	25	2]	70%75	25%0	9633.HK_pos_good9__mult_gru, 9633.HK_pos_reg4_mult_lstm	9633.HK_neg_good9_mult_dense2, 9633.HK_neg_low1__mult_gru
+53	2025-07-25 09:45:00	1810.HK	0	57.35	13341295	50	2]	185	2]	25%25	90%95	1810.HK_pos_vgood16_mult_conv, 1810.HK_pos_good9_mult_lstm	1810.HK_neg_low1__mult_gru, 1810.HK_neg_good9__mult_gru
+54	2025-07-25 09:30:00	1810.HK	0	57.2	13341295	25	2]	179	2]	0%25	85%94	1810.HK_pos_vgood16_mult_conv, 1810.HK_pos_good9_mult_lstm	1810.HK_neg_low1__mult_gru, 1810.HK_neg_good9__mult_gru
+53	2025-07-25 09:45:00	1024.HK	0	73.85	6784700	145	2]	147	2]	75%70	97%50	1024.HK_pos_good9__mult_gru, 1024.HK_pos_good9_mult_dense2	1024.HK_neg_reg4_mult_conv2, 1024.HK_neg_good9_mult_64
+54	2025-07-25 09:30:00	1024.HK	0	74.6	6784700	125	2]	145	2]	50%75	95%50	1024.HK_pos_good9__mult_gru, 1024.HK_pos_good9_mult_dense2	1024.HK_neg_reg4_mult_conv2, 1024.HK_neg_good9_mult_64
+53	2025-07-25 09:45:00	0175.HK	0	19.26	4304903	0	2]	0	2]	0%0	0%0	0175.HK_pos_good9_mult_dense2, 0175.HK_pos_good9_mult_128	0175.HK_neg_vgood16_mult_lstm, 0175.HK_neg_low1_mult_lstm
+54	2025-07-25 09:30:00	0175.HK	0	19.12	4304903	0	2]	0	2]	0%0	0%0	0175.HK_pos_good9_mult_dense2, 0175.HK_pos_good9_mult_128	0175.HK_neg_vgood16_mult_lstm, 0175.HK_neg_low1_mult_lstm
+53	2025-07-25 09:45:00	2888.HK	0	144.1	77850	135	2]	150	2]	75%60	80%70	2888.HK_pos_low1_mult_lstm, 2888.HK_pos_reg4_mult_lstm	2888.HK_neg_good9_mult_64, 2888.HK_neg_low1__mult_gru
+54	2025-07-25 09:30:00	2888.HK	0	143.0	77850	150	2]	150	2]	80%70	80%70	2888.HK_pos_low1_mult_lstm, 2888.HK_pos_reg4_mult_lstm	2888.HK_neg_good9_mult_64, 2888.HK_neg_low1__mult_gru
+53	2025-07-25 09:45:00	0267.HK	0	12.14	2107000	25	2]	179	2]	25%0	91%88	0267.HK_pos_low1_mult_lstm, 0267.HK_pos_low1_mult_28	0267.HK_neg_low1_mult_lstm, 0267.HK_neg_good9_mult_lstm
+54	2025-07-25 09:30:00	0267.HK	0	12.26	2107000	25	2]	180	2]	25%0	91%89	0267.HK_pos_low1_mult_lstm, 0267.HK_pos_low1_mult_28	0267.HK_neg_low1_mult_lstm, 0267.HK_neg_good9_mult_lstm
+53	2025-07-25 09:45:00	2388.HK	0	35.95	1517420	75	2]	140	2]	75%0	60%80	2388.HK_pos_reg4_mult_dense2, 2388.HK_pos_good9_mult_lstm	2388.HK_neg_low1_mult_128, 2388.HK_neg_low1_mult_lstm
+54	2025-07-25 09:30:00	2388.HK	0	35.75	1517420	80	2]	105	2]	80%0	25%80	2388.HK_pos_reg4_mult_dense2, 2388.HK_pos_good9_mult_lstm	2388.HK_neg_low1_mult_128, 2388.HK_neg_low1_mult_lstm
+53	2025-07-25 09:45:00	2015.HK	0	115.9	1778900	178	2]	170	2]	88%90	90%80	2015.HK_pos_reg4_mult_128, 2015.HK_pos_low1_mult_28	2015.HK_neg_low1_mult_lstm, 2015.HK_neg_low1__mult_gru
+54	2025-07-25 09:30:00	2015.HK	0	116.0	1778900	178	2]	145	2]	93%85	75%70	2015.HK_pos_reg4_mult_128, 2015.HK_pos_low1_mult_28	2015.HK_neg_low1_mult_lstm, 2015.HK_neg_low1__mult_gru
+53	2025-07-25 09:45:00	0939.HK	0	8.32	10159490	110	2]	177	2]	50%60	87%90	0939.HK_pos_reg4_mult_128, 0939.HK_pos_good9_mult_lstm	0939.HK_neg_low1_mult_lstm, 0939.HK_neg_good9__mult_gru
+54	2025-07-25 09:30:00	0939.HK	0	8.35	10159490	110	2]	160	2]	50%60	80%80	0939.HK_pos_reg4_mult_128, 0939.HK_pos_good9_mult_lstm	0939.HK_neg_low1_mult_lstm, 0939.HK_neg_good9__mult_gru
+53	2025-07-25 09:45:00	0005.HK	0	101.8	495323	50	2]	196	2]	25%25	98%98	0005.HK_pos_vgood16_mult_lstm, 0005.HK_pos_vgood16__mult_gru	0005.HK_neg_reg4__mult_gru, 0005.HK_neg_reg4_mult_128
+54	2025-07-25 09:30:00	0005.HK	0	101.6	495323	50	2]	196	2]	25%25	98%98	0005.HK_pos_vgood16_mult_lstm, 0005.HK_pos_vgood16__mult_gru	0005.HK_neg_reg4__mult_gru, 0005.HK_neg_reg4_mult_128
+53	2025-07-25 09:45:00	2318.HK	0	55.2	2501500	50	2]	174	2]	25%25	89%85	2318.HK_pos_reg4_mult_lstm, 2318.HK_pos_reg4__mult_gru	2318.HK_neg_good9__mult_gru, 2318.HK_neg_low1__mult_gru
+54	2025-07-25 09:30:00	2318.HK	0	55.3	2501500	75	2]	172	2]	50%25	86%86	2318.HK_pos_reg4_mult_lstm, 2318.HK_pos_reg4__mult_gru	2318.HK_neg_good9__mult_gru, 2318.HK_neg_low1__mult_gru
+53	2025-07-25 09:45:00	0388.HK	0	446.8	292559	25	2]	155	2]	25%0	75%80	0388.HK_pos_good9_mult_lstm, 0388.HK_pos_good9__mult_gru	0388.HK_neg_reg4_mult_lstm, 0388.HK_neg_good9__mult_gru
+54	2025-07-25 09:30:00	0388.HK	0	444.6	292559	25	2]	130	2]	25%0	60%70	0388.HK_pos_good9_mult_lstm, 0388.HK_pos_good9__mult_gru	0388.HK_neg_reg4_mult_lstm, 0388.HK_neg_good9__mult_gru
+53	2025-07-25 09:45:00	3968.HK	0	52.65	389000	245	3]	155	2]	60%98%87	80%75	3968.HK_pos_vgood16_mult_128, 3968.HK_pos_reg4_mult_64, 3968.HK_pos_low1__mult_gru	3968.HK_neg_low1_mult_128, 3968.HK_neg_low1__mult_gru
+54	2025-07-25 09:30:00	3968.HK	0	53.0	389000	228	3]	150	2]	50%98%80	75%75	3968.HK_pos_vgood16_mult_128, 3968.HK_pos_reg4_mult_64, 3968.HK_pos_low1__mult_gru	3968.HK_neg_low1_mult_128, 3968.HK_neg_low1__mult_gru
+53	2025-07-25 09:45:00	0700.HK	0	552.0	1238196	181	2]	170	2]	89%92	75%95	0700.HK_pos_vgood16_mult_128, 0700.HK_pos_reg4_mult_conv2	0700.HK_neg_low1_mult_lstm, 0700.HK_neg_good9__mult_gru
+54	2025-07-25 09:30:00	0700.HK	0	551.0	1238196	181	2]	168	2]	87%94	75%93	0700.HK_pos_vgood16_mult_128, 0700.HK_pos_reg4_mult_conv2	0700.HK_neg_low1_mult_lstm, 0700.HK_neg_good9__mult_gru
+53	2025-07-25 09:45:00	0981.HK	0	51.05	7354124	0	2]	144	2]	0%0	94%50	0981.HK_pos_low1__mult_gru, 0981.HK_pos_reg4__mult_gru	0981.HK_neg_low1_mult_dense2, 0981.HK_neg_vgood16__mult_gru
+54	2025-07-25 09:30:00	0981.HK	0	50.9	7354124	0	2]	146	2]	0%0	96%50	0981.HK_pos_low1__mult_gru, 0981.HK_pos_reg4__mult_gru	0981.HK_neg_low1_mult_dense2, 0981.HK_neg_vgood16__mult_gru
+53	2025-07-25 09:45:00	9999.HK	0	213.8	297400	190	2]	105	2]	93%97	25%80	9999.HK_pos_reg4_mult_128, 9999.HK_pos_reg4__mult_gru	9999.HK_neg_low1_mult_64, 9999.HK_neg_reg4__mult_gru
+54	2025-07-25 09:30:00	9999.HK	0	213.2	297400	187	2]	105	2]	95%92	25%80	9999.HK_pos_reg4_mult_128, 9999.HK_pos_reg4__mult_gru	9999.HK_neg_low1_mult_64, 9999.HK_neg_reg4__mult_gru
+53	2025-07-25 09:45:00	2628.HK	0	22.4	5222908	0.0	0]	169	2]		89%80		2628.HK_neg_reg4_mult_128, 2628.HK_neg_reg4__mult_gru
+54	2025-07-25 09:30:00	2628.HK	0	22.45	5222908	0.0	0]	166	2]		86%80		2628.HK_neg_reg4_mult_128, 2628.HK_neg_reg4__mult_gru
+53	2025-07-25 09:45:00	9633.HK	0	46.9	1829200	155	2]	25	2]	80%75	25%0	9633.HK_pos_good9__mult_gru, 9633.HK_pos_reg4_mult_lstm	9633.HK_neg_good9_mult_dense2, 9633.HK_neg_low1__mult_gru
+54	2025-07-25 09:30:00	9633.HK	0	47.25	1829200	145	2]	25	2]	70%75	25%0	9633.HK_pos_good9__mult_gru, 9633.HK_pos_reg4_mult_lstm	9633.HK_neg_good9_mult_dense2, 9633.HK_neg_low1__mult_gru
+53	2025-07-25 09:45:00	1810.HK	0	57.35	13341295	50	2]	185	2]	25%25	90%95	1810.HK_pos_vgood16_mult_conv, 1810.HK_pos_good9_mult_lstm	1810.HK_neg_low1__mult_gru, 1810.HK_neg_good9__mult_gru
+54	2025-07-25 09:30:00	1810.HK	0	57.2	13341295	25	2]	180	2]	0%25	86%94	1810.HK_pos_vgood16_mult_conv, 1810.HK_pos_good9_mult_lstm	1810.HK_neg_low1__mult_gru, 1810.HK_neg_good9__mult_gru
+53	2025-07-25 09:45:00	1024.HK	0	73.85	6784700	140	2]	146	2]	70%70	96%50	1024.HK_pos_good9__mult_gru, 1024.HK_pos_good9_mult_dense2	1024.HK_neg_reg4_mult_conv2, 1024.HK_neg_good9_mult_64
+54	2025-07-25 09:30:00	1024.HK	0	74.6	6784700	125	2]	145	2]	50%75	95%50	1024.HK_pos_good9__mult_gru, 1024.HK_pos_good9_mult_dense2	1024.HK_neg_reg4_mult_conv2, 1024.HK_neg_good9_mult_64
+53	2025-07-25 09:45:00	0175.HK	0	19.26	4304903	0	2]	0	2]	0%0	0%0	0175.HK_pos_good9_mult_dense2, 0175.HK_pos_good9_mult_128	0175.HK_neg_vgood16_mult_lstm, 0175.HK_neg_low1_mult_lstm
+54	2025-07-25 09:30:00	0175.HK	0	19.12	4304903	0	2]	0	2]	0%0	0%0	0175.HK_pos_good9_mult_dense2, 0175.HK_pos_good9_mult_128	0175.HK_neg_vgood16_mult_lstm, 0175.HK_neg_low1_mult_lstm
+53	2025-07-25 09:45:00	2888.HK	0	144.1	77850	135	2]	150	2]	75%60	80%70	2888.HK_pos_low1_mult_lstm, 2888.HK_pos_reg4_mult_lstm	2888.HK_neg_good9_mult_64, 2888.HK_neg_low1__mult_gru
+54	2025-07-25 09:30:00	2888.HK	0	143.0	77850	150	2]	150	2]	80%70	80%70	2888.HK_pos_low1_mult_lstm, 2888.HK_pos_reg4_mult_lstm	2888.HK_neg_good9_mult_64, 2888.HK_neg_low1__mult_gru
+53	2025-07-25 09:45:00	0267.HK	0	12.14	2107000	25	2]	179	2]	25%0	91%88	0267.HK_pos_low1_mult_lstm, 0267.HK_pos_low1_mult_28	0267.HK_neg_low1_mult_lstm, 0267.HK_neg_good9_mult_lstm
+54	2025-07-25 09:30:00	0267.HK	0	12.26	2107000	25	2]	179	2]	25%0	91%88	0267.HK_pos_low1_mult_lstm, 0267.HK_pos_low1_mult_28	0267.HK_neg_low1_mult_lstm, 0267.HK_neg_good9_mult_lstm
+53	2025-07-25 09:45:00	2388.HK	0	35.95	1517420	75	2]	140	2]	75%0	60%80	2388.HK_pos_reg4_mult_dense2, 2388.HK_pos_good9_mult_lstm	2388.HK_neg_low1_mult_128, 2388.HK_neg_low1_mult_lstm
+54	2025-07-25 09:30:00	2388.HK	0	35.75	1517420	80	2]	105	2]	80%0	25%80	2388.HK_pos_reg4_mult_dense2, 2388.HK_pos_good9_mult_lstm	2388.HK_neg_low1_mult_128, 2388.HK_neg_low1_mult_lstm
+53	2025-07-25 09:45:00	2015.HK	0	115.9	1778900	179	2]	169	2]	88%91	89%80	2015.HK_pos_reg4_mult_128, 2015.HK_pos_low1_mult_28	2015.HK_neg_low1_mult_lstm, 2015.HK_neg_low1__mult_gru
+54	2025-07-25 09:30:00	2015.HK	0	116.0	1778900	179	2]	145	2]	93%86	75%70	2015.HK_pos_reg4_mult_128, 2015.HK_pos_low1_mult_28	2015.HK_neg_low1_mult_lstm, 2015.HK_neg_low1__mult_gru
+53	2025-07-25 09:45:00	0939.HK	0	8.32	10159490	110	2]	177	2]	50%60	87%90	0939.HK_pos_reg4_mult_128, 0939.HK_pos_good9_mult_lstm	0939.HK_neg_low1_mult_lstm, 0939.HK_neg_good9__mult_gru
+54	2025-07-25 09:30:00	0939.HK	0	8.35	10159490	110	2]	160	2]	50%60	80%80	0939.HK_pos_reg4_mult_128, 0939.HK_pos_good9_mult_lstm	0939.HK_neg_low1_mult_lstm, 0939.HK_neg_good9__mult_gru
+53	2025-07-25 09:45:00	0005.HK	0	101.8	495323	50	2]	196	2]	25%25	98%98	0005.HK_pos_vgood16_mult_lstm, 0005.HK_pos_vgood16__mult_gru	0005.HK_neg_reg4__mult_gru, 0005.HK_neg_reg4_mult_128
+54	2025-07-25 09:30:00	0005.HK	0	101.6	495323	50	2]	196	2]	25%25	98%98	0005.HK_pos_vgood16_mult_lstm, 0005.HK_pos_vgood16__mult_gru	0005.HK_neg_reg4__mult_gru, 0005.HK_neg_reg4_mult_128
+53	2025-07-25 09:45:00	2318.HK	0	55.2	2501500	75	2]	175	2]	50%25	89%86	2318.HK_pos_reg4_mult_lstm, 2318.HK_pos_reg4__mult_gru	2318.HK_neg_good9__mult_gru, 2318.HK_neg_low1__mult_gru
+54	2025-07-25 09:30:00	2318.HK	0	55.3	2501500	75	2]	172	2]	50%25	86%86	2318.HK_pos_reg4_mult_lstm, 2318.HK_pos_reg4__mult_gru	2318.HK_neg_good9__mult_gru, 2318.HK_neg_low1__mult_gru
+53	2025-07-25 09:45:00	0388.HK	0	446.8	292559	25	2]	155	2]	25%0	75%80	0388.HK_pos_good9_mult_lstm, 0388.HK_pos_good9__mult_gru	0388.HK_neg_reg4_mult_lstm, 0388.HK_neg_good9__mult_gru
+54	2025-07-25 09:30:00	0388.HK	0	444.6	292559	25	2]	130	2]	25%0	60%70	0388.HK_pos_good9_mult_lstm, 0388.HK_pos_good9__mult_gru	0388.HK_neg_reg4_mult_lstm, 0388.HK_neg_good9__mult_gru
+53	2025-07-25 09:45:00	3968.HK	0	52.65	389000	244	3]	155	2]	60%98%86	80%75	3968.HK_pos_vgood16_mult_128, 3968.HK_pos_reg4_mult_64, 3968.HK_pos_low1__mult_gru	3968.HK_neg_low1_mult_128, 3968.HK_neg_low1__mult_gru
+54	2025-07-25 09:30:00	3968.HK	0	53.0	389000	228	3]	150	2]	50%98%80	75%75	3968.HK_pos_vgood16_mult_128, 3968.HK_pos_reg4_mult_64, 3968.HK_pos_low1__mult_gru	3968.HK_neg_low1_mult_128, 3968.HK_neg_low1__mult_gru
+53	2025-07-25 09:45:00	0700.HK	0	552.0	1238196	181	2]	170	2]	89%92	75%95	0700.HK_pos_vgood16_mult_128, 0700.HK_pos_reg4_mult_conv2	0700.HK_neg_low1_mult_lstm, 0700.HK_neg_good9__mult_gru
+54	2025-07-25 09:30:00	0700.HK	0	551.0	1238196	181	2]	168	2]	87%94	75%93	0700.HK_pos_vgood16_mult_128, 0700.HK_pos_reg4_mult_conv2	0700.HK_neg_low1_mult_lstm, 0700.HK_neg_good9__mult_gru
+53	2025-07-25 09:45:00	0981.HK	0	51.05	7354124	0	2]	144	2]	0%0	94%50	0981.HK_pos_low1__mult_gru, 0981.HK_pos_reg4__mult_gru	0981.HK_neg_low1_mult_dense2, 0981.HK_neg_vgood16__mult_gru
+54	2025-07-25 09:30:00	0981.HK	0	50.9	7354124	0	2]	146	2]	0%0	96%50	0981.HK_pos_low1__mult_gru, 0981.HK_pos_reg4__mult_gru	0981.HK_neg_low1_mult_dense2, 0981.HK_neg_vgood16__mult_gru
+53	2025-07-25 09:45:00	9999.HK	0	213.8	297400	190	2]	105	2]	93%97	25%80	9999.HK_pos_reg4_mult_128, 9999.HK_pos_reg4__mult_gru	9999.HK_neg_low1_mult_64, 9999.HK_neg_reg4__mult_gru
+54	2025-07-25 09:30:00	9999.HK	0	213.2	297400	187	2]	105	2]	95%92	25%80	9999.HK_pos_reg4_mult_128, 9999.HK_pos_reg4__mult_gru	9999.HK_neg_low1_mult_64, 9999.HK_neg_reg4__mult_gru
+53	2025-07-25 09:45:00	2628.HK	0	22.4	5222908	0.0	0]	169	2]		89%80		2628.HK_neg_reg4_mult_128, 2628.HK_neg_reg4__mult_gru
+54	2025-07-25 09:30:00	2628.HK	0	22.45	5222908	0.0	0]	166	2]		86%80		2628.HK_neg_reg4_mult_128, 2628.HK_neg_reg4__mult_gru
+53	2025-07-25 09:45:00	9633.HK	0	46.9	1829200	155	2]	25	2]	80%75	25%0	9633.HK_pos_good9__mult_gru, 9633.HK_pos_reg4_mult_lstm	9633.HK_neg_good9_mult_dense2, 9633.HK_neg_low1__mult_gru
+54	2025-07-25 09:30:00	9633.HK	0	47.25	1829200	145	2]	25	2]	70%75	25%0	9633.HK_pos_good9__mult_gru, 9633.HK_pos_reg4_mult_lstm	9633.HK_neg_good9_mult_dense2, 9633.HK_neg_low1__mult_gru
+53	2025-07-25 09:45:00	1810.HK	0	57.35	13341295	50	2]	185	2]	25%25	90%95	1810.HK_pos_vgood16_mult_conv, 1810.HK_pos_good9_mult_lstm	1810.HK_neg_low1__mult_gru, 1810.HK_neg_good9__mult_gru
+54	2025-07-25 09:30:00	1810.HK	0	57.2	13341295	25	2]	180	2]	0%25	86%94	1810.HK_pos_vgood16_mult_conv, 1810.HK_pos_good9_mult_lstm	1810.HK_neg_low1__mult_gru, 1810.HK_neg_good9__mult_gru
+53	2025-07-25 09:45:00	1024.HK	0	73.85	6784700	140	2]	146	2]	70%70	96%50	1024.HK_pos_good9__mult_gru, 1024.HK_pos_good9_mult_dense2	1024.HK_neg_reg4_mult_conv2, 1024.HK_neg_good9_mult_64
+54	2025-07-25 09:30:00	1024.HK	0	74.6	6784700	125	2]	145	2]	50%75	95%50	1024.HK_pos_good9__mult_gru, 1024.HK_pos_good9_mult_dense2	1024.HK_neg_reg4_mult_conv2, 1024.HK_neg_good9_mult_64
+53	2025-07-25 09:45:00	0175.HK	0	19.26	4304903	0	2]	0	2]	0%0	0%0	0175.HK_pos_good9_mult_dense2, 0175.HK_pos_good9_mult_128	0175.HK_neg_vgood16_mult_lstm, 0175.HK_neg_low1_mult_lstm
+54	2025-07-25 09:30:00	0175.HK	0	19.12	4304903	0	2]	0	2]	0%0	0%0	0175.HK_pos_good9_mult_dense2, 0175.HK_pos_good9_mult_128	0175.HK_neg_vgood16_mult_lstm, 0175.HK_neg_low1_mult_lstm
+53	2025-07-25 09:45:00	2888.HK	0	144.1	77850	135	2]	150	2]	75%60	80%70	2888.HK_pos_low1_mult_lstm, 2888.HK_pos_reg4_mult_lstm	2888.HK_neg_good9_mult_64, 2888.HK_neg_low1__mult_gru
+54	2025-07-25 09:30:00	2888.HK	0	143.0	77850	150	2]	150	2]	80%70	80%70	2888.HK_pos_low1_mult_lstm, 2888.HK_pos_reg4_mult_lstm	2888.HK_neg_good9_mult_64, 2888.HK_neg_low1__mult_gru
+53	2025-07-25 09:45:00	0267.HK	0	12.14	2107000	25	2]	179	2]	25%0	91%88	0267.HK_pos_low1_mult_lstm, 0267.HK_pos_low1_mult_28	0267.HK_neg_low1_mult_lstm, 0267.HK_neg_good9_mult_lstm
+54	2025-07-25 09:30:00	0267.HK	0	12.26	2107000	25	2]	179	2]	25%0	91%88	0267.HK_pos_low1_mult_lstm, 0267.HK_pos_low1_mult_28	0267.HK_neg_low1_mult_lstm, 0267.HK_neg_good9_mult_lstm
+53	2025-07-25 09:45:00	2388.HK	0	35.95	1517420	75	2]	140	2]	75%0	60%80	2388.HK_pos_reg4_mult_dense2, 2388.HK_pos_good9_mult_lstm	2388.HK_neg_low1_mult_128, 2388.HK_neg_low1_mult_lstm
+54	2025-07-25 09:30:00	2388.HK	0	35.75	1517420	80	2]	105	2]	80%0	25%80	2388.HK_pos_reg4_mult_dense2, 2388.HK_pos_good9_mult_lstm	2388.HK_neg_low1_mult_128, 2388.HK_neg_low1_mult_lstm
+53	2025-07-25 09:45:00	2015.HK	0	115.9	1778900	179	2]	169	2]	88%91	89%80	2015.HK_pos_reg4_mult_128, 2015.HK_pos_low1_mult_28	2015.HK_neg_low1_mult_lstm, 2015.HK_neg_low1__mult_gru
+54	2025-07-25 09:30:00	2015.HK	0	116.0	1778900	179	2]	145	2]	93%86	75%70	2015.HK_pos_reg4_mult_128, 2015.HK_pos_low1_mult_28	2015.HK_neg_low1_mult_lstm, 2015.HK_neg_low1__mult_gru
+53	2025-07-25 09:45:00	0939.HK	0	8.32	10159490	110	2]	177	2]	50%60	87%90	0939.HK_pos_reg4_mult_128, 0939.HK_pos_good9_mult_lstm	0939.HK_neg_low1_mult_lstm, 0939.HK_neg_good9__mult_gru
+54	2025-07-25 09:30:00	0939.HK	0	8.35	10159490	85	2]	160	2]	25%60	80%80	0939.HK_pos_reg4_mult_128, 0939.HK_pos_good9_mult_lstm	0939.HK_neg_low1_mult_lstm, 0939.HK_neg_good9__mult_gru
+53	2025-07-25 09:45:00	0005.HK	0	101.8	495323	50	2]	196	2]	25%25	98%98	0005.HK_pos_vgood16_mult_lstm, 0005.HK_pos_vgood16__mult_gru	0005.HK_neg_reg4__mult_gru, 0005.HK_neg_reg4_mult_128
+54	2025-07-25 09:30:00	0005.HK	0	101.6	495323	50	2]	196	2]	25%25	98%98	0005.HK_pos_vgood16_mult_lstm, 0005.HK_pos_vgood16__mult_gru	0005.HK_neg_reg4__mult_gru, 0005.HK_neg_reg4_mult_128
+53	2025-07-25 09:45:00	2318.HK	0	55.2	2501500	75	2]	175	2]	50%25	89%86	2318.HK_pos_reg4_mult_lstm, 2318.HK_pos_reg4__mult_gru	2318.HK_neg_good9__mult_gru, 2318.HK_neg_low1__mult_gru
+54	2025-07-25 09:30:00	2318.HK	0	55.3	2501500	75	2]	172	2]	50%25	86%86	2318.HK_pos_reg4_mult_lstm, 2318.HK_pos_reg4__mult_gru	2318.HK_neg_good9__mult_gru, 2318.HK_neg_low1__mult_gru
+53	2025-07-25 09:45:00	0388.HK	0	446.8	292559	25	2]	155	2]	25%0	75%80	0388.HK_pos_good9_mult_lstm, 0388.HK_pos_good9__mult_gru	0388.HK_neg_reg4_mult_lstm, 0388.HK_neg_good9__mult_gru
+54	2025-07-25 09:30:00	0388.HK	0	444.6	292559	25	2]	130	2]	25%0	60%70	0388.HK_pos_good9_mult_lstm, 0388.HK_pos_good9__mult_gru	0388.HK_neg_reg4_mult_lstm, 0388.HK_neg_good9__mult_gru
+53	2025-07-25 09:45:00	3968.HK	0	52.65	389000	244	3]	155	2]	60%98%86	80%75	3968.HK_pos_vgood16_mult_128, 3968.HK_pos_reg4_mult_64, 3968.HK_pos_low1__mult_gru	3968.HK_neg_low1_mult_128, 3968.HK_neg_low1__mult_gru
+54	2025-07-25 09:30:00	3968.HK	0	53.0	389000	228	3]	145	2]	50%98%80	75%70	3968.HK_pos_vgood16_mult_128, 3968.HK_pos_reg4_mult_64, 3968.HK_pos_low1__mult_gru	3968.HK_neg_low1_mult_128, 3968.HK_neg_low1__mult_gru
+53	2025-07-25 09:45:00	0700.HK	0	552.0	1238196	181	2]	170	2]	89%92	75%95	0700.HK_pos_vgood16_mult_128, 0700.HK_pos_reg4_mult_conv2	0700.HK_neg_low1_mult_lstm, 0700.HK_neg_good9__mult_gru
+54	2025-07-25 09:30:00	0700.HK	0	551.0	1238196	181	2]	168	2]	87%94	75%93	0700.HK_pos_vgood16_mult_128, 0700.HK_pos_reg4_mult_conv2	0700.HK_neg_low1_mult_lstm, 0700.HK_neg_good9__mult_gru
+53	2025-07-25 09:45:00	0981.HK	0	51.05	7354124	0	2]	144	2]	0%0	94%50	0981.HK_pos_low1__mult_gru, 0981.HK_pos_reg4__mult_gru	0981.HK_neg_low1_mult_dense2, 0981.HK_neg_vgood16__mult_gru
+54	2025-07-25 09:30:00	0981.HK	0	50.9	7354124	0	2]	146	2]	0%0	96%50	0981.HK_pos_low1__mult_gru, 0981.HK_pos_reg4__mult_gru	0981.HK_neg_low1_mult_dense2, 0981.HK_neg_vgood16__mult_gru
+53	2025-07-25 09:45:00	9999.HK	0	213.8	297400	190	2]	105	2]	93%97	25%80	9999.HK_pos_reg4_mult_128, 9999.HK_pos_reg4__mult_gru	9999.HK_neg_low1_mult_64, 9999.HK_neg_reg4__mult_gru
+54	2025-07-25 09:30:00	9999.HK	0	213.2	297400	187	2]	105	2]	95%92	25%80	9999.HK_pos_reg4_mult_128, 9999.HK_pos_reg4__mult_gru	9999.HK_neg_low1_mult_64, 9999.HK_neg_reg4__mult_gru
+53	2025-07-25 09:45:00	2628.HK	0	22.4	5222908	0.0	0]	169	2]		89%80		2628.HK_neg_reg4_mult_128, 2628.HK_neg_reg4__mult_gru
+54	2025-07-25 09:30:00	2628.HK	0	22.45	5222908	0.0	0]	166	2]		86%80		2628.HK_neg_reg4_mult_128, 2628.HK_neg_reg4__mult_gru
+53	2025-07-25 09:45:00	9633.HK	0	46.9	1829200	155	2]	25	2]	80%75	25%0	9633.HK_pos_good9__mult_gru, 9633.HK_pos_reg4_mult_lstm	9633.HK_neg_good9_mult_dense2, 9633.HK_neg_low1__mult_gru
+54	2025-07-25 09:30:00	9633.HK	0	47.25	1829200	145	2]	25	2]	70%75	25%0	9633.HK_pos_good9__mult_gru, 9633.HK_pos_reg4_mult_lstm	9633.HK_neg_good9_mult_dense2, 9633.HK_neg_low1__mult_gru
+53	2025-07-25 09:45:00	1810.HK	0	57.35	13341295	50	2]	185	2]	25%25	90%95	1810.HK_pos_vgood16_mult_conv, 1810.HK_pos_good9_mult_lstm	1810.HK_neg_low1__mult_gru, 1810.HK_neg_good9__mult_gru
+54	2025-07-25 09:30:00	1810.HK	0	57.2	13341295	25	2]	180	2]	0%25	86%94	1810.HK_pos_vgood16_mult_conv, 1810.HK_pos_good9_mult_lstm	1810.HK_neg_low1__mult_gru, 1810.HK_neg_good9__mult_gru
+53	2025-07-25 09:45:00	1024.HK	0	73.85	6784700	140	2]	146	2]	70%70	96%50	1024.HK_pos_good9__mult_gru, 1024.HK_pos_good9_mult_dense2	1024.HK_neg_reg4_mult_conv2, 1024.HK_neg_good9_mult_64
+54	2025-07-25 09:30:00	1024.HK	0	74.6	6784700	125	2]	145	2]	50%75	95%50	1024.HK_pos_good9__mult_gru, 1024.HK_pos_good9_mult_dense2	1024.HK_neg_reg4_mult_conv2, 1024.HK_neg_good9_mult_64
+53	2025-07-25 09:45:00	0175.HK	0	19.26	4304903	0	2]	0	2]	0%0	0%0	0175.HK_pos_good9_mult_dense2, 0175.HK_pos_good9_mult_128	0175.HK_neg_vgood16_mult_lstm, 0175.HK_neg_low1_mult_lstm
+54	2025-07-25 09:30:00	0175.HK	0	19.12	4304903	0	2]	0	2]	0%0	0%0	0175.HK_pos_good9_mult_dense2, 0175.HK_pos_good9_mult_128	0175.HK_neg_vgood16_mult_lstm, 0175.HK_neg_low1_mult_lstm
+53	2025-07-25 09:45:00	2888.HK	0	144.1	77850	135	2]	150	2]	75%60	80%70	2888.HK_pos_low1_mult_lstm, 2888.HK_pos_reg4_mult_lstm	2888.HK_neg_good9_mult_64, 2888.HK_neg_low1__mult_gru
+54	2025-07-25 09:30:00	2888.HK	0	143.0	77850	145	2]	150	2]	75%70	80%70	2888.HK_pos_low1_mult_lstm, 2888.HK_pos_reg4_mult_lstm	2888.HK_neg_good9_mult_64, 2888.HK_neg_low1__mult_gru
+53	2025-07-25 09:45:00	0267.HK	0	12.14	2107000	25	2]	179	2]	25%0	91%88	0267.HK_pos_low1_mult_lstm, 0267.HK_pos_low1_mult_28	0267.HK_neg_low1_mult_lstm, 0267.HK_neg_good9_mult_lstm
+54	2025-07-25 09:30:00	0267.HK	0	12.26	2107000	25	2]	180	2]	25%0	91%89	0267.HK_pos_low1_mult_lstm, 0267.HK_pos_low1_mult_28	0267.HK_neg_low1_mult_lstm, 0267.HK_neg_good9_mult_lstm
+53	2025-07-25 09:45:00	2388.HK	0	35.95	1517420	80	2]	140	2]	80%0	60%80	2388.HK_pos_reg4_mult_dense2, 2388.HK_pos_good9_mult_lstm	2388.HK_neg_low1_mult_128, 2388.HK_neg_low1_mult_lstm
+54	2025-07-25 09:30:00	2388.HK	0	35.75	1517420	80	2]	105	2]	80%0	25%80	2388.HK_pos_reg4_mult_dense2, 2388.HK_pos_good9_mult_lstm	2388.HK_neg_low1_mult_128, 2388.HK_neg_low1_mult_lstm
+53	2025-07-25 09:45:00	2015.HK	0	115.9	1778900	179	2]	169	2]	88%91	89%80	2015.HK_pos_reg4_mult_128, 2015.HK_pos_low1_mult_28	2015.HK_neg_low1_mult_lstm, 2015.HK_neg_low1__mult_gru
+54	2025-07-25 09:30:00	2015.HK	0	116.0	1778900	180	2]	145	2]	94%86	75%70	2015.HK_pos_reg4_mult_128, 2015.HK_pos_low1_mult_28	2015.HK_neg_low1_mult_lstm, 2015.HK_neg_low1__mult_gru
+53	2025-07-25 09:45:00	0939.HK	0	8.32	10159490	110	2]	177	2]	50%60	87%90	0939.HK_pos_reg4_mult_128, 0939.HK_pos_good9_mult_lstm	0939.HK_neg_low1_mult_lstm, 0939.HK_neg_good9__mult_gru
+54	2025-07-25 09:30:00	0939.HK	0	8.35	10159490	110	2]	160	2]	50%60	80%80	0939.HK_pos_reg4_mult_128, 0939.HK_pos_good9_mult_lstm	0939.HK_neg_low1_mult_lstm, 0939.HK_neg_good9__mult_gru
+53	2025-07-25 09:45:00	0005.HK	0	101.8	495323	50	2]	196	2]	25%25	98%98	0005.HK_pos_vgood16_mult_lstm, 0005.HK_pos_vgood16__mult_gru	0005.HK_neg_reg4__mult_gru, 0005.HK_neg_reg4_mult_128
+54	2025-07-25 09:30:00	0005.HK	0	101.6	495323	50	2]	196	2]	25%25	98%98	0005.HK_pos_vgood16_mult_lstm, 0005.HK_pos_vgood16__mult_gru	0005.HK_neg_reg4__mult_gru, 0005.HK_neg_reg4_mult_128
+53	2025-07-25 09:45:00	2318.HK	0	55.2	2501500	75	2]	175	2]	50%25	89%86	2318.HK_pos_reg4_mult_lstm, 2318.HK_pos_reg4__mult_gru	2318.HK_neg_good9__mult_gru, 2318.HK_neg_low1__mult_gru
+54	2025-07-25 09:30:00	2318.HK	0	55.3	2501500	75	2]	172	2]	50%25	86%86	2318.HK_pos_reg4_mult_lstm, 2318.HK_pos_reg4__mult_gru	2318.HK_neg_good9__mult_gru, 2318.HK_neg_low1__mult_gru
+53	2025-07-25 09:45:00	0388.HK	0	446.8	292559	25	2]	160	2]	25%0	80%80	0388.HK_pos_good9_mult_lstm, 0388.HK_pos_good9__mult_gru	0388.HK_neg_reg4_mult_lstm, 0388.HK_neg_good9__mult_gru
+54	2025-07-25 09:30:00	0388.HK	0	444.6	292559	25	2]	130	2]	25%0	60%70	0388.HK_pos_good9_mult_lstm, 0388.HK_pos_good9__mult_gru	0388.HK_neg_reg4_mult_lstm, 0388.HK_neg_good9__mult_gru
+53	2025-07-25 09:45:00	3968.HK	0	52.65	389000	244	3]	155	2]	60%98%86	80%75	3968.HK_pos_vgood16_mult_128, 3968.HK_pos_reg4_mult_64, 3968.HK_pos_low1__mult_gru	3968.HK_neg_low1_mult_128, 3968.HK_neg_low1__mult_gru
+54	2025-07-25 09:30:00	3968.HK	0	53.0	389000	228	3]	145	2]	50%98%80	75%70	3968.HK_pos_vgood16_mult_128, 3968.HK_pos_reg4_mult_64, 3968.HK_pos_low1__mult_gru	3968.HK_neg_low1_mult_128, 3968.HK_neg_low1__mult_gru
+53	2025-07-25 09:45:00	0700.HK	0	552.0	1238196	181	2]	170	2]	89%92	75%95	0700.HK_pos_vgood16_mult_128, 0700.HK_pos_reg4_mult_conv2	0700.HK_neg_low1_mult_lstm, 0700.HK_neg_good9__mult_gru
+54	2025-07-25 09:30:00	0700.HK	0	551.0	1238196	181	2]	168	2]	87%94	75%93	0700.HK_pos_vgood16_mult_128, 0700.HK_pos_reg4_mult_conv2	0700.HK_neg_low1_mult_lstm, 0700.HK_neg_good9__mult_gru
+53	2025-07-25 09:45:00	1024.HK	0	73.85	6784700	140	2]	146	2]	70%70	96%50	1024.HK_pos_good9__mult_gru, 1024.HK_pos_good9_mult_dense2	1024.HK_neg_reg4_mult_conv2, 1024.HK_neg_good9_mult_64
+54	2025-07-25 09:30:00	1024.HK	0	74.6	6784700	125	2]	145	2]	50%75	95%50	1024.HK_pos_good9__mult_gru, 1024.HK_pos_good9_mult_dense2	1024.HK_neg_reg4_mult_conv2, 1024.HK_neg_good9_mult_64
+53	2025-07-25 09:45:00	1024.HK	0	73.85	6784700	140	2]	146	2]	70%70	96%50	1024.HK_pos_good9__mult_gru, 1024.HK_pos_good9_mult_dense2	1024.HK_neg_reg4_mult_conv2, 1024.HK_neg_good9_mult_64
+54	2025-07-25 09:30:00	1024.HK	0	74.6	6784700	125	2]	145	2]	50%75	95%50	1024.HK_pos_good9__mult_gru, 1024.HK_pos_good9_mult_dense2	1024.HK_neg_reg4_mult_conv2, 1024.HK_neg_good9_mult_64

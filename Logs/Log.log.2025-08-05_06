@@ -1,0 +1,172 @@
+root - [INFO]{MainThread} - <module>() - start
+root - [INFO]{MainThread} - <module>() - DO: MELI
+root - [INFO]{MainThread} - get_news_sentiment_data() - get_sentiment_data: MELI
+yfinance - [DEBUG]{MainThread} - wrapper() - Entering post()
+yfinance - [DEBUG]{MainThread} - wrapper() -  Entering _make_request()
+yfinance - [DEBUG]{MainThread} - _make_request() - url=https://finance.yahoo.com/xhr/ncp?queryRef=latestNews&serviceKey=ncp_fin
+yfinance - [DEBUG]{MainThread} - _make_request() - params=None
+yfinance - [DEBUG]{MainThread} - wrapper() -   Entering _get_cookie_and_crumb()
+yfinance - [DEBUG]{MainThread} - _get_cookie_and_crumb() - cookie_mode = 'basic'
+yfinance - [DEBUG]{MainThread} - wrapper() -    Entering _get_cookie_and_crumb_basic()
+yfinance - [DEBUG]{MainThread} - wrapper() -     Entering _get_cookie_basic()
+yfinance - [DEBUG]{MainThread} - wrapper() -      Entering _load_cookie_curlCffi()
+peewee - [DEBUG]{MainThread} - execute_sql() - ('CREATE TABLE IF NOT EXISTS "_cookieschema" ("strategy" VARCHAR(255) NOT NULL PRIMARY KEY, "fetch_date" DATETIME NOT NULL, "cookie_bytes" BLOB NOT NULL) WITHOUT ROWID', [])
+peewee - [DEBUG]{MainThread} - execute_sql() - ('SELECT "t1"."strategy", "t1"."fetch_date", "t1"."cookie_bytes" FROM "_cookieschema" AS "t1" WHERE ("t1"."strategy" = ?) LIMIT ? OFFSET ?', ['curlCffi', 1, 0])
+yfinance - [DEBUG]{MainThread} - wrapper() -      Exiting _load_cookie_curlCffi()
+yfinance - [DEBUG]{MainThread} - _get_cookie_basic() - reusing persistent cookie
+yfinance - [DEBUG]{MainThread} - wrapper() -     Exiting _get_cookie_basic()
+yfinance - [DEBUG]{MainThread} - wrapper() -     Entering _get_crumb_basic()
+yfinance - [DEBUG]{MainThread} - wrapper() -      Entering _get_cookie_basic()
+yfinance - [DEBUG]{MainThread} - _get_cookie_basic() - reusing cookie
+yfinance - [DEBUG]{MainThread} - wrapper() -      Exiting _get_cookie_basic()
+yfinance - [DEBUG]{MainThread} - _get_crumb_basic() - crumb = 'dK3IG/1ev6r'
+yfinance - [DEBUG]{MainThread} - wrapper() -     Exiting _get_crumb_basic()
+yfinance - [DEBUG]{MainThread} - wrapper() -    Exiting _get_cookie_and_crumb_basic()
+yfinance - [DEBUG]{MainThread} - wrapper() -   Exiting _get_cookie_and_crumb()
+yfinance - [DEBUG]{MainThread} - _make_request() - response code=200
+yfinance - [DEBUG]{MainThread} - wrapper() -  Exiting _make_request()
+yfinance - [DEBUG]{MainThread} - wrapper() - Exiting post()
+root - [INFO]{MainThread} - <module>() - start
+root - [INFO]{MainThread} - <module>() - DO: MELI
+root - [INFO]{MainThread} - get_news_sentiment_data() - get_sentiment_data: MELI
+yfinance - [DEBUG]{MainThread} - wrapper() - Entering post()
+yfinance - [DEBUG]{MainThread} - wrapper() -  Entering _make_request()
+yfinance - [DEBUG]{MainThread} - _make_request() - url=https://finance.yahoo.com/xhr/ncp?queryRef=latestNews&serviceKey=ncp_fin
+yfinance - [DEBUG]{MainThread} - _make_request() - params=None
+yfinance - [DEBUG]{MainThread} - wrapper() -   Entering _get_cookie_and_crumb()
+yfinance - [DEBUG]{MainThread} - _get_cookie_and_crumb() - cookie_mode = 'basic'
+yfinance - [DEBUG]{MainThread} - wrapper() -    Entering _get_cookie_and_crumb_basic()
+yfinance - [DEBUG]{MainThread} - wrapper() -     Entering _get_cookie_basic()
+yfinance - [DEBUG]{MainThread} - wrapper() -      Entering _load_cookie_curlCffi()
+peewee - [DEBUG]{MainThread} - execute_sql() - ('CREATE TABLE IF NOT EXISTS "_cookieschema" ("strategy" VARCHAR(255) NOT NULL PRIMARY KEY, "fetch_date" DATETIME NOT NULL, "cookie_bytes" BLOB NOT NULL) WITHOUT ROWID', [])
+peewee - [DEBUG]{MainThread} - execute_sql() - ('SELECT "t1"."strategy", "t1"."fetch_date", "t1"."cookie_bytes" FROM "_cookieschema" AS "t1" WHERE ("t1"."strategy" = ?) LIMIT ? OFFSET ?', ['curlCffi', 1, 0])
+yfinance - [DEBUG]{MainThread} - wrapper() -      Exiting _load_cookie_curlCffi()
+yfinance - [DEBUG]{MainThread} - _get_cookie_basic() - reusing persistent cookie
+yfinance - [DEBUG]{MainThread} - wrapper() -     Exiting _get_cookie_basic()
+yfinance - [DEBUG]{MainThread} - wrapper() -     Entering _get_crumb_basic()
+yfinance - [DEBUG]{MainThread} - wrapper() -      Entering _get_cookie_basic()
+yfinance - [DEBUG]{MainThread} - _get_cookie_basic() - reusing cookie
+yfinance - [DEBUG]{MainThread} - wrapper() -      Exiting _get_cookie_basic()
+yfinance - [DEBUG]{MainThread} - _get_crumb_basic() - crumb = 'dK3IG/1ev6r'
+yfinance - [DEBUG]{MainThread} - wrapper() -     Exiting _get_crumb_basic()
+yfinance - [DEBUG]{MainThread} - wrapper() -    Exiting _get_cookie_and_crumb_basic()
+yfinance - [DEBUG]{MainThread} - wrapper() -   Exiting _get_cookie_and_crumb()
+yfinance - [DEBUG]{MainThread} - _make_request() - response code=200
+yfinance - [DEBUG]{MainThread} - wrapper() -  Exiting _make_request()
+yfinance - [DEBUG]{MainThread} - wrapper() - Exiting post()
+root - [INFO]{MainThread} - <module>() - start
+root - [INFO]{MainThread} - <module>() - DO: MELI
+root - [INFO]{MainThread} - get_news_sentiment_data() - get_sentiment_data: MELI
+yfinance - [DEBUG]{MainThread} - wrapper() - Entering post()
+yfinance - [DEBUG]{MainThread} - wrapper() -  Entering _make_request()
+yfinance - [DEBUG]{MainThread} - _make_request() - url=https://finance.yahoo.com/xhr/ncp?queryRef=latestNews&serviceKey=ncp_fin
+yfinance - [DEBUG]{MainThread} - _make_request() - params=None
+yfinance - [DEBUG]{MainThread} - wrapper() -   Entering _get_cookie_and_crumb()
+yfinance - [DEBUG]{MainThread} - _get_cookie_and_crumb() - cookie_mode = 'basic'
+yfinance - [DEBUG]{MainThread} - wrapper() -    Entering _get_cookie_and_crumb_basic()
+yfinance - [DEBUG]{MainThread} - wrapper() -     Entering _get_cookie_basic()
+yfinance - [DEBUG]{MainThread} - wrapper() -      Entering _load_cookie_curlCffi()
+peewee - [DEBUG]{MainThread} - execute_sql() - ('CREATE TABLE IF NOT EXISTS "_cookieschema" ("strategy" VARCHAR(255) NOT NULL PRIMARY KEY, "fetch_date" DATETIME NOT NULL, "cookie_bytes" BLOB NOT NULL) WITHOUT ROWID', [])
+peewee - [DEBUG]{MainThread} - execute_sql() - ('SELECT "t1"."strategy", "t1"."fetch_date", "t1"."cookie_bytes" FROM "_cookieschema" AS "t1" WHERE ("t1"."strategy" = ?) LIMIT ? OFFSET ?', ['curlCffi', 1, 0])
+yfinance - [DEBUG]{MainThread} - wrapper() -      Exiting _load_cookie_curlCffi()
+yfinance - [DEBUG]{MainThread} - _get_cookie_basic() - reusing persistent cookie
+yfinance - [DEBUG]{MainThread} - wrapper() -     Exiting _get_cookie_basic()
+yfinance - [DEBUG]{MainThread} - wrapper() -     Entering _get_crumb_basic()
+yfinance - [DEBUG]{MainThread} - wrapper() -      Entering _get_cookie_basic()
+yfinance - [DEBUG]{MainThread} - _get_cookie_basic() - reusing cookie
+yfinance - [DEBUG]{MainThread} - wrapper() -      Exiting _get_cookie_basic()
+yfinance - [DEBUG]{MainThread} - _get_crumb_basic() - crumb = 'dK3IG/1ev6r'
+yfinance - [DEBUG]{MainThread} - wrapper() -     Exiting _get_crumb_basic()
+yfinance - [DEBUG]{MainThread} - wrapper() -    Exiting _get_cookie_and_crumb_basic()
+yfinance - [DEBUG]{MainThread} - wrapper() -   Exiting _get_cookie_and_crumb()
+yfinance - [DEBUG]{MainThread} - _make_request() - response code=200
+yfinance - [DEBUG]{MainThread} - wrapper() -  Exiting _make_request()
+yfinance - [DEBUG]{MainThread} - wrapper() - Exiting post()
+root - [INFO]{MainThread} - <module>() - start
+root - [INFO]{MainThread} - <module>() - DO: MELI
+root - [INFO]{MainThread} - get_news_sentiment_data() - get_sentiment_data: MELI
+yfinance - [DEBUG]{MainThread} - wrapper() - Entering post()
+yfinance - [DEBUG]{MainThread} - wrapper() -  Entering _make_request()
+yfinance - [DEBUG]{MainThread} - _make_request() - url=https://finance.yahoo.com/xhr/ncp?queryRef=latestNews&serviceKey=ncp_fin
+yfinance - [DEBUG]{MainThread} - _make_request() - params=None
+yfinance - [DEBUG]{MainThread} - wrapper() -   Entering _get_cookie_and_crumb()
+yfinance - [DEBUG]{MainThread} - _get_cookie_and_crumb() - cookie_mode = 'basic'
+yfinance - [DEBUG]{MainThread} - wrapper() -    Entering _get_cookie_and_crumb_basic()
+yfinance - [DEBUG]{MainThread} - wrapper() -     Entering _get_cookie_basic()
+yfinance - [DEBUG]{MainThread} - wrapper() -      Entering _load_cookie_curlCffi()
+peewee - [DEBUG]{MainThread} - execute_sql() - ('CREATE TABLE IF NOT EXISTS "_cookieschema" ("strategy" VARCHAR(255) NOT NULL PRIMARY KEY, "fetch_date" DATETIME NOT NULL, "cookie_bytes" BLOB NOT NULL) WITHOUT ROWID', [])
+peewee - [DEBUG]{MainThread} - execute_sql() - ('SELECT "t1"."strategy", "t1"."fetch_date", "t1"."cookie_bytes" FROM "_cookieschema" AS "t1" WHERE ("t1"."strategy" = ?) LIMIT ? OFFSET ?', ['curlCffi', 1, 0])
+yfinance - [DEBUG]{MainThread} - wrapper() -      Exiting _load_cookie_curlCffi()
+yfinance - [DEBUG]{MainThread} - _get_cookie_basic() - reusing persistent cookie
+yfinance - [DEBUG]{MainThread} - wrapper() -     Exiting _get_cookie_basic()
+yfinance - [DEBUG]{MainThread} - wrapper() -     Entering _get_crumb_basic()
+yfinance - [DEBUG]{MainThread} - wrapper() -      Entering _get_cookie_basic()
+yfinance - [DEBUG]{MainThread} - _get_cookie_basic() - reusing cookie
+yfinance - [DEBUG]{MainThread} - wrapper() -      Exiting _get_cookie_basic()
+yfinance - [DEBUG]{MainThread} - _get_crumb_basic() - crumb = 'dK3IG/1ev6r'
+yfinance - [DEBUG]{MainThread} - wrapper() -     Exiting _get_crumb_basic()
+yfinance - [DEBUG]{MainThread} - wrapper() -    Exiting _get_cookie_and_crumb_basic()
+yfinance - [DEBUG]{MainThread} - wrapper() -   Exiting _get_cookie_and_crumb()
+yfinance - [DEBUG]{MainThread} - _make_request() - response code=200
+yfinance - [DEBUG]{MainThread} - wrapper() -  Exiting _make_request()
+yfinance - [DEBUG]{MainThread} - wrapper() - Exiting post()
+root - [INFO]{MainThread} - <module>() - start
+root - [INFO]{MainThread} - <module>() - DO: MELI
+root - [INFO]{MainThread} - get_news_sentiment_data() - get_sentiment_data: MELI
+root - [INFO]{MainThread} - get_news_opinion_yahoo() - Fetching news for Stock: MELI
+yfinance - [DEBUG]{MainThread} - wrapper() - Entering post()
+yfinance - [DEBUG]{MainThread} - wrapper() -  Entering _make_request()
+yfinance - [DEBUG]{MainThread} - _make_request() - url=https://finance.yahoo.com/xhr/ncp?queryRef=latestNews&serviceKey=ncp_fin
+yfinance - [DEBUG]{MainThread} - _make_request() - params=None
+yfinance - [DEBUG]{MainThread} - wrapper() -   Entering _get_cookie_and_crumb()
+yfinance - [DEBUG]{MainThread} - _get_cookie_and_crumb() - cookie_mode = 'basic'
+yfinance - [DEBUG]{MainThread} - wrapper() -    Entering _get_cookie_and_crumb_basic()
+yfinance - [DEBUG]{MainThread} - wrapper() -     Entering _get_cookie_basic()
+yfinance - [DEBUG]{MainThread} - wrapper() -      Entering _load_cookie_curlCffi()
+peewee - [DEBUG]{MainThread} - execute_sql() - ('CREATE TABLE IF NOT EXISTS "_cookieschema" ("strategy" VARCHAR(255) NOT NULL PRIMARY KEY, "fetch_date" DATETIME NOT NULL, "cookie_bytes" BLOB NOT NULL) WITHOUT ROWID', [])
+peewee - [DEBUG]{MainThread} - execute_sql() - ('SELECT "t1"."strategy", "t1"."fetch_date", "t1"."cookie_bytes" FROM "_cookieschema" AS "t1" WHERE ("t1"."strategy" = ?) LIMIT ? OFFSET ?', ['curlCffi', 1, 0])
+yfinance - [DEBUG]{MainThread} - wrapper() -      Exiting _load_cookie_curlCffi()
+yfinance - [DEBUG]{MainThread} - _get_cookie_basic() - reusing persistent cookie
+yfinance - [DEBUG]{MainThread} - wrapper() -     Exiting _get_cookie_basic()
+yfinance - [DEBUG]{MainThread} - wrapper() -     Entering _get_crumb_basic()
+yfinance - [DEBUG]{MainThread} - wrapper() -      Entering _get_cookie_basic()
+yfinance - [DEBUG]{MainThread} - _get_cookie_basic() - reusing cookie
+yfinance - [DEBUG]{MainThread} - wrapper() -      Exiting _get_cookie_basic()
+yfinance - [DEBUG]{MainThread} - _get_crumb_basic() - crumb = 'dK3IG/1ev6r'
+yfinance - [DEBUG]{MainThread} - wrapper() -     Exiting _get_crumb_basic()
+yfinance - [DEBUG]{MainThread} - wrapper() -    Exiting _get_cookie_and_crumb_basic()
+yfinance - [DEBUG]{MainThread} - wrapper() -   Exiting _get_cookie_and_crumb()
+yfinance - [DEBUG]{MainThread} - _make_request() - response code=200
+yfinance - [DEBUG]{MainThread} - wrapper() -  Exiting _make_request()
+yfinance - [DEBUG]{MainThread} - wrapper() - Exiting post()
+root - [INFO]{MainThread} - get_news_opinion_yahoo() - Fetched 0 news items for MELI
+root - [INFO]{MainThread} - <module>() - start
+root - [INFO]{MainThread} - <module>() - DO: MELI
+root - [INFO]{MainThread} - get_news_sentiment_data() - get_sentiment_data: MELI
+root - [INFO]{MainThread} - get_news_opinion_yahoo() - Fetching news for Stock: MELI
+yfinance - [DEBUG]{MainThread} - wrapper() - Entering post()
+yfinance - [DEBUG]{MainThread} - wrapper() -  Entering _make_request()
+yfinance - [DEBUG]{MainThread} - _make_request() - url=https://finance.yahoo.com/xhr/ncp?queryRef=latestNews&serviceKey=ncp_fin
+yfinance - [DEBUG]{MainThread} - _make_request() - params=None
+yfinance - [DEBUG]{MainThread} - wrapper() -   Entering _get_cookie_and_crumb()
+yfinance - [DEBUG]{MainThread} - _get_cookie_and_crumb() - cookie_mode = 'basic'
+yfinance - [DEBUG]{MainThread} - wrapper() -    Entering _get_cookie_and_crumb_basic()
+yfinance - [DEBUG]{MainThread} - wrapper() -     Entering _get_cookie_basic()
+yfinance - [DEBUG]{MainThread} - wrapper() -      Entering _load_cookie_curlCffi()
+peewee - [DEBUG]{MainThread} - execute_sql() - ('CREATE TABLE IF NOT EXISTS "_cookieschema" ("strategy" VARCHAR(255) NOT NULL PRIMARY KEY, "fetch_date" DATETIME NOT NULL, "cookie_bytes" BLOB NOT NULL) WITHOUT ROWID', [])
+peewee - [DEBUG]{MainThread} - execute_sql() - ('SELECT "t1"."strategy", "t1"."fetch_date", "t1"."cookie_bytes" FROM "_cookieschema" AS "t1" WHERE ("t1"."strategy" = ?) LIMIT ? OFFSET ?', ['curlCffi', 1, 0])
+yfinance - [DEBUG]{MainThread} - wrapper() -      Exiting _load_cookie_curlCffi()
+yfinance - [DEBUG]{MainThread} - _get_cookie_basic() - reusing persistent cookie
+yfinance - [DEBUG]{MainThread} - wrapper() -     Exiting _get_cookie_basic()
+yfinance - [DEBUG]{MainThread} - wrapper() -     Entering _get_crumb_basic()
+yfinance - [DEBUG]{MainThread} - wrapper() -      Entering _get_cookie_basic()
+yfinance - [DEBUG]{MainThread} - _get_cookie_basic() - reusing cookie
+yfinance - [DEBUG]{MainThread} - wrapper() -      Exiting _get_cookie_basic()
+yfinance - [DEBUG]{MainThread} - _get_crumb_basic() - crumb = 'dK3IG/1ev6r'
+yfinance - [DEBUG]{MainThread} - wrapper() -     Exiting _get_crumb_basic()
+yfinance - [DEBUG]{MainThread} - wrapper() -    Exiting _get_cookie_and_crumb_basic()
+yfinance - [DEBUG]{MainThread} - wrapper() -   Exiting _get_cookie_and_crumb()
+yfinance - [DEBUG]{MainThread} - _make_request() - response code=200
+yfinance - [DEBUG]{MainThread} - wrapper() -  Exiting _make_request()
+yfinance - [DEBUG]{MainThread} - wrapper() - Exiting post()
+root - [INFO]{MainThread} - get_news_opinion_yahoo() - Fetched 0 news items for MELI
